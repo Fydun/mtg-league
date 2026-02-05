@@ -205,10 +205,24 @@ if all_rounds_data:
     wb = openpyxl.Workbook()
     ws = wb.active
     
+    # Collect all players while writing matches
+    all_players = set()
+    
     for r_num in sorted(all_rounds_data.keys()):
         for match in all_rounds_data[r_num]:
+            p1, p2 = match[0], match[1]
+            if p1:
+                all_players.add(p1)
+            if p2:
+                all_players.add(p2)
             ws.append(match)
         ws.append([]) 
+    
+    # Add player list below matches
+    ws.append([])
+    ws.append(["All Players:"])
+    for player in sorted(all_players):
+        ws.append([player])
 
     ws.column_dimensions['A'].width = 25
     ws.column_dimensions['B'].width = 25
