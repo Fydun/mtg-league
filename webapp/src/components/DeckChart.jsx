@@ -8,11 +8,15 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
+const MAX_DECKS_SHOWN = 16; // <-- Change this number to show more/less decks
+
 export default function DeckChart({ league, tournamentData }) {
   const { tournaments } = league;
 
   const data = useMemo(() => {
     const deckCounts = {};
+    const FORCE_TO_OTHERS = ["XXXXX"]; // These decks always go into "Others"
+    let forcedOthersCount = 0;
 
     // Iterate all tournaments in this league
     tournaments.forEach((tId) => {
@@ -24,6 +28,13 @@ export default function DeckChart({ league, tournamentData }) {
         if (deck) {
           // Normalize deck names roughly
           const name = deck.trim();
+
+          // Count forced-to-others decks separately
+          if (FORCE_TO_OTHERS.includes(name)) {
+            forcedOthersCount++;
+            return;
+          }
+
           deckCounts[name] = (deckCounts[name] || 0) + 1;
         }
       });
@@ -38,28 +49,35 @@ export default function DeckChart({ league, tournamentData }) {
     // Sort by count
     arr.sort((a, b) => b.value - a.value);
 
-    // Take top 8 and Group others
-    if (arr.length > 8) {
-      const top8 = arr.slice(0, 8);
-      const others = arr.slice(8).reduce((acc, curr) => acc + curr.value, 0);
-      top8.push({ name: "Others", value: others });
-      return top8;
+    // Take top X and Group others (including forced ones)
+    if (arr.length > MAX_DECKS_SHOWN || forcedOthersCount > 0) {
+      const topDecks = arr.slice(0, MAX_DECKS_SHOWN);
+      const othersFromOverflow = arr
+        .slice(MAX_DECKS_SHOWN)
+        .reduce((acc, curr) => acc + curr.value, 0);
+      const totalOthers = othersFromOverflow + forcedOthersCount;
+      if (totalOthers > 0) {
+        topDecks.push({ name: "Others", value: totalOthers });
+      }
+      return topDecks;
     }
 
     return arr;
   }, [tournaments, tournamentData]);
 
-  const COLORS = [
-    "#0088FE",
-    "#00C49F",
-    "#FFBB28",
-    "#FF8042",
-    "#8884d8",
-    "#82ca9d",
-    "#ffc658",
-    "#8dd1e1",
-    "#a4de6c",
-  ];
+  // Generate distinct colors dynamically using HSL
+  const generateColors = (count) => {
+    const colors = [];
+    for (let i = 0; i < count; i++) {
+      // Spread hues evenly around the color wheel (0-360)
+      const hue = (i * 360) / count;
+      // Use consistent saturation and lightness for vibrant but readable colors
+      colors.push(`hsl(${hue}, 70%, 55%)`);
+    }
+    return colors;
+  };
+
+  const COLORS = generateColors(data.length);
 
   if (data.length === 0) return null;
 
