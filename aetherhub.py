@@ -6,6 +6,7 @@ import re
 import time
 import os
 import sys
+import json
 from datetime import datetime
 
 # --- CONFIGURATION ---
@@ -47,6 +48,17 @@ def scrape_round(tourney_id, round_num):
     url = f"https://aetherhub.com/Tourney/RoundTourney/{tourney_id}?p={round_num}"
     soup = get_soup(url)
     if not soup: return []
+
+    # Check for correct round pagination
+    # AetherHub often defaults to page 1 if page N doesn't exist
+    active_page = soup.find('li', class_='page-item active')
+    if active_page:
+        try:
+            active_num = int(active_page.text.strip())
+            if active_num != round_num:
+                print(f"  (Requested Round {round_num}, but got Round {active_num}. Stopping.)")
+                return []
+        except: pass
 
     matches = []
     
