@@ -93,7 +93,9 @@ export default function DeckChart({ league, tournamentData }) {
             cx="50%"
             cy="50%"
             labelLine={false}
-            label={({ name, percent }) => `${(percent * 100).toFixed(0)}%`}
+            label={({ name, percent }) =>
+              percent >= 0.025 ? `${name} ${(percent * 100).toFixed(0)}%` : ""
+            }
             outerRadius={120}
             fill="#8884d8"
             dataKey="value"
@@ -114,7 +116,6 @@ export default function DeckChart({ league, tournamentData }) {
             }}
             itemStyle={{ color: "#fff" }}
           />
-          <Legend layout="vertical" align="right" verticalAlign="middle" />
         </PieChart>
       </ResponsiveContainer>
     </div>

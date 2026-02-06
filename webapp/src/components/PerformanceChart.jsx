@@ -11,13 +11,10 @@ import {
 } from "recharts";
 
 export default function PerformanceChart({ league, tournamentData }) {
-  const { standings, tournaments } = league;
+  const { standings, tournaments, max_counted } = league;
   const [disabledPlayers, setDisabledPlayers] = useState(new Set());
 
   const chartData = useMemo(() => {
-    // 2. Identify all players who have EVER been in the Top 10 (Cumulative) at any point
-    // This solves "scored high in weeks 1-3 should be visible"
-
     // Sort tourneys chronological
     const chronTournaments = [...tournaments].sort((a, b) => {
       const numA = parseInt(a.split("-")[1]);
@@ -26,8 +23,9 @@ export default function PerformanceChart({ league, tournamentData }) {
     });
 
     const playersOfInterest = new Set();
-    const runningTotals = {}; // { playerName: score }
-    standings.forEach((p) => (runningTotals[p.name] = 0));
+    // Track each player's tournament scores for best-N calculation
+    const playerScores = {}; // { playerName: [score1, score2, ...] }
+    standings.forEach((p) => (playerScores[p.name] = []));
 
     const historyData = chronTournaments.map((tId) => {
       const t = tournamentData[tId];
@@ -36,29 +34,42 @@ export default function PerformanceChart({ league, tournamentData }) {
         fullDate: t ? t.date : "",
       };
 
-      // Update totals
+      // Update scores and calculate best-N for each player
       standings.forEach((p) => {
         const score = p.history[tId] || 0;
-        runningTotals[p.name] += score;
-        point[p.name] = runningTotals[p.name];
+        if (score > 0) {
+          playerScores[p.name].push(score);
+        }
+
+        // Calculate best-N sum (like actual league standings)
+        const scores = [...playerScores[p.name]].sort((a, b) => b - a);
+        const bestN = max_counted ? scores.slice(0, max_counted) : scores;
+        point[p.name] = bestN.reduce((sum, s) => sum + s, 0);
       });
 
-      // Find Top 10 for THIS week
+      // Find Top 15 for THIS week (to capture more players of interest)
       const sortedThisWeek = Object.entries(point)
         .filter(([key]) => key !== "name" && key !== "fullDate")
         .sort((a, b) => b[1] - a[1])
-        .slice(0, 10);
+        .slice(0, 15);
 
       sortedThisWeek.forEach(([name]) => playersOfInterest.add(name));
 
       return point;
     });
 
-    // Convert Select players to array
-    const chartPlayers = standings.filter((p) => playersOfInterest.has(p.name));
+    // Get the final week's data for sorting
+    const finalWeekData = historyData[historyData.length - 1] || {};
+
+    // Convert Select players to array, sorted by their score in the FINAL week
+    const chartPlayers = standings
+      .filter((p) => playersOfInterest.has(p.name))
+      .sort(
+        (a, b) => (finalWeekData[b.name] || 0) - (finalWeekData[a.name] || 0),
+      );
 
     return { data: historyData, players: chartPlayers };
-  }, [standings, tournaments, tournamentData]);
+  }, [standings, tournaments, tournamentData, max_counted]);
 
   // Colors for lines (extended palette)
   const colors = [
@@ -121,39 +132,61 @@ export default function PerformanceChart({ league, tournamentData }) {
   if (!chartData.data || chartData.data.length === 0) return null;
 
   return (
-    <div className="w-full h-[500px] bg-slate-900/50 rounded-xl border border-slate-700 p-4">
+    <div className="w-full bg-slate-900/50 rounded-xl border border-slate-700 p-4">
       <h3 className="text-lg font-semibold text-slate-200 mb-4 ml-2">
         Top Performance History
       </h3>
-      <ResponsiveContainer width="100%" height="100%">
-        <LineChart
-          data={chartData.data}
-          margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
-        >
-          <CartesianGrid strokeDasharray="3 3" stroke="#334155" opacity={0.5} />
-          <XAxis dataKey="name" stroke="#94a3b8" tick={{ fontSize: 12 }} />
-          <YAxis stroke="#94a3b8" tick={{ fontSize: 12 }} />
-          <Tooltip content={<CustomTooltip />} />
-          <Legend
-            onClick={handleLegendClick}
-            wrapperStyle={{ cursor: "pointer" }}
-          />
+      <div className="flex" style={{ minHeight: "450px" }}>
+        {/* Chart area */}
+        <div className="flex-1 min-w-0">
+          <ResponsiveContainer width="100%" height="100%">
+            <LineChart
+              data={chartData.data}
+              margin={{ top: 10, right: 10, left: 0, bottom: 0 }}
+            >
+              <CartesianGrid
+                strokeDasharray="3 3"
+                stroke="#334155"
+                opacity={0.5}
+              />
+              <XAxis dataKey="name" stroke="#94a3b8" tick={{ fontSize: 12 }} />
+              <YAxis stroke="#94a3b8" tick={{ fontSize: 12 }} />
+              <Tooltip content={<CustomTooltip />} />
+              {chartData.players.map((p, i) => (
+                <Line
+                  key={p.name}
+                  type="monotone"
+                  dataKey={p.name}
+                  stroke={colors[i % colors.length]}
+                  strokeWidth={2}
+                  strokeOpacity={disabledPlayers.has(p.name) ? 0.1 : 1}
+                  dot={false}
+                  activeDot={{ r: 6 }}
+                  connectNulls
+                  hide={disabledPlayers.has(p.name)}
+                />
+              ))}
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
+        {/* Custom Legend - sorted by final score */}
+        <div className="flex flex-col justify-center pl-6 pr-2 text-sm">
           {chartData.players.map((p, i) => (
-            <Line
+            <div
               key={p.name}
-              type="monotone"
-              dataKey={p.name}
-              stroke={colors[i % colors.length]}
-              strokeWidth={2}
-              strokeOpacity={disabledPlayers.has(p.name) ? 0.1 : 1}
-              dot={false}
-              activeDot={{ r: 6 }}
-              connectNulls
-              hide={disabledPlayers.has(p.name)}
-            />
+              onClick={() => handleLegendClick({ dataKey: p.name })}
+              className="flex items-center gap-2 py-0.5 cursor-pointer hover:opacity-80 whitespace-nowrap"
+              style={{ opacity: disabledPlayers.has(p.name) ? 0.3 : 1 }}
+            >
+              <span
+                className="w-3 h-3 rounded-full flex-shrink-0"
+                style={{ backgroundColor: colors[i % colors.length] }}
+              />
+              <span className="text-slate-200 text-right">{p.name}</span>
+            </div>
           ))}
-        </LineChart>
-      </ResponsiveContainer>
+        </div>
+      </div>
     </div>
   );
 }
