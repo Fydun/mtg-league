@@ -6,13 +6,14 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
+  LabelList,
 } from "recharts";
 
 export default function PerformanceChart({ league, tournamentData }) {
   const { standings, tournaments, max_counted } = league;
   const [disabledPlayers, setDisabledPlayers] = useState(new Set());
+  const [hoveredPlayer, setHoveredPlayer] = useState(null);
 
   const chartData = useMemo(() => {
     // Sort tourneys chronological
@@ -92,6 +93,9 @@ export default function PerformanceChart({ league, tournamentData }) {
 
   /* Custom Tooltip to Sort by Score */
   const CustomTooltip = ({ active, payload, label }) => {
+    // Don't show tooltip when hovering on legend
+    if (hoveredPlayer) return null;
+
     if (active && payload && payload.length) {
       // Sort payload by value desc
       const sorted = [...payload].sort((a, b) => b.value - a.value);
@@ -116,17 +120,28 @@ export default function PerformanceChart({ league, tournamentData }) {
     return null;
   };
 
-  const handleLegendClick = (e) => {
-    const { dataKey } = e;
+  const handleLegendClick = (playerName) => {
     setDisabledPlayers((prev) => {
       const next = new Set(prev);
-      if (next.has(dataKey)) {
-        next.delete(dataKey);
+      if (next.has(playerName)) {
+        next.delete(playerName);
       } else {
-        next.add(dataKey);
+        next.add(playerName);
       }
       return next;
     });
+  };
+
+  // Calculate line opacity based on hover and disabled state
+  const getLineOpacity = (playerName) => {
+    if (disabledPlayers.has(playerName)) return 0.1;
+    if (hoveredPlayer === null) return 1;
+    return hoveredPlayer === playerName ? 1 : 0.15;
+  };
+
+  const getLineWidth = (playerName) => {
+    if (hoveredPlayer === playerName) return 3;
+    return 2;
   };
 
   if (!chartData.data || chartData.data.length === 0) return null;
@@ -158,31 +173,60 @@ export default function PerformanceChart({ league, tournamentData }) {
                   type="monotone"
                   dataKey={p.name}
                   stroke={colors[i % colors.length]}
-                  strokeWidth={2}
-                  strokeOpacity={disabledPlayers.has(p.name) ? 0.1 : 1}
-                  dot={false}
-                  activeDot={{ r: 6 }}
+                  strokeWidth={getLineWidth(p.name)}
+                  strokeOpacity={getLineOpacity(p.name)}
+                  dot={
+                    hoveredPlayer === p.name
+                      ? { r: 4, fill: colors[i % colors.length] }
+                      : false
+                  }
+                  activeDot={hoveredPlayer ? false : { r: 6 }}
                   connectNulls
                   hide={disabledPlayers.has(p.name)}
-                />
+                >
+                  {hoveredPlayer === p.name && (
+                    <LabelList
+                      dataKey={p.name}
+                      position="top"
+                      fill="#e2e8f0"
+                      fontSize={10}
+                      offset={8}
+                    />
+                  )}
+                </Line>
               ))}
             </LineChart>
           </ResponsiveContainer>
         </div>
         {/* Custom Legend - sorted by final score */}
-        <div className="flex flex-col justify-center pl-6 pr-2 text-sm">
+        <div
+          className="flex flex-col justify-center pl-6 pr-2 text-sm"
+          style={{ minWidth: "180px" }}
+        >
           {chartData.players.map((p, i) => (
             <div
               key={p.name}
-              onClick={() => handleLegendClick({ dataKey: p.name })}
-              className="flex items-center gap-2 py-0.5 cursor-pointer hover:opacity-80 whitespace-nowrap"
-              style={{ opacity: disabledPlayers.has(p.name) ? 0.3 : 1 }}
+              onClick={() => handleLegendClick(p.name)}
+              onMouseEnter={() => setHoveredPlayer(p.name)}
+              onMouseLeave={() => setHoveredPlayer(null)}
+              className="flex items-center gap-2 py-0.5 px-1 cursor-pointer whitespace-nowrap transition-all rounded"
+              style={{
+                opacity: disabledPlayers.has(p.name)
+                  ? 0.3
+                  : hoveredPlayer && hoveredPlayer !== p.name
+                    ? 0.5
+                    : 1,
+                backgroundColor:
+                  hoveredPlayer === p.name
+                    ? "rgba(100, 116, 139, 0.3)"
+                    : "transparent",
+              }}
             >
               <span
                 className="w-3 h-3 rounded-full flex-shrink-0"
                 style={{ backgroundColor: colors[i % colors.length] }}
               />
-              <span className="text-slate-200 text-right">{p.name}</span>
+              <span className="text-slate-200">{p.name}</span>
             </div>
           ))}
         </div>
