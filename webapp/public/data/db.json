@@ -5,6 +5,7 @@
       "name": "Spring League 2026",
       "max_counted": 7,
       "tournaments": [
+        "week-90",
         "week-89"
       ],
       "standings": [
@@ -174,6 +175,21 @@
           "rank": 11
         },
         {
+          "name": "Test Player A",
+          "points": 3,
+          "wins": 1,
+          "losses": 0,
+          "draws": 0,
+          "matches": 1,
+          "tournaments_played": 1,
+          "tournaments_display": "1",
+          "lowest_counting": 0,
+          "history": {
+            "week-90": 3
+          },
+          "rank": 12
+        },
+        {
           "name": "Tonny Albrigtsen",
           "points": 0,
           "wins": 0,
@@ -186,7 +202,22 @@
           "history": {
             "week-89": 0
           },
-          "rank": 12
+          "rank": 13
+        },
+        {
+          "name": "Test Player B",
+          "points": 0,
+          "wins": 0,
+          "losses": 1,
+          "draws": 0,
+          "matches": 1,
+          "tournaments_played": 1,
+          "tournaments_display": "1",
+          "lowest_counting": 0,
+          "history": {
+            "week-90": 0
+          },
+          "rank": 14
         }
       ]
     },
@@ -2903,6 +2934,7 @@
       "name": "All-Time Records",
       "max_counted": null,
       "tournaments": [
+        "week-90",
         "week-89",
         "week-88",
         "week-87",
@@ -4969,6 +5001,21 @@
           "rank": 70
         },
         {
+          "name": "Test Player A",
+          "points": 3,
+          "wins": 1,
+          "losses": 0,
+          "draws": 0,
+          "matches": 1,
+          "tournaments_played": 1,
+          "tournaments_display": "1",
+          "lowest_counting": 3,
+          "history": {
+            "week-90": 3
+          },
+          "rank": 71
+        },
+        {
           "name": "Kurtis Brown",
           "points": 0,
           "wins": 0,
@@ -4981,7 +5028,7 @@
           "history": {
             "week-76": 0
           },
-          "rank": 71
+          "rank": 72
         },
         {
           "name": "H\u00e5kon Gulbrandsen",
@@ -4996,7 +5043,7 @@
           "history": {
             "week-59": 0
           },
-          "rank": 72
+          "rank": 73
         },
         {
           "name": "Fredrik N\u00e6sse",
@@ -5011,7 +5058,7 @@
           "history": {
             "week-45": 0
           },
-          "rank": 73
+          "rank": 74
         },
         {
           "name": "Kristin Skivik",
@@ -5026,7 +5073,22 @@
           "history": {
             "week-21": 0
           },
-          "rank": 74
+          "rank": 75
+        },
+        {
+          "name": "Test Player B",
+          "points": 0,
+          "wins": 0,
+          "losses": 1,
+          "draws": 0,
+          "matches": 1,
+          "tournaments_played": 1,
+          "tournaments_display": "1",
+          "lowest_counting": 0,
+          "history": {
+            "week-90": 0
+          },
+          "rank": 76
         }
       ]
     }
@@ -36929,6 +36991,69 @@
           ]
         }
       ]
+    },
+    "week-90": {
+      "id": "week-90",
+      "name": "Week 90",
+      "date": "2026-02-06",
+      "week_number": 90,
+      "metadata": {
+        "players": 2,
+        "rounds": 1,
+        "prize_pool": 0,
+        "top_cut": 0
+      },
+      "standings": [
+        {
+          "name": "Test Player A",
+          "points": 3,
+          "w": 1,
+          "l": 0,
+          "d": 0,
+          "omw": 33.3,
+          "gw": 100.0,
+          "ogw": 33.3,
+          "mw": 100.0,
+          "rank": 1,
+          "deck": "",
+          "record": "1-0-0",
+          "wins": 1,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "name": "Test Player B",
+          "points": 0,
+          "w": 0,
+          "l": 1,
+          "d": 0,
+          "omw": 33.3,
+          "gw": 0.0,
+          "ogw": 33.3,
+          "mw": 0.0,
+          "rank": 2,
+          "deck": "",
+          "record": "0-1-0",
+          "wins": 0,
+          "losses": 1,
+          "draws": 0
+        }
+      ],
+      "rounds": [
+        {
+          "round": 1,
+          "matches": [
+            {
+              "p1": "Test Player A",
+              "p2": "Test Player B",
+              "p1_wins": 2,
+              "p2_wins": 0,
+              "draws": 0
+            }
+          ]
+        }
+      ],
+      "league_id": "spring-2026"
     }
   }
 }

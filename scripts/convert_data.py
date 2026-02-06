@@ -228,6 +228,65 @@ def main():
         except Exception as e:
             print(f"Error reading {f}: {e}")
 
+    # --- INGEST NEW JSON FILES ---
+    json_dir = f"webapp/public/data/raw"
+    if os.path.exists(json_dir):
+        json_files = glob.glob(f"{json_dir}/*.json")
+        for jf in json_files:
+            print(f"Reading JSON {jf}...")
+            try:
+                with open(jf, "r", encoding="utf-8") as f:
+                    t_data = json.load(f)
+                    
+                    # Ensure minimal schema matching
+                    week_num = t_data.get("week_number", 0)
+                    if week_num == 0:
+                         # Try to parse from filename as fallback
+                         try:
+                             week_num = int(re.search(r'week-(\d+)', jf).group(1))
+                         except: pass
+
+                    league_id, league_name = get_league_info(week_num)
+                    t_data["league_id"] = league_id
+                    
+                    # Normalize standings keys if needed (already matches mostly)
+                    # output from scraper: {name, points, w, l, d...}
+                    # target: {rank, name, deck, points, record, wins, losses, draws...}
+                    
+                    for i, p in enumerate(t_data["standings"]):
+                        if "rank" not in p: p["rank"] = i + 1
+                        if "deck" not in p: p["deck"] = ""
+                        if "record" not in p: p["record"] = f"{p.get('w',0)}-{p.get('l',0)}-{p.get('d',0)}"
+                        # Map keys if slightly different
+                        if "wins" not in p: p["wins"] = p.get("w", 0)
+                        if "losses" not in p: p["losses"] = p.get("l", 0)
+                        if "draws" not in p: p["draws"] = p.get("d", 0)
+                    
+                    t_id = t_data["id"]
+                    tournaments[t_id] = t_data
+
+                    # Add to Leagues
+                    if league_id != "off-season":
+                        if league_id not in leagues:
+                             leagues[league_id] = {
+                                "id": league_id,
+                                "name": league_name,
+                                "tournaments": [],
+                                "players": {},
+                                "is_all_time": False
+                            }
+                        if t_id not in leagues[league_id]["tournaments"]:
+                            leagues[league_id]["tournaments"].append(t_id)
+                            update_league_stats(leagues[league_id], t_data)
+                    
+                    # All-time
+                    if t_id not in leagues["all-time"]["tournaments"]:
+                         leagues["all-time"]["tournaments"].append(t_id)
+                         update_league_stats(leagues["all-time"], t_data)
+                         
+            except Exception as e:
+                print(f"Error reading JSON {jf}: {e}")
+
     # Finalize Leagues (Sort standings with rules)
     final_leagues = []
     
