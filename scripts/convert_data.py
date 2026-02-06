@@ -172,61 +172,63 @@ def parse_sheet(df, sheet_name):
         return None
 
 def main():
-    print("Converting Excel data to Single DB...")
+    print(f"Converting Excel data to Single DB...")
     ensure_dirs()
     
-    all_excel_files = glob.glob(f"{RAW_DATA_PATH}/*.xlsx")
-    tournaments = {}
-    leagues = {}
-    
-    # Initialize All-Time League
-    leagues["all-time"] = {
-        "id": "all-time",
-        "name": "All-Time Records",
-        "tournaments": [],
-        "players": {}, # {name: {stats, scores: []}}
-        "is_all_time": True
-    }
-
-    for f in all_excel_files:
-        if "_Raw" in f or "~$" in f: continue
-        print(f"Reading {f}...")
-        
+    # --- LOAD EXISTING DB.JSON ---
+    db_path = f"{DATA_DIR}/db.json"
+    if os.path.exists(db_path):
+        print(f"Loading existing DB from {db_path}...")
         try:
-            xl = pd.ExcelFile(f)
-            
-            for sheet in xl.sheet_names:
-                if sheet.startswith("Week"):
-                    print(f"  Parsing {sheet}...")
-                    t_data = parse_sheet(xl.parse(sheet, header=None), sheet)
+            with open(db_path, "r", encoding="utf-8") as f:
+                existing_db = json.load(f)
+                tournaments = existing_db.get("tournaments", {})
+                leagues = {}
+                
+                # Reconstruct leagues dict
+                for l_data in existing_db.get("leagues", []):
+                    l_id = l_data["id"]
                     
-                    if t_data:
-                        t_id = t_data["id"]
-                        tournaments[t_id] = t_data
-                        l_id = t_data["league_id"]
+                    # Convert standings list back to players dict for processing
+                    players_dict = {}
+                    for p in l_data.get("standings", []):
+                        name = p["name"]
+                        # Reconstruct scores from history values
+                        history = p.get("history", {})
+                        scores = list(history.values())
                         
-                        # Initialize Regular League if needed
-                        if l_id != "off-season" and l_id not in leagues:
-                            _, l_name = get_league_info(int(re.search(r'\d+', sheet).group()))
-                            leagues[l_id] = {
-                                "id": l_id,
-                                "name": l_name,
-                                "tournaments": [],
-                                "players": {}, # {name: {stats, scores: []}}
-                                "is_all_time": False
-                            }
+                        players_dict[name] = {
+                            "stats": p,
+                            "history": history,
+                            "scores": scores
+                        }
                         
-                        # Add to Regular League
-                        if l_id != "off-season":
-                            leagues[l_id]["tournaments"].append(t_id)
-                            update_league_stats(leagues[l_id], t_data)
-
-                        # Add to All-Time League (Include EVERYTHING)
-                        leagues["all-time"]["tournaments"].append(t_id)
-                        update_league_stats(leagues["all-time"], t_data)
-                            
+                    leagues[l_id] = {
+                        "id": l_id,
+                        "name": l_data["name"],
+                        "tournaments": l_data.get("tournaments", []),
+                        "players": players_dict,
+                        "is_all_time": (l_id == "all-time")
+                    }
         except Exception as e:
-            print(f"Error reading {f}: {e}")
+             print(f"Error loading DB: {e}")
+             tournaments = {}
+             leagues = {}
+    else:
+        print("No existing DB found. Starting fresh (Legacy data may be missing without Excel).")
+        tournaments = {}
+        leagues = {}
+
+    # Initialize All-Time League if missing
+    if "all-time" not in leagues:
+        leagues["all-time"] = {
+            "id": "all-time",
+            "name": "All-Time Records",
+            "tournaments": [],
+            "players": {}, 
+            "is_all_time": True
+        }
+
 
     # --- INGEST NEW JSON FILES ---
     json_dir = f"webapp/public/data/raw"
@@ -263,6 +265,11 @@ def main():
                         if "draws" not in p: p["draws"] = p.get("d", 0)
                     
                     t_id = t_data["id"]
+                    
+                    if t_id in tournaments:
+                        print(f"  Skipping {t_id} (already in DB)")
+                        continue
+
                     tournaments[t_id] = t_data
 
                     # Add to Leagues
