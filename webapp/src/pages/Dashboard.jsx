@@ -87,7 +87,7 @@ export default function Dashboard() {
             {/* Main Content Area */}
             <div className="bg-slate-800 rounded-xl border border-slate-700 shadow-xl min-h-[500px]">
               {/* Toolbar */}
-              <div className="sticky top-0 z-50 border-b border-slate-700/50 bg-slate-900/95 backdrop-blur shadow-md">
+              <div className="sticky top-0 z-50 border-b border-slate-700/50 bg-slate-900/95 backdrop-blur shadow-md rounded-t-xl">
                 <div className="h-[72px] px-4 flex flex-nowrap items-center justify-between gap-4 mx-auto w-full max-w-7xl transition-all duration-300">
                   {/* View Toggles */}
                   <div className="flex bg-slate-800 p-1 rounded-lg border border-slate-700">

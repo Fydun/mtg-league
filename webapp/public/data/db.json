@@ -4,9 +4,7 @@
       "id": "spring-2026",
       "name": "Spring League 2026",
       "max_counted": 7,
-      "tournaments": [
-        "week-89"
-      ],
+      "tournaments": ["week-89"],
       "standings": [
         {
           "name": "Martin Lindboe",
