@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import TournamentDetail from "./pages/TournamentDetail";
+import PlayerProfile from "./pages/PlayerProfile";
 import { DataProvider } from "./contexts/DataContext";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
                 path="/tournament/:tournamentId"
                 element={<TournamentDetail />}
               />
+              <Route path="/player/:playerName" element={<PlayerProfile />} />
             </Routes>
           </main>
         </div>

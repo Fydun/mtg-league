@@ -15,7 +15,7 @@
     {
       "rank": 1,
       "name": "Anders S\u00f8berg",
-      "deck": "XXXXX",
+      "deck": "unknown",
       "points": 12,
       "record": "4-0-0",
       "wins": 4,
@@ -30,7 +30,7 @@
     {
       "rank": 2,
       "name": "Viktor Hegerberg",
-      "deck": "XXXXX",
+      "deck": "unknown",
       "points": 9,
       "record": "3-1-0",
       "wins": 3,
@@ -75,7 +75,7 @@
     {
       "rank": 5,
       "name": "Parco Au",
-      "deck": "XXXXX",
+      "deck": "unknown",
       "points": 9,
       "record": "3-1-0",
       "wins": 3,
@@ -105,7 +105,7 @@
     {
       "rank": 7,
       "name": "Stian Fuglaas",
-      "deck": "XXXXX",
+      "deck": "unknown",
       "points": 6,
       "record": "2-2-0",
       "wins": 2,
@@ -120,7 +120,7 @@
     {
       "rank": 8,
       "name": "Tormod Lang",
-      "deck": "XXXXX",
+      "deck": "unknown",
       "points": 6,
       "record": "2-2-0",
       "wins": 2,
@@ -150,7 +150,7 @@
     {
       "rank": 10,
       "name": "Manuel Hlavinka",
-      "deck": "XXXXX",
+      "deck": "unknown",
       "points": 6,
       "record": "2-2-0",
       "wins": 2,
@@ -165,7 +165,7 @@
     {
       "rank": 11,
       "name": "Tom Sondre Albrigsten",
-      "deck": "XXXXX",
+      "deck": "unknown",
       "points": 3,
       "record": "1-1-0",
       "wins": 1,
@@ -180,7 +180,7 @@
     {
       "rank": 12,
       "name": "Petter Haukaas",
-      "deck": "XXXXX",
+      "deck": "unknown",
       "points": 3,
       "record": "1-3-0",
       "wins": 1,
@@ -195,7 +195,7 @@
     {
       "rank": 13,
       "name": "Ian Fox",
-      "deck": "XXXXX",
+      "deck": "unknown",
       "points": 3,
       "record": "1-3-0",
       "wins": 1,
@@ -225,7 +225,7 @@
     {
       "rank": 15,
       "name": "Tonny Albrigtsen",
-      "deck": "XXXXX",
+      "deck": "unknown",
       "points": 0,
       "record": "0-2-0",
       "wins": 0,

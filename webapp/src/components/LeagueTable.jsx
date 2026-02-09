@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function LeagueTable({ standings, showLowest }) {
   if (!standings || standings.length === 0) {
@@ -66,7 +67,12 @@ export default function LeagueTable({ standings, showLowest }) {
                 </div>
               </td>
               <td className="px-6 py-4 font-semibold text-white">
-                {player.name}
+                <Link
+                  to={`/player/${encodeURIComponent(player.name)}`}
+                  className="hover:text-blue-400 hover:underline transition-colors"
+                >
+                  {player.name}
+                </Link>
               </td>
               <td className="px-6 py-4 text-right font-bold text-blue-400">
                 {player.points}
