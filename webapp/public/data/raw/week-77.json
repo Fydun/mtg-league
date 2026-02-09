@@ -1,0 +1,386 @@
+{
+  "id": "week-77",
+  "name": "Week 77",
+  "league_id": "autumn-2025",
+  "date": "2025-10-02",
+  "metadata": {
+    "players": 12,
+    "rounds": 4,
+    "cutoff_points": 9,
+    "prize_pool": 1100,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Baard H\u00fcbert",
+      "deck": "Rx Painter",
+      "points": 10,
+      "record": "3-0-1",
+      "wins": 3,
+      "losses": 0,
+      "draws": 1,
+      "omw": 0.5,
+      "gw": 0.7777777777777778,
+      "ogw": 0.5243055555555556,
+      "mw": 0.8333333333333334,
+      "payout": 471
+    },
+    {
+      "rank": 2,
+      "name": "Anders S\u00f8berg",
+      "deck": "Blue Painter Pile",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.6666666666666667,
+      "gw": 0.6666666666666666,
+      "ogw": 0.6194444444444445,
+      "mw": 0.75,
+      "payout": 314
+    },
+    {
+      "rank": 3,
+      "name": "Viktor Hegerberg",
+      "deck": "UB Reanimator",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.47916666666666663,
+      "gw": 0.7,
+      "ogw": 0.4722222222222222,
+      "mw": 0.75,
+      "payout": 314
+    },
+    {
+      "rank": 4,
+      "name": "Mikael Gyhagen",
+      "deck": "UR Tempo",
+      "points": 7,
+      "record": "2-1-1",
+      "wins": 2,
+      "losses": 1,
+      "draws": 1,
+      "omw": 0.4583333333333333,
+      "gw": 0.5555555555555556,
+      "ogw": 0.49930555555555556,
+      "mw": 0.5833333333333334,
+      "payout": 0
+    },
+    {
+      "rank": 5,
+      "name": "Tormod Lang",
+      "deck": "UB Reanimator",
+      "points": 7,
+      "record": "2-1-1",
+      "wins": 2,
+      "losses": 1,
+      "draws": 1,
+      "omw": 0.4375,
+      "gw": 0.5555555555555556,
+      "ogw": 0.4990530303030303,
+      "mw": 0.5833333333333334,
+      "payout": 0
+    },
+    {
+      "rank": 6,
+      "name": "Petter Haukaas",
+      "deck": "Lands",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5416666666666666,
+      "gw": 0.4444444444444444,
+      "ogw": 0.525,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 7,
+      "name": "Parco Au",
+      "deck": "UB Reanimator",
+      "points": 4,
+      "record": "1-2-1",
+      "wins": 1,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.5833333333333334,
+      "gw": 0.375,
+      "ogw": 0.5722222222222222,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 8,
+      "name": "Gunnar Sivertsen",
+      "deck": "3+ colour Loam",
+      "points": 4,
+      "record": "1-2-1",
+      "wins": 1,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.5208333333333334,
+      "gw": 0.5,
+      "ogw": 0.5166666666666667,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 9,
+      "name": "Anders Christie",
+      "deck": "Death and Taxes",
+      "points": 4,
+      "record": "1-2-1",
+      "wins": 1,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.4375,
+      "gw": 0.4,
+      "ogw": 0.46875,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 10,
+      "name": "Tonny Albrigtsen",
+      "deck": "Grixis Tempo",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5555555555555556,
+      "gw": 0.4444444444444444,
+      "ogw": 0.57003367003367,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 11,
+      "name": "Stian Fuglaas",
+      "deck": "Show and Tell",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.47916666666666663,
+      "gw": 0.3333333333333333,
+      "ogw": 0.5247474747474747,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 12,
+      "name": "Gaetano Zito",
+      "deck": "Lands",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.4166666666666667,
+      "gw": 0.45454545454545453,
+      "ogw": 0.4444444444444444,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Gaetano Zito",
+          "p2": "Stian Fuglaas",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Mikael Gyhagen",
+          "p1_wins": 1,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Petter Haukaas",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "Parco Au",
+          "p1_wins": 1,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Gunnar Sivertsen",
+          "p2": "Tormod Lang",
+          "p1_wins": 1,
+          "p2_wins": 1,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Viktor Hegerberg",
+          "p2": "Stian Fuglaas",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Tormod Lang",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Gunnar Sivertsen",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Mikael Gyhagen",
+          "p2": "Parco Au",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "Petter Haukaas",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Gaetano Zito",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Viktor Hegerberg",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Parco Au",
+          "p2": "Baard H\u00fcbert",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Petter Haukaas",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Mikael Gyhagen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Gunnar Sivertsen",
+          "p2": "Anders Christie",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Gaetano Zito",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "matches": [
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Baard H\u00fcbert",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Parco Au",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Mikael Gyhagen",
+          "p2": "Anders Christie",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Gunnar Sivertsen",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Gaetano Zito",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

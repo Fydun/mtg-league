@@ -1,0 +1,222 @@
+{
+  "id": "week-51",
+  "name": "Week 51",
+  "league_id": "spring-2025",
+  "date": "2025-02-20",
+  "metadata": {
+    "players": 7,
+    "rounds": 3,
+    "cutoff_points": 6,
+    "prize_pool": 630,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Stein Elgethun",
+      "deck": "Lands",
+      "points": 9,
+      "record": "3-0-0",
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.75,
+      "ogw": 0.5231481481481481,
+      "mw": 1.0,
+      "payout": 252
+    },
+    {
+      "rank": 2,
+      "name": "Kenneth Pedersen",
+      "deck": "UB Tempo",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.625,
+      "ogw": 0.625,
+      "mw": 0.6666666666666666,
+      "payout": 126
+    },
+    {
+      "rank": 3,
+      "name": "Tonny Albrigtsen",
+      "deck": "Grixis Tempo",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.4444444444444444,
+      "ogw": 0.5833333333333334,
+      "mw": 0.6666666666666666,
+      "payout": 126
+    },
+    {
+      "rank": 4,
+      "name": "Anders S\u00f8berg",
+      "deck": "Eldrazi",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.4444444444444444,
+      "gw": 0.5555555555555556,
+      "ogw": 0.43915343915343913,
+      "mw": 0.6666666666666666,
+      "payout": 126
+    },
+    {
+      "rank": 5,
+      "name": "Tormod Lang",
+      "deck": "Eldrazi",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.8333333333333333,
+      "gw": 0.5,
+      "ogw": 0.6875,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 6,
+      "name": "Petter Haukaas",
+      "deck": "Dredge",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.4444444444444444,
+      "ogw": 0.4761904761904762,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 7,
+      "name": "Stian Fuglaas",
+      "deck": "Show and Tell",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5,
+      "gw": 0.42857142857142855,
+      "ogw": 0.5,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Petter Haukaas",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Stein Elgethun",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 1
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Stein Elgethun",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Stian Fuglaas",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Stein Elgethun",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Tormod Lang",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

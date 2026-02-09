@@ -1,0 +1,328 @@
+{
+  "id": "week-78",
+  "name": "Week 78",
+  "league_id": "autumn-2025",
+  "date": "2025-10-09",
+  "metadata": {
+    "players": 10,
+    "rounds": 4,
+    "cutoff_points": 9,
+    "prize_pool": 900,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Ferdinand Marnburg",
+      "deck": "UR Tempo",
+      "points": 12,
+      "record": "4-0-0",
+      "wins": 4,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.47916666666666663,
+      "gw": 0.8,
+      "ogw": 0.4666666666666666,
+      "mw": 1.0,
+      "payout": 360
+    },
+    {
+      "rank": 2,
+      "name": "Anders S\u00f8berg",
+      "deck": "Moon Stompy",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.6041666666666666,
+      "gw": 0.7,
+      "ogw": 0.5106060606060606,
+      "mw": 0.75,
+      "payout": 180
+    },
+    {
+      "rank": 3,
+      "name": "Stein Elgethun",
+      "deck": "Lands",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.47916666666666663,
+      "gw": 0.5454545454545454,
+      "ogw": 0.4742424242424242,
+      "mw": 0.75,
+      "payout": 180
+    },
+    {
+      "rank": 4,
+      "name": "Peter Br\u00e5ss",
+      "deck": "KarnForge",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.37499999999999994,
+      "gw": 0.7,
+      "ogw": 0.3992424242424242,
+      "mw": 0.75,
+      "payout": 180
+    },
+    {
+      "rank": 5,
+      "name": "Petter Haukaas",
+      "deck": "Lands",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.7083333333333333,
+      "gw": 0.5,
+      "ogw": 0.6022727272727273,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 6,
+      "name": "Mikael Gyhagen",
+      "deck": "UR Tempo",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.7083333333333334,
+      "gw": 0.3333333333333333,
+      "ogw": 0.6022727272727273,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 7,
+      "name": "Martin Lindboe",
+      "deck": "Moon Stompy",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.6944444444444443,
+      "gw": 0.3333333333333333,
+      "ogw": 0.6333333333333334,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 8,
+      "name": "Viktor Hegerberg",
+      "deck": "UB Tempo",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.6458333333333333,
+      "gw": 0.36363636363636365,
+      "ogw": 0.5772727272727272,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 9,
+      "name": "Baard H\u00fcbert",
+      "deck": "Rx Painter",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.47222222222222215,
+      "gw": 0.4,
+      "ogw": 0.4656565656565656,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 10,
+      "name": "Tormod Lang",
+      "deck": "UB Tempo",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.37499999999999994,
+      "gw": 0.36363636363636365,
+      "ogw": 0.3992424242424243,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Martin Lindboe",
+          "p2": "Baard H\u00fcbert",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Peter Br\u00e5ss",
+          "p2": "Petter Haukaas",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Mikael Gyhagen",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Stein Elgethun",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Martin Lindboe",
+          "p2": "Ferdinand Marnburg",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "Tormod Lang",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Peter Br\u00e5ss",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Mikael Gyhagen",
+          "p2": "Stein Elgethun",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Petter Haukaas",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Martin Lindboe",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Stein Elgethun",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Peter Br\u00e5ss",
+          "p2": "Mikael Gyhagen",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Tormod Lang",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "matches": [
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "Stein Elgethun",
+          "p1_wins": 0,
+          "p2_wins": 1,
+          "draws": 1
+        },
+        {
+          "p1": "Peter Br\u00e5ss",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Mikael Gyhagen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

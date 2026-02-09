@@ -1,0 +1,186 @@
+{
+  "id": "week-37",
+  "name": "Week 37",
+  "league_id": "autumn-2024",
+  "date": "2024-10-10",
+  "metadata": {
+    "players": 6,
+    "rounds": 3,
+    "cutoff_points": 6,
+    "prize_pool": 525,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Stian Fuglaas",
+      "deck": "Show and Tell",
+      "points": 9,
+      "record": "3-0-0",
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.4444444444444444,
+      "gw": 0.75,
+      "ogw": 0.4708994708994709,
+      "mw": 1.0,
+      "payout": 0
+    },
+    {
+      "rank": 2,
+      "name": "Anders S\u00f8berg",
+      "deck": "RG Initiative",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.5555555555555556,
+      "ogw": 0.578042328042328,
+      "mw": 0.6666666666666666,
+      "payout": 0
+    },
+    {
+      "rank": 3,
+      "name": "Baard H\u00fcbert",
+      "deck": "Rx Painter",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.4444444444444444,
+      "gw": 0.5555555555555556,
+      "ogw": 0.43915343915343913,
+      "mw": 0.6666666666666666,
+      "payout": 0
+    },
+    {
+      "rank": 4,
+      "name": "Tormod Lang",
+      "deck": "Eldrazi",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.42857142857142855,
+      "ogw": 0.5462962962962963,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 5,
+      "name": "Tonny Albrigtsen",
+      "deck": "Grixis Tempo",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.42857142857142855,
+      "ogw": 0.5462962962962963,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 6,
+      "name": "J\u00f8rgen S\u00f8rli",
+      "deck": "Cradle Control",
+      "points": 0,
+      "record": "0-3-0",
+      "wins": 0,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.4444444444444444,
+      "gw": 0.3333333333333333,
+      "ogw": 0.47089947089947093,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "J\u00f8rgen S\u00f8rli",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Tormod Lang",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "J\u00f8rgen S\u00f8rli",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Baard H\u00fcbert",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "J\u00f8rgen S\u00f8rli",
+          "p1_wins": 1,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

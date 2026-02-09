@@ -1,0 +1,237 @@
+{
+  "id": "week-49",
+  "name": "Week 49",
+  "league_id": "spring-2025",
+  "date": "2025-02-06",
+  "metadata": {
+    "players": 8,
+    "rounds": 3,
+    "cutoff_points": 6,
+    "prize_pool": 735,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Anders Christie",
+      "deck": "Rx Painter",
+      "points": 9,
+      "record": "3-0-0",
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.8571428571428571,
+      "ogw": 0.5396825396825397,
+      "mw": 1.0,
+      "payout": 294
+    },
+    {
+      "rank": 2,
+      "name": "Stein Elgethun",
+      "deck": "Lands",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.7142857142857143,
+      "ogw": 0.619047619047619,
+      "mw": 0.6666666666666666,
+      "payout": 147
+    },
+    {
+      "rank": 3,
+      "name": "Martin Lindboe",
+      "deck": "Moon Stompy",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.5714285714285714,
+      "ogw": 0.5634920634920634,
+      "mw": 0.6666666666666666,
+      "payout": 147
+    },
+    {
+      "rank": 4,
+      "name": "S\u00f8ren Hunskaar",
+      "deck": "Temur Tempo",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.4444444444444444,
+      "gw": 0.5714285714285714,
+      "ogw": 0.4920634920634921,
+      "mw": 0.6666666666666666,
+      "payout": 147
+    },
+    {
+      "rank": 5,
+      "name": "Kenneth Pedersen",
+      "deck": "Moon Stompy",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.42857142857142855,
+      "ogw": 0.5396825396825397,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 6,
+      "name": "Tonny Albrigtsen",
+      "deck": "Grixis Tempo",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5,
+      "gw": 0.5,
+      "ogw": 0.45238095238095233,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 7,
+      "name": "Tormod Lang",
+      "deck": "UB Reanimator",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.4444444444444444,
+      "gw": 0.3333333333333333,
+      "ogw": 0.5,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 8,
+      "name": "Baard H\u00fcbert",
+      "deck": "Initiative",
+      "points": 0,
+      "record": "0-2-0",
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.8333333333333333,
+      "gw": 0.3333333333333333,
+      "ogw": 0.7142857142857142,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "S\u00f8ren Hunskaar",
+          "p2": "Stein Elgethun",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Martin Lindboe",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "Baard H\u00fcbert",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Stein Elgethun",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "Martin Lindboe",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "S\u00f8ren Hunskaar",
+          "p2": "Baard H\u00fcbert",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Stein Elgethun",
+          "p2": "Anders Christie",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "S\u00f8ren Hunskaar",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Martin Lindboe",
+          "p2": "Tormod Lang",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

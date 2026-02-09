@@ -1,0 +1,386 @@
+{
+  "id": "week-21",
+  "name": "Week 21",
+  "league_id": "spring-2024",
+  "date": "2024-05-30",
+  "metadata": {
+    "players": 12,
+    "rounds": 4,
+    "cutoff_points": 9,
+    "prize_pool": 1155,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Kenneth Pedersen",
+      "deck": "Rescaminator",
+      "points": 12,
+      "record": "4-0-0",
+      "wins": 4,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.5416666666666667,
+      "gw": 0.7272727272727273,
+      "ogw": 0.5333333333333333,
+      "mw": 1.0,
+      "payout": 0
+    },
+    {
+      "rank": 2,
+      "name": "Stian Fuglaas",
+      "deck": "Show and Tell",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5833333333333333,
+      "gw": 0.6,
+      "ogw": 0.5515151515151515,
+      "mw": 0.75,
+      "payout": 0
+    },
+    {
+      "rank": 3,
+      "name": "Tormod Lang",
+      "deck": "Grixis Soothsayer",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.41666666666666663,
+      "gw": 0.6363636363636364,
+      "ogw": 0.43080808080808075,
+      "mw": 0.75,
+      "payout": 0
+    },
+    {
+      "rank": 4,
+      "name": "Baard H\u00fcbert",
+      "deck": "Rx Painter",
+      "points": 7,
+      "record": "2-1-1",
+      "wins": 2,
+      "losses": 1,
+      "draws": 1,
+      "omw": 0.5416666666666666,
+      "gw": 0.6,
+      "ogw": 0.49015151515151517,
+      "mw": 0.5833333333333334,
+      "payout": 0
+    },
+    {
+      "rank": 5,
+      "name": "Petter Haukaas",
+      "deck": "Cloudpost",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.6875,
+      "gw": 0.6,
+      "ogw": 0.567929292929293,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 6,
+      "name": "Joakim Aarseth",
+      "deck": "Rescaminator",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5833333333333334,
+      "gw": 0.5454545454545454,
+      "ogw": 0.5202020202020202,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 7,
+      "name": "Anders Christie",
+      "deck": "Death and Taxes",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5208333333333333,
+      "gw": 0.4444444444444444,
+      "ogw": 0.5287878787878788,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 8,
+      "name": "S\u00f8ren Hunskaar",
+      "deck": "BUG Beans",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.43749999999999994,
+      "gw": 0.5,
+      "ogw": 0.4416666666666666,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 9,
+      "name": "Erik Bergseth",
+      "deck": "Burn",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.41666666666666663,
+      "gw": 0.5,
+      "ogw": 0.4583333333333333,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 10,
+      "name": "Anders S\u00f8berg",
+      "deck": "Stoneblade",
+      "points": 4,
+      "record": "1-2-1",
+      "wins": 1,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.5833333333333334,
+      "gw": 0.4,
+      "ogw": 0.5704545454545454,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 11,
+      "name": "Kristin Skivik",
+      "deck": "UR Tempo",
+      "points": 0,
+      "record": "0-4-0",
+      "wins": 0,
+      "losses": 4,
+      "draws": 0,
+      "omw": 0.6458333333333334,
+      "gw": 0.3333333333333333,
+      "ogw": 0.567929292929293,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 12,
+      "name": "Parco Au",
+      "deck": "4+ Color Beans",
+      "points": 0,
+      "record": "0-4-0",
+      "wins": 0,
+      "losses": 4,
+      "draws": 0,
+      "omw": 0.625,
+      "gw": 0.3333333333333333,
+      "ogw": 0.5590909090909091,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Tormod Lang",
+          "p2": "Joakim Aarseth",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Kristin Skivik",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "Anders Christie",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Baard H\u00fcbert",
+          "p1_wins": 1,
+          "p2_wins": 1,
+          "draws": 1
+        },
+        {
+          "p1": "S\u00f8ren Hunskaar",
+          "p2": "Erik Bergseth",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Parco Au",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Petter Haukaas",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Joakim Aarseth",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Erik Bergseth",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Kristin Skivik",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Anders Christie",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "S\u00f8ren Hunskaar",
+          "p2": "Parco Au",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Joakim Aarseth",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "S\u00f8ren Hunskaar",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Erik Bergseth",
+          "p2": "Petter Haukaas",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Parco Au",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "Kristin Skivik",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "matches": [
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Baard H\u00fcbert",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Petter Haukaas",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Joakim Aarseth",
+          "p2": "Anders Christie",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Kristin Skivik",
+          "p2": "S\u00f8ren Hunskaar",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Erik Bergseth",
+          "p2": "Parco Au",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

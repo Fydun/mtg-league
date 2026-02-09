@@ -1,0 +1,466 @@
+{
+  "id": "week-39",
+  "name": "Week 39",
+  "league_id": "autumn-2024",
+  "date": "2024-10-31",
+  "metadata": {
+    "players": 15,
+    "rounds": 4,
+    "cutoff_points": 9,
+    "prize_pool": 1470,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Anders S\u00f8berg",
+      "deck": "Rx Painter",
+      "points": 12,
+      "record": "4-0-0",
+      "wins": 4,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.8,
+      "ogw": 0.5459595959595959,
+      "mw": 1.0,
+      "payout": 490
+    },
+    {
+      "rank": 2,
+      "name": "Kenneth Pedersen",
+      "deck": "KarnForge",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.6875,
+      "gw": 0.5833333333333334,
+      "ogw": 0.6388888888888888,
+      "mw": 0.75,
+      "payout": 245
+    },
+    {
+      "rank": 3,
+      "name": "S\u00f8ren Hunskaar",
+      "deck": "UB Midrange",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.6041666666666666,
+      "gw": 0.6,
+      "ogw": 0.5541666666666667,
+      "mw": 0.75,
+      "payout": 245
+    },
+    {
+      "rank": 4,
+      "name": "Tormod Lang",
+      "deck": "UB Reanimator",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5625,
+      "gw": 0.75,
+      "ogw": 0.5025252525252526,
+      "mw": 0.75,
+      "payout": 245
+    },
+    {
+      "rank": 5,
+      "name": "Tonny Albrigtsen",
+      "deck": "Grixis Tempo",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.47916666666666663,
+      "gw": 0.7,
+      "ogw": 0.43333333333333335,
+      "mw": 0.75,
+      "payout": 245
+    },
+    {
+      "rank": 6,
+      "name": "Petter Haukaas",
+      "deck": "Dredge",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.6458333333333333,
+      "gw": 0.45454545454545453,
+      "ogw": 0.6125,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 7,
+      "name": "Giacomo Pesci",
+      "deck": "Colorless Prison",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.611111111111111,
+      "gw": 0.5555555555555556,
+      "ogw": 0.5555555555555556,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 8,
+      "name": "Baard H\u00fcbert",
+      "deck": "Rx Painter",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5416666666666666,
+      "gw": 0.4,
+      "ogw": 0.5666666666666667,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 9,
+      "name": "Joakim Aarseth",
+      "deck": "Frogsday",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5208333333333333,
+      "gw": 0.5,
+      "ogw": 0.49583333333333335,
+      "mw": 0.5,
+      "payout": 50
+    },
+    {
+      "rank": 10,
+      "name": "Anders Christie",
+      "deck": "Death and Taxes",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.37499999999999994,
+      "gw": 0.5454545454545454,
+      "ogw": 0.41250000000000003,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 11,
+      "name": "Erik Bergseth",
+      "deck": "The EPIC Storm",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.625,
+      "gw": 0.3333333333333333,
+      "ogw": 0.6002525252525253,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 12,
+      "name": "Manuel Hlavinka",
+      "deck": "Goblins",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.5208333333333333,
+      "gw": 0.4166666666666667,
+      "ogw": 0.5113636363636364,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 13,
+      "name": "Bendik Hansen",
+      "deck": "The Rock",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.41666666666666663,
+      "gw": 0.4,
+      "ogw": 0.46553030303030307,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 14,
+      "name": "Trym Bergman",
+      "deck": "Moon Stompy",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.41666666666666663,
+      "gw": 0.4,
+      "ogw": 0.396969696969697,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 15,
+      "name": "Martin Lindboe",
+      "deck": "Moon Stompy",
+      "points": 0,
+      "record": "0-2-0",
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5416666666666666,
+      "gw": 0.3333333333333333,
+      "ogw": 0.5,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Giacomo Pesci",
+          "p2": "Tormod Lang",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Martin Lindboe",
+          "p2": "S\u00f8ren Hunskaar",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Joakim Aarseth",
+          "p2": "Bendik Hansen",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Manuel Hlavinka",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "Erik Bergseth",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "Trym Bergman",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "S\u00f8ren Hunskaar",
+          "p2": "Erik Bergseth",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Joakim Aarseth",
+          "p2": "Petter Haukaas",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Tormod Lang",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Manuel Hlavinka",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Bendik Hansen",
+          "p2": "Anders Christie",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Martin Lindboe",
+          "p2": "Trym Bergman",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Giacomo Pesci",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Petter Haukaas",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "S\u00f8ren Hunskaar",
+          "p2": "Tormod Lang",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Giacomo Pesci",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Trym Bergman",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Joakim Aarseth",
+          "p2": "Anders Christie",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Erik Bergseth",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Manuel Hlavinka",
+          "p2": "Bendik Hansen",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "matches": [
+        {
+          "p1": "Tormod Lang",
+          "p2": "Petter Haukaas",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Joakim Aarseth",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Baard H\u00fcbert",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Erik Bergseth",
+          "p2": "Giacomo Pesci",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Manuel Hlavinka",
+          "p2": "Anders Christie",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Trym Bergman",
+          "p2": "Bendik Hansen",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "id": "week-44",
+  "name": "Week 44",
+  "league_id": "autumn-2024",
+  "date": "2024-12-12",
+  "metadata": {
+    "players": 14,
+    "rounds": 4,
+    "cutoff_points": 9,
+    "prize_pool": 1365,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Anders S\u00f8berg",
+      "deck": "Doomsday",
+      "points": 12,
+      "record": "4-0-0",
+      "wins": 4,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.47916666666666663,
+      "gw": 0.8,
+      "ogw": 0.498989898989899,
+      "mw": 1.0,
+      "payout": 455
+    },
+    {
+      "rank": 2,
+      "name": "J\u00f8rgen S\u00f8rli",
+      "deck": "Nadu Elves",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.6458333333333333,
+      "gw": 0.7777777777777778,
+      "ogw": 0.5611111111111111,
+      "mw": 0.75,
+      "payout": 227
+    },
+    {
+      "rank": 3,
+      "name": "Bendik Hansen",
+      "deck": "Burn",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.625,
+      "gw": 0.6,
+      "ogw": 0.5618686868686869,
+      "mw": 0.75,
+      "payout": 227
+    },
+    {
+      "rank": 4,
+      "name": "Tormod Lang",
+      "deck": "UB Wheels",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5833333333333333,
+      "gw": 0.6666666666666666,
+      "ogw": 0.538888888888889,
+      "mw": 0.75,
+      "payout": 227
+    },
+    {
+      "rank": 5,
+      "name": "Stian Fuglaas",
+      "deck": "Show and Tell",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.43749999999999994,
+      "gw": 0.6363636363636364,
+      "ogw": 0.41666666666666663,
+      "mw": 0.75,
+      "payout": 227
+    },
+    {
+      "rank": 6,
+      "name": "Baard H\u00fcbert",
+      "deck": "Rx Painter",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5833333333333333,
+      "gw": 0.4444444444444444,
+      "ogw": 0.577020202020202,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 7,
+      "name": "Ferdinand Marnburg",
+      "deck": "Nadu Midrange",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5416666666666666,
+      "gw": 0.45454545454545453,
+      "ogw": 0.49924242424242427,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 8,
+      "name": "Erling Andr\u00e9 Hervik",
+      "deck": "Lands",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5208333333333333,
+      "gw": 0.5,
+      "ogw": 0.4747474747474748,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 9,
+      "name": "Parco Au",
+      "deck": "Jeskai Control",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.4375,
+      "gw": 0.4444444444444444,
+      "ogw": 0.41666666666666663,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 10,
+      "name": "Manuel Hlavinka",
+      "deck": "Rx Painter",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.6875,
+      "gw": 0.4,
+      "ogw": 0.5952020202020202,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 11,
+      "name": "William Kvisli",
+      "deck": "Infect",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.5833333333333333,
+      "gw": 0.36363636363636365,
+      "ogw": 0.508080808080808,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 12,
+      "name": "Martin Lindboe",
+      "deck": "Moon Stompy",
+      "points": 0,
+      "record": "0-2-0",
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.75,
+      "gw": 0.3333333333333333,
+      "ogw": 0.7070707070707071,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 13,
+      "name": "Tonny Albrigtsen",
+      "deck": "Grixis Tempo",
+      "points": 0,
+      "record": "0-2-0",
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.625,
+      "gw": 0.3333333333333333,
+      "ogw": 0.5555555555555556,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 14,
+      "name": "Erik Bergseth",
+      "deck": "The EPIC Storm",
+      "points": 0,
+      "record": "0-4-0",
+      "wins": 0,
+      "losses": 4,
+      "draws": 0,
+      "omw": 0.5208333333333333,
+      "gw": 0.3333333333333333,
+      "ogw": 0.47474747474747475,
+      "mw": 0.3333333333333333,
+      "payout": 50
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Bendik Hansen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Martin Lindboe",
+          "p2": "J\u00f8rgen S\u00f8rli",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "William Kvisli",
+          "p2": "Erik Bergseth",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Erling Andr\u00e9 Hervik",
+          "p2": "Baard H\u00fcbert",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Manuel Hlavinka",
+          "p2": "Parco Au",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Tormod Lang",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "J\u00f8rgen S\u00f8rli",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "William Kvisli",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Bendik Hansen",
+          "p2": "Tormod Lang",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Manuel Hlavinka",
+          "p2": "Erling Andr\u00e9 Hervik",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Parco Au",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Martin Lindboe",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Erik Bergseth",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Tormod Lang",
+          "p2": "J\u00f8rgen S\u00f8rli",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Manuel Hlavinka",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "William Kvisli",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Bendik Hansen",
+          "p2": "Parco Au",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Erling Andr\u00e9 Hervik",
+          "p2": "Ferdinand Marnburg",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Erik Bergseth",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "matches": [
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Tormod Lang",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Bendik Hansen",
+          "p2": "Erling Andr\u00e9 Hervik",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Manuel Hlavinka",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "William Kvisli",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Parco Au",
+          "p2": "Erik Bergseth",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

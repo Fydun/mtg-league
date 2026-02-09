@@ -1,0 +1,727 @@
+{
+  "id": "week-41",
+  "name": "Week 41",
+  "league_id": "autumn-2024",
+  "date": "2024-11-14",
+  "metadata": {
+    "players": 24,
+    "rounds": 4,
+    "cutoff_points": 9,
+    "prize_pool": 2415,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Manuel Hlavinka",
+      "deck": "Rx Painter",
+      "points": 12,
+      "record": "4-0-0",
+      "wins": 4,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.5416666666666666,
+      "gw": 0.7272727272727273,
+      "ogw": 0.5458333333333333,
+      "mw": 1.0,
+      "payout": 603
+    },
+    {
+      "rank": 2,
+      "name": "J\u00f8rgen S\u00f8rli",
+      "deck": "Cradle Control",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.7083333333333333,
+      "gw": 0.6666666666666666,
+      "ogw": 0.5909090909090908,
+      "mw": 0.75,
+      "payout": 301
+    },
+    {
+      "rank": 3,
+      "name": "Baard H\u00fcbert",
+      "deck": "Rx Painter",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.625,
+      "gw": 0.7,
+      "ogw": 0.5457070707070708,
+      "mw": 0.75,
+      "payout": 301
+    },
+    {
+      "rank": 4,
+      "name": "Tormod Lang",
+      "deck": "UB Reanimator",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.625,
+      "gw": 0.6363636363636364,
+      "ogw": 0.6041666666666666,
+      "mw": 0.75,
+      "payout": 301
+    },
+    {
+      "rank": 5,
+      "name": "Erik Bergseth",
+      "deck": "The EPIC Storm",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5208333333333333,
+      "gw": 0.75,
+      "ogw": 0.48131313131313136,
+      "mw": 0.75,
+      "payout": 301
+    },
+    {
+      "rank": 6,
+      "name": "William Kvisli",
+      "deck": "Infect",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5208333333333333,
+      "gw": 0.6,
+      "ogw": 0.525,
+      "mw": 0.75,
+      "payout": 301
+    },
+    {
+      "rank": 7,
+      "name": "Gunnar Sivertsen",
+      "deck": "Cradle Control",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.4583333333333333,
+      "gw": 0.5454545454545454,
+      "ogw": 0.4722222222222222,
+      "mw": 0.75,
+      "payout": 301
+    },
+    {
+      "rank": 8,
+      "name": "H\u00e5vard Graff",
+      "deck": "Cloudpost",
+      "points": 7,
+      "record": "2-1-1",
+      "wins": 2,
+      "losses": 1,
+      "draws": 1,
+      "omw": 0.37499999999999994,
+      "gw": 0.6,
+      "ogw": 0.4083333333333333,
+      "mw": 0.5833333333333334,
+      "payout": 0
+    },
+    {
+      "rank": 9,
+      "name": "Ferdinand Marnburg",
+      "deck": "Nadu Midrange",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.6458333333333334,
+      "gw": 0.5555555555555556,
+      "ogw": 0.6099747474747474,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 10,
+      "name": "Kenneth Pedersen",
+      "deck": "KarnForge",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5833333333333334,
+      "gw": 0.5,
+      "ogw": 0.524621212121212,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 11,
+      "name": "Viktor Hegerberg",
+      "deck": "Moon Stompy",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5833333333333333,
+      "gw": 0.4,
+      "ogw": 0.5708333333333333,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 12,
+      "name": "Peter Br\u00e5ss",
+      "deck": "Eldrazi",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5416666666666667,
+      "gw": 0.5,
+      "ogw": 0.49053030303030304,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 13,
+      "name": "Daniel Norum",
+      "deck": "GWx Depths",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5416666666666666,
+      "gw": 0.5,
+      "ogw": 0.4757575757575757,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 14,
+      "name": "Anders Christie",
+      "deck": "Death and Taxes",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.47916666666666663,
+      "gw": 0.5,
+      "ogw": 0.4666666666666666,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 15,
+      "name": "Giacomo Pesci",
+      "deck": "Depths Painter",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.43749999999999994,
+      "gw": 0.6,
+      "ogw": 0.39999999999999997,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 16,
+      "name": "Stein Elgethun",
+      "deck": "Lands",
+      "points": 4,
+      "record": "1-2-1",
+      "wins": 1,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.5625,
+      "gw": 0.4,
+      "ogw": 0.5262626262626262,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 17,
+      "name": "Eirik Larsen",
+      "deck": "Dreadnought",
+      "points": 4,
+      "record": "1-2-1",
+      "wins": 1,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.37499999999999994,
+      "gw": 0.4444444444444444,
+      "ogw": 0.4055555555555555,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 18,
+      "name": "Serina Koch",
+      "deck": "Elves",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.5833333333333334,
+      "gw": 0.4166666666666667,
+      "ogw": 0.5318181818181819,
+      "mw": 0.3333333333333333,
+      "payout": 50
+    },
+    {
+      "rank": 19,
+      "name": "Joakim Aarseth",
+      "deck": "UB Reanimator",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5277777777777778,
+      "gw": 0.3333333333333333,
+      "ogw": 0.5648148148148148,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 20,
+      "name": "S\u00f8ren Hunskaar",
+      "deck": "UB Midrange",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.5,
+      "gw": 0.3333333333333333,
+      "ogw": 0.5,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 21,
+      "name": "Arvin Graff",
+      "deck": "Gruul Prowess",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.49999999999999994,
+      "gw": 0.4,
+      "ogw": 0.5041666666666667,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 22,
+      "name": "Anders S\u00f8berg",
+      "deck": "Rx Painter",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.37499999999999994,
+      "gw": 0.3333333333333333,
+      "ogw": 0.46111111111111114,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 23,
+      "name": "Petter Haukaas",
+      "deck": "Dredge",
+      "points": 1,
+      "record": "0-3-1",
+      "wins": 0,
+      "losses": 3,
+      "draws": 1,
+      "omw": 0.5833333333333334,
+      "gw": 0.3333333333333333,
+      "ogw": 0.575,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 24,
+      "name": "Tonny Albrigtsen",
+      "deck": "Grixis Tempo",
+      "points": 0,
+      "record": "0-2-0",
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.625,
+      "gw": 0.3333333333333333,
+      "ogw": 0.5227272727272727,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Daniel Norum",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Gunnar Sivertsen",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "J\u00f8rgen S\u00f8rli",
+          "p2": "Arvin Graff",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "William Kvisli",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Viktor Hegerberg",
+          "p2": "S\u00f8ren Hunskaar",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Giacomo Pesci",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Anders Christie",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "H\u00e5vard Graff",
+          "p2": "Peter Br\u00e5ss",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Erik Bergseth",
+          "p2": "Joakim Aarseth",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Tormod Lang",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Stein Elgethun",
+          "p2": "Eirik Larsen",
+          "p1_wins": 1,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Manuel Hlavinka",
+          "p2": "Serina Koch",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Erik Bergseth",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Viktor Hegerberg",
+          "p2": "Peter Br\u00e5ss",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Manuel Hlavinka",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Daniel Norum",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "J\u00f8rgen S\u00f8rli",
+          "p2": "William Kvisli",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Stein Elgethun",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Eirik Larsen",
+          "p2": "Joakim Aarseth",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Gunnar Sivertsen",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Arvin Graff",
+          "p2": "Serina Koch",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Giacomo Pesci",
+          "p2": "S\u00f8ren Hunskaar",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "H\u00e5vard Graff",
+          "p1_wins": 1,
+          "p2_wins": 1,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "J\u00f8rgen S\u00f8rli",
+          "p2": "Tormod Lang",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Viktor Hegerberg",
+          "p2": "Erik Bergseth",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Manuel Hlavinka",
+          "p2": "Stein Elgethun",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Peter Br\u00e5ss",
+          "p2": "Gunnar Sivertsen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Daniel Norum",
+          "p2": "Joakim Aarseth",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Serina Koch",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Baard H\u00fcbert",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Giacomo Pesci",
+          "p2": "William Kvisli",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Eirik Larsen",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "Anders Christie",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "H\u00e5vard Graff",
+          "p2": "Arvin Graff",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "S\u00f8ren Hunskaar",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "matches": [
+        {
+          "p1": "J\u00f8rgen S\u00f8rli",
+          "p2": "Manuel Hlavinka",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Erik Bergseth",
+          "p2": "Tormod Lang",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "William Kvisli",
+          "p2": "Daniel Norum",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Gunnar Sivertsen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Stein Elgethun",
+          "p2": "H\u00e5vard Graff",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Eirik Larsen",
+          "p2": "Ferdinand Marnburg",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Serina Koch",
+          "p2": "Peter Br\u00e5ss",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "S\u00f8ren Hunskaar",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Giacomo Pesci",
+          "p2": "Petter Haukaas",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Arvin Graff",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

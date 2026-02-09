@@ -1,0 +1,186 @@
+{
+  "id": "week-65",
+  "name": "Week 65",
+  "league_id": "off-season",
+  "date": "2025-06-26",
+  "metadata": {
+    "players": 6,
+    "rounds": 3,
+    "cutoff_points": 6,
+    "prize_pool": 525,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Tonny Albrigtsen",
+      "deck": "XXXXX",
+      "points": 9,
+      "record": "3-0-0",
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.4444444444444444,
+      "gw": 1.0,
+      "ogw": 0.41269841269841273,
+      "mw": 1.0,
+      "payout": 262
+    },
+    {
+      "rank": 2,
+      "name": "Tormod Lang",
+      "deck": "XXXXX",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.5714285714285714,
+      "ogw": 0.6984126984126985,
+      "mw": 0.6666666666666666,
+      "payout": 131
+    },
+    {
+      "rank": 3,
+      "name": "Stein Elgethun",
+      "deck": "XXXXX",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.4444444444444444,
+      "gw": 0.6666666666666666,
+      "ogw": 0.4444444444444444,
+      "mw": 0.6666666666666666,
+      "payout": 131
+    },
+    {
+      "rank": 4,
+      "name": "Anders S\u00f8berg",
+      "deck": "XXXXX",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.8333333333333333,
+      "gw": 0.3333333333333333,
+      "ogw": 0.8333333333333333,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 5,
+      "name": "Parco Au",
+      "deck": "XXXXX",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.42857142857142855,
+      "ogw": 0.5238095238095238,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 6,
+      "name": "J\u00f8rgen S\u00f8rli",
+      "deck": "XXXXX",
+      "points": 0,
+      "record": "0-2-0",
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.3333333333333333,
+      "ogw": 0.7142857142857143,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Stein Elgethun",
+          "p2": "Tormod Lang",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "J\u00f8rgen S\u00f8rli",
+          "p2": "Parco Au",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Tormod Lang",
+          "p2": "Parco Au",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "J\u00f8rgen S\u00f8rli",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Stein Elgethun",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Tormod Lang",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Parco Au",
+          "p2": "Stein Elgethun",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

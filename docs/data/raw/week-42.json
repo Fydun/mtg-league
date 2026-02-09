@@ -1,0 +1,237 @@
+{
+  "id": "week-42",
+  "name": "Week 42",
+  "league_id": "autumn-2024",
+  "date": "2024-11-21",
+  "metadata": {
+    "players": 8,
+    "rounds": 3,
+    "cutoff_points": 6,
+    "prize_pool": 735,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Tormod Lang",
+      "deck": "UB Tempo",
+      "points": 9,
+      "record": "3-0-0",
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.48148148148148145,
+      "gw": 0.8571428571428571,
+      "ogw": 0.4497354497354497,
+      "mw": 1.0,
+      "payout": 367
+    },
+    {
+      "rank": 2,
+      "name": "Anders S\u00f8berg",
+      "deck": "Show and Tell",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5925925925925926,
+      "gw": 0.5714285714285714,
+      "ogw": 0.5952380952380952,
+      "mw": 0.6666666666666666,
+      "payout": 183
+    },
+    {
+      "rank": 3,
+      "name": "Tonny Albrigtsen",
+      "deck": "Grixis Tempo",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.3703703703703703,
+      "gw": 0.5555555555555556,
+      "ogw": 0.4021164021164021,
+      "mw": 0.6666666666666666,
+      "payout": 183
+    },
+    {
+      "rank": 4,
+      "name": "Parco Au",
+      "deck": "Jeskai Control",
+      "points": 4,
+      "record": "1-1-1",
+      "wins": 1,
+      "losses": 1,
+      "draws": 1,
+      "omw": 0.7037037037037037,
+      "gw": 0.4444444444444444,
+      "ogw": 0.6375661375661376,
+      "mw": 0.4444444444444444,
+      "payout": 0
+    },
+    {
+      "rank": 5,
+      "name": "Viktor Hegerberg",
+      "deck": "Nadu Midrange",
+      "points": 4,
+      "record": "1-1-1",
+      "wins": 1,
+      "losses": 1,
+      "draws": 1,
+      "omw": 0.48148148148148145,
+      "gw": 0.5,
+      "ogw": 0.4497354497354497,
+      "mw": 0.4444444444444444,
+      "payout": 0
+    },
+    {
+      "rank": 6,
+      "name": "Petter Haukaas",
+      "deck": "Hollowvine",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.3333333333333333,
+      "ogw": 0.6428571428571428,
+      "mw": 0.3333333333333333,
+      "payout": 50
+    },
+    {
+      "rank": 7,
+      "name": "Anders Christie",
+      "deck": "Death and Taxes",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.42857142857142855,
+      "ogw": 0.48677248677248675,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 8,
+      "name": "Martin Lindboe",
+      "deck": "Moon Stompy",
+      "points": 0,
+      "record": "0-2-0",
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5555555555555556,
+      "gw": 0.3333333333333333,
+      "ogw": 0.5277777777777778,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Parco Au",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Anders Christie",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Petter Haukaas",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Martin Lindboe",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Tormod Lang",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Parco Au",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 1,
+          "p2_wins": 1,
+          "draws": 1
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "Petter Haukaas",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Martin Lindboe",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Tormod Lang",
+          "p2": "Parco Au",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Viktor Hegerberg",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Anders Christie",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

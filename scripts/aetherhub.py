@@ -12,6 +12,16 @@ from datetime import datetime
 # --- CONFIGURATION ---
 TOTAL_ROUNDS = 5  # Default, can be detected?
 
+# Determine Project Root (Parent of 'scripts' folder)
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
+
+# Define paths relative to Project Root
+WEBAPP_DIR = os.path.join(PROJECT_ROOT, "webapp")
+DATA_DIR = os.path.join(WEBAPP_DIR, "public", "data")
+RAW_DIR = os.path.join(DATA_DIR, "raw")
+DB_PATH = os.path.join(DATA_DIR, "db.json")
+
 # Setup Scraper
 scraper = cloudscraper.create_scraper(
     browser={
@@ -141,10 +151,7 @@ def calculate_standings(all_matches):
                 stats[p1]["points"] += 1
                 if p2 != "BYE": 
                     stats[p2]["d"] += 1
-                    stats[p2]["points"] += 1 # Fix: Both get 1 point? Wait. Standard magic is 1 point per match win? No. 3 points per win. 1 per draw.
-                    # Correct logic above: 
-                    # Win: +3 pts
-                    # Draw: +1 pt
+                    stats[p2]["points"] += 1 
     
     # Convert to list and sort
     standings_list = []
@@ -186,10 +193,9 @@ def get_user_tournaments(user_url):
 def get_next_week_number():
     next_week = 1
     # Try reading from db.json first (most accurate source of truth)
-    db_path = "webapp/public/data/db.json"
-    if os.path.exists(db_path):
+    if os.path.exists(DB_PATH):
         try:
-            with open(db_path, "r", encoding="utf-8") as f:
+            with open(DB_PATH, "r", encoding="utf-8") as f:
                 db = json.load(f)
                 max_week = 0
                 for t_id in db.get("tournaments", {}):
@@ -206,9 +212,8 @@ def get_next_week_number():
             print(f"Error reading DB: {e}")
     
     # Fallback: Check raw JSON files
-    raw_dir = "webapp/public/data/raw"
-    if os.path.exists(raw_dir):
-        files = os.listdir(raw_dir)
+    if os.path.exists(RAW_DIR):
+        files = os.listdir(RAW_DIR)
         max_week = 0
         for f in files:
             match = re.search(r"week-(\d+)", f.lower())
@@ -251,9 +256,8 @@ def main():
         
         if not recent_ids:
             print("No tournaments found for this user.")
-            return
-
-        # Auto-select the NEWEST (first) tournament
+            return 
+            
         t_id_newest = recent_ids[0]
         
         # Get Title for confirmation
@@ -293,16 +297,13 @@ def main():
         print("Invalid Week Number.")
         return
     week_num = int(week_str)
-    sheet_name = f"Week{week_num}"
 
     print(f"\nScraping Tournament {t_id}...")
     
     # Get Title
     soup = get_soup(f"https://aetherhub.com/Tourney/RoundTourney/{t_id}")
-    title = f"Week {week_num}"
     if soup:
-        header = soup.find("h1") or soup.find("span", class_="text-2xl")
-        if header: title = header.text.strip()
+        header = soup.find("h1") or soup.find("span", class_="text-2xl") 
     
     all_matches = {}
     total_rounds = 0
@@ -327,11 +328,6 @@ def main():
     standings = calculate_standings(all_matches)
     
     # --- SAVE TO JSON ---
-    import json
-    
-    # Construct formatting matching the internal schema of convert_data.py roughly
-    # (matches, standings, metadata)
-    
     output_data = {
         "id": f"week-{week_num}",
         "name": f"Week {week_num}",
@@ -356,10 +352,9 @@ def main():
         })
 
     # Ensure output directory exists
-    output_dir = "webapp/public/data/raw"
-    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(RAW_DIR, exist_ok=True)
     
-    filename = f"{output_dir}/week-{week_num}.json"
+    filename = os.path.join(RAW_DIR, f"week-{week_num}.json")
     
     # Check if exists
     if os.path.exists(filename):

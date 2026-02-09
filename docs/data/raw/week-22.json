@@ -1,0 +1,222 @@
+{
+  "id": "week-22",
+  "name": "Week 22",
+  "league_id": "spring-2024",
+  "date": "2024-06-06",
+  "metadata": {
+    "players": 7,
+    "rounds": 3,
+    "cutoff_points": 6,
+    "prize_pool": 630,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Manuel Hlavinka",
+      "deck": "Cradle Control",
+      "points": 9,
+      "record": "3-0-0",
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.4444444444444444,
+      "gw": 0.75,
+      "ogw": 0.4603174603174603,
+      "mw": 1.0,
+      "payout": 0
+    },
+    {
+      "rank": 2,
+      "name": "S\u00f8ren Hunskaar",
+      "deck": "BUG Beans",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.8333333333333333,
+      "gw": 0.7142857142857143,
+      "ogw": 0.6607142857142857,
+      "mw": 0.6666666666666666,
+      "payout": 0
+    },
+    {
+      "rank": 3,
+      "name": "Anders S\u00f8berg",
+      "deck": "4+ Color Beans",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.5714285714285714,
+      "ogw": 0.5343915343915343,
+      "mw": 0.6666666666666666,
+      "payout": 0
+    },
+    {
+      "rank": 4,
+      "name": "Tormod Lang",
+      "deck": "Show and Tell",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.48148148148148145,
+      "gw": 0.5555555555555556,
+      "ogw": 0.4682539682539682,
+      "mw": 0.6666666666666666,
+      "payout": 0
+    },
+    {
+      "rank": 5,
+      "name": "Anders Christie",
+      "deck": "Death and Taxes",
+      "points": 4,
+      "record": "1-1-1",
+      "wins": 1,
+      "losses": 1,
+      "draws": 1,
+      "omw": 0.5,
+      "gw": 0.5,
+      "ogw": 0.4444444444444444,
+      "mw": 0.4444444444444444,
+      "payout": 0
+    },
+    {
+      "rank": 6,
+      "name": "Kenneth Pedersen",
+      "deck": "Rescaminator",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.8333333333333333,
+      "gw": 0.3333333333333333,
+      "ogw": 0.6607142857142857,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 7,
+      "name": "Viktor Hegerberg",
+      "deck": "Death and Taxes",
+      "points": 1,
+      "record": "0-2-1",
+      "wins": 0,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.7037037037037037,
+      "gw": 0.3333333333333333,
+      "ogw": 0.6018518518518519,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Tormod Lang",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Manuel Hlavinka",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Viktor Hegerberg",
+          "p2": "Anders Christie",
+          "p1_wins": 1,
+          "p2_wins": 1,
+          "draws": 1
+        },
+        {
+          "p1": "S\u00f8ren Hunskaar",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "S\u00f8ren Hunskaar",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Manuel Hlavinka",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "Tormod Lang",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "S\u00f8ren Hunskaar",
+          "p2": "Manuel Hlavinka",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

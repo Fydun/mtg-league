@@ -1,0 +1,171 @@
+{
+  "id": "week-85",
+  "name": "Week 85",
+  "league_id": "off-season",
+  "date": "2025-12-18",
+  "metadata": {
+    "players": 5,
+    "rounds": 3,
+    "cutoff_points": 6,
+    "prize_pool": 525,
+    "event_cut": 0,
+    "to_playing": 0
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Erik Bergseth",
+      "deck": "Beseech Storm",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.625,
+      "ogw": 0.5902777777777778,
+      "mw": 0.6666666666666666,
+      "payout": 131
+    },
+    {
+      "rank": 2,
+      "name": "Tonny Albrigtsen",
+      "deck": "Cradle Control",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.5555555555555556,
+      "ogw": 0.5648148148148148,
+      "mw": 0.6666666666666666,
+      "payout": 131
+    },
+    {
+      "rank": 3,
+      "name": "Serina Koch",
+      "deck": "Elves",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5,
+      "gw": 0.625,
+      "ogw": 0.5347222222222222,
+      "mw": 0.6666666666666666,
+      "payout": 131
+    },
+    {
+      "rank": 4,
+      "name": "Giacomo Pesci",
+      "deck": "Karn Echoes",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5,
+      "gw": 0.625,
+      "ogw": 0.5,
+      "mw": 0.6666666666666666,
+      "payout": 131
+    },
+    {
+      "rank": 5,
+      "name": "Anders Christie",
+      "deck": "BW Cats",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.4444444444444444,
+      "ogw": 0.6018518518518519,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Anders Christie",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Serina Koch",
+          "p2": "Erik Bergseth",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Giacomo Pesci",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Giacomo Pesci",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Serina Koch",
+          "p2": "Anders Christie",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Erik Bergseth",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Erik Bergseth",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Giacomo Pesci",
+          "p2": "Anders Christie",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Serina Koch",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

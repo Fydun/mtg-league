@@ -1,0 +1,171 @@
+{
+  "id": "week-27",
+  "name": "Week 27",
+  "league_id": "off-season",
+  "date": "2024-07-11",
+  "metadata": {
+    "players": 5,
+    "rounds": 3,
+    "cutoff_points": 6,
+    "prize_pool": 420,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Tormod Lang",
+      "deck": "XXXXX",
+      "points": 9,
+      "record": "3-0-0",
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.75,
+      "ogw": 0.5575396825396826,
+      "mw": 1.0,
+      "payout": 0
+    },
+    {
+      "rank": 2,
+      "name": "Tor \u00c5rskog",
+      "deck": "XXXXX",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.625,
+      "ogw": 0.5892857142857143,
+      "mw": 0.6666666666666666,
+      "payout": 0
+    },
+    {
+      "rank": 3,
+      "name": "Daniel Norum",
+      "deck": "XXXXX",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.7142857142857143,
+      "ogw": 0.503968253968254,
+      "mw": 0.6666666666666666,
+      "payout": 0
+    },
+    {
+      "rank": 4,
+      "name": "Viktor Hegerberg",
+      "deck": "XXXXX",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.8333333333333333,
+      "gw": 0.3333333333333333,
+      "ogw": 0.7321428571428572,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 5,
+      "name": "Parco Au",
+      "deck": "XXXXX",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.42857142857142855,
+      "ogw": 0.6696428571428572,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Viktor Hegerberg",
+          "p2": "Daniel Norum",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tor \u00c5rskog",
+          "p2": "Tormod Lang",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Parco Au",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Tormod Lang",
+          "p2": "Daniel Norum",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Parco Au",
+          "p2": "Tor \u00c5rskog",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Viktor Hegerberg",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Parco Au",
+          "p2": "Daniel Norum",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Tor \u00c5rskog",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}

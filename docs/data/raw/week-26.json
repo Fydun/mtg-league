@@ -1,0 +1,429 @@
+{
+  "id": "week-26",
+  "name": "Week 26",
+  "league_id": "off-season",
+  "date": "2024-07-04",
+  "metadata": {
+    "players": 13,
+    "rounds": 4,
+    "cutoff_points": 9,
+    "prize_pool": 1260,
+    "event_cut": 0,
+    "to_playing": 1
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Tormod Lang",
+      "deck": "Moon Stompy",
+      "points": 12,
+      "record": "4-0-0",
+      "wins": 4,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.6166666666666667,
+      "gw": 0.8888888888888888,
+      "ogw": 0.5727272727272728,
+      "mw": 1.0,
+      "payout": 0
+    },
+    {
+      "rank": 2,
+      "name": "Manuel Hlavinka",
+      "deck": "Cradle Control",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.6458333333333333,
+      "gw": 0.5454545454545454,
+      "ogw": 0.6013888888888889,
+      "mw": 0.75,
+      "payout": 0
+    },
+    {
+      "rank": 3,
+      "name": "Viktor Hegerberg",
+      "deck": "Rescaminator",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5416666666666666,
+      "gw": 0.7,
+      "ogw": 0.5492424242424242,
+      "mw": 0.75,
+      "payout": 0
+    },
+    {
+      "rank": 4,
+      "name": "Anders S\u00f8berg",
+      "deck": "Doomsday",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5208333333333333,
+      "gw": 0.5833333333333334,
+      "ogw": 0.4747474747474747,
+      "mw": 0.75,
+      "payout": 0
+    },
+    {
+      "rank": 5,
+      "name": "Mathias Aspen",
+      "deck": "Death and Taxes",
+      "points": 7,
+      "record": "2-2-1",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.5833333333333333,
+      "gw": 0.5454545454545454,
+      "ogw": 0.5328282828282828,
+      "mw": 0.4666666666666667,
+      "payout": 0
+    },
+    {
+      "rank": 6,
+      "name": "Parco Au",
+      "deck": "Rhinos",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.75,
+      "gw": 0.5,
+      "ogw": 0.681144781144781,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 7,
+      "name": "Stian Magnell",
+      "deck": "Cloudpost",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5277777777777778,
+      "gw": 0.6,
+      "ogw": 0.48821548821548816,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 8,
+      "name": "Baard H\u00fcbert",
+      "deck": "Rx Painter",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5208333333333333,
+      "gw": 0.45454545454545453,
+      "ogw": 0.5006313131313131,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 9,
+      "name": "Robin S\u00f8rlien",
+      "deck": "Rescaminator",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5041666666666667,
+      "gw": 0.45454545454545453,
+      "ogw": 0.5018939393939393,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 10,
+      "name": "Kristian Skjold",
+      "deck": "Merfolk",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.4444444444444444,
+      "gw": 0.5555555555555556,
+      "ogw": 0.46262626262626266,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 11,
+      "name": "Matias Kaarstein",
+      "deck": "Show and Tell",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.611111111111111,
+      "gw": 0.4444444444444444,
+      "ogw": 0.548989898989899,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 12,
+      "name": "Stian Fuglaas",
+      "deck": "Show and Tell",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.5208333333333333,
+      "gw": 0.36363636363636365,
+      "ogw": 0.5497474747474747,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 13,
+      "name": "Ferdinand Marnburg",
+      "deck": "Cephalid Breakfast",
+      "points": 1,
+      "record": "0-3-1",
+      "wins": 0,
+      "losses": 3,
+      "draws": 1,
+      "omw": 0.5541666666666667,
+      "gw": 0.3333333333333333,
+      "ogw": 0.5252525252525252,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Viktor Hegerberg",
+          "p2": "Matias Kaarstein",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Manuel Hlavinka",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Robin S\u00f8rlien",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Stian Magnell",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Mathias Aspen",
+          "p2": "Tormod Lang",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Kristian Skjold",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Parco Au",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Viktor Hegerberg",
+          "p2": "Stian Fuglaas",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Parco Au",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Baard H\u00fcbert",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Manuel Hlavinka",
+          "p2": "Stian Magnell",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Robin S\u00f8rlien",
+          "p2": "Mathias Aspen",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Mathias Aspen",
+          "p2": "Ferdinand Marnburg",
+          "p1_wins": 1,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Kristian Skjold",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Manuel Hlavinka",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Parco Au",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Matias Kaarstein",
+          "p2": "Stian Fuglaas",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Kristian Skjold",
+          "p2": "Ferdinand Marnburg",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Mathias Aspen",
+          "p2": "Robin S\u00f8rlien",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Stian Magnell",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "matches": [
+        {
+          "p1": "Tormod Lang",
+          "p2": "Manuel Hlavinka",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Parco Au",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders S\u00f8berg",
+          "p2": "Matias Kaarstein",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Kristian Skjold",
+          "p2": "Stian Magnell",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Baard H\u00fcbert",
+          "p2": "Stian Fuglaas",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Robin S\u00f8rlien",
+          "p2": "Ferdinand Marnburg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Mathias Aspen",
+          "p2": "BYE",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}
