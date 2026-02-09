@@ -216,7 +216,6 @@ export default function PlayerProfile() {
       : "0.0";
 
   // Form: Last 5 matches
-  const form = playerStats.matches.slice(0, 5).map((m) => m.result);
 
   // --- 4. Deck Filter (for the history list only) ---
   const displayedHistory = playerStats.history.filter(
@@ -334,7 +333,7 @@ export default function PlayerProfile() {
       </div>
 
       {/* Quick Stats */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         <div className="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-lg">
           <div className="text-slate-400 text-sm font-medium uppercase tracking-wider">
             Matches
@@ -375,32 +374,6 @@ export default function PlayerProfile() {
           </div>
           <div className="text-xs text-slate-500 mt-1">
             {deckList[0] ? `Played ${deckList[0].count} times` : "No data"}
-          </div>
-        </div>
-        {/* Form Tracker */}
-        <div className="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-lg">
-          <div className="text-slate-400 text-sm font-medium uppercase tracking-wider">
-            Form (Last 5)
-          </div>
-          <div className="flex gap-1.5 mt-3">
-            {form.length > 0 ? (
-              form.map((result, i) => (
-                <span
-                  key={i}
-                  className={`w-6 h-6 rounded flex items-center justify-center text-xs font-bold ${
-                    result === "W"
-                      ? "bg-green-500/20 text-green-400 border border-green-500/30"
-                      : result === "L"
-                        ? "bg-red-500/20 text-red-400 border border-red-500/30"
-                        : "bg-slate-500/20 text-slate-400 border border-slate-500/30"
-                  }`}
-                >
-                  {result}
-                </span>
-              ))
-            ) : (
-              <span className="text-slate-500 text-sm">No matches</span>
-            )}
           </div>
         </div>
       </div>
