@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import LeagueTable from "../components/LeagueTable";
 import ScoreMatrix from "../components/ScoreMatrix";
 import PerformanceChart from "../components/PerformanceChart";
@@ -8,19 +8,26 @@ import { useData } from "../contexts/DataContext";
 
 export default function Dashboard() {
   const { data, loading, error } = useData();
-  const [activeLeagueId, setActiveLeagueId] = useState(null);
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const activeLeagueId = searchParams.get("league");
+
   const [showLowest, setShowLowest] = useState(false);
   const [viewMode, setViewMode] = useState("table"); // 'table' | 'matrix'
   const [isExpanded, setIsExpanded] = useState(false);
 
-  // Set default active league when data is loaded
+  // Set default active league when data is loaded if URL param is missing
   useEffect(() => {
     if (data && data.leagues && data.leagues.length > 0 && !activeLeagueId) {
       // Find 'active' or just take the first one (which matches our sorted logic)
       const first = data.leagues[0];
-      setActiveLeagueId(first.id);
+      setSearchParams({ league: first.id }, { replace: true });
     }
-  }, [data, activeLeagueId]);
+  }, [data, activeLeagueId, setSearchParams]);
+
+  const handleLeagueChange = (id) => {
+    setSearchParams({ league: id });
+  };
 
   if (loading)
     return (
@@ -64,7 +71,7 @@ export default function Dashboard() {
             data.leagues.map((league) => (
               <button
                 key={league.id}
-                onClick={() => setActiveLeagueId(league.id)}
+                onClick={() => handleLeagueChange(league.id)}
                 className={`px-4 py-2 rounded-md text-sm font-medium transition-all ${
                   activeLeagueId === league.id
                     ? "bg-blue-600 text-white shadow-lg"

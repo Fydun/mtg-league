@@ -2,12 +2,14 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import TournamentDetail from "./pages/TournamentDetail";
 import PlayerProfile from "./pages/PlayerProfile";
+import ScrollToTop from "./components/ScrollToTop";
 import { DataProvider } from "./contexts/DataContext";
 
 function App() {
   return (
     <DataProvider>
       <BrowserRouter basename={import.meta.env.BASE_URL}>
+        <ScrollToTop />
         <div className="min-h-screen bg-slate-950 text-white">
           <nav className="border-b border-slate-800 bg-slate-900/50 backdrop-blur">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
