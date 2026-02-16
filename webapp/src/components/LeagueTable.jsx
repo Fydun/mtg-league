@@ -60,7 +60,7 @@ export default function LeagueTable({ standings, showLowest }) {
                         ? "bg-slate-300/20 text-slate-300"
                         : player.rank === 3
                           ? "bg-amber-700/20 text-amber-600"
-                          : "bg-slate-800 text-slate-500"
+                          : "text-slate-500"
                   }`}
                 >
                   {player.rank}
