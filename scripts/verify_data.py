@@ -482,12 +482,17 @@ def main():
             pf("muted", f"  {entry['rank']:>2}. {entry['name']:<30} {deck_display}")
         print()
 
-        confirm = session.prompt(
-            "  Save changes? (y/n): ",
-            completer=None,
-        ).strip().lower()
+        while True:
+            confirm = input(
+                "  Save changes? (y/n): "
+            ).strip().lower()
+            if confirm in ("y", "yes"):
+                break
+            elif confirm in ("n", "no"):
+                break
+            pf("warn", "  Please type 'y' or 'n'.")
 
-        if confirm in ("", "y", "yes"):
+        if confirm in ("y", "yes"):
             # Write JSON
             with open(filepath, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
@@ -510,6 +515,7 @@ def main():
             pf("ok", "  Done! You can now run convert_data.py to rebuild db.json.")
         else:
             pf("warn", "  Changes discarded.")
+            sys.exit(2)
     else:
         print()
         pf("ok", "  No changes made.")
