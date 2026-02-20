@@ -7,7 +7,7 @@ PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 RAW_DATA_DIR = os.path.join(PROJECT_ROOT, "webapp", "public", "data", "raw")
 
 def main():
-    print(f"Scanning {RAW_DATA_DIR} for '*unknown*'...")
+    print(f"Scanning {RAW_DATA_DIR} for 'Stiflenought'...")
     
     modified_count = 0
     files = [f for f in os.listdir(RAW_DATA_DIR) if f.endswith(".json")]
@@ -19,9 +19,9 @@ def main():
             with open(filepath, "r", encoding="utf-8") as f:
                 content = f.read()
             
-            if "*unknown*" in content:
+            if "Stiflenought" in content:
                 print(f"Modifying {filename}...")
-                new_content = content.replace("*unknown*", "unknown")
+                new_content = content.replace("Stiflenought", "Dreadnought")
                 
                 with open(filepath, "w", encoding="utf-8") as f:
                     f.write(new_content)
