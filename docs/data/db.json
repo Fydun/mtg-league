@@ -11,23 +11,6 @@
       ],
       "standings": [
         {
-          "name": "Anders Christie",
-          "points": 21,
-          "wins": 7,
-          "losses": 4,
-          "draws": 0,
-          "matches": 11,
-          "tournaments_played": 3,
-          "tournaments_display": "3",
-          "lowest_counting": 0,
-          "history": {
-            "week-89": 9,
-            "week-90": 6,
-            "week-91": 6
-          },
-          "rank": 1
-        },
-        {
           "name": "Dante Forssberg",
           "points": 21,
           "wins": 7,
@@ -35,6 +18,9 @@
           "draws": 0,
           "matches": 11,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 1,
+          "three_ones": 1,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -42,24 +28,27 @@
             "week-90": 9,
             "week-91": 9
           },
-          "rank": 2
+          "rank": 1
         },
         {
-          "name": "Kenneth Pedersen",
-          "points": 18,
-          "wins": 6,
-          "losses": 5,
+          "name": "Anders Christie",
+          "points": 21,
+          "wins": 7,
+          "losses": 4,
           "draws": 0,
           "matches": 11,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
-            "week-89": 6,
+            "week-89": 9,
             "week-90": 6,
             "week-91": 6
           },
-          "rank": 3
+          "rank": 2
         },
         {
           "name": "Tormod Lang",
@@ -69,11 +58,34 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-89": 6,
             "week-91": 12
+          },
+          "rank": 3
+        },
+        {
+          "name": "Kenneth Pedersen",
+          "points": 18,
+          "wins": 6,
+          "losses": 5,
+          "draws": 0,
+          "matches": 11,
+          "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "3",
+          "lowest_counting": 0,
+          "history": {
+            "week-89": 6,
+            "week-90": 6,
+            "week-91": 6
           },
           "rank": 4
         },
@@ -85,6 +97,9 @@
           "draws": 1,
           "matches": 11,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -102,6 +117,9 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
@@ -118,6 +136,9 @@
           "draws": 1,
           "matches": 11,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -135,6 +156,9 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
@@ -144,6 +168,25 @@
           "rank": 8
         },
         {
+          "name": "Tonny Albrigtsen",
+          "points": 9,
+          "wins": 3,
+          "losses": 4,
+          "draws": 0,
+          "matches": 7,
+          "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
+          "tournaments_display": "2",
+          "lowest_counting": 0,
+          "history": {
+            "week-89": 0,
+            "week-91": 9
+          },
+          "rank": 9
+        },
+        {
           "name": "Stian Fuglaas",
           "points": 9,
           "wins": 3,
@@ -151,12 +194,15 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-89": 9
           },
-          "rank": 9
+          "rank": 10
         },
         {
           "name": "H\u00e5vard Graff",
@@ -166,59 +212,16 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-89": 6,
             "week-91": 3
           },
-          "rank": 10
-        },
-        {
-          "name": "Tonny Albrigtsen",
-          "points": 9,
-          "wins": 3,
-          "losses": 4,
-          "draws": 0,
-          "matches": 7,
-          "tournaments_played": 2,
-          "tournaments_display": "2",
-          "lowest_counting": 0,
-          "history": {
-            "week-89": 0,
-            "week-91": 9
-          },
           "rank": 11
-        },
-        {
-          "name": "Viktor Hegerberg",
-          "points": 6,
-          "wins": 2,
-          "losses": 2,
-          "draws": 0,
-          "matches": 4,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
-          "lowest_counting": 0,
-          "history": {
-            "week-89": 6
-          },
-          "rank": 12
-        },
-        {
-          "name": "Mikael Gyhagen",
-          "points": 6,
-          "wins": 2,
-          "losses": 1,
-          "draws": 0,
-          "matches": 3,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
-          "lowest_counting": 0,
-          "history": {
-            "week-90": 6
-          },
-          "rank": 13
         },
         {
           "name": "S\u00f8ren Hunskaar",
@@ -228,11 +231,50 @@
           "draws": 0,
           "matches": 7,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-90": 3,
             "week-91": 3
+          },
+          "rank": 12
+        },
+        {
+          "name": "Viktor Hegerberg",
+          "points": 6,
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "matches": 4,
+          "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 0,
+          "history": {
+            "week-89": 6
+          },
+          "rank": 13
+        },
+        {
+          "name": "Mikael Gyhagen",
+          "points": 6,
+          "wins": 2,
+          "losses": 1,
+          "draws": 0,
+          "matches": 3,
+          "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 0,
+          "history": {
+            "week-90": 6
           },
           "rank": 14
         },
@@ -244,6 +286,9 @@
           "draws": 0,
           "matches": 3,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -280,6 +325,9 @@
           "draws": 1,
           "matches": 44,
           "tournaments_played": 11,
+          "four_ohs": 2,
+          "three_ohs": 0,
+          "three_ones": 7,
           "tournaments_display": "8 (11)",
           "lowest_counting": 9,
           "history": {
@@ -305,6 +353,9 @@
           "draws": 1,
           "matches": 36,
           "tournaments_played": 9,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 5,
           "tournaments_display": "8 (9)",
           "lowest_counting": 6,
           "history": {
@@ -328,6 +379,9 @@
           "draws": 2,
           "matches": 36,
           "tournaments_played": 9,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "8 (9)",
           "lowest_counting": 3,
           "history": {
@@ -351,6 +405,9 @@
           "draws": 2,
           "matches": 40,
           "tournaments_played": 10,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 4,
           "tournaments_display": "8 (10)",
           "lowest_counting": 6,
           "history": {
@@ -375,6 +432,9 @@
           "draws": 3,
           "matches": 40,
           "tournaments_played": 10,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 4,
           "tournaments_display": "8 (10)",
           "lowest_counting": 4,
           "history": {
@@ -399,6 +459,9 @@
           "draws": 1,
           "matches": 36,
           "tournaments_played": 9,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 4,
           "tournaments_display": "8 (9)",
           "lowest_counting": 4,
           "history": {
@@ -422,6 +485,9 @@
           "draws": 3,
           "matches": 32,
           "tournaments_played": 8,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "8",
           "lowest_counting": 3,
           "history": {
@@ -444,6 +510,9 @@
           "draws": 0,
           "matches": 24,
           "tournaments_played": 6,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -464,6 +533,9 @@
           "draws": 1,
           "matches": 32,
           "tournaments_played": 8,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "8",
           "lowest_counting": 3,
           "history": {
@@ -486,6 +558,9 @@
           "draws": 0,
           "matches": 26,
           "tournaments_played": 8,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "8",
           "lowest_counting": 0,
           "history": {
@@ -508,6 +583,9 @@
           "draws": 0,
           "matches": 22,
           "tournaments_played": 6,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -528,6 +606,9 @@
           "draws": 0,
           "matches": 12,
           "tournaments_played": 3,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -545,6 +626,9 @@
           "draws": 0,
           "matches": 16,
           "tournaments_played": 4,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "4",
           "lowest_counting": 0,
           "history": {
@@ -563,6 +647,9 @@
           "draws": 1,
           "matches": 18,
           "tournaments_played": 5,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -575,25 +662,6 @@
           "rank": 14
         },
         {
-          "name": "Stian Fuglaas",
-          "points": 24,
-          "wins": 8,
-          "losses": 12,
-          "draws": 0,
-          "matches": 20,
-          "tournaments_played": 5,
-          "tournaments_display": "5",
-          "lowest_counting": 0,
-          "history": {
-            "week-71": 6,
-            "week-74": 3,
-            "week-76": 6,
-            "week-77": 3,
-            "week-79": 6
-          },
-          "rank": 15
-        },
-        {
           "name": "Gaetano Zito",
           "points": 24,
           "wins": 8,
@@ -601,6 +669,9 @@
           "draws": 0,
           "matches": 24,
           "tournaments_played": 6,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -611,26 +682,29 @@
             "week-81": 3,
             "week-82": 12
           },
-          "rank": 16
+          "rank": 15
         },
         {
-          "name": "Petter Haukaas",
-          "points": 18,
-          "wins": 6,
-          "losses": 14,
+          "name": "Stian Fuglaas",
+          "points": 24,
+          "wins": 8,
+          "losses": 12,
           "draws": 0,
           "matches": 20,
           "tournaments_played": 5,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
-            "week-72": 3,
+            "week-71": 6,
             "week-74": 3,
-            "week-77": 6,
-            "week-78": 6,
-            "week-79": 0
+            "week-76": 6,
+            "week-77": 3,
+            "week-79": 6
           },
-          "rank": 17
+          "rank": 16
         },
         {
           "name": "S\u00f8ren Hunskaar",
@@ -640,6 +714,9 @@
           "draws": 0,
           "matches": 23,
           "tournaments_played": 6,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -650,24 +727,29 @@
             "week-80": 3,
             "week-82": 3
           },
-          "rank": 18
+          "rank": 17
         },
         {
-          "name": "Eirik Larsen",
-          "points": 15,
-          "wins": 5,
-          "losses": 6,
+          "name": "Petter Haukaas",
+          "points": 18,
+          "wins": 6,
+          "losses": 14,
           "draws": 0,
-          "matches": 11,
-          "tournaments_played": 3,
-          "tournaments_display": "3",
+          "matches": 20,
+          "tournaments_played": 5,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
-            "week-73": 6,
-            "week-75": 3,
-            "week-79": 6
+            "week-72": 3,
+            "week-74": 3,
+            "week-77": 6,
+            "week-78": 6,
+            "week-79": 0
           },
-          "rank": 19
+          "rank": 18
         },
         {
           "name": "Dante Forssberg",
@@ -677,6 +759,9 @@
           "draws": 0,
           "matches": 12,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -684,24 +769,27 @@
             "week-80": 3,
             "week-82": 3
           },
-          "rank": 20
+          "rank": 19
         },
         {
-          "name": "Kenneth Pedersen",
-          "points": 12,
-          "wins": 4,
+          "name": "Eirik Larsen",
+          "points": 15,
+          "wins": 5,
           "losses": 6,
           "draws": 0,
-          "matches": 10,
+          "matches": 11,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
-            "week-72": 6,
-            "week-80": 6,
-            "week-81": 0
+            "week-73": 6,
+            "week-75": 3,
+            "week-79": 6
           },
-          "rank": 21
+          "rank": 20
         },
         {
           "name": "Arvin Graff",
@@ -711,11 +799,34 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-73": 9,
             "week-79": 3
+          },
+          "rank": 21
+        },
+        {
+          "name": "Kenneth Pedersen",
+          "points": 12,
+          "wins": 4,
+          "losses": 6,
+          "draws": 0,
+          "matches": 10,
+          "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "3",
+          "lowest_counting": 0,
+          "history": {
+            "week-72": 6,
+            "week-80": 6,
+            "week-81": 0
           },
           "rank": 22
         },
@@ -727,6 +838,9 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
@@ -743,6 +857,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -758,6 +875,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -773,6 +893,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -788,6 +911,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -803,6 +929,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -818,6 +947,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -833,6 +965,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -848,6 +983,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -863,6 +1001,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -878,6 +1019,9 @@
           "draws": 1,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -893,6 +1037,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -908,6 +1055,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -947,6 +1097,9 @@
           "draws": 0,
           "matches": 47,
           "tournaments_played": 12,
+          "four_ohs": 2,
+          "three_ohs": 0,
+          "three_ones": 5,
           "tournaments_display": "10 (12)",
           "lowest_counting": 6,
           "history": {
@@ -973,6 +1126,9 @@
           "draws": 0,
           "matches": 45,
           "tournaments_played": 13,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 6,
           "tournaments_display": "10 (13)",
           "lowest_counting": 3,
           "history": {
@@ -1000,6 +1156,9 @@
           "draws": 0,
           "matches": 58,
           "tournaments_played": 15,
+          "four_ohs": 2,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "10 (15)",
           "lowest_counting": 6,
           "history": {
@@ -1029,6 +1188,9 @@
           "draws": 2,
           "matches": 46,
           "tournaments_played": 12,
+          "four_ohs": 0,
+          "three_ohs": 1,
+          "three_ones": 3,
           "tournaments_display": "10 (12)",
           "lowest_counting": 6,
           "history": {
@@ -1055,6 +1217,9 @@
           "draws": 2,
           "matches": 52,
           "tournaments_played": 14,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 4,
           "tournaments_display": "10 (14)",
           "lowest_counting": 3,
           "history": {
@@ -1083,6 +1248,9 @@
           "draws": 0,
           "matches": 40,
           "tournaments_played": 10,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 3,
           "tournaments_display": "10",
           "lowest_counting": 3,
           "history": {
@@ -1107,6 +1275,9 @@
           "draws": 2,
           "matches": 38,
           "tournaments_played": 10,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 4,
           "tournaments_display": "10",
           "lowest_counting": 0,
           "history": {
@@ -1131,6 +1302,9 @@
           "draws": 0,
           "matches": 34,
           "tournaments_played": 9,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 5,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -1154,6 +1328,9 @@
           "draws": 0,
           "matches": 27,
           "tournaments_played": 8,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "8",
           "lowest_counting": 0,
           "history": {
@@ -1176,6 +1353,9 @@
           "draws": 0,
           "matches": 23,
           "tournaments_played": 6,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -1196,6 +1376,9 @@
           "draws": 1,
           "matches": 18,
           "tournaments_played": 5,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -1215,6 +1398,9 @@
           "draws": 0,
           "matches": 19,
           "tournaments_played": 5,
+          "four_ohs": 0,
+          "three_ohs": 1,
+          "three_ones": 1,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -1234,6 +1420,9 @@
           "draws": 1,
           "matches": 20,
           "tournaments_played": 5,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -1253,6 +1442,9 @@
           "draws": 1,
           "matches": 22,
           "tournaments_played": 6,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -1273,6 +1465,9 @@
           "draws": 0,
           "matches": 23,
           "tournaments_played": 6,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -1293,6 +1488,9 @@
           "draws": 0,
           "matches": 12,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -1303,22 +1501,6 @@
           "rank": 16
         },
         {
-          "name": "Bendik Hansen",
-          "points": 15,
-          "wins": 5,
-          "losses": 3,
-          "draws": 0,
-          "matches": 8,
-          "tournaments_played": 2,
-          "tournaments_display": "2",
-          "lowest_counting": 0,
-          "history": {
-            "week-50": 9,
-            "week-57": 6
-          },
-          "rank": 17
-        },
-        {
           "name": "Ferdinand Marnburg",
           "points": 15,
           "wins": 5,
@@ -1326,12 +1508,34 @@
           "draws": 0,
           "matches": 11,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
             "week-50": 3,
             "week-52": 9,
             "week-53": 3
+          },
+          "rank": 17
+        },
+        {
+          "name": "Bendik Hansen",
+          "points": 15,
+          "wins": 5,
+          "losses": 3,
+          "draws": 0,
+          "matches": 8,
+          "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
+          "tournaments_display": "2",
+          "lowest_counting": 0,
+          "history": {
+            "week-50": 9,
+            "week-57": 6
           },
           "rank": 18
         },
@@ -1343,6 +1547,9 @@
           "draws": 0,
           "matches": 15,
           "tournaments_played": 4,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "4",
           "lowest_counting": 0,
           "history": {
@@ -1354,24 +1561,6 @@
           "rank": 19
         },
         {
-          "name": "Baard H\u00fcbert",
-          "points": 12,
-          "wins": 4,
-          "losses": 10,
-          "draws": 0,
-          "matches": 14,
-          "tournaments_played": 4,
-          "tournaments_display": "4",
-          "lowest_counting": 0,
-          "history": {
-            "week-49": 0,
-            "week-53": 6,
-            "week-59": 3,
-            "week-63": 3
-          },
-          "rank": 20
-        },
-        {
           "name": "Erik Sathe",
           "points": 12,
           "wins": 4,
@@ -1379,12 +1568,15 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-50": 12
           },
-          "rank": 21
+          "rank": 20
         },
         {
           "name": "Manuel Hlavinka",
@@ -1394,11 +1586,35 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-55": 9,
             "week-56": 3
+          },
+          "rank": 21
+        },
+        {
+          "name": "Baard H\u00fcbert",
+          "points": 12,
+          "wins": 4,
+          "losses": 10,
+          "draws": 0,
+          "matches": 14,
+          "tournaments_played": 4,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "4",
+          "lowest_counting": 0,
+          "history": {
+            "week-49": 0,
+            "week-53": 6,
+            "week-59": 3,
+            "week-63": 3
           },
           "rank": 22
         },
@@ -1410,6 +1626,9 @@
           "draws": 0,
           "matches": 7,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
@@ -1426,6 +1645,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -1441,6 +1663,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -1456,6 +1681,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -1471,6 +1699,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -1486,6 +1717,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -1501,6 +1735,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -1516,6 +1753,9 @@
           "draws": 0,
           "matches": 3,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -1531,6 +1771,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -1546,6 +1789,9 @@
           "draws": 1,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -1561,6 +1807,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -1576,6 +1825,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -1615,6 +1867,9 @@
           "draws": 0,
           "matches": 56,
           "tournaments_played": 15,
+          "four_ohs": 1,
+          "three_ohs": 3,
+          "three_ones": 7,
           "tournaments_display": "10 (15)",
           "lowest_counting": 9,
           "history": {
@@ -1644,6 +1899,9 @@
           "draws": 0,
           "matches": 40,
           "tournaments_played": 11,
+          "four_ohs": 3,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "10 (11)",
           "lowest_counting": 6,
           "history": {
@@ -1669,6 +1927,9 @@
           "draws": 0,
           "matches": 42,
           "tournaments_played": 11,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 3,
           "tournaments_display": "10 (11)",
           "lowest_counting": 3,
           "history": {
@@ -1687,6 +1948,31 @@
           "rank": 3
         },
         {
+          "name": "J\u00f8rgen S\u00f8rli",
+          "points": 60,
+          "wins": 20,
+          "losses": 10,
+          "draws": 0,
+          "matches": 30,
+          "tournaments_played": 8,
+          "four_ohs": 2,
+          "three_ohs": 0,
+          "three_ones": 3,
+          "tournaments_display": "8",
+          "lowest_counting": 0,
+          "history": {
+            "week-35": 9,
+            "week-37": 0,
+            "week-38": 3,
+            "week-40": 12,
+            "week-41": 9,
+            "week-43": 12,
+            "week-44": 9,
+            "week-45": 6
+          },
+          "rank": 4
+        },
+        {
           "name": "Baard H\u00fcbert",
           "points": 60,
           "wins": 21,
@@ -1694,6 +1980,9 @@
           "draws": 0,
           "matches": 45,
           "tournaments_played": 12,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "10 (12)",
           "lowest_counting": 3,
           "history": {
@@ -1710,28 +1999,6 @@
             "week-44": 6,
             "week-45": 6
           },
-          "rank": 4
-        },
-        {
-          "name": "J\u00f8rgen S\u00f8rli",
-          "points": 60,
-          "wins": 20,
-          "losses": 10,
-          "draws": 0,
-          "matches": 30,
-          "tournaments_played": 8,
-          "tournaments_display": "8",
-          "lowest_counting": 0,
-          "history": {
-            "week-35": 9,
-            "week-37": 0,
-            "week-38": 3,
-            "week-40": 12,
-            "week-41": 9,
-            "week-43": 12,
-            "week-44": 9,
-            "week-45": 6
-          },
           "rank": 5
         },
         {
@@ -1742,6 +2009,9 @@
           "draws": 0,
           "matches": 39,
           "tournaments_played": 13,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 3,
           "tournaments_display": "10 (13)",
           "lowest_counting": 3,
           "history": {
@@ -1769,6 +2039,9 @@
           "draws": 0,
           "matches": 35,
           "tournaments_played": 9,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 3,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -1792,6 +2065,9 @@
           "draws": 0,
           "matches": 34,
           "tournaments_played": 9,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -1815,6 +2091,9 @@
           "draws": 1,
           "matches": 33,
           "tournaments_played": 9,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -1838,6 +2117,9 @@
           "draws": 3,
           "matches": 32,
           "tournaments_played": 9,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -1861,6 +2143,9 @@
           "draws": 0,
           "matches": 21,
           "tournaments_played": 6,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -1881,6 +2166,9 @@
           "draws": 0,
           "matches": 20,
           "tournaments_played": 5,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -1900,6 +2188,9 @@
           "draws": 1,
           "matches": 19,
           "tournaments_played": 5,
+          "four_ohs": 0,
+          "three_ohs": 1,
+          "three_ones": 1,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -1919,6 +2210,9 @@
           "draws": 1,
           "matches": 27,
           "tournaments_played": 7,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "7",
           "lowest_counting": 0,
           "history": {
@@ -1940,6 +2234,9 @@
           "draws": 2,
           "matches": 19,
           "tournaments_played": 5,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -1959,6 +2256,9 @@
           "draws": 0,
           "matches": 12,
           "tournaments_played": 3,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -1976,6 +2276,9 @@
           "draws": 0,
           "matches": 25,
           "tournaments_played": 8,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "8",
           "lowest_counting": 0,
           "history": {
@@ -1998,6 +2301,9 @@
           "draws": 0,
           "matches": 24,
           "tournaments_played": 6,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -2018,6 +2324,9 @@
           "draws": 0,
           "matches": 12,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -2035,6 +2344,9 @@
           "draws": 3,
           "matches": 23,
           "tournaments_played": 6,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -2048,23 +2360,6 @@
           "rank": 20
         },
         {
-          "name": "Ferdinand Marnburg",
-          "points": 16,
-          "wins": 5,
-          "losses": 6,
-          "draws": 1,
-          "matches": 12,
-          "tournaments_played": 3,
-          "tournaments_display": "3",
-          "lowest_counting": 0,
-          "history": {
-            "week-40": 4,
-            "week-41": 6,
-            "week-44": 6
-          },
-          "rank": 21
-        },
-        {
           "name": "H\u00e5vard Graff",
           "points": 16,
           "wins": 5,
@@ -2072,12 +2367,35 @@
           "draws": 1,
           "matches": 12,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
             "week-40": 0,
             "week-41": 7,
             "week-43": 9
+          },
+          "rank": 21
+        },
+        {
+          "name": "Ferdinand Marnburg",
+          "points": 16,
+          "wins": 5,
+          "losses": 6,
+          "draws": 1,
+          "matches": 12,
+          "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "3",
+          "lowest_counting": 0,
+          "history": {
+            "week-40": 4,
+            "week-41": 6,
+            "week-44": 6
           },
           "rank": 22
         },
@@ -2089,6 +2407,9 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
@@ -2098,22 +2419,6 @@
           "rank": 23
         },
         {
-          "name": "Daniel Norum",
-          "points": 12,
-          "wins": 4,
-          "losses": 4,
-          "draws": 0,
-          "matches": 8,
-          "tournaments_played": 2,
-          "tournaments_display": "2",
-          "lowest_counting": 0,
-          "history": {
-            "week-31": 6,
-            "week-41": 6
-          },
-          "rank": 24
-        },
-        {
           "name": "Peter White",
           "points": 12,
           "wins": 4,
@@ -2121,10 +2426,31 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-35": 12
+          },
+          "rank": 24
+        },
+        {
+          "name": "Andr\u00e9 Mosh\u00f8len",
+          "points": 12,
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "matches": 4,
+          "tournaments_played": 1,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 0,
+          "history": {
+            "week-45": 12
           },
           "rank": 25
         },
@@ -2136,6 +2462,9 @@
           "draws": 0,
           "matches": 11,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -2146,17 +2475,21 @@
           "rank": 26
         },
         {
-          "name": "Andr\u00e9 Mosh\u00f8len",
+          "name": "Daniel Norum",
           "points": 12,
           "wins": 4,
-          "losses": 0,
+          "losses": 4,
           "draws": 0,
-          "matches": 4,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
+          "matches": 8,
+          "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
-            "week-45": 12
+            "week-31": 6,
+            "week-41": 6
           },
           "rank": 27
         },
@@ -2168,6 +2501,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -2183,6 +2519,9 @@
           "draws": 0,
           "matches": 7,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
@@ -2199,6 +2538,9 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
@@ -2208,21 +2550,6 @@
           "rank": 30
         },
         {
-          "name": "Peter Br\u00e5ss",
-          "points": 6,
-          "wins": 2,
-          "losses": 2,
-          "draws": 0,
-          "matches": 4,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
-          "lowest_counting": 0,
-          "history": {
-            "week-41": 6
-          },
-          "rank": 31
-        },
-        {
           "name": "Serina Koch",
           "points": 6,
           "wins": 2,
@@ -2230,11 +2557,32 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-41": 3,
             "week-45": 3
+          },
+          "rank": 31
+        },
+        {
+          "name": "Peter Br\u00e5ss",
+          "points": 6,
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "matches": 4,
+          "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 0,
+          "history": {
+            "week-41": 6
           },
           "rank": 32
         },
@@ -2246,6 +2594,9 @@
           "draws": 1,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -2261,6 +2612,9 @@
           "draws": 0,
           "matches": 2,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -2276,6 +2630,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -2291,6 +2648,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -2306,6 +2666,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -2321,6 +2684,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -2362,6 +2728,9 @@
           "draws": 1,
           "matches": 57,
           "tournaments_played": 15,
+          "four_ohs": 3,
+          "three_ohs": 0,
+          "three_ones": 6,
           "tournaments_display": "12 (15)",
           "lowest_counting": 6,
           "history": {
@@ -2391,6 +2760,9 @@
           "draws": 1,
           "matches": 62,
           "tournaments_played": 16,
+          "four_ohs": 2,
+          "three_ohs": 1,
+          "three_ones": 3,
           "tournaments_display": "12 (16)",
           "lowest_counting": 6,
           "history": {
@@ -2421,6 +2793,9 @@
           "draws": 2,
           "matches": 61,
           "tournaments_played": 16,
+          "four_ohs": 0,
+          "three_ohs": 1,
+          "three_ones": 5,
           "tournaments_display": "12 (16)",
           "lowest_counting": 6,
           "history": {
@@ -2451,6 +2826,9 @@
           "draws": 0,
           "matches": 53,
           "tournaments_played": 14,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 4,
           "tournaments_display": "12 (14)",
           "lowest_counting": 3,
           "history": {
@@ -2479,6 +2857,9 @@
           "draws": 0,
           "matches": 43,
           "tournaments_played": 11,
+          "four_ohs": 1,
+          "three_ohs": 1,
+          "three_ones": 3,
           "tournaments_display": "11",
           "lowest_counting": 0,
           "history": {
@@ -2504,6 +2885,9 @@
           "draws": 0,
           "matches": 43,
           "tournaments_played": 11,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 5,
           "tournaments_display": "11",
           "lowest_counting": 0,
           "history": {
@@ -2529,6 +2913,9 @@
           "draws": 0,
           "matches": 32,
           "tournaments_played": 8,
+          "four_ohs": 2,
+          "three_ohs": 0,
+          "three_ones": 3,
           "tournaments_display": "8",
           "lowest_counting": 0,
           "history": {
@@ -2551,6 +2938,9 @@
           "draws": 1,
           "matches": 44,
           "tournaments_played": 14,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 3,
           "tournaments_display": "12 (14)",
           "lowest_counting": 3,
           "history": {
@@ -2579,6 +2969,9 @@
           "draws": 3,
           "matches": 46,
           "tournaments_played": 12,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "12",
           "lowest_counting": 0,
           "history": {
@@ -2605,6 +2998,9 @@
           "draws": 0,
           "matches": 31,
           "tournaments_played": 9,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -2628,6 +3024,9 @@
           "draws": 2,
           "matches": 34,
           "tournaments_played": 9,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -2651,6 +3050,9 @@
           "draws": 2,
           "matches": 35,
           "tournaments_played": 9,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -2674,6 +3076,9 @@
           "draws": 0,
           "matches": 22,
           "tournaments_played": 7,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "7",
           "lowest_counting": 0,
           "history": {
@@ -2695,6 +3100,9 @@
           "draws": 1,
           "matches": 24,
           "tournaments_played": 6,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -2715,6 +3123,9 @@
           "draws": 0,
           "matches": 17,
           "tournaments_played": 5,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -2734,6 +3145,9 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
@@ -2750,6 +3164,9 @@
           "draws": 1,
           "matches": 11,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -2760,39 +3177,6 @@
           "rank": 17
         },
         {
-          "name": "William Kvisli",
-          "points": 9,
-          "wins": 3,
-          "losses": 4,
-          "draws": 0,
-          "matches": 7,
-          "tournaments_played": 2,
-          "tournaments_display": "2",
-          "lowest_counting": 0,
-          "history": {
-            "week-10": 3,
-            "week-11": 6
-          },
-          "rank": 18
-        },
-        {
-          "name": "Martin Lindboe",
-          "points": 9,
-          "wins": 3,
-          "losses": 6,
-          "draws": 0,
-          "matches": 9,
-          "tournaments_played": 3,
-          "tournaments_display": "3",
-          "lowest_counting": 0,
-          "history": {
-            "week-10": 0,
-            "week-13": 6,
-            "week-23": 3
-          },
-          "rank": 19
-        },
-        {
           "name": "Andreas Karlsen",
           "points": 9,
           "wins": 3,
@@ -2800,12 +3184,15 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-14": 9
           },
-          "rank": 20
+          "rank": 18
         },
         {
           "name": "Ferdinand Marnburg",
@@ -2815,27 +3202,54 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-25": 9
           },
-          "rank": 21
+          "rank": 19
         },
         {
-          "name": "Bj\u00f8rnar Funderud",
-          "points": 6,
-          "wins": 2,
-          "losses": 2,
+          "name": "Martin Lindboe",
+          "points": 9,
+          "wins": 3,
+          "losses": 6,
           "draws": 0,
-          "matches": 4,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
+          "matches": 9,
+          "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
-            "week-10": 6
+            "week-10": 0,
+            "week-13": 6,
+            "week-23": 3
           },
-          "rank": 22
+          "rank": 20
+        },
+        {
+          "name": "William Kvisli",
+          "points": 9,
+          "wins": 3,
+          "losses": 4,
+          "draws": 0,
+          "matches": 7,
+          "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "2",
+          "lowest_counting": 0,
+          "history": {
+            "week-10": 3,
+            "week-11": 6
+          },
+          "rank": 21
         },
         {
           "name": "Simen Walbaekken",
@@ -2845,11 +3259,32 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-12": 3,
             "week-14": 3
+          },
+          "rank": 22
+        },
+        {
+          "name": "Bj\u00f8rnar Funderud",
+          "points": 6,
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "matches": 4,
+          "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 0,
+          "history": {
+            "week-10": 6
           },
           "rank": 23
         },
@@ -2861,6 +3296,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -2876,6 +3314,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -2891,6 +3332,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -2906,27 +3350,15 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-25": 6
           },
           "rank": 27
-        },
-        {
-          "name": "Austin Byron Moore",
-          "points": 3,
-          "wins": 1,
-          "losses": 3,
-          "draws": 0,
-          "matches": 4,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
-          "lowest_counting": 0,
-          "history": {
-            "week-11": 3
-          },
-          "rank": 28
         },
         {
           "name": "Johannes Bang",
@@ -2936,11 +3368,32 @@
           "draws": 0,
           "matches": 6,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-13": 0,
             "week-20": 3
+          },
+          "rank": 28
+        },
+        {
+          "name": "Austin Byron Moore",
+          "points": 3,
+          "wins": 1,
+          "losses": 3,
+          "draws": 0,
+          "matches": 4,
+          "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 0,
+          "history": {
+            "week-11": 3
           },
           "rank": 29
         },
@@ -2952,6 +3405,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -3067,6 +3523,9 @@
           "draws": 2,
           "matches": 299,
           "tournaments_played": 79,
+          "four_ohs": 13,
+          "three_ohs": 7,
+          "three_ones": 26,
           "tournaments_display": "79",
           "lowest_counting": 3,
           "history": {
@@ -3160,6 +3619,9 @@
           "draws": 3,
           "matches": 243,
           "tournaments_played": 63,
+          "four_ohs": 8,
+          "three_ohs": 1,
+          "three_ones": 21,
           "tournaments_display": "63",
           "lowest_counting": 1,
           "history": {
@@ -3237,6 +3699,9 @@
           "draws": 2,
           "matches": 244,
           "tournaments_played": 73,
+          "four_ohs": 1,
+          "three_ohs": 2,
+          "three_ones": 23,
           "tournaments_display": "73",
           "lowest_counting": 0,
           "history": {
@@ -3324,6 +3789,9 @@
           "draws": 4,
           "matches": 233,
           "tournaments_played": 61,
+          "four_ohs": 1,
+          "three_ohs": 3,
+          "three_ones": 20,
           "tournaments_display": "61",
           "lowest_counting": 0,
           "history": {
@@ -3399,6 +3867,9 @@
           "draws": 2,
           "matches": 210,
           "tournaments_played": 56,
+          "four_ohs": 5,
+          "three_ohs": 0,
+          "three_ones": 14,
           "tournaments_display": "56",
           "lowest_counting": 0,
           "history": {
@@ -3469,6 +3940,9 @@
           "draws": 1,
           "matches": 171,
           "tournaments_played": 44,
+          "four_ohs": 2,
+          "three_ohs": 0,
+          "three_ones": 17,
           "tournaments_display": "44",
           "lowest_counting": 0,
           "history": {
@@ -3527,6 +4001,9 @@
           "draws": 7,
           "matches": 195,
           "tournaments_played": 51,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 6,
           "tournaments_display": "51",
           "lowest_counting": 0,
           "history": {
@@ -3592,6 +4069,9 @@
           "draws": 7,
           "matches": 178,
           "tournaments_played": 47,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 8,
           "tournaments_display": "47",
           "lowest_counting": 0,
           "history": {
@@ -3653,6 +4133,9 @@
           "draws": 6,
           "matches": 152,
           "tournaments_played": 41,
+          "four_ohs": 1,
+          "three_ohs": 1,
+          "three_ones": 9,
           "tournaments_display": "41",
           "lowest_counting": 0,
           "history": {
@@ -3708,6 +4191,9 @@
           "draws": 1,
           "matches": 115,
           "tournaments_played": 33,
+          "four_ohs": 6,
+          "three_ohs": 0,
+          "three_ones": 10,
           "tournaments_display": "33",
           "lowest_counting": 0,
           "history": {
@@ -3755,6 +4241,9 @@
           "draws": 0,
           "matches": 136,
           "tournaments_played": 35,
+          "four_ohs": 2,
+          "three_ohs": 1,
+          "three_ones": 11,
           "tournaments_display": "35",
           "lowest_counting": 0,
           "history": {
@@ -3804,6 +4293,9 @@
           "draws": 1,
           "matches": 122,
           "tournaments_played": 31,
+          "four_ohs": 3,
+          "three_ohs": 1,
+          "three_ones": 7,
           "tournaments_display": "31",
           "lowest_counting": 3,
           "history": {
@@ -3849,6 +4341,9 @@
           "draws": 0,
           "matches": 124,
           "tournaments_played": 36,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 7,
           "tournaments_display": "36",
           "lowest_counting": 0,
           "history": {
@@ -3899,6 +4394,9 @@
           "draws": 2,
           "matches": 146,
           "tournaments_played": 38,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "38",
           "lowest_counting": 0,
           "history": {
@@ -3951,6 +4449,9 @@
           "draws": 2,
           "matches": 93,
           "tournaments_played": 25,
+          "four_ohs": 2,
+          "three_ohs": 0,
+          "three_ones": 6,
           "tournaments_display": "25",
           "lowest_counting": 0,
           "history": {
@@ -3990,6 +4491,9 @@
           "draws": 1,
           "matches": 80,
           "tournaments_played": 23,
+          "four_ohs": 2,
+          "three_ohs": 0,
+          "three_ones": 4,
           "tournaments_display": "23",
           "lowest_counting": 0,
           "history": {
@@ -4027,6 +4531,9 @@
           "draws": 5,
           "matches": 83,
           "tournaments_played": 21,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 5,
           "tournaments_display": "21",
           "lowest_counting": 1,
           "history": {
@@ -4062,6 +4569,9 @@
           "draws": 5,
           "matches": 87,
           "tournaments_played": 23,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 5,
           "tournaments_display": "23",
           "lowest_counting": 0,
           "history": {
@@ -4099,6 +4609,9 @@
           "draws": 3,
           "matches": 60,
           "tournaments_played": 16,
+          "four_ohs": 0,
+          "three_ohs": 1,
+          "three_ones": 4,
           "tournaments_display": "16",
           "lowest_counting": 1,
           "history": {
@@ -4129,6 +4642,9 @@
           "draws": 3,
           "matches": 78,
           "tournaments_played": 20,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 3,
           "tournaments_display": "20",
           "lowest_counting": 3,
           "history": {
@@ -4163,6 +4679,9 @@
           "draws": 1,
           "matches": 51,
           "tournaments_played": 13,
+          "four_ohs": 1,
+          "three_ohs": 1,
+          "three_ones": 3,
           "tournaments_display": "13",
           "lowest_counting": 3,
           "history": {
@@ -4190,6 +4709,9 @@
           "draws": 3,
           "matches": 51,
           "tournaments_played": 13,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 5,
           "tournaments_display": "13",
           "lowest_counting": 3,
           "history": {
@@ -4217,6 +4739,9 @@
           "draws": 0,
           "matches": 76,
           "tournaments_played": 22,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "22",
           "lowest_counting": 0,
           "history": {
@@ -4253,6 +4778,9 @@
           "draws": 3,
           "matches": 57,
           "tournaments_played": 15,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "15",
           "lowest_counting": 0,
           "history": {
@@ -4282,6 +4810,9 @@
           "draws": 0,
           "matches": 28,
           "tournaments_played": 7,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "7",
           "lowest_counting": 3,
           "history": {
@@ -4303,6 +4834,9 @@
           "draws": 0,
           "matches": 34,
           "tournaments_played": 9,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "9",
           "lowest_counting": 3,
           "history": {
@@ -4326,6 +4860,9 @@
           "draws": 2,
           "matches": 32,
           "tournaments_played": 8,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "8",
           "lowest_counting": 0,
           "history": {
@@ -4348,6 +4885,9 @@
           "draws": 0,
           "matches": 20,
           "tournaments_played": 5,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "5",
           "lowest_counting": 3,
           "history": {
@@ -4360,23 +4900,26 @@
           "rank": 28
         },
         {
-          "name": "Christopher \u00d8vrum",
+          "name": "Gaetano Zito",
           "points": 30,
           "wins": 10,
-          "losses": 16,
+          "losses": 18,
           "draws": 0,
-          "matches": 26,
+          "matches": 28,
           "tournaments_played": 7,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "7",
-          "lowest_counting": 3,
+          "lowest_counting": 0,
           "history": {
-            "week-40": 3,
-            "week-52": 6,
-            "week-54": 3,
-            "week-55": 3,
-            "week-56": 3,
-            "week-64": 6,
-            "week-81": 6
+            "week-76": 3,
+            "week-77": 3,
+            "week-79": 0,
+            "week-80": 3,
+            "week-81": 3,
+            "week-82": 12,
+            "week-83": 6
           },
           "rank": 29
         },
@@ -4388,6 +4931,9 @@
           "draws": 0,
           "matches": 28,
           "tournaments_played": 7,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "7",
           "lowest_counting": 0,
           "history": {
@@ -4402,23 +4948,26 @@
           "rank": 30
         },
         {
-          "name": "Gaetano Zito",
+          "name": "Christopher \u00d8vrum",
           "points": 30,
           "wins": 10,
-          "losses": 18,
+          "losses": 16,
           "draws": 0,
-          "matches": 28,
+          "matches": 26,
           "tournaments_played": 7,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "7",
-          "lowest_counting": 0,
+          "lowest_counting": 3,
           "history": {
-            "week-76": 3,
-            "week-77": 3,
-            "week-79": 0,
-            "week-80": 3,
-            "week-81": 3,
-            "week-82": 12,
-            "week-83": 6
+            "week-40": 3,
+            "week-52": 6,
+            "week-54": 3,
+            "week-55": 3,
+            "week-56": 3,
+            "week-64": 6,
+            "week-81": 6
           },
           "rank": 31
         },
@@ -4430,6 +4979,9 @@
           "draws": 0,
           "matches": 16,
           "tournaments_played": 4,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 2,
           "tournaments_display": "4",
           "lowest_counting": 3,
           "history": {
@@ -4448,6 +5000,9 @@
           "draws": 0,
           "matches": 20,
           "tournaments_played": 6,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "6",
           "lowest_counting": 3,
           "history": {
@@ -4461,20 +5016,22 @@
           "rank": 33
         },
         {
-          "name": "Daniel Norum",
+          "name": "Erik Sathe",
           "points": 21,
           "wins": 7,
-          "losses": 8,
+          "losses": 5,
           "draws": 0,
-          "matches": 15,
-          "tournaments_played": 4,
-          "tournaments_display": "4",
+          "matches": 12,
+          "tournaments_played": 3,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "3",
           "lowest_counting": 3,
           "history": {
-            "week-27": 6,
-            "week-31": 6,
-            "week-41": 6,
-            "week-59": 3
+            "week-46": 3,
+            "week-47": 6,
+            "week-50": 12
           },
           "rank": 34
         },
@@ -4486,6 +5043,9 @@
           "draws": 0,
           "matches": 19,
           "tournaments_played": 5,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "5",
           "lowest_counting": 3,
           "history": {
@@ -4498,19 +5058,23 @@
           "rank": 35
         },
         {
-          "name": "Erik Sathe",
+          "name": "Daniel Norum",
           "points": 21,
           "wins": 7,
-          "losses": 5,
+          "losses": 8,
           "draws": 0,
-          "matches": 12,
-          "tournaments_played": 3,
-          "tournaments_display": "3",
+          "matches": 15,
+          "tournaments_played": 4,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "4",
           "lowest_counting": 3,
           "history": {
-            "week-46": 3,
-            "week-47": 6,
-            "week-50": 12
+            "week-27": 6,
+            "week-31": 6,
+            "week-41": 6,
+            "week-59": 3
           },
           "rank": 36
         },
@@ -4522,6 +5086,9 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 6,
           "history": {
@@ -4538,6 +5105,9 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 3,
           "history": {
@@ -4554,6 +5124,9 @@
           "draws": 0,
           "matches": 12,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -4571,6 +5144,9 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "2",
           "lowest_counting": 6,
           "history": {
@@ -4580,6 +5156,24 @@
           "rank": 40
         },
         {
+          "name": "Peter White",
+          "points": 12,
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "matches": 4,
+          "tournaments_played": 1,
+          "four_ohs": 1,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 12,
+          "history": {
+            "week-35": 12
+          },
+          "rank": 41
+        },
+        {
           "name": "Tom Sondre Albrigsten",
           "points": 12,
           "wins": 4,
@@ -4587,13 +5181,16 @@
           "draws": 0,
           "matches": 6,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "2",
           "lowest_counting": 3,
           "history": {
             "week-7": 9,
             "week-31": 3
           },
-          "rank": 41
+          "rank": 42
         },
         {
           "name": "Stian Magnell",
@@ -4603,44 +5200,16 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 6,
           "history": {
             "week-25": 6,
             "week-26": 6
           },
-          "rank": 42
-        },
-        {
-          "name": "Peter White",
-          "points": 12,
-          "wins": 4,
-          "losses": 0,
-          "draws": 0,
-          "matches": 4,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
-          "lowest_counting": 12,
-          "history": {
-            "week-35": 12
-          },
           "rank": 43
-        },
-        {
-          "name": "Noor Othmani",
-          "points": 9,
-          "wins": 3,
-          "losses": 5,
-          "draws": 0,
-          "matches": 8,
-          "tournaments_played": 2,
-          "tournaments_display": "2",
-          "lowest_counting": 3,
-          "history": {
-            "week-3": 6,
-            "week-4": 3
-          },
-          "rank": 44
         },
         {
           "name": "Jon Magnus Christensen",
@@ -4650,12 +5219,15 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "1",
           "lowest_counting": 9,
           "history": {
             "week-4": 9
           },
-          "rank": 45
+          "rank": 44
         },
         {
           "name": "Torgeir Lebesbye",
@@ -4665,10 +5237,31 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
           "tournaments_display": "1",
           "lowest_counting": 9,
           "history": {
             "week-4": 9
+          },
+          "rank": 45
+        },
+        {
+          "name": "Erling Andr\u00e8 Hervik",
+          "points": 9,
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "matches": 4,
+          "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 1,
+          "tournaments_display": "1",
+          "lowest_counting": 9,
+          "history": {
+            "week-88": 9
           },
           "rank": 46
         },
@@ -4680,6 +5273,9 @@
           "draws": 0,
           "matches": 15,
           "tournaments_played": 5,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -4699,6 +5295,9 @@
           "draws": 0,
           "matches": 13,
           "tournaments_played": 4,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "4",
           "lowest_counting": 0,
           "history": {
@@ -4710,6 +5309,27 @@
           "rank": 48
         },
         {
+          "name": "Falk Tyssebotn",
+          "points": 9,
+          "wins": 3,
+          "losses": 11,
+          "draws": 0,
+          "matches": 14,
+          "tournaments_played": 4,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "4",
+          "lowest_counting": 0,
+          "history": {
+            "week-61": 0,
+            "week-66": 3,
+            "week-73": 0,
+            "week-84": 6
+          },
+          "rank": 49
+        },
+        {
           "name": "Simen Walbaekken",
           "points": 9,
           "wins": 3,
@@ -4717,6 +5337,9 @@
           "draws": 0,
           "matches": 12,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "3",
           "lowest_counting": 3,
           "history": {
@@ -4724,7 +5347,26 @@
             "week-14": 3,
             "week-30": 3
           },
-          "rank": 49
+          "rank": 50
+        },
+        {
+          "name": "Noor Othmani",
+          "points": 9,
+          "wins": 3,
+          "losses": 5,
+          "draws": 0,
+          "matches": 8,
+          "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "2",
+          "lowest_counting": 3,
+          "history": {
+            "week-3": 6,
+            "week-4": 3
+          },
+          "rank": 51
         },
         {
           "name": "Peter Madsen",
@@ -4734,44 +5376,14 @@
           "draws": 0,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 3,
           "history": {
             "week-47": 3,
             "week-54": 6
-          },
-          "rank": 50
-        },
-        {
-          "name": "Falk Tyssebotn",
-          "points": 9,
-          "wins": 3,
-          "losses": 11,
-          "draws": 0,
-          "matches": 14,
-          "tournaments_played": 4,
-          "tournaments_display": "4",
-          "lowest_counting": 0,
-          "history": {
-            "week-61": 0,
-            "week-66": 3,
-            "week-73": 0,
-            "week-84": 6
-          },
-          "rank": 51
-        },
-        {
-          "name": "Erling Andr\u00e8 Hervik",
-          "points": 9,
-          "wins": 3,
-          "losses": 1,
-          "draws": 0,
-          "matches": 4,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
-          "lowest_counting": 9,
-          "history": {
-            "week-88": 9
           },
           "rank": 52
         },
@@ -4783,6 +5395,9 @@
           "draws": 2,
           "matches": 18,
           "tournaments_played": 5,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -4795,21 +5410,6 @@
           "rank": 53
         },
         {
-          "name": "Mathias Aspen",
-          "points": 7,
-          "wins": 2,
-          "losses": 2,
-          "draws": 1,
-          "matches": 5,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
-          "lowest_counting": 7,
-          "history": {
-            "week-26": 7
-          },
-          "rank": 54
-        },
-        {
           "name": "Magnus R\u00f8ger",
           "points": 7,
           "wins": 2,
@@ -4817,88 +5417,34 @@
           "draws": 1,
           "matches": 8,
           "tournaments_played": 2,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "2",
           "lowest_counting": 3,
           "history": {
             "week-69": 4,
             "week-73": 3
           },
+          "rank": 54
+        },
+        {
+          "name": "Mathias Aspen",
+          "points": 7,
+          "wins": 2,
+          "losses": 2,
+          "draws": 1,
+          "matches": 5,
+          "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 7,
+          "history": {
+            "week-26": 7
+          },
           "rank": 55
-        },
-        {
-          "name": "Benedikte Zwart",
-          "points": 6,
-          "wins": 2,
-          "losses": 2,
-          "draws": 0,
-          "matches": 4,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
-          "lowest_counting": 6,
-          "history": {
-            "week-7": 6
-          },
-          "rank": 56
-        },
-        {
-          "name": "Axel",
-          "points": 6,
-          "wins": 2,
-          "losses": 2,
-          "draws": 0,
-          "matches": 4,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
-          "lowest_counting": 6,
-          "history": {
-            "week-18": 6
-          },
-          "rank": 57
-        },
-        {
-          "name": "Robin S\u00f8rlien",
-          "points": 6,
-          "wins": 2,
-          "losses": 2,
-          "draws": 0,
-          "matches": 4,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
-          "lowest_counting": 6,
-          "history": {
-            "week-26": 6
-          },
-          "rank": 58
-        },
-        {
-          "name": "Tor \u00c5rskog",
-          "points": 6,
-          "wins": 2,
-          "losses": 1,
-          "draws": 0,
-          "matches": 3,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
-          "lowest_counting": 6,
-          "history": {
-            "week-27": 6
-          },
-          "rank": 59
-        },
-        {
-          "name": "Siemen Sandbakken",
-          "points": 6,
-          "wins": 2,
-          "losses": 2,
-          "draws": 0,
-          "matches": 4,
-          "tournaments_played": 1,
-          "tournaments_display": "1",
-          "lowest_counting": 6,
-          "history": {
-            "week-61": 6
-          },
-          "rank": 60
         },
         {
           "name": "Aleksander Vangs\u00f8y",
@@ -4908,12 +5454,105 @@
           "draws": 0,
           "matches": 11,
           "tournaments_played": 3,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
             "week-71": 3,
             "week-87": 3,
             "week-90": 0
+          },
+          "rank": 56
+        },
+        {
+          "name": "Benedikte Zwart",
+          "points": 6,
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "matches": 4,
+          "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 6,
+          "history": {
+            "week-7": 6
+          },
+          "rank": 57
+        },
+        {
+          "name": "Axel",
+          "points": 6,
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "matches": 4,
+          "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 6,
+          "history": {
+            "week-18": 6
+          },
+          "rank": 58
+        },
+        {
+          "name": "Robin S\u00f8rlien",
+          "points": 6,
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "matches": 4,
+          "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 6,
+          "history": {
+            "week-26": 6
+          },
+          "rank": 59
+        },
+        {
+          "name": "Tor \u00c5rskog",
+          "points": 6,
+          "wins": 2,
+          "losses": 1,
+          "draws": 0,
+          "matches": 3,
+          "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 6,
+          "history": {
+            "week-27": 6
+          },
+          "rank": 60
+        },
+        {
+          "name": "Siemen Sandbakken",
+          "points": 6,
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "matches": 4,
+          "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 6,
+          "history": {
+            "week-61": 6
           },
           "rank": 61
         },
@@ -4925,6 +5564,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 6,
           "history": {
@@ -4940,6 +5582,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 6,
           "history": {
@@ -4955,6 +5600,9 @@
           "draws": 0,
           "matches": 3,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
@@ -4970,6 +5618,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
@@ -4985,6 +5636,9 @@
           "draws": 0,
           "matches": 3,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
@@ -5000,6 +5654,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
@@ -5015,6 +5672,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
@@ -5030,6 +5690,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
@@ -5045,6 +5708,9 @@
           "draws": 0,
           "matches": 3,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
@@ -5060,6 +5726,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -5075,6 +5744,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -5090,6 +5762,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
@@ -5105,6 +5780,9 @@
           "draws": 0,
           "matches": 4,
           "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
