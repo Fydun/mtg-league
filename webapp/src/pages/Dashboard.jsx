@@ -147,7 +147,7 @@ export default function Dashboard() {
                         onClick={() => setShowLowest(!showLowest)}
                         className="text-xs font-medium px-3 py-1.5 rounded bg-slate-700 hover:bg-slate-600 text-slate-300 transition-colors border border-slate-600/50"
                       >
-                        {showLowest ? "Hide Lowest Score" : "Show Lowest Score"}
+                        {showLowest ? "Hide Tiebreakers" : "Show Tiebreakers"}
                       </button>
                     )}
                     <div className="text-sm text-slate-400 hidden sm:block">

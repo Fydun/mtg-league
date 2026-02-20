@@ -36,12 +36,32 @@ export default function LeagueTable({ standings, showLowest }) {
               Tournaments
             </th>
             {showLowest && (
-              <th
-                scope="col"
-                className="px-6 py-3 text-center text-xs uppercase tracking-wider text-slate-500 w-24 rounded-tr-lg"
-              >
-                Lowest
-              </th>
+              <>
+                <th
+                  scope="col"
+                  className="px-6 py-3 text-center text-xs uppercase tracking-wider text-slate-500 w-16"
+                >
+                  4-0s
+                </th>
+                <th
+                  scope="col"
+                  className="px-6 py-3 text-center text-xs uppercase tracking-wider text-slate-500 w-16"
+                >
+                  3-0s
+                </th>
+                <th
+                  scope="col"
+                  className="px-6 py-3 text-center text-xs uppercase tracking-wider text-slate-500 w-16"
+                >
+                  3-1s
+                </th>
+                <th
+                  scope="col"
+                  className="px-6 py-3 text-center text-xs uppercase tracking-wider text-slate-500 w-36 whitespace-nowrap rounded-tr-lg"
+                >
+                  Lowest Score
+                </th>
+              </>
             )}
           </tr>
         </thead>
@@ -81,9 +101,20 @@ export default function LeagueTable({ standings, showLowest }) {
                 {player.tournaments_display}
               </td>
               {showLowest && (
-                <td className="px-6 py-4 text-center text-slate-600 font-mono text-xs">
-                  {player.lowest_counting}
-                </td>
+                <>
+                  <td className="px-6 py-4 text-center text-slate-300 font-mono text-xs">
+                    {player.four_ohs || 0}
+                  </td>
+                  <td className="px-6 py-4 text-center text-slate-300 font-mono text-xs">
+                    {player.three_ohs || 0}
+                  </td>
+                  <td className="px-6 py-4 text-center text-slate-300 font-mono text-xs">
+                    {player.three_ones || 0}
+                  </td>
+                  <td className="px-6 py-4 text-center text-slate-300 font-mono text-xs">
+                    {player.lowest_counting}
+                  </td>
+                </>
               )}
             </tr>
           ))}
