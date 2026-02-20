@@ -55,7 +55,8 @@ def update_league_stats(league, t_data):
         name = p["name"]
         if name not in l_players:
             l_players[name] = {
-                "stats": {"name": name, "points": 0, "wins": 0, "losses": 0, "draws": 0, "matches": 0, "tournaments_played": 0},
+                "stats": {"name": name, "points": 0, "wins": 0, "losses": 0, "draws": 0, "matches": 0, "tournaments_played": 0,
+                           "four_ohs": 0, "three_ohs": 0, "three_ones": 0},
                 "scores": [],
                 "history": {}
             }
@@ -75,6 +76,12 @@ def update_league_stats(league, t_data):
         stats["draws"] += p["draws"]
         stats["matches"] += (p["wins"] + p["losses"] + p["draws"])
         stats["tournaments_played"] += 1
+
+        # Track tiebreaker records
+        w, l, d = p["wins"], p["losses"], p["draws"]
+        if w == 4 and l == 0:  stats["four_ohs"] += 1
+        if w == 3 and l == 0 and d == 0:  stats["three_ohs"] += 1
+        if w == 3 and l == 1 and d == 0:  stats["three_ones"] += 1
 
 def main():
     print(f"Converting Excel data to Single DB...")
@@ -206,8 +213,17 @@ def main():
             
             processed_standings.append(p_stats["stats"])
 
-        # Sort standings by points
-        processed_standings.sort(key=lambda x: x["points"], reverse=True)
+        # Sort standings by points, then tiebreakers: 4-0s, 3-0s, 3-1s, tournaments played
+        processed_standings.sort(
+            key=lambda x: (
+                x["points"],
+                x.get("four_ohs", 0),
+                x.get("three_ohs", 0),
+                x.get("three_ones", 0),
+                x["tournaments_played"],
+            ),
+            reverse=True,
+        )
         for i, p in enumerate(processed_standings): p["rank"] = i + 1
         
         # Sort tournaments list specifically for this league
