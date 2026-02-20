@@ -1,4 +1,4 @@
-# MTG League – Copilot Instructions
+# Oslo Legacy League – Copilot Instructions
 
 ## Architecture Overview
 

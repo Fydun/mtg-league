@@ -358,7 +358,7 @@ def main():
         sys.exit(1)
 
     filename = os.path.basename(filepath)
-    title = " MTG League - Verify Tournament Data "
+    title = " Oslo Legacy League - Verify Tournament Data "
     print()
     pf("banner", f"  ╔{'═' * len(title)}╗")
     pf("banner", f"  ║{title}║")

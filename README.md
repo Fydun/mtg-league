@@ -1,4 +1,4 @@
-# MTG League Manager
+# Oslo Legacy League Manager
 
 A dual-stack application for managing Magic: The Gathering league data.
 It consists of a Python backend for data scraping/processing and a React frontend for displaying the league website.

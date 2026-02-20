@@ -16,7 +16,7 @@ function App() {
               <div className="flex h-16 items-center justify-between">
                 <div className="flex items-center">
                   <span className="text-xl font-bold text-blue-500">
-                    MTG League
+                    Oslo Legacy League
                   </span>
                   <div className="ml-10 flex items-baseline space-x-4">
                     <Link
