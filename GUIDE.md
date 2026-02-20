@@ -8,7 +8,7 @@ This guide walks through everything you need to get set up from scratch, and how
 
 You only need to do this section once.
 
-> **Before you start:** All commands in this guide are typed into the **Terminal** app. You can open it by searching for **Terminal** in the Start menu. The older "Windows PowerShell" app works fine, the newer Terminal is easier to use.
+> **Before you start:** All commands in this guide are typed into the **Terminal** app. You can open it by searching for **Terminal** in the Start menu. The older "Windows PowerShell" app works fine, but the newer Terminal is easier to use.
 
 ---
 
