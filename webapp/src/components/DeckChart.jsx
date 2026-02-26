@@ -15,7 +15,7 @@ export default function DeckChart({ league, tournamentData }) {
 
   const data = useMemo(() => {
     const deckCounts = {};
-    const FORCE_TO_OTHERS = ["XXXXX"]; // These decks always go into "Others"
+    const FORCE_TO_OTHERS = ["XXXXX", "unknown"]; // These decks always go into "Others"
     let forcedOthersCount = 0;
 
     // Iterate all tournaments in this league
