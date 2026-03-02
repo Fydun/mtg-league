@@ -131,6 +131,12 @@ export default function PlayerProfile() {
       headToHead: {}, // Opponent -> { wins, losses, draws, total }
     };
 
+    const isUnknownDeck = (deck) => {
+      if (!deck) return true;
+      const normalized = String(deck).trim().toLowerCase();
+      return normalized === "" || normalized === "unknown";
+    };
+
     filteredTournaments.forEach((t) => {
       const playerEntry = t.standings.find((p) => p.name === decodedName);
       if (!playerEntry) return;
@@ -146,14 +152,16 @@ export default function PlayerProfile() {
       if (leagueName) stats.activeLeagues.add(leagueName);
 
       // Deck Stats
-      const deckName = playerEntry.deck || "Unknown";
-      if (!stats.decks[deckName]) {
-        stats.decks[deckName] = { count: 0, wins: 0, matches: 0 };
+      const deckName = playerEntry.deck?.trim() || "Unknown";
+      if (!isUnknownDeck(playerEntry.deck)) {
+        if (!stats.decks[deckName]) {
+          stats.decks[deckName] = { count: 0, wins: 0, matches: 0 };
+        }
+        stats.decks[deckName].count++;
+        stats.decks[deckName].wins += playerEntry.wins;
+        stats.decks[deckName].matches +=
+          playerEntry.wins + playerEntry.losses + playerEntry.draws;
       }
-      stats.decks[deckName].count++;
-      stats.decks[deckName].wins += playerEntry.wins;
-      stats.decks[deckName].matches +=
-        playerEntry.wins + playerEntry.losses + playerEntry.draws;
 
       // History Entry
       stats.history.push({
@@ -183,6 +191,9 @@ export default function PlayerProfile() {
 
         t.rounds.forEach((round) => {
           if (!round.matches) return;
+          const roundNumber =
+            parseInt(String(round.round ?? "").match(/\d+/)?.[0] || "", 10) ||
+            0;
           round.matches.forEach((m) => {
             let result = null; // W, L, D
             let opponent = null;
@@ -225,6 +236,7 @@ export default function PlayerProfile() {
                 tournamentName: t.name,
                 ownDeck: deckName,
                 opponentDeck: standingsDeckMap.get(opponent) || "Unknown",
+                roundNumber,
               });
             }
           });
@@ -232,10 +244,13 @@ export default function PlayerProfile() {
       }
     });
 
-    // Sort flattened matches by date descending (Newest first)
-    // IMPORTANT: Since filteredTournaments is already sorted by date DESC,
-    // and within tournaments matches are roughly chronological, we can just sort by date.
-    stats.matches.sort((a, b) => b.date - a.date);
+    // Sort flattened matches by date descending (Newest first), then round descending
+    // so later rounds appear before earlier rounds on the same day.
+    stats.matches.sort((a, b) => {
+      const byDate = b.date - a.date;
+      if (byDate !== 0) return byDate;
+      return (b.roundNumber || 0) - (a.roundNumber || 0);
+    });
 
     return stats;
   }, [filteredTournaments, decodedName, tournamentLeagueMap]);
