@@ -16,6 +16,29 @@ export default function PlayerProfile() {
   // Tabs
   const [activeTab, setActiveTab] = useState("history");
 
+  // Matchup tab filters
+  const [matchupOwnDeckFilter, setMatchupOwnDeckFilter] = useState("All");
+  const [matchupOpponentDeckInput, setMatchupOpponentDeckInput] = useState("");
+  const [matchupOpponentDeckTags, setMatchupOpponentDeckTags] = useState([]);
+
+  const addMatchupDeckTag = (value) => {
+    const tag = value.trim();
+    if (!tag) return;
+
+    setMatchupOpponentDeckTags((prev) => {
+      const exists = prev.some((t) => t.toLowerCase() === tag.toLowerCase());
+      if (exists) return prev;
+      return [...prev, tag];
+    });
+    setMatchupOpponentDeckInput("");
+  };
+
+  const removeMatchupDeckTag = (tagToRemove) => {
+    setMatchupOpponentDeckTags((prev) =>
+      prev.filter((t) => t.toLowerCase() !== tagToRemove.toLowerCase()),
+    );
+  };
+
   // --- 1. Helpers & Maps ---
   // Map tournamentId -> League Name for display (prioritizing specific leagues)
   const tournamentLeagueMap = useMemo(() => {
@@ -154,6 +177,10 @@ export default function PlayerProfile() {
 
       // --- Match History (Head-to-Head / Form) ---
       if (t.rounds) {
+        const standingsDeckMap = new Map(
+          t.standings.map((s) => [s.name, s.deck || "Unknown"]),
+        );
+
         t.rounds.forEach((round) => {
           if (!round.matches) return;
           round.matches.forEach((m) => {
@@ -195,6 +222,9 @@ export default function PlayerProfile() {
                 result: result,
                 opponent: opponent,
                 tournamentId: t.id,
+                tournamentName: t.name,
+                ownDeck: deckName,
+                opponentDeck: standingsDeckMap.get(opponent) || "Unknown",
               });
             }
           });
@@ -239,6 +269,39 @@ export default function PlayerProfile() {
       winRate: s.total > 0 ? ((s.wins / s.total) * 100).toFixed(1) : 0,
     }))
     .sort((a, b) => b.total - a.total); // Most played opponent first
+
+  const matchupRows = useMemo(() => {
+    const targetDeckTags = matchupOpponentDeckTags.map((t) => t.toLowerCase());
+
+    return playerStats.matches.filter((m) => {
+      const ownDeckMatches =
+        matchupOwnDeckFilter === "All" || m.ownDeck === matchupOwnDeckFilter;
+      if (!ownDeckMatches) return false;
+
+      if (targetDeckTags.length === 0) return true;
+      const opponentDeck = (m.opponentDeck || "").toLowerCase();
+      return targetDeckTags.some((tag) => opponentDeck.includes(tag));
+    });
+  }, [playerStats.matches, matchupOpponentDeckTags, matchupOwnDeckFilter]);
+
+  const matchupSummary = useMemo(() => {
+    const summary = { wins: 0, losses: 0, draws: 0, total: 0 };
+
+    matchupRows.forEach((m) => {
+      summary.total++;
+      if (m.result === "W") summary.wins++;
+      else if (m.result === "L") summary.losses++;
+      else summary.draws++;
+    });
+
+    return {
+      ...summary,
+      winRate:
+        summary.total > 0
+          ? ((summary.wins / summary.total) * 100).toFixed(1)
+          : "0.0",
+    };
+  }, [matchupRows]);
 
   // --- CONDITIONAL RENDERS (Must be LAST) ---
   if (loading)
@@ -400,6 +463,16 @@ export default function PlayerProfile() {
             }`}
           >
             Head-to-Head
+          </button>
+          <button
+            onClick={() => setActiveTab("matchups")}
+            className={`pb-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+              activeTab === "matchups"
+                ? "border-blue-500 text-blue-400"
+                : "border-transparent text-slate-400 hover:text-slate-300 hover:border-slate-300"
+            }`}
+          >
+            Deck Matchups
           </button>
         </nav>
       </div>
@@ -612,6 +685,198 @@ export default function PlayerProfile() {
                         >
                           No matches played against specific opponents in this
                           selection.
+                        </td>
+                      </tr>
+                    )}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+
+          {/* TAB: Deck Matchups */}
+          {activeTab === "matchups" && (
+            <div className="bg-slate-800 rounded-xl border border-slate-700 overflow-hidden min-h-[500px]">
+              <div className="p-4 border-b border-slate-700 bg-slate-900/50 space-y-4">
+                <h3 className="font-semibold text-white">Matchups vs Decks</h3>
+
+                <div className="flex flex-wrap items-end gap-3">
+                  <div className="flex flex-col gap-1">
+                    <label className="text-xs uppercase tracking-wide text-slate-400">
+                      Your deck
+                    </label>
+                    <select
+                      value={matchupOwnDeckFilter}
+                      onChange={(e) => setMatchupOwnDeckFilter(e.target.value)}
+                      className="bg-slate-700 text-white text-sm rounded-lg px-3 py-2 border border-slate-600 focus:outline-none focus:border-blue-500 min-w-[220px]"
+                    >
+                      <option value="All">All Your Decks</option>
+                      {deckList.map((d) => (
+                        <option key={d.name} value={d.name}>
+                          {d.name}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  <div className="flex flex-col gap-1">
+                    <label className="text-xs uppercase tracking-wide text-slate-400">
+                      Opponent deck tags
+                    </label>
+                    <div className="flex gap-2">
+                      <input
+                        type="text"
+                        value={matchupOpponentDeckInput}
+                        onChange={(e) => setMatchupOpponentDeckInput(e.target.value)}
+                        onKeyDown={(e) => {
+                          if (e.key === "Enter") {
+                            e.preventDefault();
+                            addMatchupDeckTag(matchupOpponentDeckInput);
+                          }
+                        }}
+                        placeholder="Add tag (e.g. grixis, tempo)"
+                        className="bg-slate-700 text-white text-sm rounded-lg px-3 py-2 border border-slate-600 focus:outline-none focus:border-blue-500 min-w-[280px]"
+                      />
+                      <button
+                        onClick={() => addMatchupDeckTag(matchupOpponentDeckInput)}
+                        className="px-3 py-2 rounded-lg text-sm bg-blue-600 hover:bg-blue-500 text-white"
+                      >
+                        Add
+                      </button>
+                    </div>
+                  </div>
+
+                  {(matchupOpponentDeckInput ||
+                    matchupOpponentDeckTags.length > 0 ||
+                    matchupOwnDeckFilter !== "All") && (
+                    <button
+                      onClick={() => {
+                        setMatchupOpponentDeckInput("");
+                        setMatchupOpponentDeckTags([]);
+                        setMatchupOwnDeckFilter("All");
+                      }}
+                      className="text-xs text-red-400 hover:text-red-300 pb-1"
+                    >
+                      Clear
+                    </button>
+                  )}
+                </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                  <div className="bg-slate-800/70 border border-slate-700 rounded-lg p-3">
+                    <div className="text-xs text-slate-400 uppercase tracking-wide">
+                      Matches
+                    </div>
+                    <div className="text-xl font-bold text-white mt-1">
+                      {matchupSummary.total}
+                    </div>
+                  </div>
+                  <div className="bg-slate-800/70 border border-slate-700 rounded-lg p-3">
+                    <div className="text-xs text-slate-400 uppercase tracking-wide">
+                      Win Rate
+                    </div>
+                    <div className="text-xl font-bold text-green-400 mt-1">
+                      {matchupSummary.winRate}%
+                    </div>
+                  </div>
+                  <div className="bg-slate-800/70 border border-slate-700 rounded-lg p-3">
+                    <div className="text-xs text-slate-400 uppercase tracking-wide">
+                      Record
+                    </div>
+                    <div className="text-xl font-bold text-slate-200 mt-1">
+                      {matchupSummary.wins}-{matchupSummary.losses}-{matchupSummary.draws}
+                    </div>
+                  </div>
+                  <div className="bg-slate-800/70 border border-slate-700 rounded-lg p-3">
+                    <div className="text-xs text-slate-400 uppercase tracking-wide">
+                      Filter
+                    </div>
+                    <div className="text-xs text-slate-300 mt-2 truncate">
+                      {matchupOpponentDeckTags.length > 0
+                        ? matchupOpponentDeckTags.join(" OR ")
+                        : "All opponent decks"}
+                    </div>
+                  </div>
+                </div>
+
+                {matchupOpponentDeckTags.length > 0 && (
+                  <div className="flex flex-wrap gap-2">
+                    {matchupOpponentDeckTags.map((tag) => (
+                      <button
+                        key={tag}
+                        onClick={() => removeMatchupDeckTag(tag)}
+                        className="px-2.5 py-1 rounded-full text-xs bg-slate-700 text-slate-200 border border-slate-600 hover:border-red-400 hover:text-red-300"
+                        title="Remove tag"
+                      >
+                        {tag} ×
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm text-left text-slate-300">
+                  <thead className="text-xs uppercase bg-slate-800/80 text-slate-400">
+                    <tr>
+                      <th className="px-6 py-3">Date</th>
+                      <th className="px-6 py-3">Tournament</th>
+                      <th className="px-6 py-3">Your Deck</th>
+                      <th className="px-6 py-3">Opponent</th>
+                      <th className="px-6 py-3">Opponent Deck</th>
+                      <th className="px-6 py-3 text-center">Result</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-700/50">
+                    {matchupRows.length > 0 ? (
+                      matchupRows.map((m, idx) => (
+                        <tr
+                          key={`${m.tournamentId}-${m.opponent}-${m.date.toISOString()}-${idx}`}
+                          className="hover:bg-slate-700/30 transition-colors"
+                        >
+                          <td className="px-6 py-4 whitespace-nowrap text-slate-400 font-mono text-xs">
+                            {m.date.toISOString().slice(0, 10)}
+                          </td>
+                          <td className="px-6 py-4">
+                            <Link
+                              to={`/tournament/${m.tournamentId}`}
+                              className="text-white hover:text-blue-400 transition-colors"
+                            >
+                              {m.tournamentName}
+                            </Link>
+                          </td>
+                          <td className="px-6 py-4 text-slate-300">{m.ownDeck}</td>
+                          <td className="px-6 py-4">
+                            <Link
+                              to={`/player/${encodeURIComponent(m.opponent)}`}
+                              className="text-slate-200 hover:text-blue-400 transition-colors"
+                            >
+                              {m.opponent}
+                            </Link>
+                          </td>
+                          <td className="px-6 py-4 text-slate-300">{m.opponentDeck}</td>
+                          <td className="px-6 py-4 text-center">
+                            <span
+                              className={`px-2 py-1 rounded text-xs font-bold ${
+                                m.result === "W"
+                                  ? "bg-green-500/20 text-green-400"
+                                  : m.result === "L"
+                                    ? "bg-red-500/20 text-red-400"
+                                    : "bg-slate-700 text-slate-300"
+                              }`}
+                            >
+                              {m.result}
+                            </span>
+                          </td>
+                        </tr>
+                      ))
+                    ) : (
+                      <tr>
+                        <td
+                          colSpan="6"
+                          className="px-6 py-12 text-center text-slate-500"
+                        >
+                          No games found for this matchup filter.
                         </td>
                       </tr>
                     )}
