@@ -39,19 +39,19 @@ export default function LeagueTable({ standings, showLowest }) {
               <>
                 <th
                   scope="col"
-                  className="px-6 py-3 text-center text-xs uppercase tracking-wider text-slate-500 w-16"
+                  className="px-6 py-3 text-center text-xs normal-case tracking-wider text-slate-500 w-16"
                 >
                   4-0s
                 </th>
                 <th
                   scope="col"
-                  className="px-6 py-3 text-center text-xs uppercase tracking-wider text-slate-500 w-16"
+                  className="px-6 py-3 text-center text-xs normal-case tracking-wider text-slate-500 w-16"
                 >
                   3-0s
                 </th>
                 <th
                   scope="col"
-                  className="px-6 py-3 text-center text-xs uppercase tracking-wider text-slate-500 w-16"
+                  className="px-6 py-3 text-center text-xs normal-case tracking-wider text-slate-500 w-16"
                 >
                   3-1s
                 </th>
