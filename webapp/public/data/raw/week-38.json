@@ -29,7 +29,7 @@
     },
     {
       "rank": 2,
-      "name": "Anders S\u00f8berg",
+      "name": "Anders Søberg",
       "deck": "Moon Stompy",
       "points": 9,
       "record": "3-1-0",
@@ -164,7 +164,7 @@
     },
     {
       "rank": 11,
-      "name": "Bj\u00f8rnar Funderud",
+      "name": "Bjørnar Funderud",
       "deck": "Turbo Goblins",
       "points": 3,
       "record": "1-3-0",
@@ -194,7 +194,7 @@
     },
     {
       "rank": 13,
-      "name": "J\u00f8rgen S\u00f8rli",
+      "name": "Jørgen Sørli",
       "deck": "Cradle Control",
       "points": 3,
       "record": "1-2-0",
@@ -210,7 +210,7 @@
     {
       "rank": 14,
       "name": "Parco Au",
-      "deck": "unknown",
+      "deck": "Jeskai Control",
       "points": 0,
       "record": "0-4-0",
       "wins": 0,
@@ -229,14 +229,14 @@
       "matches": [
         {
           "p1": "Bendik Hansen",
-          "p2": "Bj\u00f8rnar Funderud",
+          "p2": "Bjørnar Funderud",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
         },
         {
           "p1": "Parco Au",
-          "p2": "J\u00f8rgen S\u00f8rli",
+          "p2": "Jørgen Sørli",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
@@ -257,7 +257,7 @@
         },
         {
           "p1": "Anders Christie",
-          "p2": "Anders S\u00f8berg",
+          "p2": "Anders Søberg",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
@@ -289,15 +289,15 @@
           "draws": 0
         },
         {
-          "p1": "Bj\u00f8rnar Funderud",
+          "p1": "Bjørnar Funderud",
           "p2": "Stian Fuglaas",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
         },
         {
-          "p1": "Anders S\u00f8berg",
-          "p2": "J\u00f8rgen S\u00f8rli",
+          "p1": "Anders Søberg",
+          "p2": "Jørgen Sørli",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
@@ -336,7 +336,7 @@
       "round": 3,
       "matches": [
         {
-          "p1": "Anders S\u00f8berg",
+          "p1": "Anders Søberg",
           "p2": "Tonny Albrigtsen",
           "p1_wins": 2,
           "p2_wins": 0,
@@ -351,7 +351,7 @@
         },
         {
           "p1": "Anders Christie",
-          "p2": "Bj\u00f8rnar Funderud",
+          "p2": "Bjørnar Funderud",
           "p1_wins": 2,
           "p2_wins": 1,
           "draws": 0
@@ -364,7 +364,7 @@
           "draws": 0
         },
         {
-          "p1": "J\u00f8rgen S\u00f8rli",
+          "p1": "Jørgen Sørli",
           "p2": "Tormod Lang",
           "p1_wins": 1,
           "p2_wins": 2,
@@ -390,7 +390,7 @@
       "round": 4,
       "matches": [
         {
-          "p1": "Anders S\u00f8berg",
+          "p1": "Anders Søberg",
           "p2": "Joakim Aarseth",
           "p1_wins": 1,
           "p2_wins": 2,
@@ -412,7 +412,7 @@
         },
         {
           "p1": "Tormod Lang",
-          "p2": "Bj\u00f8rnar Funderud",
+          "p2": "Bjørnar Funderud",
           "p1_wins": 2,
           "p2_wins": 1,
           "draws": 0

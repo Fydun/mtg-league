@@ -15,7 +15,7 @@
     {
       "rank": 1,
       "name": "Tonny Albrigtsen",
-      "deck": "unknown",
+      "deck": "Grixis Tempo",
       "points": 9,
       "record": "3-0-0",
       "wins": 3,
@@ -29,7 +29,7 @@
     },
     {
       "rank": 2,
-      "name": "Baard H\u00fcbert",
+      "name": "Baard Hübert",
       "deck": "Rx Painter",
       "points": 6,
       "record": "2-1-0",
@@ -60,7 +60,7 @@
     {
       "rank": 4,
       "name": "Parco Au",
-      "deck": "unknown",
+      "deck": "Rhinos",
       "points": 6,
       "record": "2-1-0",
       "wins": 2,
@@ -75,7 +75,7 @@
     {
       "rank": 5,
       "name": "Viktor Hegerberg",
-      "deck": "unknown",
+      "deck": "Rescaminator",
       "points": 3,
       "record": "1-2-0",
       "wins": 1,
@@ -90,7 +90,7 @@
     {
       "rank": 6,
       "name": "Manuel Hlavinka",
-      "deck": "unknown",
+      "deck": "Cradle Control",
       "points": 3,
       "record": "1-2-0",
       "wins": 1,
@@ -105,7 +105,7 @@
     {
       "rank": 7,
       "name": "Tormod Lang",
-      "deck": "unknown",
+      "deck": "Moon Stompy",
       "points": 3,
       "record": "1-2-0",
       "wins": 1,
@@ -124,7 +124,7 @@
       "matches": [
         {
           "p1": "Manuel Hlavinka",
-          "p2": "Baard H\u00fcbert",
+          "p2": "Baard Hübert",
           "p1_wins": 0,
           "p2_wins": 2,
           "draws": 0
@@ -157,7 +157,7 @@
       "matches": [
         {
           "p1": "Parco Au",
-          "p2": "Baard H\u00fcbert",
+          "p2": "Baard Hübert",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
@@ -189,7 +189,7 @@
       "round": 3,
       "matches": [
         {
-          "p1": "Baard H\u00fcbert",
+          "p1": "Baard Hübert",
           "p2": "Tonny Albrigtsen",
           "p1_wins": 1,
           "p2_wins": 2,

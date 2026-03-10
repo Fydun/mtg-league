@@ -10,7 +10,7 @@ import json
 import os
 import re
 
-RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "raw")
+RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "webapp", "public", "data", "raw")
 
 
 def load_all_weeks():

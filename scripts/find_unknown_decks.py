@@ -9,7 +9,7 @@ import os
 import re
 import sys
 
-RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "raw")
+RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "webapp", "public", "data", "raw")
 
 def load_all_weeks():
     """Load all week JSON files sorted by week number."""

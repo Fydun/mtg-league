@@ -1,6 +1,6 @@
 import json, os, re
 
-RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "raw")
+RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "webapp", "public", "data", "raw")
 
 weeks = []
 for fname in os.listdir(RAW_DIR):

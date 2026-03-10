@@ -15,7 +15,7 @@
     {
       "rank": 1,
       "name": "Tormod Lang",
-      "deck": "unknown",
+      "deck": "Moon Stompy",
       "points": 9,
       "record": "3-0-0",
       "wins": 3,
@@ -29,7 +29,7 @@
     },
     {
       "rank": 2,
-      "name": "Tor \u00c5rskog",
+      "name": "Tor Årskog",
       "deck": "unknown",
       "points": 6,
       "record": "2-1-0",
@@ -45,7 +45,7 @@
     {
       "rank": 3,
       "name": "Daniel Norum",
-      "deck": "unknown",
+      "deck": "GWx Depths",
       "points": 6,
       "record": "2-1-0",
       "wins": 2,
@@ -60,7 +60,7 @@
     {
       "rank": 4,
       "name": "Viktor Hegerberg",
-      "deck": "unknown",
+      "deck": "Rescaminator",
       "points": 3,
       "record": "1-2-0",
       "wins": 1,
@@ -75,7 +75,7 @@
     {
       "rank": 5,
       "name": "Parco Au",
-      "deck": "unknown",
+      "deck": "Rhinos",
       "points": 3,
       "record": "1-2-0",
       "wins": 1,
@@ -100,7 +100,7 @@
           "draws": 0
         },
         {
-          "p1": "Tor \u00c5rskog",
+          "p1": "Tor Årskog",
           "p2": "Tormod Lang",
           "p1_wins": 1,
           "p2_wins": 2,
@@ -127,7 +127,7 @@
         },
         {
           "p1": "Parco Au",
-          "p2": "Tor \u00c5rskog",
+          "p2": "Tor Årskog",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
@@ -159,7 +159,7 @@
           "draws": 0
         },
         {
-          "p1": "Tor \u00c5rskog",
+          "p1": "Tor Årskog",
           "p2": "BYE",
           "p1_wins": 2,
           "p2_wins": 0,
