@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import TournamentDetail from "./pages/TournamentDetail";
 import PlayerProfile from "./pages/PlayerProfile";
+import DeckStats from "./pages/DeckStats";
 import ScrollToTop from "./components/ScrollToTop";
 import { DataProvider } from "./contexts/DataContext";
 
@@ -25,6 +26,12 @@ function App() {
                     >
                       Dashboard
                     </Link>
+                    <Link
+                      to="/decks"
+                      className="text-slate-300 hover:bg-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    >
+                      Deck Stats
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -39,6 +46,7 @@ function App() {
                 element={<TournamentDetail />}
               />
               <Route path="/player/:playerName" element={<PlayerProfile />} />
+              <Route path="/decks" element={<DeckStats />} />
             </Routes>
           </main>
         </div>

@@ -16,6 +16,9 @@ export default function PlayerProfile() {
   // Tabs
   const [activeTab, setActiveTab] = useState("history");
 
+  // Deck Stats tab
+  const [expandedDeck, setExpandedDeck] = useState(null);
+
   // Matchup tab filters
   const [matchupOwnDeckFilter, setMatchupOwnDeckFilter] = useState("All");
   const [matchupOpponentDeckInput, setMatchupOpponentDeckInput] = useState("");
@@ -155,12 +158,25 @@ export default function PlayerProfile() {
       const deckName = playerEntry.deck?.trim() || "Unknown";
       if (!isUnknownDeck(playerEntry.deck)) {
         if (!stats.decks[deckName]) {
-          stats.decks[deckName] = { count: 0, wins: 0, matches: 0 };
+          stats.decks[deckName] = {
+            count: 0,
+            wins: 0,
+            losses: 0,
+            draws: 0,
+            matches: 0,
+            ranks: [],
+            lastPlayed: null,
+          };
         }
-        stats.decks[deckName].count++;
-        stats.decks[deckName].wins += playerEntry.wins;
-        stats.decks[deckName].matches +=
+        const dk = stats.decks[deckName];
+        dk.count++;
+        dk.wins += playerEntry.wins;
+        dk.losses += playerEntry.losses;
+        dk.draws += playerEntry.draws;
+        dk.matches +=
           playerEntry.wins + playerEntry.losses + playerEntry.draws;
+        dk.ranks.push(playerEntry.rank);
+        if (!dk.lastPlayed || t.date > dk.lastPlayed) dk.lastPlayed = t.date;
       }
 
       // History Entry
@@ -275,6 +291,63 @@ export default function PlayerProfile() {
       winRate: s.matches > 0 ? ((s.wins / s.matches) * 100).toFixed(1) : 0,
     }))
     .sort((a, b) => b.count - a.count);
+
+  // Detailed Deck Stats List
+  const deckDetailedList = deckList.map((d) => {
+    const raw = playerStats.decks[d.name];
+    const avgRank =
+      raw.ranks.length > 0
+        ? (raw.ranks.reduce((a, b) => a + b, 0) / raw.ranks.length).toFixed(1)
+        : "-";
+    const bestFinish = raw.ranks.length > 0 ? Math.min(...raw.ranks) : "-";
+    const worstFinish = raw.ranks.length > 0 ? Math.max(...raw.ranks) : "-";
+    return {
+      name: d.name,
+      count: d.count,
+      wins: raw.wins,
+      losses: raw.losses,
+      draws: raw.draws,
+      matches: raw.matches,
+      winRate: d.winRate,
+      avgRank,
+      bestFinish,
+      worstFinish,
+      lastPlayed: raw.lastPlayed || "-",
+    };
+  });
+
+  const deckGeneralStats = useMemo(() => {
+    const totalDecks = deckDetailedList.length;
+    const totalKnownMatches = deckDetailedList.reduce(
+      (s, d) => s + d.matches,
+      0,
+    );
+    const totalKnownTournaments = deckDetailedList.reduce(
+      (s, d) => s + d.count,
+      0,
+    );
+    const bestWinRate =
+      deckDetailedList.length > 0
+        ? [...deckDetailedList]
+            .filter((d) => d.matches >= 3)
+            .sort((a, b) => parseFloat(b.winRate) - parseFloat(a.winRate))[0] ||
+          null
+        : null;
+    const bestAvgFinish =
+      deckDetailedList.length > 0
+        ? [...deckDetailedList]
+            .filter((d) => d.count >= 2 && d.avgRank !== "-")
+            .sort((a, b) => parseFloat(a.avgRank) - parseFloat(b.avgRank))[0] ||
+          null
+        : null;
+    return {
+      totalDecks,
+      totalKnownMatches,
+      totalKnownTournaments,
+      bestWinRate,
+      bestAvgFinish,
+    };
+  }, [deckDetailedList]);
 
   // H2H Sorted List
   const h2hList = Object.entries(playerStats.headToHead)
@@ -478,6 +551,16 @@ export default function PlayerProfile() {
             }`}
           >
             Head-to-Head
+          </button>
+          <button
+            onClick={() => setActiveTab("deckstats")}
+            className={`pb-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+              activeTab === "deckstats"
+                ? "border-blue-500 text-blue-400"
+                : "border-transparent text-slate-400 hover:text-slate-300 hover:border-slate-300"
+            }`}
+          >
+            Deck Stats
           </button>
           <button
             onClick={() => setActiveTab("matchups")}
@@ -705,6 +788,232 @@ export default function PlayerProfile() {
                     )}
                   </tbody>
                 </table>
+              </div>
+            </div>
+          )}
+
+          {/* TAB: Deck Stats */}
+          {activeTab === "deckstats" && (
+            <div className="space-y-6">
+              {/* General Overview Cards */}
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                <div className="bg-slate-800 border border-slate-700 rounded-xl p-4">
+                  <div className="text-xs text-slate-400 uppercase tracking-wide">
+                    Unique Decks
+                  </div>
+                  <div className="text-2xl font-bold text-white mt-1">
+                    {deckGeneralStats.totalDecks}
+                  </div>
+                </div>
+                <div className="bg-slate-800 border border-slate-700 rounded-xl p-4">
+                  <div className="text-xs text-slate-400 uppercase tracking-wide">
+                    Known-Deck Matches
+                  </div>
+                  <div className="text-2xl font-bold text-white mt-1">
+                    {deckGeneralStats.totalKnownMatches}
+                  </div>
+                  <div className="text-xs text-slate-500 mt-1">
+                    across {deckGeneralStats.totalKnownTournaments} tournaments
+                  </div>
+                </div>
+                <div className="bg-slate-800 border border-slate-700 rounded-xl p-4">
+                  <div className="text-xs text-slate-400 uppercase tracking-wide">
+                    Most Played
+                  </div>
+                  <div
+                    className="text-lg font-bold text-purple-400 mt-1 truncate"
+                    title={deckList[0]?.name}
+                  >
+                    {deckList[0]?.name || "-"}
+                  </div>
+                  <div className="text-xs text-slate-500 mt-1">
+                    {deckList[0] ? `${deckList[0].count} events` : ""}
+                  </div>
+                </div>
+                {deckGeneralStats.bestWinRate && (
+                  <div className="bg-slate-800 border border-slate-700 rounded-xl p-4">
+                    <div className="text-xs text-slate-400 uppercase tracking-wide">
+                      Best Win Rate
+                    </div>
+                    <div className="text-lg font-bold text-green-400 mt-1 truncate">
+                      {deckGeneralStats.bestWinRate.name}
+                    </div>
+                    <div className="text-xs text-slate-500 mt-1">
+                      {deckGeneralStats.bestWinRate.winRate}% ({deckGeneralStats.bestWinRate.matches} games)
+                    </div>
+                  </div>
+                )}
+                {deckGeneralStats.bestAvgFinish && (
+                  <div className="bg-slate-800 border border-slate-700 rounded-xl p-4">
+                    <div className="text-xs text-slate-400 uppercase tracking-wide">
+                      Best Avg Finish
+                    </div>
+                    <div className="text-lg font-bold text-blue-400 mt-1 truncate">
+                      {deckGeneralStats.bestAvgFinish.name}
+                    </div>
+                    <div className="text-xs text-slate-500 mt-1">
+                      Avg #{deckGeneralStats.bestAvgFinish.avgRank} ({deckGeneralStats.bestAvgFinish.count} events)
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* Per-Deck Breakdown */}
+              <div className="bg-slate-800 rounded-xl border border-slate-700 overflow-hidden">
+                <div className="p-4 border-b border-slate-700 bg-slate-900/50">
+                  <h3 className="font-semibold text-white">
+                    Per-Deck Breakdown
+                  </h3>
+                </div>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm text-left text-slate-300">
+                    <thead className="text-xs uppercase bg-slate-800/80 text-slate-400">
+                      <tr>
+                        <th className="px-5 py-3">Deck</th>
+                        <th className="px-4 py-3 text-center">Events</th>
+                        <th className="px-4 py-3 text-center">Record</th>
+                        <th className="px-4 py-3 text-center">Win Rate</th>
+                        <th className="px-4 py-3 text-center">Avg Rank</th>
+                        <th className="px-4 py-3 text-center">Best</th>
+                        <th className="px-4 py-3 text-center">Worst</th>
+                        <th className="px-4 py-3 text-right">Last Played</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-700/50">
+                      {deckDetailedList.map((d) => (
+                        <>
+                          <tr
+                            key={d.name}
+                            onClick={() =>
+                              setExpandedDeck(
+                                expandedDeck === d.name ? null : d.name,
+                              )
+                            }
+                            className="hover:bg-slate-700/30 transition-colors cursor-pointer"
+                          >
+                            <td className="px-5 py-4 font-medium text-white">
+                              <span className="flex items-center gap-2">
+                                <span
+                                  className={`text-[10px] transition-transform ${
+                                    expandedDeck === d.name
+                                      ? "rotate-90"
+                                      : ""
+                                  }`}
+                                >
+                                  ▶
+                                </span>
+                                {d.name}
+                              </span>
+                            </td>
+                            <td className="px-4 py-4 text-center text-slate-400">
+                              {d.count}
+                            </td>
+                            <td className="px-4 py-4 text-center">
+                              <span className="text-green-400">{d.wins}</span>-
+                              <span className="text-red-400">{d.losses}</span>-
+                              <span className="text-slate-500">{d.draws}</span>
+                            </td>
+                            <td className="px-4 py-4 text-center">
+                              <span
+                                className={`font-bold ${
+                                  parseFloat(d.winRate) >= 60
+                                    ? "text-green-400"
+                                    : parseFloat(d.winRate) >= 50
+                                      ? "text-blue-400"
+                                      : "text-slate-400"
+                                }`}
+                              >
+                                {d.winRate}%
+                              </span>
+                            </td>
+                            <td className="px-4 py-4 text-center text-slate-300">
+                              {d.avgRank}
+                            </td>
+                            <td className="px-4 py-4 text-center text-green-400">
+                              #{d.bestFinish}
+                            </td>
+                            <td className="px-4 py-4 text-center text-red-400">
+                              #{d.worstFinish}
+                            </td>
+                            <td className="px-4 py-4 text-right text-slate-400 font-mono text-xs">
+                              {d.lastPlayed}
+                            </td>
+                          </tr>
+                          {expandedDeck === d.name && (
+                            <tr key={`${d.name}-detail`}>
+                              <td colSpan="8" className="p-0">
+                                <div className="bg-slate-900/60 border-t border-slate-700/50">
+                                  <table className="w-full text-sm text-left text-slate-400">
+                                    <thead className="text-[10px] uppercase bg-slate-900/80 text-slate-500">
+                                      <tr>
+                                        <th className="px-5 py-2">Date</th>
+                                        <th className="px-4 py-2">
+                                          Tournament
+                                        </th>
+                                        <th className="px-4 py-2 text-center">
+                                          Record
+                                        </th>
+                                        <th className="px-4 py-2 text-center">
+                                          Rank
+                                        </th>
+                                      </tr>
+                                    </thead>
+                                    <tbody className="divide-y divide-slate-800">
+                                      {playerStats.history
+                                        .filter((h) => h.deck === d.name)
+                                        .map((h) => (
+                                          <tr
+                                            key={h.id}
+                                            className="hover:bg-slate-800/50"
+                                          >
+                                            <td className="px-5 py-2 font-mono text-xs">
+                                              {h.date}
+                                            </td>
+                                            <td className="px-4 py-2">
+                                              <Link
+                                                to={`/tournament/${h.id}`}
+                                                className="text-slate-300 hover:text-blue-400 transition-colors"
+                                              >
+                                                {h.name}
+                                              </Link>
+                                            </td>
+                                            <td className="px-4 py-2 text-center">
+                                              <span
+                                                className={`px-2 py-0.5 rounded text-xs font-bold ${
+                                                  h.points >= 9
+                                                    ? "bg-green-500/20 text-green-400"
+                                                    : "bg-slate-700 text-slate-400"
+                                                }`}
+                                              >
+                                                {h.record}
+                                              </span>
+                                            </td>
+                                            <td className="px-4 py-2 text-center font-bold text-slate-500">
+                                              #{h.rank}
+                                            </td>
+                                          </tr>
+                                        ))}
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </td>
+                            </tr>
+                          )}
+                        </>
+                      ))}
+                      {deckDetailedList.length === 0 && (
+                        <tr>
+                          <td
+                            colSpan="8"
+                            className="px-6 py-12 text-center text-slate-500"
+                          >
+                            No deck data available.
+                          </td>
+                        </tr>
+                      )}
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           )}
