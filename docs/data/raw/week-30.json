@@ -15,7 +15,7 @@
     {
       "rank": 1,
       "name": "Eirik Larsen",
-      "deck": "unknown",
+      "deck": "Dreadnought",
       "points": 9,
       "record": "3-1-0",
       "wins": 3,
@@ -30,7 +30,7 @@
     {
       "rank": 2,
       "name": "Tonny Albrigtsen",
-      "deck": "unknown",
+      "deck": "Grixis Tempo",
       "points": 9,
       "record": "3-1-0",
       "wins": 3,
@@ -45,7 +45,7 @@
     {
       "rank": 3,
       "name": "Anders Christie",
-      "deck": "unknown",
+      "deck": "Cephalid Breakfast",
       "points": 9,
       "record": "3-1-0",
       "wins": 3,
@@ -59,8 +59,8 @@
     },
     {
       "rank": 4,
-      "name": "Anders S\u00f8berg",
-      "deck": "unknown",
+      "name": "Anders Søberg",
+      "deck": "Doomsday",
       "points": 9,
       "record": "3-1-0",
       "wins": 3,
@@ -75,7 +75,7 @@
     {
       "rank": 5,
       "name": "Tormod Lang",
-      "deck": "unknown",
+      "deck": "Eldrazi",
       "points": 6,
       "record": "2-2-0",
       "wins": 2,
@@ -89,8 +89,8 @@
     },
     {
       "rank": 6,
-      "name": "S\u00f8ren Hunskaar",
-      "deck": "unknown",
+      "name": "Søren Hunskaar",
+      "deck": "BUG Beans",
       "points": 6,
       "record": "2-2-0",
       "wins": 2,
@@ -104,7 +104,7 @@
     },
     {
       "rank": 7,
-      "name": "Baard H\u00fcbert",
+      "name": "Baard Hübert",
       "deck": "Rx Painter",
       "points": 6,
       "record": "2-2-0",
@@ -120,7 +120,7 @@
     {
       "rank": 8,
       "name": "Viktor Hegerberg",
-      "deck": "unknown",
+      "deck": "Rescaminator",
       "points": 3,
       "record": "1-3-0",
       "wins": 1,
@@ -135,7 +135,7 @@
     {
       "rank": 9,
       "name": "Simen Walbaekken",
-      "deck": "unknown",
+      "deck": "Rescaminator",
       "points": 3,
       "record": "1-3-0",
       "wins": 1,
@@ -150,7 +150,7 @@
     {
       "rank": 10,
       "name": "Parco Au",
-      "deck": "unknown",
+      "deck": "Rhinos",
       "points": 0,
       "record": "0-4-0",
       "wins": 0,
@@ -189,14 +189,14 @@
           "draws": 0
         },
         {
-          "p1": "Anders S\u00f8berg",
-          "p2": "Baard H\u00fcbert",
+          "p1": "Anders Søberg",
+          "p2": "Baard Hübert",
           "p1_wins": 2,
           "p2_wins": 1,
           "draws": 0
         },
         {
-          "p1": "S\u00f8ren Hunskaar",
+          "p1": "Søren Hunskaar",
           "p2": "Simen Walbaekken",
           "p1_wins": 2,
           "p2_wins": 0,
@@ -215,14 +215,14 @@
           "draws": 0
         },
         {
-          "p1": "S\u00f8ren Hunskaar",
+          "p1": "Søren Hunskaar",
           "p2": "Eirik Larsen",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
         },
         {
-          "p1": "Anders S\u00f8berg",
+          "p1": "Anders Søberg",
           "p2": "Parco Au",
           "p1_wins": 2,
           "p2_wins": 1,
@@ -236,7 +236,7 @@
           "draws": 0
         },
         {
-          "p1": "Baard H\u00fcbert",
+          "p1": "Baard Hübert",
           "p2": "Simen Walbaekken",
           "p1_wins": 2,
           "p2_wins": 0,
@@ -255,15 +255,15 @@
           "draws": 0
         },
         {
-          "p1": "Anders S\u00f8berg",
+          "p1": "Anders Søberg",
           "p2": "Tormod Lang",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
         },
         {
-          "p1": "S\u00f8ren Hunskaar",
-          "p2": "Baard H\u00fcbert",
+          "p1": "Søren Hunskaar",
+          "p2": "Baard Hübert",
           "p1_wins": 2,
           "p2_wins": 1,
           "draws": 0
@@ -302,14 +302,14 @@
           "draws": 0
         },
         {
-          "p1": "S\u00f8ren Hunskaar",
-          "p2": "Anders S\u00f8berg",
+          "p1": "Søren Hunskaar",
+          "p2": "Anders Søberg",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
         },
         {
-          "p1": "Baard H\u00fcbert",
+          "p1": "Baard Hübert",
           "p2": "Viktor Hegerberg",
           "p1_wins": 2,
           "p2_wins": 1,

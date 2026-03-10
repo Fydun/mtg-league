@@ -29,8 +29,8 @@
     },
     {
       "rank": 2,
-      "name": "Christopher \u00d8vrum",
-      "deck": "unknown",
+      "name": "Christopher Øvrum",
+      "deck": "Lands",
       "points": 6,
       "record": "2-1-0",
       "wins": 2,
@@ -74,7 +74,7 @@
     },
     {
       "rank": 5,
-      "name": "Anders S\u00f8berg",
+      "name": "Anders Søberg",
       "deck": "Rx Painter",
       "points": 3,
       "record": "1-2-0",
@@ -152,14 +152,14 @@
           "draws": 0
         },
         {
-          "p1": "Anders S\u00f8berg",
+          "p1": "Anders Søberg",
           "p2": "Petter Haukaas",
           "p1_wins": 2,
           "p2_wins": 1,
           "draws": 0
         },
         {
-          "p1": "Christopher \u00d8vrum",
+          "p1": "Christopher Øvrum",
           "p2": "Tonny Albrigtsen",
           "p1_wins": 2,
           "p2_wins": 0,
@@ -172,14 +172,14 @@
       "matches": [
         {
           "p1": "Viktor Hegerberg",
-          "p2": "Christopher \u00d8vrum",
+          "p2": "Christopher Øvrum",
           "p1_wins": 2,
           "p2_wins": 1,
           "draws": 0
         },
         {
           "p1": "Tormod Lang",
-          "p2": "Anders S\u00f8berg",
+          "p2": "Anders Søberg",
           "p1_wins": 2,
           "p2_wins": 1,
           "draws": 0
@@ -211,14 +211,14 @@
           "draws": 0
         },
         {
-          "p1": "Christopher \u00d8vrum",
+          "p1": "Christopher Øvrum",
           "p2": "Anders Christie",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
         },
         {
-          "p1": "Anders S\u00f8berg",
+          "p1": "Anders Søberg",
           "p2": "Tonny Albrigtsen",
           "p1_wins": 0,
           "p2_wins": 2,

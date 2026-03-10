@@ -30,7 +30,7 @@
     {
       "rank": 2,
       "name": "Parco Au",
-      "deck": "unknown",
+      "deck": "Jeskai Control",
       "points": 6,
       "record": "2-1-0",
       "wins": 2,
@@ -45,7 +45,7 @@
     {
       "rank": 3,
       "name": "Joakim Aarseth",
-      "deck": "unknown",
+      "deck": "UB Reanimator",
       "points": 6,
       "record": "2-1-0",
       "wins": 2,
@@ -59,8 +59,8 @@
     },
     {
       "rank": 4,
-      "name": "Anders S\u00f8berg",
-      "deck": "unknown",
+      "name": "Anders Søberg",
+      "deck": "Doomsday",
       "points": 6,
       "record": "2-1-0",
       "wins": 2,
@@ -75,7 +75,7 @@
     {
       "rank": 5,
       "name": "Tonny Albrigtsen",
-      "deck": "unknown",
+      "deck": "Grixis Tempo",
       "points": 3,
       "record": "1-2-0",
       "wins": 1,
@@ -105,7 +105,7 @@
     {
       "rank": 7,
       "name": "Manuel Hlavinka",
-      "deck": "unknown",
+      "deck": "Turbo Goblins",
       "points": 3,
       "record": "1-2-0",
       "wins": 1,
@@ -120,7 +120,7 @@
     {
       "rank": 8,
       "name": "Viktor Hegerberg",
-      "deck": "unknown",
+      "deck": "UB Reanimator",
       "points": 0,
       "record": "0-3-0",
       "wins": 0,
@@ -145,7 +145,7 @@
           "draws": 0
         },
         {
-          "p1": "Anders S\u00f8berg",
+          "p1": "Anders Søberg",
           "p2": "Tormod Lang",
           "p1_wins": 1,
           "p2_wins": 2,
@@ -179,7 +179,7 @@
         },
         {
           "p1": "Viktor Hegerberg",
-          "p2": "Anders S\u00f8berg",
+          "p2": "Anders Søberg",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
@@ -218,7 +218,7 @@
           "draws": 0
         },
         {
-          "p1": "Anders S\u00f8berg",
+          "p1": "Anders Søberg",
           "p2": "Ian Fox",
           "p1_wins": 2,
           "p2_wins": 1,
