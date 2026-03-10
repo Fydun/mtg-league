@@ -25,11 +25,11 @@
       "gw": 0.8,
       "ogw": 0.6343434343434343,
       "mw": 1.0,
-      "payout": 0
+      "payout": 420
     },
     {
       "rank": 2,
-      "name": "J\u00f8rgen S\u00f8rli",
+      "name": "Jørgen Sørli",
       "deck": "Cradle Control",
       "points": 9,
       "record": "3-1-0",
@@ -40,7 +40,7 @@
       "gw": 0.6666666666666666,
       "ogw": 0.5444444444444445,
       "mw": 0.75,
-      "payout": 0
+      "payout": 210
     },
     {
       "rank": 3,
@@ -55,7 +55,7 @@
       "gw": 0.6363636363636364,
       "ogw": 0.5125,
       "mw": 0.75,
-      "payout": 0
+      "payout": 210
     },
     {
       "rank": 4,
@@ -70,7 +70,7 @@
       "gw": 0.7,
       "ogw": 0.3819444444444444,
       "mw": 0.75,
-      "payout": 0
+      "payout": 210
     },
     {
       "rank": 5,
@@ -89,7 +89,7 @@
     },
     {
       "rank": 6,
-      "name": "Baard H\u00fcbert",
+      "name": "Baard Hübert",
       "deck": "Rx Painter",
       "points": 6,
       "record": "2-2-0",
@@ -183,7 +183,7 @@
       "round": 1,
       "matches": [
         {
-          "p1": "Baard H\u00fcbert",
+          "p1": "Baard Hübert",
           "p2": "Kenneth Pedersen",
           "p1_wins": 2,
           "p2_wins": 0,
@@ -198,7 +198,7 @@
         },
         {
           "p1": "Anders Christie",
-          "p2": "J\u00f8rgen S\u00f8rli",
+          "p2": "Jørgen Sørli",
           "p1_wins": 0,
           "p2_wins": 2,
           "draws": 0
@@ -237,8 +237,8 @@
           "draws": 0
         },
         {
-          "p1": "Baard H\u00fcbert",
-          "p2": "J\u00f8rgen S\u00f8rli",
+          "p1": "Baard Hübert",
+          "p2": "Jørgen Sørli",
           "p1_wins": 0,
           "p2_wins": 2,
           "draws": 0
@@ -278,7 +278,7 @@
       "matches": [
         {
           "p1": "Peter White",
-          "p2": "J\u00f8rgen S\u00f8rli",
+          "p2": "Jørgen Sørli",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
@@ -292,7 +292,7 @@
         },
         {
           "p1": "Erik Bergseth",
-          "p2": "Baard H\u00fcbert",
+          "p2": "Baard Hübert",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
@@ -331,14 +331,14 @@
           "draws": 0
         },
         {
-          "p1": "J\u00f8rgen S\u00f8rli",
+          "p1": "Jørgen Sørli",
           "p2": "Viktor Hegerberg",
           "p1_wins": 2,
           "p2_wins": 1,
           "draws": 0
         },
         {
-          "p1": "Baard H\u00fcbert",
+          "p1": "Baard Hübert",
           "p2": "Tormod Lang",
           "p1_wins": 0,
           "p2_wins": 2,

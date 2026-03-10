@@ -25,7 +25,7 @@
       "gw": 0.7272727272727273,
       "ogw": 0.5613636363636363,
       "mw": 1.0,
-      "payout": 0
+      "payout": 472
     },
     {
       "rank": 2,
@@ -40,7 +40,7 @@
       "gw": 0.5454545454545454,
       "ogw": 0.5318181818181817,
       "mw": 0.75,
-      "payout": 0
+      "payout": 236
     },
     {
       "rank": 3,
@@ -55,11 +55,11 @@
       "gw": 0.7,
       "ogw": 0.47556818181818183,
       "mw": 0.75,
-      "payout": 0
+      "payout": 236
     },
     {
       "rank": 4,
-      "name": "Anders S\u00f8berg",
+      "name": "Anders Søberg",
       "deck": "4+ Color Beans",
       "points": 6,
       "record": "2-2-0",
@@ -197,7 +197,7 @@
         },
         {
           "p1": "Martin Lindboe",
-          "p2": "Anders S\u00f8berg",
+          "p2": "Anders Søberg",
           "p1_wins": 2,
           "p2_wins": 1,
           "draws": 0
@@ -223,7 +223,7 @@
         },
         {
           "p1": "Anders Christie",
-          "p2": "Anders S\u00f8berg",
+          "p2": "Anders Søberg",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
@@ -270,7 +270,7 @@
         },
         {
           "p1": "Manuel Hlavinka",
-          "p2": "Anders S\u00f8berg",
+          "p2": "Anders Søberg",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
@@ -302,7 +302,7 @@
           "draws": 0
         },
         {
-          "p1": "Anders S\u00f8berg",
+          "p1": "Anders Søberg",
           "p2": "Tormod Lang",
           "p1_wins": 1,
           "p2_wins": 2,

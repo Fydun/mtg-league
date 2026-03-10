@@ -14,7 +14,7 @@
   "standings": [
     {
       "rank": 1,
-      "name": "J\u00f8rgen S\u00f8rli",
+      "name": "Jørgen Sørli",
       "deck": "Cradle Control",
       "points": 12,
       "record": "4-0-0",
@@ -25,11 +25,11 @@
       "gw": 0.7272727272727273,
       "ogw": 0.5391414141414141,
       "mw": 1.0,
-      "payout": 0
+      "payout": 462
     },
     {
       "rank": 2,
-      "name": "Anders S\u00f8berg",
+      "name": "Anders Søberg",
       "deck": "Doomsday",
       "points": 9,
       "record": "3-1-0",
@@ -40,7 +40,7 @@
       "gw": 0.7777777777777778,
       "ogw": 0.47348484848484845,
       "mw": 0.75,
-      "payout": 0
+      "payout": 231
     },
     {
       "rank": 3,
@@ -55,7 +55,7 @@
       "gw": 0.7,
       "ogw": 0.46969696969696967,
       "mw": 0.75,
-      "payout": 0
+      "payout": 231
     },
     {
       "rank": 4,
@@ -70,7 +70,7 @@
       "gw": 0.6,
       "ogw": 0.38636363636363635,
       "mw": 0.75,
-      "payout": 0
+      "payout": 231
     },
     {
       "rank": 5,
@@ -89,7 +89,7 @@
     },
     {
       "rank": 6,
-      "name": "Baard H\u00fcbert",
+      "name": "Baard Hübert",
       "deck": "Scamwise",
       "points": 6,
       "record": "2-2-0",
@@ -104,7 +104,7 @@
     },
     {
       "rank": 7,
-      "name": "S\u00f8ren Hunskaar",
+      "name": "Søren Hunskaar",
       "deck": "Grixis Tempo",
       "points": 6,
       "record": "2-2-0",
@@ -198,7 +198,7 @@
       "round": 1,
       "matches": [
         {
-          "p1": "J\u00f8rgen S\u00f8rli",
+          "p1": "Jørgen Sørli",
           "p2": "Erik Bergseth",
           "p1_wins": 2,
           "p2_wins": 0,
@@ -206,7 +206,7 @@
         },
         {
           "p1": "Ferdinand Marnburg",
-          "p2": "S\u00f8ren Hunskaar",
+          "p2": "Søren Hunskaar",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
@@ -220,13 +220,13 @@
         },
         {
           "p1": "Parco Au",
-          "p2": "Anders S\u00f8berg",
+          "p2": "Anders Søberg",
           "p1_wins": 0,
           "p2_wins": 2,
           "draws": 0
         },
         {
-          "p1": "Baard H\u00fcbert",
+          "p1": "Baard Hübert",
           "p2": "Joakim Aarseth",
           "p1_wins": 2,
           "p2_wins": 0,
@@ -245,22 +245,22 @@
       "round": 2,
       "matches": [
         {
-          "p1": "Anders S\u00f8berg",
+          "p1": "Anders Søberg",
           "p2": "Tormod Lang",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
         },
         {
-          "p1": "Baard H\u00fcbert",
-          "p2": "S\u00f8ren Hunskaar",
+          "p1": "Baard Hübert",
+          "p2": "Søren Hunskaar",
           "p1_wins": 2,
           "p2_wins": 1,
           "draws": 0
         },
         {
           "p1": "Manuel Hlavinka",
-          "p2": "J\u00f8rgen S\u00f8rli",
+          "p2": "Jørgen Sørli",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
@@ -292,15 +292,15 @@
       "round": 3,
       "matches": [
         {
-          "p1": "Baard H\u00fcbert",
-          "p2": "J\u00f8rgen S\u00f8rli",
+          "p1": "Baard Hübert",
+          "p2": "Jørgen Sørli",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
         },
         {
-          "p1": "Anders S\u00f8berg",
-          "p2": "S\u00f8ren Hunskaar",
+          "p1": "Anders Søberg",
+          "p2": "Søren Hunskaar",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
@@ -332,14 +332,14 @@
       "round": 4,
       "matches": [
         {
-          "p1": "J\u00f8rgen S\u00f8rli",
-          "p2": "Anders S\u00f8berg",
+          "p1": "Jørgen Sørli",
+          "p2": "Anders Søberg",
           "p1_wins": 2,
           "p2_wins": 1,
           "draws": 0
         },
         {
-          "p1": "Baard H\u00fcbert",
+          "p1": "Baard Hübert",
           "p2": "Ferdinand Marnburg",
           "p1_wins": 1,
           "p2_wins": 2,
@@ -354,7 +354,7 @@
         },
         {
           "p1": "Tormod Lang",
-          "p2": "S\u00f8ren Hunskaar",
+          "p2": "Søren Hunskaar",
           "p1_wins": 0,
           "p2_wins": 2,
           "draws": 0

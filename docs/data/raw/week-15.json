@@ -14,7 +14,7 @@
   "standings": [
     {
       "rank": 1,
-      "name": "Anders S\u00f8berg",
+      "name": "Anders Søberg",
       "deck": "Doomsday",
       "points": 9,
       "record": "3-0-0",
@@ -25,11 +25,11 @@
       "gw": 0.8571428571428571,
       "ogw": 0.4761904761904761,
       "mw": 1.0,
-      "payout": 0
+      "payout": 252
     },
     {
       "rank": 2,
-      "name": "Baard H\u00fcbert",
+      "name": "Baard Hübert",
       "deck": "Cephalid Breakfast",
       "points": 6,
       "record": "2-1-0",
@@ -40,7 +40,7 @@
       "gw": 0.6666666666666666,
       "ogw": 0.7142857142857142,
       "mw": 0.6666666666666666,
-      "payout": 0
+      "payout": 126
     },
     {
       "rank": 3,
@@ -55,7 +55,7 @@
       "gw": 0.5714285714285714,
       "ogw": 0.49999999999999994,
       "mw": 0.6666666666666666,
-      "payout": 0
+      "payout": 126
     },
     {
       "rank": 4,
@@ -70,7 +70,7 @@
       "gw": 0.5714285714285714,
       "ogw": 0.41666666666666663,
       "mw": 0.6666666666666666,
-      "payout": 0
+      "payout": 126
     },
     {
       "rank": 5,
@@ -104,7 +104,7 @@
     },
     {
       "rank": 7,
-      "name": "J\u00f8rgen S\u00f8rli",
+      "name": "Jørgen Sørli",
       "deck": "Cradle Control",
       "points": 3,
       "record": "1-2-0",
@@ -123,7 +123,7 @@
       "round": 1,
       "matches": [
         {
-          "p1": "J\u00f8rgen S\u00f8rli",
+          "p1": "Jørgen Sørli",
           "p2": "Tormod Lang",
           "p1_wins": 1,
           "p2_wins": 2,
@@ -138,13 +138,13 @@
         },
         {
           "p1": "Anders Christie",
-          "p2": "Anders S\u00f8berg",
+          "p2": "Anders Søberg",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
         },
         {
-          "p1": "Baard H\u00fcbert",
+          "p1": "Baard Hübert",
           "p2": "BYE",
           "p1_wins": 2,
           "p2_wins": 0,
@@ -156,21 +156,21 @@
       "round": 2,
       "matches": [
         {
-          "p1": "Anders S\u00f8berg",
+          "p1": "Anders Søberg",
           "p2": "Tonny Albrigtsen",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
         },
         {
-          "p1": "Baard H\u00fcbert",
+          "p1": "Baard Hübert",
           "p2": "Tormod Lang",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
         },
         {
-          "p1": "J\u00f8rgen S\u00f8rli",
+          "p1": "Jørgen Sørli",
           "p2": "Anders Christie",
           "p1_wins": 2,
           "p2_wins": 0,
@@ -189,8 +189,8 @@
       "round": 3,
       "matches": [
         {
-          "p1": "Baard H\u00fcbert",
-          "p2": "Anders S\u00f8berg",
+          "p1": "Baard Hübert",
+          "p2": "Anders Søberg",
           "p1_wins": 0,
           "p2_wins": 2,
           "draws": 0
@@ -204,7 +204,7 @@
         },
         {
           "p1": "Kenneth Pedersen",
-          "p2": "J\u00f8rgen S\u00f8rli",
+          "p2": "Jørgen Sørli",
           "p1_wins": 2,
           "p2_wins": 1,
           "draws": 0

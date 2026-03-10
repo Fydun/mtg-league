@@ -25,11 +25,11 @@
       "gw": 0.75,
       "ogw": 0.4603174603174603,
       "mw": 1.0,
-      "payout": 0
+      "payout": 252
     },
     {
       "rank": 2,
-      "name": "S\u00f8ren Hunskaar",
+      "name": "Søren Hunskaar",
       "deck": "BUG Beans",
       "points": 6,
       "record": "2-1-0",
@@ -40,11 +40,11 @@
       "gw": 0.7142857142857143,
       "ogw": 0.6607142857142857,
       "mw": 0.6666666666666666,
-      "payout": 0
+      "payout": 126
     },
     {
       "rank": 3,
-      "name": "Anders S\u00f8berg",
+      "name": "Anders Søberg",
       "deck": "4+ Color Beans",
       "points": 6,
       "record": "2-1-0",
@@ -55,7 +55,7 @@
       "gw": 0.5714285714285714,
       "ogw": 0.5343915343915343,
       "mw": 0.6666666666666666,
-      "payout": 0
+      "payout": 126
     },
     {
       "rank": 4,
@@ -70,7 +70,7 @@
       "gw": 0.5555555555555556,
       "ogw": 0.4682539682539682,
       "mw": 0.6666666666666666,
-      "payout": 0
+      "payout": 126
     },
     {
       "rank": 5,
@@ -123,7 +123,7 @@
       "round": 1,
       "matches": [
         {
-          "p1": "Anders S\u00f8berg",
+          "p1": "Anders Søberg",
           "p2": "Tormod Lang",
           "p1_wins": 2,
           "p2_wins": 1,
@@ -144,7 +144,7 @@
           "draws": 1
         },
         {
-          "p1": "S\u00f8ren Hunskaar",
+          "p1": "Søren Hunskaar",
           "p2": "BYE",
           "p1_wins": 2,
           "p2_wins": 0,
@@ -156,8 +156,8 @@
       "round": 2,
       "matches": [
         {
-          "p1": "Anders S\u00f8berg",
-          "p2": "S\u00f8ren Hunskaar",
+          "p1": "Anders Søberg",
+          "p2": "Søren Hunskaar",
           "p1_wins": 0,
           "p2_wins": 2,
           "draws": 0
@@ -189,7 +189,7 @@
       "round": 3,
       "matches": [
         {
-          "p1": "S\u00f8ren Hunskaar",
+          "p1": "Søren Hunskaar",
           "p2": "Manuel Hlavinka",
           "p1_wins": 1,
           "p2_wins": 2,
@@ -197,7 +197,7 @@
         },
         {
           "p1": "Kenneth Pedersen",
-          "p2": "Anders S\u00f8berg",
+          "p2": "Anders Søberg",
           "p1_wins": 0,
           "p2_wins": 2,
           "draws": 0
