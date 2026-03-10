@@ -65,6 +65,7 @@ Merfolk
 Mono B Reanimator
 Mono Black Helm
 Moon Stompy
+Moonshadow
 Nadu Elves
 Nadu Midrange
 Nazu Wizards
