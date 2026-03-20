@@ -76,7 +76,7 @@
     },
     {
       "rank": 5,
-      "name": "Håvard Graff",
+      "name": "H\u00e5vard Graff",
       "deck": "Blue Post",
       "points": 6,
       "record": "2-2-0",
@@ -136,7 +136,7 @@
     },
     {
       "rank": 9,
-      "name": "Søren Hunskaar",
+      "name": "S\u00f8ren Hunskaar",
       "deck": "UR Tempo",
       "points": 3,
       "record": "1-3-0",
@@ -166,7 +166,7 @@
     },
     {
       "rank": 11,
-      "name": "Baard Hübert",
+      "name": "Baard H\u00fcbert",
       "deck": "Rx Painter",
       "points": 3,
       "record": "1-2-0",
@@ -213,14 +213,14 @@
           "draws": 0
         },
         {
-          "p1": "Søren Hunskaar",
-          "p2": "Baard Hübert",
+          "p1": "S\u00f8ren Hunskaar",
+          "p2": "Baard H\u00fcbert",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
         },
         {
-          "p1": "Håvard Graff",
+          "p1": "H\u00e5vard Graff",
           "p2": "BYE",
           "p1_wins": 2,
           "p2_wins": 0,
@@ -232,14 +232,14 @@
       "round": 2,
       "matches": [
         {
-          "p1": "Håvard Graff",
+          "p1": "H\u00e5vard Graff",
           "p2": "Mikael Gyhagen",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
         },
         {
-          "p1": "Søren Hunskaar",
+          "p1": "S\u00f8ren Hunskaar",
           "p2": "Tonny Albrigtsen",
           "p1_wins": 0,
           "p2_wins": 2,
@@ -260,7 +260,7 @@
           "draws": 0
         },
         {
-          "p1": "Baard Hübert",
+          "p1": "Baard H\u00fcbert",
           "p2": "Tormod Lang",
           "p1_wins": 2,
           "p2_wins": 1,
@@ -280,14 +280,14 @@
       "matches": [
         {
           "p1": "Tonny Albrigtsen",
-          "p2": "Håvard Graff",
+          "p2": "H\u00e5vard Graff",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
         },
         {
           "p1": "Arvin Graff",
-          "p2": "Søren Hunskaar",
+          "p2": "S\u00f8ren Hunskaar",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
@@ -301,7 +301,7 @@
         },
         {
           "p1": "Anders Christie",
-          "p2": "Baard Hübert",
+          "p2": "Baard H\u00fcbert",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
@@ -333,7 +333,7 @@
           "draws": 0
         },
         {
-          "p1": "Håvard Graff",
+          "p1": "H\u00e5vard Graff",
           "p2": "Anders Christie",
           "p1_wins": 1,
           "p2_wins": 2,
@@ -341,7 +341,7 @@
         },
         {
           "p1": "Mikael Gyhagen",
-          "p2": "Søren Hunskaar",
+          "p2": "S\u00f8ren Hunskaar",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
@@ -362,5 +362,6 @@
         }
       ]
     }
-  ]
+  ],
+  "league_id": "spring-2026"
 }
