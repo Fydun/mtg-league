@@ -233,9 +233,13 @@ def calculate_standings(all_matches, to_playing_count):
         s.ogw = ogw
         
         shares = 0
-        if s.m_losses == 0 and s.m_draws == 0: shares = 4
-        elif s.m_losses == 0 and s.m_draws == 1: shares = 3
-        elif s.m_losses == 1 and s.m_draws == 0: shares = 2
+        if s.m_wins == TOTAL_ROUNDS:
+            shares = 4  # undefeated
+        elif s.m_wins == TOTAL_ROUNDS - 1:
+            if s.m_draws > 0:
+                shares = 3  # one draw
+            elif s.m_losses > 0:
+                shares = 2  # one loss
             
         if shares > 0:
             total_shares += shares

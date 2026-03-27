@@ -17,14 +17,17 @@ def load_all_weeks():
     return weeks
 
 
-def get_shares(wins, losses, draws):
-    """Return share count based on record."""
-    if losses == 0 and draws == 0:
-        return 4  # x-0
-    if losses == 0 and draws == 1:
-        return 3  # x-0-1
-    if losses == 1 and draws == 0:
-        return 2  # x-1
+def get_shares(wins, losses, draws, total_rounds=4):
+    """Return share count based on record.
+    4 shares for undefeated (wins == rounds), 3 for one draw, 2 for one loss.
+    Players who dropped or had extra losses get nothing."""
+    if wins == total_rounds:
+        return 4  # undefeated
+    if wins == total_rounds - 1:
+        if draws > 0:
+            return 3  # one draw
+        if losses > 0:
+            return 2  # one loss
     return 0
 
 
