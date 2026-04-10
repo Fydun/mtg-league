@@ -1,15 +1,15 @@
 {
-  "id": "week-96",
-  "name": "Week 96",
+  "id": "week-97",
+  "name": "Week 97",
   "date": "2026-04-09",
-  "week_number": 96,
+  "week_number": 97,
   "metadata": {
     "aetherhub_id": "98742",
     "players": 11,
     "rounds": 4,
-    "prize_pool": 1050,
+    "prize_pool": 945,
     "top_cut": 0,
-    "to_playing": 1,
+    "to_playing": 2,
     "event_cut": 0,
     "cutoff_points": 9
   },
@@ -27,7 +27,7 @@
       "gw": 0.8888888888888888,
       "ogw": 0.4722222222222222,
       "mw": 1.0,
-      "payout": 420
+      "payout": 378
     },
     {
       "rank": 2,
@@ -42,7 +42,7 @@
       "gw": 0.5454545454545454,
       "ogw": 0.6813131313131313,
       "mw": 0.75,
-      "payout": 210
+      "payout": 189
     },
     {
       "rank": 3,
@@ -57,7 +57,7 @@
       "gw": 0.7,
       "ogw": 0.567003367003367,
       "mw": 0.75,
-      "payout": 210
+      "payout": 189
     },
     {
       "rank": 4,
@@ -72,7 +72,7 @@
       "gw": 0.6363636363636364,
       "ogw": 0.43560606060606055,
       "mw": 0.75,
-      "payout": 210
+      "payout": 189
     },
     {
       "rank": 5,
@@ -137,7 +137,7 @@
     {
       "rank": 9,
       "name": "Gunnar Sivertsen",
-      "deck": "",
+      "deck": "BUG Evoke Beans",
       "points": 3,
       "record": "1-3-0",
       "wins": 1,
