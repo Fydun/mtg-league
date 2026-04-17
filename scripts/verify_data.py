@@ -250,8 +250,8 @@ def prompt_select_name(session, original, suggestions, all_names):
 
         # Keep original
         if answer == "":
-            pf("muted", f"     Keeping original: \"{original}\"")
-            return original, False
+            pf("ok", f"     ✓ Keeping original as NEW player: \"{original}\"")
+            return original, True
 
         # Numeric pick from suggestions
         if answer.isdigit() and suggestions:

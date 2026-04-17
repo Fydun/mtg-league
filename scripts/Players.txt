@@ -45,7 +45,7 @@ Manuel Hlavinka
 Marius Presterud
 Martin Lindboe
 Mathias Aspen
-Matias Kaarstein 
+Matias Kaarstein
 Mikael Gyhagen
 Noor Othmani
 Parco Au
@@ -71,3 +71,4 @@ Trym Bergman
 Viktor Hegerberg
 William Kvisli
 Miller Bateman
+Christopher Brokstad
