@@ -2,15 +2,17 @@ Name
 Aleksander Vangsøy
 Anders Christie
 Anders Søberg
-André Moshølen
 Andreas Karlsen
+André Moshølen
 Arvin Graff
 Austin Byron Moore
 Axel
 Baard Hübert
+Balder Axhage
 Bendik Hansen
 Benedikte Zwart
 Bjørnar Funderud
+Christopher Brokstad
 Christopher Øvrum
 Daniel Norum
 Dante Forssberg
@@ -33,6 +35,7 @@ Ian Fox
 Joakim Aarseth
 Joakim Sørgård
 Johannes Bang
+Jon Grahn
 Jon Magnus Christensen
 Jørgen Sørli
 Kenneth Pedersen
@@ -47,6 +50,7 @@ Martin Lindboe
 Mathias Aspen
 Matias Kaarstein
 Mikael Gyhagen
+Miller Bateman
 Noor Othmani
 Parco Au
 Peter Bråss
@@ -58,10 +62,10 @@ Roland Mork
 Serina Koch
 Siemen Sandbakken
 Simen Walbaekken
-Søren Hunskaar
 Stein Elgethun
 Stian Fuglaas
 Stian Magnell
+Søren Hunskaar
 Tom Sondre Albrigsten
 Tonny Albrigtsen
 Tor Årskog
@@ -70,5 +74,3 @@ Tormod Lang
 Trym Bergman
 Viktor Hegerberg
 William Kvisli
-Miller Bateman
-Christopher Brokstad
