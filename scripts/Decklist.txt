@@ -1,3 +1,4 @@
+2 Titans (4c Pile)
 3+ colour Loam
 4+ Color Beans
 8-Cast
@@ -10,6 +11,7 @@ BUG midrange
 BURG Cascade
 BW Cats
 Bant NO Zenith
+Bant Phelia
 Beseech Storm
 Black Painter
 Black Stompy
@@ -68,6 +70,7 @@ Moon Stompy
 Moonshadow
 Nadu Elves
 Nadu Midrange
+Naya Initiative
 Nazu Wizards
 Nic Fit
 Ninjas
