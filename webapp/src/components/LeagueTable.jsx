@@ -39,19 +39,19 @@ export default function LeagueTable({ standings, showLowest }) {
               <>
                 <th
                   scope="col"
-                  className="px-6 py-3 text-center text-xs normal-case tracking-wider text-slate-500 w-16"
+                  className="px-3 py-3 text-center text-xs normal-case tracking-wider text-slate-500 whitespace-nowrap"
                 >
                   4-0s
                 </th>
                 <th
                   scope="col"
-                  className="px-6 py-3 text-center text-xs normal-case tracking-wider text-slate-500 w-16"
+                  className="px-3 py-3 text-center text-xs normal-case tracking-wider text-slate-500 whitespace-nowrap"
                 >
                   3-0s
                 </th>
                 <th
                   scope="col"
-                  className="px-6 py-3 text-center text-xs normal-case tracking-wider text-slate-500 w-16"
+                  className="px-3 py-3 text-center text-xs normal-case tracking-wider text-slate-500 whitespace-nowrap"
                 >
                   3-1s
                 </th>
@@ -102,16 +102,16 @@ export default function LeagueTable({ standings, showLowest }) {
               </td>
               {showLowest && (
                 <>
-                  <td className="px-6 py-4 text-center text-slate-300 font-mono text-xs">
+                  <td className="px-3 py-4 text-center text-slate-300 font-mono text-xs whitespace-nowrap">
                     {player.four_ohs || 0}
                   </td>
-                  <td className="px-6 py-4 text-center text-slate-300 font-mono text-xs">
+                  <td className="px-3 py-4 text-center text-slate-300 font-mono text-xs whitespace-nowrap">
                     {player.three_ohs || 0}
                   </td>
-                  <td className="px-6 py-4 text-center text-slate-300 font-mono text-xs">
+                  <td className="px-3 py-4 text-center text-slate-300 font-mono text-xs whitespace-nowrap">
                     {player.three_ones || 0}
                   </td>
-                  <td className="px-6 py-4 text-center text-slate-300 font-mono text-xs">
+                  <td className="px-3 py-4 text-center text-slate-300 font-mono text-xs whitespace-nowrap">
                     {player.lowest_counting}
                   </td>
                 </>
