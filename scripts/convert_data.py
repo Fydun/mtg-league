@@ -31,7 +31,7 @@ def ensure_dirs():
 
 def get_league_info(week_num):
     # User defined ranges
-    if 89 <= week_num <= 99: return "spring-2026", "Spring League 2026"
+    if 89 <= week_num <= 100: return "spring-2026", "Spring League 2026"
     if 71 <= week_num <= 82: return "autumn-2025", "Autumn League 2025"
     if 49 <= week_num <= 63: return "spring-2025", "Spring League 2025"
     if 31 <= week_num <= 45: return "autumn-2024", "Autumn League 2024"
