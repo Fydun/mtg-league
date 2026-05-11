@@ -21,6 +21,7 @@ Eirik Larsen
 Erik Bergseth
 Erik Sathe
 Erling André Hervik
+Espen Hodne
 Falk Tyssebotn
 Ferdinand Marnburg
 Fredrik Eiding
@@ -72,7 +73,9 @@ Tom Sondre Albrigsten
 Tonny Albrigtsen
 Tor Årskog
 Torgeir Lebesbye
+Torgrim Aune
 Tormod Lang
 Trym Bergman
 Viktor Hegerberg
 William Kvisli
+Øyvind Løyland

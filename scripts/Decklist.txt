@@ -4,6 +4,7 @@
 8-Cast
 All in Red
 Aluren
+Asmorator
 BUG Beans
 BUG Evoke Beans
 BUG Scam
@@ -100,6 +101,7 @@ Temur Tempo
 The EPIC Storm
 The Rock
 Tin-Fins
+Tron
 Turbo Goblins
 Turbo Smog
 UB Midrange
