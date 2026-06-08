@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import LeagueTable from "../components/LeagueTable";
 import ScoreMatrix from "../components/ScoreMatrix";
@@ -15,6 +15,8 @@ export default function Dashboard() {
   const [showLowest, setShowLowest] = useState(false);
   const [viewMode, setViewMode] = useState("table"); // 'table' | 'matrix'
   const [isExpanded, setIsExpanded] = useState(false);
+  const [dateFrom, setDateFrom] = useState("");
+  const [dateTo, setDateTo] = useState("");
 
   // Set default active league when data is loaded if URL param is missing
   useEffect(() => {
@@ -28,6 +30,84 @@ export default function Dashboard() {
   const handleLeagueChange = (id) => {
     setSearchParams({ league: id });
   };
+
+  // Get active league data (must be before early returns so hooks below stay consistent)
+  const activeLeague = data?.leagues?.find((l) => l.id === activeLeagueId);
+
+  const isAllTime = activeLeagueId === "all-time";
+  const hasDateFilter = isAllTime && (dateFrom || dateTo);
+
+  // Build a filtered league when date filters are active on all-time
+  const filteredLeague = useMemo(() => {
+    if (!activeLeague || !hasDateFilter) return activeLeague;
+
+    // Filter tournaments by date range
+    const filteredTournamentIds = activeLeague.tournaments.filter((tId) => {
+      const t = data.tournaments[tId];
+      if (!t) return false;
+      const tDate = new Date(t.date);
+      if (dateFrom && tDate < new Date(dateFrom)) return false;
+      if (dateTo && tDate > new Date(dateTo)) return false;
+      return true;
+    });
+
+    // Recompute standings from filtered tournaments
+    const newStandings = activeLeague.standings
+      .map((player) => {
+        const history = player.history || {};
+        let points = 0, wins = 0, losses = 0, draws = 0, matches = 0, tournamentsPlayed = 0;
+        let fourOhs = 0, threeOhs = 0, threeOnes = 0;
+        const filteredHistory = {};
+
+        filteredTournamentIds.forEach((tId) => {
+          if (!(tId in history)) return;
+          const t = data.tournaments[tId];
+          if (!t) return;
+          const pData = t.standings.find((s) => s.name === player.name);
+          if (!pData) return;
+
+          tournamentsPlayed++;
+          points += history[tId];
+          wins += pData.wins;
+          losses += pData.losses;
+          draws += pData.draws;
+          matches += pData.wins + pData.losses + pData.draws;
+          filteredHistory[tId] = history[tId];
+
+          // Count record types
+          if (pData.wins >= 4 && pData.losses === 0) fourOhs++;
+          else if (pData.wins >= 3 && pData.losses === 0 && pData.draws === 0) threeOhs++;
+          if (pData.wins >= 3 && pData.losses === 1 && pData.draws === 0) threeOnes++;
+        });
+
+        if (tournamentsPlayed === 0) return null;
+
+        return {
+          ...player,
+          points,
+          wins,
+          losses,
+          draws,
+          matches,
+          tournaments_played: tournamentsPlayed,
+          tournaments_display: String(tournamentsPlayed),
+          four_ohs: fourOhs,
+          three_ohs: threeOhs,
+          three_ones: threeOnes,
+          lowest_counting: null,
+          history: filteredHistory,
+        };
+      })
+      .filter(Boolean)
+      .sort((a, b) => b.points - a.points)
+      .map((p, i) => ({ ...p, rank: i + 1 }));
+
+    return {
+      ...activeLeague,
+      tournaments: filteredTournamentIds,
+      standings: newStandings,
+    };
+  }, [activeLeague, hasDateFilter, dateFrom, dateTo, data]);
 
   if (loading)
     return (
@@ -51,9 +131,6 @@ export default function Dashboard() {
         </div>
       </div>
     );
-
-  // Get active league data
-  const activeLeague = data.leagues.find((l) => l.id === activeLeagueId);
 
   return (
     <div className="space-y-6">
@@ -95,7 +172,7 @@ export default function Dashboard() {
             <div className="bg-slate-800 rounded-xl border border-slate-700 shadow-xl min-h-[500px]">
               {/* Toolbar */}
               <div className="sticky top-0 z-50 border-b border-slate-700/50 bg-slate-900/95 backdrop-blur shadow-md rounded-t-xl">
-                <div className="h-[72px] px-4 flex flex-nowrap items-center justify-between gap-4 mx-auto w-full max-w-7xl transition-all duration-300">
+                <div className="min-h-[72px] px-4 py-3 flex flex-wrap items-center justify-between gap-4 mx-auto w-full max-w-7xl transition-all duration-300">
                   {/* View Toggles */}
                   <div className="flex bg-slate-800 p-1 rounded-lg border border-slate-700">
                     <button
@@ -150,11 +227,38 @@ export default function Dashboard() {
                         {showLowest ? "Hide Tiebreakers" : "Show Tiebreakers"}
                       </button>
                     )}
+                    {isAllTime && (
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="date"
+                          value={dateFrom}
+                          onChange={(e) => setDateFrom(e.target.value)}
+                          className="bg-slate-700 border border-slate-600 text-slate-300 text-xs rounded px-2 py-1.5 focus:border-blue-500 focus:outline-none"
+                          placeholder="From"
+                        />
+                        <span className="text-slate-500 text-xs">–</span>
+                        <input
+                          type="date"
+                          value={dateTo}
+                          onChange={(e) => setDateTo(e.target.value)}
+                          className="bg-slate-700 border border-slate-600 text-slate-300 text-xs rounded px-2 py-1.5 focus:border-blue-500 focus:outline-none"
+                          placeholder="To"
+                        />
+                        {hasDateFilter && (
+                          <button
+                            onClick={() => { setDateFrom(""); setDateTo(""); }}
+                            className="text-xs text-slate-400 hover:text-white px-2 py-1.5 rounded bg-slate-700 hover:bg-slate-600 border border-slate-600/50 transition-colors"
+                          >
+                            Clear
+                          </button>
+                        )}
+                      </div>
+                    )}
                     <div className="text-sm text-slate-400 hidden sm:block">
-                      {activeLeague.standings.length} Players &bull;{" "}
-                      {activeLeague.tournaments.length} Tournaments
-                      {activeLeague.max_counted && (
-                        <> &bull; Best {activeLeague.max_counted} Count</>
+                      {filteredLeague.standings.length} Players &bull;{" "}
+                      {filteredLeague.tournaments.length} Tournaments
+                      {filteredLeague.max_counted && (
+                        <> &bull; Best {filteredLeague.max_counted} Count</>
                       )}
                     </div>
                   </div>
@@ -165,24 +269,24 @@ export default function Dashboard() {
               {viewMode === "table" ? (
                 <div className="px-4 sm:px-6 lg:px-8 py-6">
                   <LeagueTable
-                    standings={activeLeague.standings}
+                    standings={filteredLeague.standings}
                     showLowest={showLowest}
                   />
                 </div>
               ) : viewMode === "matrix" ? (
                 <ScoreMatrix
-                  league={activeLeague}
+                  league={filteredLeague}
                   tournamentData={data.tournaments}
                   isExpanded={isExpanded}
                 />
               ) : (
                 <div className="p-6 space-y-6">
                   <PerformanceChart
-                    league={activeLeague}
+                    league={filteredLeague}
                     tournamentData={data.tournaments}
                   />
                   <DeckChart
-                    league={activeLeague}
+                    league={filteredLeague}
                     tournamentData={data.tournaments}
                   />
                 </div>
@@ -195,7 +299,7 @@ export default function Dashboard() {
               Tournaments
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {activeLeague.tournaments.map((tId) => {
+              {filteredLeague.tournaments.map((tId) => {
                 const t = data.tournaments[tId];
                 if (!t) return null;
 
