@@ -178,7 +178,7 @@ class PlayerStats:
         pct = self.game_points / (self.games_played * 3.0)
         return max(pct, 0.33)
 
-def calculate_standings(all_matches, to_playing_count):
+def calculate_standings(all_matches, to_playing_count, week_num=0):
     players = {}
     
     # 1. First Pass: Aggregate Stats
@@ -210,7 +210,8 @@ def calculate_standings(all_matches, to_playing_count):
     # Prize Pool Calculation
     player_count = len(players)
     pool_players = max(0, player_count - to_playing_count)
-    prize_pool = 105 * pool_players
+    entry_fee = 110 if week_num >= 104 else 105
+    prize_pool = entry_fee * pool_players
     
     total_shares = 0
     eligible_players = []
@@ -367,7 +368,8 @@ def main():
     week_num = int(week_str)
 
     print(f"\nScraping Tournament {t_id} (Week {week_num})...")
-    print(f"Prize Pool Logic: 105 * (Players - {args.to})")
+    entry_fee = 110 if week_num >= 104 else 105
+    print(f"Prize Pool Logic: {entry_fee} * (Players - {args.to})")
     
     # Scrape Date
     url = f"https://aetherhub.com/Tourney/RoundTourney/{t_id}"
@@ -399,7 +401,7 @@ def main():
         return
 
     # Process
-    standings, total_prize_pool = calculate_standings(all_matches, args.to)
+    standings, total_prize_pool = calculate_standings(all_matches, args.to, week_num)
     
     # Save
     output_data = {

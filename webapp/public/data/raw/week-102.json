@@ -7,7 +7,7 @@
     "aetherhub_id": "99749",
     "players": 9,
     "rounds": 4,
-    "prize_pool": 840,
+    "prize_pool": 0,
     "top_cut": 0,
     "to_playing": 1,
     "event_cut": 0,
@@ -27,7 +27,7 @@
       "gw": 0.6666666666666666,
       "ogw": 0.5666666666666667,
       "mw": 0.75,
-      "payout": 280
+      "payout": 0
     },
     {
       "rank": 2,
@@ -42,7 +42,7 @@
       "gw": 0.6363636363636364,
       "ogw": 0.5128787878787878,
       "mw": 0.75,
-      "payout": 280
+      "payout": 0
     },
     {
       "rank": 3,
@@ -57,11 +57,11 @@
       "gw": 0.6,
       "ogw": 0.5351731601731602,
       "mw": 0.75,
-      "payout": 280
+      "payout": 0
     },
     {
       "rank": 4,
-      "name": "Øyvind Løyland",
+      "name": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
       "deck": "Cloudpost",
       "points": 7,
       "record": "2-1-1",
@@ -177,7 +177,7 @@
         },
         {
           "p1": "Dante Forssberg",
-          "p2": "Øyvind Løyland",
+          "p2": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
@@ -202,7 +202,7 @@
           "draws": 0
         },
         {
-          "p1": "Øyvind Løyland",
+          "p1": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
           "p2": "Espen Hodne",
           "p1_wins": 1,
           "p2_wins": 1,
@@ -236,7 +236,7 @@
       "matches": [
         {
           "p1": "Tormod Lang",
-          "p2": "Øyvind Løyland",
+          "p2": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
@@ -296,7 +296,7 @@
           "draws": 0
         },
         {
-          "p1": "Øyvind Løyland",
+          "p1": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
           "p2": "Martin Lindboe",
           "p1_wins": 2,
           "p2_wins": 1,

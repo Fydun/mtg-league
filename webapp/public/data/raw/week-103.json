@@ -7,7 +7,7 @@
     "aetherhub_id": "99892",
     "players": 8,
     "rounds": 3,
-    "prize_pool": 735,
+    "prize_pool": 0,
     "top_cut": 0,
     "to_playing": 1,
     "event_cut": 0,
@@ -121,7 +121,7 @@
     },
     {
       "rank": 8,
-      "name": "Øyvind Løyland",
+      "name": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
       "deck": "Cloudpost",
       "points": 0,
       "record": "0-3-0",
@@ -140,7 +140,7 @@
       "round": 1,
       "matches": [
         {
-          "p1": "Øyvind Løyland",
+          "p1": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
           "p2": "Tormod Lang",
           "p1_wins": 0,
           "p2_wins": 2,
@@ -187,7 +187,7 @@
           "draws": 0
         },
         {
-          "p1": "Øyvind Løyland",
+          "p1": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
           "p2": "Anders Christie",
           "p1_wins": 0,
           "p2_wins": 2,
@@ -227,7 +227,7 @@
           "draws": 0
         },
         {
-          "p1": "Øyvind Løyland",
+          "p1": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
           "p2": "Kenneth Pedersen",
           "p1_wins": 1,
           "p2_wins": 2,
