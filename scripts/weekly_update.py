@@ -17,6 +17,8 @@ import sys
 import subprocess
 import re
 import glob
+import json
+import math
 
 # ── Paths ──────────────────────────────────────────────────────────────────
 SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
@@ -186,29 +188,72 @@ def main():
             sys.exit(1)
         to_name = aetherhub_target
 
-    # 2b — Non-paying players
+    # 2b — Scrape (no prize pool yet)
     blank()
-    pf("muted", "  How many people are NOT paying into the prize pool?")
-    pf("muted", "  (This is usually just the Tournament Organizer = 1)")
-    pf("muted", "  Use 0 if the TO also paid, or 2 if two people didn't pay.\n")
-    to_val = ask_input("Non-paying players", default="1")
-    try:
-        to_val = int(to_val)
-    except ValueError:
-        pf("warn", "  Couldn't read that — defaulting to 1.")
-        to_val = 1
-
-    blank()
-    pf("muted", f"  Scraping latest tournament from '{to_name}' (week {next_week}, -to {to_val})...\n")
+    pf("muted", f"  Scraping latest tournament from '{to_name}' (week {next_week})...\n")
 
     ok = run(
-        [PYTHON, os.path.join(SCRIPT_DIR, "aetherhub.py"), aetherhub_target, "-to", str(to_val)],
+        [PYTHON, os.path.join(SCRIPT_DIR, "aetherhub.py"), aetherhub_target],
         cwd=PROJECT_ROOT,
     )
     require(ok, "Scrape")
 
     # re-detect in case week number shifted (e.g. file already existed)
     scraped_week = scan_week_numbers()
+
+    # 2c — Calculate prize pool from scraped data
+    week_file = os.path.join(RAW_DIR, f"week-{scraped_week}.json")
+    with open(week_file, "r", encoding="utf-8") as f:
+        week_data = json.load(f)
+
+    player_count = week_data["metadata"]["players"]
+    default_non_payers = "1" if player_count >= 9 else "0"
+
+    blank()
+    pf("muted", f"  {player_count} players detected in this tournament.")
+    pf("muted", "  How many people are NOT paying into the prize pool?")
+    pf("muted", f"  (Default: {default_non_payers})")
+    pf("muted", "  Use 0 if the TO also paid, or 2 if two people didn't pay.\n")
+    to_val = ask_input("Non-paying players", default=default_non_payers)
+    try:
+        to_val = int(to_val)
+    except ValueError:
+        pf("warn", f"  Couldn't read that — defaulting to {default_non_payers}.")
+        to_val = int(default_non_payers)
+
+    # Apply prize pool and payouts
+    week_num = week_data["week_number"]
+    entry_fee = 110 if week_num >= 104 else 105
+    pool_players = max(0, player_count - to_val)
+    prize_pool = entry_fee * pool_players
+
+    standings = week_data["standings"]
+    total_shares = 0
+    eligible = []
+    total_rounds = week_data["metadata"].get("rounds", 4)
+    for i, s in enumerate(standings):
+        shares = 0
+        if s["wins"] == total_rounds:
+            shares = 4
+        elif s["wins"] == total_rounds - 1:
+            if s.get("draws", 0) > 0:
+                shares = 3
+            elif s.get("losses", 0) > 0:
+                shares = 2
+        total_shares += shares
+        eligible.append((i, shares))
+
+    per_share = prize_pool / total_shares if total_shares > 0 else 0
+    for i, shares in eligible:
+        standings[i]["payout"] = math.floor(shares * per_share) if shares > 0 else 0
+
+    week_data["metadata"]["prize_pool"] = prize_pool
+    week_data["metadata"]["to_playing"] = to_val
+
+    with open(week_file, "w", encoding="utf-8") as f:
+        json.dump(week_data, f, indent=2)
+
+    pf("ok", f"  ✓  Prize pool: {prize_pool} kr  ({pool_players} paying × {entry_fee} kr)")
 
     # ── Step 3: Verify ────────────────────────────────────────────────────
     step_header(3, "Verify Player Names & Decks")

@@ -178,7 +178,7 @@ class PlayerStats:
         pct = self.game_points / (self.games_played * 3.0)
         return max(pct, 0.33)
 
-def calculate_standings(all_matches, to_playing_count, week_num=0):
+def calculate_standings(all_matches):
     players = {}
     
     # 1. First Pass: Aggregate Stats
@@ -207,15 +207,6 @@ def calculate_standings(all_matches, to_playing_count, week_num=0):
 
     final_standings = []
     
-    # Prize Pool Calculation
-    player_count = len(players)
-    pool_players = max(0, player_count - to_playing_count)
-    entry_fee = 110 if week_num >= 104 else 105
-    prize_pool = entry_fee * pool_players
-    
-    total_shares = 0
-    eligible_players = []
-    
     for name, s in players.items():
         opp_mw_sum = 0
         opp_gw_sum = 0
@@ -232,30 +223,8 @@ def calculate_standings(all_matches, to_playing_count, week_num=0):
         
         s.omw = omw
         s.ogw = ogw
-        
-        shares = 0
-        if s.m_wins == TOTAL_ROUNDS:
-            shares = 4  # undefeated
-        elif s.m_wins == TOTAL_ROUNDS - 1:
-            if s.m_draws > 0:
-                shares = 3  # one draw
-            elif s.m_losses > 0:
-                shares = 2  # one loss
-            
-        if shares > 0:
-            total_shares += shares
-            eligible_players.append((s, shares))
             
         final_standings.append(s)
-
-    share_value = 0
-    if total_shares > 0:
-        share_value = prize_pool / total_shares
-        
-    payouts = {}
-    for p, shares in eligible_players:
-        amt = int(share_value * shares)
-        payouts[p.name] = amt
 
     final_standings.sort(key=lambda x: (x.match_points, x.omw, x.gw_pct, x.ogw), reverse=True)
     
@@ -274,10 +243,10 @@ def calculate_standings(all_matches, to_playing_count, week_num=0):
             "gw": s.gw_pct,
             "ogw": s.ogw,
             "mw": s.mw_pct,
-            "payout": payouts.get(s.name, 0)
+            "payout": 0
         })
         
-    return results, prize_pool
+    return results
 
 def get_user_tournaments(user_url):
     print(f"Scanning user profile: {user_url}...")
@@ -326,8 +295,6 @@ def main():
     parser = argparse.ArgumentParser(description='Aetherhub Scraper')
     parser.add_argument('target', nargs='?', help='Username, ID, or URL')
     parser.add_argument('week', nargs='?', help='Week Number (Optional)')
-    parser.add_argument('-to', type=int, default=1, help='Number of TO/Non-paying players (Default: 1)')
-    
     args = parser.parse_args()
     
     print("\n=== Aetherhub to MTG League Import ===")
@@ -368,8 +335,6 @@ def main():
     week_num = int(week_str)
 
     print(f"\nScraping Tournament {t_id} (Week {week_num})...")
-    entry_fee = 110 if week_num >= 104 else 105
-    print(f"Prize Pool Logic: {entry_fee} * (Players - {args.to})")
     
     # Scrape Date
     url = f"https://aetherhub.com/Tourney/RoundTourney/{t_id}"
@@ -401,7 +366,7 @@ def main():
         return
 
     # Process
-    standings, total_prize_pool = calculate_standings(all_matches, args.to, week_num)
+    standings = calculate_standings(all_matches)
     
     # Save
     output_data = {
@@ -413,9 +378,9 @@ def main():
             "aetherhub_id": t_id,
             "players": len(standings),
             "rounds": total_rounds,
-            "prize_pool": total_prize_pool, 
+            "prize_pool": 0, 
             "top_cut": 0,
-            "to_playing": args.to,
+            "to_playing": 0,
             "event_cut": 0,
             "cutoff_points": 9 # Default X-1 for 4 rounds assumed
         },
