@@ -19,6 +19,7 @@ Black Stompy
 Blue Belcher
 Blue Painter Pile
 Blue Post
+Blue Tron
 Burn
 Cephalid Breakfast
 Cloudpost
@@ -32,6 +33,7 @@ Dreadnought
 Dredge
 Eldrazi
 Elves
+Enchantress
 Energy
 Enlightened Tutor Control
 Esper Control
