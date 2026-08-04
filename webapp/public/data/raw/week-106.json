@@ -1,0 +1,239 @@
+{
+  "id": "week-106",
+  "name": "Week 106",
+  "date": "2026-07-23",
+  "week_number": 106,
+  "metadata": {
+    "aetherhub_id": "100773",
+    "players": 8,
+    "rounds": 3,
+    "prize_pool": 880,
+    "top_cut": 0,
+    "to_playing": 0,
+    "event_cut": 0,
+    "cutoff_points": 9
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Tormod Lang",
+      "deck": "UB Tempo",
+      "points": 9,
+      "record": "3-0-0",
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "omw": 0.6666666666666666,
+      "gw": 0.6666666666666666,
+      "ogw": 0.5787037037037037,
+      "mw": 1.0,
+      "payout": 352
+    },
+    {
+      "rank": 2,
+      "name": "Viktor Hegerberg",
+      "deck": "Vroomsday",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.5555555555555556,
+      "ogw": 0.5370370370370371,
+      "mw": 0.6666666666666666,
+      "payout": 176
+    },
+    {
+      "rank": 3,
+      "name": "Tonny Albrigtsen",
+      "deck": "Cradle Control",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5544444444444444,
+      "gw": 0.625,
+      "ogw": 0.48037037037037034,
+      "mw": 0.6666666666666666,
+      "payout": 176
+    },
+    {
+      "rank": 4,
+      "name": "Kenneth Pedersen",
+      "deck": "UB Reanimator",
+      "points": 6,
+      "record": "2-1-0",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5544444444444444,
+      "gw": 0.5555555555555556,
+      "ogw": 0.48037037037037034,
+      "mw": 0.6666666666666666,
+      "payout": 176
+    },
+    {
+      "rank": 5,
+      "name": "Petter Haukaas",
+      "deck": "Dredge",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.4444444444444444,
+      "ogw": 0.5416666666666666,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 6,
+      "name": "Mikael Gyhagen",
+      "deck": "UR Tempo",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.4444444444444444,
+      "gw": 0.4444444444444444,
+      "ogw": 0.5,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 7,
+      "name": "Bernhard Bornstein",
+      "deck": "Grixis Tempo",
+      "points": 3,
+      "record": "1-2-0",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.44333333333333336,
+      "gw": 0.5,
+      "ogw": 0.44333333333333336,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 8,
+      "name": "Marius Presterud",
+      "deck": "The Rock",
+      "points": 0,
+      "record": "0-3-0",
+      "wins": 0,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.5555555555555555,
+      "gw": 0.33,
+      "ogw": 0.5601851851851852,
+      "mw": 0.33,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Bernhard Bornstein",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Mikael Gyhagen",
+          "p2": "Petter Haukaas",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Marius Presterud",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Tormod Lang",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Tormod Lang",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Marius Presterud",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Mikael Gyhagen",
+          "p2": "Bernhard Bornstein",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Tormod Lang",
+          "p2": "Viktor Hegerberg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Mikael Gyhagen",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Bernhard Bornstein",
+          "p2": "Marius Presterud",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}
