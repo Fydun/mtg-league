@@ -79,4 +79,5 @@ Tormod Lang
 Trym Bergman
 Viktor Hegerberg
 William Kvisli
+Øystein Sjøtveit
 Øyvind Løyland

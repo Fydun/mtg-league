@@ -3754,6 +3754,7 @@
       "name": "All-Time Records",
       "max_counted": null,
       "tournaments": [
+        "week-108",
         "week-107",
         "week-106",
         "week-105",
@@ -3864,16 +3865,16 @@
       "standings": [
         {
           "name": "Tormod Lang",
-          "points": 731,
-          "wins": 243,
+          "points": 743,
+          "wins": 247,
           "losses": 107,
           "draws": 2,
-          "matches": 352,
-          "tournaments_played": 93,
-          "four_ohs": 15,
+          "matches": 356,
+          "tournaments_played": 94,
+          "four_ohs": 16,
           "three_ohs": 9,
           "three_ones": 30,
-          "tournaments_display": "93",
+          "tournaments_display": "94",
           "lowest_counting": 3,
           "history": {
             "week-1": 3,
@@ -3968,22 +3969,23 @@
             "week-104": 9,
             "week-105": 9,
             "week-106": 9,
-            "week-107": 6
+            "week-107": 6,
+            "week-108": 12
           },
           "rank": 1
         },
         {
           "name": "Anders S\u00f8berg",
-          "points": 477,
-          "wins": 158,
-          "losses": 90,
-          "draws": 3,
-          "matches": 251,
-          "tournaments_played": 65,
+          "points": 484,
+          "wins": 160,
+          "losses": 91,
+          "draws": 4,
+          "matches": 255,
+          "tournaments_played": 66,
           "four_ohs": 8,
           "three_ohs": 1,
           "three_ones": 22,
-          "tournaments_display": "65",
+          "tournaments_display": "66",
           "lowest_counting": 1,
           "history": {
             "week-1": 9,
@@ -4050,7 +4052,8 @@
             "week-82": 9,
             "week-83": 6,
             "week-97": 9,
-            "week-107": 6
+            "week-107": 6,
+            "week-108": 7
           },
           "rank": 2
         },
@@ -4142,16 +4145,16 @@
         },
         {
           "name": "Tonny Albrigtsen",
-          "points": 447,
-          "wins": 148,
-          "losses": 123,
+          "points": 453,
+          "wins": 150,
+          "losses": 125,
           "draws": 3,
-          "matches": 274,
-          "tournaments_played": 82,
+          "matches": 278,
+          "tournaments_played": 83,
           "four_ohs": 1,
           "three_ohs": 2,
           "three_ones": 26,
-          "tournaments_display": "82",
+          "tournaments_display": "83",
           "lowest_counting": 0,
           "history": {
             "week-1": 6,
@@ -4235,22 +4238,23 @@
             "week-98": 0,
             "week-100": 6,
             "week-106": 6,
-            "week-107": 9
+            "week-107": 9,
+            "week-108": 6
           },
           "rank": 4
         },
         {
           "name": "Kenneth Pedersen",
-          "points": 401,
-          "wins": 133,
-          "losses": 122,
-          "draws": 2,
-          "matches": 257,
-          "tournaments_played": 69,
+          "points": 408,
+          "wins": 135,
+          "losses": 123,
+          "draws": 3,
+          "matches": 261,
+          "tournaments_played": 70,
           "four_ohs": 5,
           "three_ohs": 0,
           "three_ones": 16,
-          "tournaments_display": "69",
+          "tournaments_display": "70",
           "lowest_counting": 0,
           "history": {
             "week-1": 9,
@@ -4321,7 +4325,8 @@
             "week-104": 0,
             "week-105": 3,
             "week-106": 6,
-            "week-107": 0
+            "week-107": 0,
+            "week-108": 7
           },
           "rank": 5
         },
@@ -4919,16 +4924,16 @@
         },
         {
           "name": "Dante Forssberg",
-          "points": 184,
-          "wins": 61,
-          "losses": 35,
+          "points": 187,
+          "wins": 62,
+          "losses": 37,
           "draws": 1,
-          "matches": 97,
-          "tournaments_played": 25,
+          "matches": 100,
+          "tournaments_played": 26,
           "four_ohs": 3,
           "three_ohs": 2,
           "three_ones": 8,
-          "tournaments_display": "25",
+          "tournaments_display": "26",
           "lowest_counting": 3,
           "history": {
             "week-34": 9,
@@ -4955,22 +4960,23 @@
             "week-102": 9,
             "week-103": 9,
             "week-104": 6,
-            "week-105": 3
+            "week-105": 3,
+            "week-108": 3
           },
           "rank": 16
         },
         {
           "name": "Eirik Larsen",
-          "points": 175,
-          "wins": 56,
-          "losses": 63,
+          "points": 178,
+          "wins": 57,
+          "losses": 65,
           "draws": 7,
-          "matches": 126,
-          "tournaments_played": 33,
+          "matches": 129,
+          "tournaments_played": 34,
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 5,
-          "tournaments_display": "33",
+          "tournaments_display": "34",
           "lowest_counting": 0,
           "history": {
             "week-30": 9,
@@ -5005,22 +5011,23 @@
             "week-102": 6,
             "week-103": 6,
             "week-105": 3,
-            "week-107": 4
+            "week-107": 4,
+            "week-108": 3
           },
           "rank": 17
         },
         {
           "name": "Ferdinand Marnburg",
-          "points": 165,
-          "wins": 53,
-          "losses": 40,
+          "points": 171,
+          "wins": 55,
+          "losses": 42,
           "draws": 6,
-          "matches": 99,
-          "tournaments_played": 25,
+          "matches": 103,
+          "tournaments_played": 26,
           "four_ohs": 2,
           "three_ohs": 0,
           "three_ones": 6,
-          "tournaments_display": "25",
+          "tournaments_display": "26",
           "lowest_counting": 1,
           "history": {
             "week-1": 9,
@@ -5047,7 +5054,8 @@
             "week-98": 12,
             "week-99": 9,
             "week-100": 7,
-            "week-107": 6
+            "week-107": 6,
+            "week-108": 6
           },
           "rank": 18
         },
@@ -5273,6 +5281,40 @@
           "rank": 24
         },
         {
+          "name": "Petter Haukaas",
+          "points": 63,
+          "wins": 20,
+          "losses": 41,
+          "draws": 3,
+          "matches": 64,
+          "tournaments_played": 17,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "17",
+          "lowest_counting": 0,
+          "history": {
+            "week-21": 6,
+            "week-31": 3,
+            "week-36": 2,
+            "week-38": 3,
+            "week-39": 6,
+            "week-41": 1,
+            "week-42": 3,
+            "week-50": 6,
+            "week-51": 3,
+            "week-64": 3,
+            "week-72": 3,
+            "week-74": 3,
+            "week-77": 6,
+            "week-78": 6,
+            "week-79": 0,
+            "week-106": 3,
+            "week-108": 6
+          },
+          "rank": 25
+        },
+        {
           "name": "Arvin Graff",
           "points": 60,
           "wins": 20,
@@ -5298,7 +5340,7 @@
             "week-97": 3,
             "week-105": 9
           },
-          "rank": 25
+          "rank": 26
         },
         {
           "name": "Peter Br\u00e5ss",
@@ -5323,39 +5365,6 @@
             "week-78": 9,
             "week-104": 6,
             "week-105": 3
-          },
-          "rank": 26
-        },
-        {
-          "name": "Petter Haukaas",
-          "points": 57,
-          "wins": 18,
-          "losses": 39,
-          "draws": 3,
-          "matches": 60,
-          "tournaments_played": 16,
-          "four_ohs": 0,
-          "three_ohs": 0,
-          "three_ones": 0,
-          "tournaments_display": "16",
-          "lowest_counting": 0,
-          "history": {
-            "week-21": 6,
-            "week-31": 3,
-            "week-36": 2,
-            "week-38": 3,
-            "week-39": 6,
-            "week-41": 1,
-            "week-42": 3,
-            "week-50": 6,
-            "week-51": 3,
-            "week-64": 3,
-            "week-72": 3,
-            "week-74": 3,
-            "week-77": 6,
-            "week-78": 6,
-            "week-79": 0,
-            "week-106": 3
           },
           "rank": 27
         },
@@ -6224,6 +6233,24 @@
           "rank": 70
         },
         {
+          "name": "\u00d8ystein Sj\u00f8tveit",
+          "points": 6,
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "matches": 4,
+          "tournaments_played": 1,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "tournaments_display": "1",
+          "lowest_counting": 6,
+          "history": {
+            "week-108": 6
+          },
+          "rank": 71
+        },
+        {
           "name": "Matias Kaarstein",
           "points": 3,
           "wins": 1,
@@ -6239,7 +6266,7 @@
           "history": {
             "week-26": 3
           },
-          "rank": 71
+          "rank": 72
         },
         {
           "name": "Trym Bergman",
@@ -6257,7 +6284,7 @@
           "history": {
             "week-39": 3
           },
-          "rank": 72
+          "rank": 73
         },
         {
           "name": "Joakim S\u00f8rg\u00e5rd",
@@ -6275,7 +6302,7 @@
           "history": {
             "week-67": 3
           },
-          "rank": 73
+          "rank": 74
         },
         {
           "name": "Roland Mork",
@@ -6293,7 +6320,7 @@
           "history": {
             "week-70": 3
           },
-          "rank": 74
+          "rank": 75
         },
         {
           "name": "Fredrik Eiding",
@@ -6311,7 +6338,7 @@
           "history": {
             "week-71": 3
           },
-          "rank": 75
+          "rank": 76
         },
         {
           "name": "Dorian Fricsay",
@@ -6329,7 +6356,7 @@
           "history": {
             "week-79": 3
           },
-          "rank": 76
+          "rank": 77
         },
         {
           "name": "Balder Axhage",
@@ -6347,7 +6374,7 @@
           "history": {
             "week-98": 3
           },
-          "rank": 77
+          "rank": 78
         },
         {
           "name": "Torgrim Aune",
@@ -6365,7 +6392,7 @@
           "history": {
             "week-101": 3
           },
-          "rank": 78
+          "rank": 79
         },
         {
           "name": "Bernhard Bornstein",
@@ -6383,7 +6410,7 @@
           "history": {
             "week-106": 3
           },
-          "rank": 79
+          "rank": 80
         },
         {
           "name": "Jesper Gamborg-Nilsen",
@@ -6401,7 +6428,7 @@
           "history": {
             "week-99": 1
           },
-          "rank": 80
+          "rank": 81
         },
         {
           "name": "Kristin Skivik",
@@ -6419,7 +6446,7 @@
           "history": {
             "week-21": 0
           },
-          "rank": 81
+          "rank": 82
         },
         {
           "name": "Fredrik N\u00e6sse",
@@ -6437,7 +6464,7 @@
           "history": {
             "week-45": 0
           },
-          "rank": 82
+          "rank": 83
         },
         {
           "name": "H\u00e5kon Gulbrandsen",
@@ -6455,7 +6482,7 @@
           "history": {
             "week-59": 0
           },
-          "rank": 83
+          "rank": 84
         },
         {
           "name": "Kurtis Brown",
@@ -6473,7 +6500,7 @@
           "history": {
             "week-76": 0
           },
-          "rank": 84
+          "rank": 85
         }
       ]
     }
@@ -44419,6 +44446,315 @@
             {
               "p1": "Tormod Lang",
               "p2": "Kenneth Pedersen",
+              "p1_wins": 2,
+              "p2_wins": 0,
+              "draws": 0
+            }
+          ]
+        }
+      ],
+      "league_id": "off-season"
+    },
+    "week-108": {
+      "id": "week-108",
+      "name": "Week 108",
+      "date": "2026-08-13",
+      "week_number": 108,
+      "metadata": {
+        "aetherhub_id": "101100",
+        "players": 9,
+        "rounds": 4,
+        "prize_pool": 880,
+        "top_cut": 0,
+        "to_playing": 1,
+        "event_cut": 0,
+        "cutoff_points": 9
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "name": "Tormod Lang",
+          "deck": "Cephalid Breakfast",
+          "points": 12,
+          "record": "4-0-0",
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "omw": 0.4583333333333333,
+          "gw": 0.8888888888888888,
+          "ogw": 0.46825396825396826,
+          "mw": 1.0,
+          "payout": 880
+        },
+        {
+          "rank": 2,
+          "name": "Kenneth Pedersen",
+          "deck": "UB Midrange",
+          "points": 7,
+          "record": "2-1-1",
+          "wins": 2,
+          "losses": 1,
+          "draws": 1,
+          "omw": 0.5277777777777778,
+          "gw": 0.5925925925925926,
+          "ogw": 0.47407407407407404,
+          "mw": 0.5833333333333334,
+          "payout": 0
+        },
+        {
+          "rank": 3,
+          "name": "Anders S\u00f8berg",
+          "deck": "Sewer-Cam Combo",
+          "points": 7,
+          "record": "2-1-1",
+          "wins": 2,
+          "losses": 1,
+          "draws": 1,
+          "omw": 0.4791666666666667,
+          "gw": 0.5333333333333333,
+          "ogw": 0.5441798941798942,
+          "mw": 0.5833333333333334,
+          "payout": 0
+        },
+        {
+          "rank": 4,
+          "name": "Tonny Albrigtsen",
+          "deck": "Cradle Control",
+          "points": 6,
+          "record": "2-2-0",
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "omw": 0.6944444444444445,
+          "gw": 0.4444444444444444,
+          "ogw": 0.6938271604938272,
+          "mw": 0.5,
+          "payout": 0
+        },
+        {
+          "rank": 5,
+          "name": "\u00d8ystein Sj\u00f8tveit",
+          "deck": "Eldrazi",
+          "points": 6,
+          "record": "2-2-0",
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "omw": 0.6388888888888888,
+          "gw": 0.5555555555555556,
+          "ogw": 0.599074074074074,
+          "mw": 0.5,
+          "payout": 0
+        },
+        {
+          "rank": 6,
+          "name": "Petter Haukaas",
+          "deck": "Dredge",
+          "points": 6,
+          "record": "2-2-0",
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "omw": 0.5625,
+          "gw": 0.4444444444444444,
+          "ogw": 0.5712632275132274,
+          "mw": 0.5,
+          "payout": 0
+        },
+        {
+          "rank": 7,
+          "name": "Ferdinand Marnburg",
+          "deck": "UR Tempo",
+          "points": 6,
+          "record": "2-2-0",
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "omw": 0.47222222222222227,
+          "gw": 0.6,
+          "ogw": 0.45092592592592595,
+          "mw": 0.5,
+          "payout": 0
+        },
+        {
+          "rank": 8,
+          "name": "Dante Forssberg",
+          "deck": "Pox",
+          "points": 3,
+          "record": "1-2-0",
+          "wins": 1,
+          "losses": 2,
+          "draws": 0,
+          "omw": 0.6944444444444445,
+          "gw": 0.42857142857142855,
+          "ogw": 0.6222222222222222,
+          "mw": 0.3333333333333333,
+          "payout": 0
+        },
+        {
+          "rank": 9,
+          "name": "Eirik Larsen",
+          "deck": "Dreadnought",
+          "points": 3,
+          "record": "1-2-0",
+          "wins": 1,
+          "losses": 2,
+          "draws": 0,
+          "omw": 0.5,
+          "gw": 0.375,
+          "ogw": 0.5333333333333333,
+          "mw": 0.3333333333333333,
+          "payout": 0
+        }
+      ],
+      "rounds": [
+        {
+          "round": 1,
+          "matches": [
+            {
+              "p1": "Petter Haukaas",
+              "p2": "Dante Forssberg",
+              "p1_wins": 0,
+              "p2_wins": 2,
+              "draws": 0
+            },
+            {
+              "p1": "Tonny Albrigtsen",
+              "p2": "Tormod Lang",
+              "p1_wins": 0,
+              "p2_wins": 2,
+              "draws": 0
+            },
+            {
+              "p1": "Eirik Larsen",
+              "p2": "Ferdinand Marnburg",
+              "p1_wins": 2,
+              "p2_wins": 1,
+              "draws": 0
+            },
+            {
+              "p1": "Anders S\u00f8berg",
+              "p2": "Kenneth Pedersen",
+              "p1_wins": 1,
+              "p2_wins": 1,
+              "draws": 1
+            },
+            {
+              "p1": "\u00d8ystein Sj\u00f8tveit",
+              "p2": "BYE",
+              "p1_wins": 2,
+              "p2_wins": 0,
+              "draws": 0
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "matches": [
+            {
+              "p1": "\u00d8ystein Sj\u00f8tveit",
+              "p2": "Eirik Larsen",
+              "p1_wins": 2,
+              "p2_wins": 0,
+              "draws": 0
+            },
+            {
+              "p1": "Tormod Lang",
+              "p2": "Dante Forssberg",
+              "p1_wins": 2,
+              "p2_wins": 0,
+              "draws": 0
+            },
+            {
+              "p1": "Kenneth Pedersen",
+              "p2": "Petter Haukaas",
+              "p1_wins": 0,
+              "p2_wins": 2,
+              "draws": 0
+            },
+            {
+              "p1": "Anders S\u00f8berg",
+              "p2": "Ferdinand Marnburg",
+              "p1_wins": 0,
+              "p2_wins": 2,
+              "draws": 0
+            },
+            {
+              "p1": "Tonny Albrigtsen",
+              "p2": "BYE",
+              "p1_wins": 2,
+              "p2_wins": 0,
+              "draws": 0
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "matches": [
+            {
+              "p1": "\u00d8ystein Sj\u00f8tveit",
+              "p2": "Tormod Lang",
+              "p1_wins": 1,
+              "p2_wins": 2,
+              "draws": 0
+            },
+            {
+              "p1": "Ferdinand Marnburg",
+              "p2": "Tonny Albrigtsen",
+              "p1_wins": 1,
+              "p2_wins": 2,
+              "draws": 0
+            },
+            {
+              "p1": "Eirik Larsen",
+              "p2": "Petter Haukaas",
+              "p1_wins": 1,
+              "p2_wins": 2,
+              "draws": 0
+            },
+            {
+              "p1": "Dante Forssberg",
+              "p2": "Anders S\u00f8berg",
+              "p1_wins": 1,
+              "p2_wins": 2,
+              "draws": 0
+            },
+            {
+              "p1": "Kenneth Pedersen",
+              "p2": "BYE",
+              "p1_wins": 2,
+              "p2_wins": 0,
+              "draws": 0
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "matches": [
+            {
+              "p1": "Tormod Lang",
+              "p2": "Petter Haukaas",
+              "p1_wins": 2,
+              "p2_wins": 0,
+              "draws": 0
+            },
+            {
+              "p1": "Tonny Albrigtsen",
+              "p2": "Kenneth Pedersen",
+              "p1_wins": 0,
+              "p2_wins": 2,
+              "draws": 0
+            },
+            {
+              "p1": "\u00d8ystein Sj\u00f8tveit",
+              "p2": "Anders S\u00f8berg",
+              "p1_wins": 0,
+              "p2_wins": 2,
+              "draws": 0
+            },
+            {
+              "p1": "Ferdinand Marnburg",
+              "p2": "BYE",
               "p1_wins": 2,
               "p2_wins": 0,
               "draws": 0
