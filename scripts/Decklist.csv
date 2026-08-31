@@ -2,7 +2,7 @@ true,common
 2 Titans (4c Pile),
 3+ colour Loam,
 Leyline Beans,
-8 Mulch,
+8 Mulch,Lands
 8-Cast,
 All in Red,
 Aluren,
@@ -61,7 +61,7 @@ Initiative,
 Jeskai Control,
 Jeskai Tempo,
 Jewel Combo,
-Jund Lands,
+Jund Lands,Lands
 Karn Echoes,
 KarnForge,
 Lands,
@@ -69,7 +69,7 @@ Lantern Painter,
 Mardu Cats,Energy
 Maverick,
 Merfolk,
-Mono B Reanimator,
+Mono B Reanimator,Reanimator
 Mono Black Helm,
 Moon Stompy,
 Moonshadow,
@@ -79,12 +79,12 @@ Naya Initiative,
 Nazu Wizards,
 Nic Fit,
 Ninjas,
-Omni Aluren,
+Omni Aluren,Show and Tell
 Oops! All Spells,
 Pox,
 RB Madness,
 RB Midrange,
-RB Reanimator,
+RB Reanimator,Reanimator
 RB Shadow Helm,
 RB Stompy,
 Reanipainter,
@@ -98,11 +98,13 @@ Scamwise,
 Sewer-Cam Combo,
 Show and Depths,
 Show and Tell,
+Omnitell,Show and Tell
+Sneak and Show,Show and Tell
 Slivers,
 Stasis,
-Stiflenought,
+Stiflenought,Dreadnought
 Stoneblade,
-Synthesizer Affinity,
+Synthesizer Affinity,Affinity
 Temur Tempo,
 The EPIC Storm,
 The Rock,
