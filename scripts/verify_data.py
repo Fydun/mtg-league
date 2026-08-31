@@ -12,6 +12,7 @@ import os
 import sys
 import re
 import json
+import csv
 import glob
 import argparse
 
@@ -25,7 +26,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 RAW_DIR = os.path.join(PROJECT_ROOT, "webapp", "public", "data", "raw")
 PLAYERS_FILE = os.path.join(SCRIPT_DIR, "Players.txt")
-DECKLIST_FILE = os.path.join(SCRIPT_DIR, "Decklist.txt")
+DECKLIST_FILE = os.path.join(SCRIPT_DIR, "Decklist.csv")
 
 # ── Styling (ANSI escape codes) ─────────────────────────────────────────────
 os.system("")  # enable ANSI escape processing on Windows
@@ -127,6 +128,33 @@ def save_lines(filepath, header, lines):
             f.write(header + "\n")
         for line in sorted(set(lines)):
             f.write(line + "\n")
+    os.replace(tmp, filepath)
+
+
+def load_deck_map(filepath):
+    """Load the decklist CSV as {true_name: common_name}; blank common falls back to the true name."""
+    entries = {}
+    if not os.path.exists(filepath):
+        return entries
+    with open(filepath, "r", encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            true_name = (row.get("true") or "").strip()
+            common = (row.get("common") or "").strip()
+            if true_name:
+                entries[true_name] = common or true_name
+    return entries
+
+
+def save_deck_map(filepath, deck_map):
+    """Write the decklist CSV with a 'true,common' header; common left blank when it equals true (atomic write)."""
+    tmp = filepath + ".tmp"
+    with open(tmp, "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["true", "common"])
+        for true_name in sorted(deck_map, key=str.lower):
+            common = deck_map[true_name]
+            writer.writerow([true_name, common if common and common != true_name else ""])
     os.replace(tmp, filepath)
 
 
@@ -380,7 +408,8 @@ def main():
 
     # Load reference lists
     all_names = load_lines(PLAYERS_FILE)
-    all_decks = load_lines(DECKLIST_FILE)
+    deck_map = load_deck_map(DECKLIST_FILE)
+    all_decks = sorted(deck_map.keys(), key=str.lower)
 
     name_set = set(all_names)
     names_changed = False
@@ -504,12 +533,12 @@ def main():
                 pf("ok", "  ✓ Updated Players.txt")
 
             # Write updated deck list
-            original_decks = set(load_lines(DECKLIST_FILE))
-            new_decks = [d for d in all_decks if d not in original_decks]
+            new_decks = [d for d in all_decks if d not in deck_map]
             if new_decks:
-                full_list = list(original_decks | set(new_decks))
-                save_lines(DECKLIST_FILE, None, full_list)
-                pf("ok", f"  ✓ Updated Decklist.txt (+{len(new_decks)} new)")
+                for d in new_decks:
+                    deck_map[d] = d  # new decks default to common == true
+                save_deck_map(DECKLIST_FILE, deck_map)
+                pf("ok", f"  ✓ Updated Decklist.csv (+{len(new_decks)} new)")
 
             print()
             pf("ok", "  Done! You can now run convert_data.py to rebuild db.json.")

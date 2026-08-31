@@ -86,7 +86,7 @@ Writes `webapp/public/data/raw/week-N.json` containing standings, round-by-round
 
 ## verify_data.py
 
-Interactive CLI tool for verifying player names against `Players.txt` and assigning decklists from `Decklist.txt`. Uses fuzzy matching with autocomplete.
+Interactive CLI tool for verifying player names against `Players.txt` and assigning decklists from `Decklist.csv`. Uses fuzzy matching with autocomplete.
 
 ### Prerequisites
 
@@ -115,7 +115,7 @@ python verify_data.py week-85.json
 ### Features
 
 - **Fuzzy name matching** — suggests closest matches from `Players.txt` with ranked scoring
-- **Deck autocomplete** — dropdown completion from `Decklist.txt`
+- **Deck autocomplete** — dropdown completion from `Decklist.csv`
 - **Deck history** — shows each player's last 3 distinct decks as quick-pick options
 - **Auto-accept** — exact name matches are accepted automatically (with option to override)
 - **Atomic saves** — writes to a temp file first, then replaces, to prevent data loss

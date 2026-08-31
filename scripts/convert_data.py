@@ -3,6 +3,7 @@ import json
 import os
 import re
 import glob
+import csv
 from datetime import datetime
 import math
 
@@ -16,6 +17,7 @@ WEBAPP_DIR = os.path.join(PROJECT_ROOT, "webapp")
 DATA_DIR = os.path.join(WEBAPP_DIR, "public", "data")
 RAW_DIR = os.path.join(DATA_DIR, "raw")
 DB_PATH = os.path.join(DATA_DIR, "db.json")
+DECKLIST_PATH = os.path.join(SCRIPT_DIR, "Decklist.csv")
 
 # Best X results count for each league
 LEAGUE_RULES = {
@@ -30,6 +32,28 @@ LEAGUE_RULES = {
 # Leagues that use the alternate tiebreaker order:
 # points (best-N) -> 4-0s -> 3-1s/3-0s -> game win % -> head-to-head (all season)
 ALT_TIEBREAK_LEAGUES = {"autumn-2026"}
+
+def load_deck_aliases():
+    # Decklist.csv columns are "true,common"; a deck is grouped only when common differs from true.
+    aliases = {}
+    if not os.path.exists(DECKLIST_PATH):
+        return aliases
+    with open(DECKLIST_PATH, "r", encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            true_name = (row.get("true") or "").strip()
+            common = (row.get("common") or "").strip()
+            if true_name and common and common != true_name:
+                aliases[true_name] = common
+    return aliases
+
+# Maps a deck's "true" name to its "common" (display) name used on all visible fields.
+DECK_ALIASES = load_deck_aliases()
+
+def get_common_name(true_name):
+    if not true_name:
+        return true_name
+    return DECK_ALIASES.get(true_name.strip(), true_name)
 
 def ensure_dirs():
     os.makedirs(DATA_DIR, exist_ok=True)
@@ -197,7 +221,10 @@ def main():
                     
                     for i, p in enumerate(t_data["standings"]):
                         if "rank" not in p: p["rank"] = i + 1
-                        if "deck" not in p: p["deck"] = ""
+                        # Preserve original name in deck_true; expose grouped name in deck.
+                        true_deck = p.get("deck", "")
+                        p["deck_true"] = true_deck
+                        p["deck"] = get_common_name(true_deck)
                         if "record" not in p: p["record"] = f"{p.get('w',0)}-{p.get('l',0)}-{p.get('d',0)}"
                         # Map keys if slightly different
                         if "wins" not in p: p["wins"] = p.get("w", 0)
