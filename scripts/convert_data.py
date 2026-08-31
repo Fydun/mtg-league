@@ -19,6 +19,7 @@ DB_PATH = os.path.join(DATA_DIR, "db.json")
 
 # Best X results count for each league
 LEAGUE_RULES = {
+    "autumn-2026": 7,
     "spring-2026": 7,
     "autumn-2025": 8,
     "spring-2025": 10,
@@ -26,11 +27,16 @@ LEAGUE_RULES = {
     "spring-2024": 12
 }
 
+# Leagues that use the alternate tiebreaker order:
+# points (best-N) -> 4-0s -> 3-1s/3-0s -> game win % -> head-to-head (all season)
+ALT_TIEBREAK_LEAGUES = {"autumn-2026"}
+
 def ensure_dirs():
     os.makedirs(DATA_DIR, exist_ok=True)
 
 def get_league_info(week_num):
     # User defined ranges
+    if 109 <= week_num <= 120: return "autumn-2026", "Autumn League 2026"
     if 89 <= week_num <= 100: return "spring-2026", "Spring League 2026"
     if 71 <= week_num <= 82: return "autumn-2025", "Autumn League 2025"
     if 49 <= week_num <= 63: return "spring-2025", "Spring League 2025"
@@ -56,9 +62,11 @@ def update_league_stats(league, t_data):
         if name not in l_players:
             l_players[name] = {
                 "stats": {"name": name, "points": 0, "wins": 0, "losses": 0, "draws": 0, "matches": 0, "tournaments_played": 0,
-                           "four_ohs": 0, "three_ohs": 0, "three_ones": 0},
+                           "four_ohs": 0, "three_ohs": 0, "three_ones": 0,
+                           "game_wins": 0, "game_losses": 0, "game_draws": 0},
                 "scores": [],
-                "history": {}
+                "history": {},
+                "h2h": {}
             }
         
         # Accumulate raw stats
@@ -82,6 +90,58 @@ def update_league_stats(league, t_data):
         if w == 4 and l == 0:  stats["four_ohs"] += 1
         if w == 3 and l == 0 and d == 0:  stats["three_ohs"] += 1
         if w == 3 and l == 1 and d == 0:  stats["three_ones"] += 1
+
+    # Accumulate game-level and head-to-head records from round-by-round match data
+    for rnd in t_data.get("rounds", []):
+        for m in rnd.get("matches", []):
+            p1, p2 = m.get("p1"), m.get("p2")
+            p1w, p2w, d = safe_int(m.get("p1_wins", 0)), safe_int(m.get("p2_wins", 0)), safe_int(m.get("draws", 0))
+
+            if p1 and p1 != "BYE" and p1 in l_players:
+                s = l_players[p1]["stats"]
+                s["game_wins"] += p1w
+                s["game_losses"] += p2w
+                s["game_draws"] += d
+            if p2 and p2 != "BYE" and p2 in l_players:
+                s = l_players[p2]["stats"]
+                s["game_wins"] += p2w
+                s["game_losses"] += p1w
+                s["game_draws"] += d
+
+            if p1 and p2 and p1 != "BYE" and p2 != "BYE" and p1 in l_players and p2 in l_players:
+                h1 = l_players[p1]["h2h"].setdefault(p2, {"w": 0, "l": 0, "d": 0})
+                h2 = l_players[p2]["h2h"].setdefault(p1, {"w": 0, "l": 0, "d": 0})
+                if p1w > p2w:
+                    h1["w"] += 1; h2["l"] += 1
+                elif p2w > p1w:
+                    h2["w"] += 1; h1["l"] += 1
+                else:
+                    h1["d"] += 1; h2["d"] += 1
+
+
+def resolve_h2h_ties(standings, h2h_map):
+    """Break ties (equal points/4-0s/3-1s-3-0s/game win %) using head-to-head record among just the tied players."""
+    def group_key(x):
+        return (x["points"], x.get("four_ohs", 0), x.get("three_ohs", 0) + x.get("three_ones", 0), round(x.get("game_win_pct", 0.0), 6))
+
+    result = []
+    i, n = 0, len(standings)
+    while i < n:
+        j = i
+        while j + 1 < n and group_key(standings[j + 1]) == group_key(standings[i]):
+            j += 1
+        group = standings[i:j + 1]
+        if len(group) > 1:
+            names = [p["name"] for p in group]
+            def h2h_score(p, names=names):
+                h = h2h_map.get(p["name"], {})
+                w = sum(h.get(opp, {}).get("w", 0) for opp in names if opp != p["name"])
+                l = sum(h.get(opp, {}).get("l", 0) for opp in names if opp != p["name"])
+                return w - l
+            group.sort(key=h2h_score, reverse=True)
+        result.extend(group)
+        i = j + 1
+    return result
 
 def main():
     print(f"Converting Excel data to Single DB...")
@@ -210,20 +270,37 @@ def main():
             p_stats["stats"]["tournaments_display"] = t_display
             p_stats["stats"]["lowest_counting"] = lowest_counting
             p_stats["stats"]["history"] = p_stats["history"]
+
+            games_played = p_stats["stats"]["game_wins"] + p_stats["stats"]["game_losses"] + p_stats["stats"]["game_draws"]
+            p_stats["stats"]["game_win_pct"] = round(p_stats["stats"]["game_wins"] / games_played, 4) if games_played else 0.0
             
             processed_standings.append(p_stats["stats"])
 
-        # Sort standings by points, then tiebreakers: 4-0s, 3-0s, 3-1s, tournaments played
-        processed_standings.sort(
-            key=lambda x: (
-                x["points"],
-                x.get("four_ohs", 0),
-                x.get("three_ohs", 0),
-                x.get("three_ones", 0),
-                x["tournaments_played"],
-            ),
-            reverse=True,
-        )
+        if l_id in ALT_TIEBREAK_LEAGUES:
+            # Points (best-N) -> 4-0s -> 3-1s/3-0s -> game win % -> head-to-head (all season)
+            processed_standings.sort(
+                key=lambda x: (
+                    x["points"],
+                    x.get("four_ohs", 0),
+                    x.get("three_ohs", 0) + x.get("three_ones", 0),
+                    x.get("game_win_pct", 0.0),
+                ),
+                reverse=True,
+            )
+            h2h_map = {p_name: p_stats["h2h"] for p_name, p_stats in l_data["players"].items()}
+            processed_standings = resolve_h2h_ties(processed_standings, h2h_map)
+        else:
+            # Sort standings by points, then tiebreakers: 4-0s, 3-0s, 3-1s, tournaments played
+            processed_standings.sort(
+                key=lambda x: (
+                    x["points"],
+                    x.get("four_ohs", 0),
+                    x.get("three_ohs", 0),
+                    x.get("three_ones", 0),
+                    x["tournaments_played"],
+                ),
+                reverse=True,
+            )
         for i, p in enumerate(processed_standings): p["rank"] = i + 1
         
         # Sort tournaments list specifically for this league

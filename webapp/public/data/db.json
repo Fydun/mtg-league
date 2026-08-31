@@ -29,6 +29,9 @@
           "four_ohs": 2,
           "three_ohs": 1,
           "three_ones": 4,
+          "game_wins": 59,
+          "game_losses": 35,
+          "game_draws": 0,
           "tournaments_display": "7 (10)",
           "lowest_counting": 9,
           "history": {
@@ -43,6 +46,7 @@
             "week-99": 12,
             "week-100": 9
           },
+          "game_win_pct": 0.6277,
           "rank": 1
         },
         {
@@ -56,6 +60,9 @@
           "four_ohs": 3,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 56,
+          "game_losses": 32,
+          "game_draws": 0,
           "tournaments_display": "7 (9)",
           "lowest_counting": 6,
           "history": {
@@ -69,6 +76,7 @@
             "week-99": 6,
             "week-100": 12
           },
+          "game_win_pct": 0.6364,
           "rank": 2
         },
         {
@@ -82,6 +90,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 5,
+          "game_wins": 58,
+          "game_losses": 39,
+          "game_draws": 0,
           "tournaments_display": "7 (10)",
           "lowest_counting": 6,
           "history": {
@@ -96,6 +107,7 @@
             "week-99": 6,
             "week-100": 9
           },
+          "game_win_pct": 0.5979,
           "rank": 3
         },
         {
@@ -109,6 +121,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 38,
+          "game_losses": 38,
+          "game_draws": 0,
           "tournaments_display": "7 (8)",
           "lowest_counting": 3,
           "history": {
@@ -121,6 +136,7 @@
             "week-99": 6,
             "week-100": 0
           },
+          "game_win_pct": 0.5,
           "rank": 4
         },
         {
@@ -134,6 +150,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 3,
+          "game_wins": 36,
+          "game_losses": 34,
+          "game_draws": 0,
           "tournaments_display": "7 (9)",
           "lowest_counting": 0,
           "history": {
@@ -147,6 +166,7 @@
             "week-98": 0,
             "week-100": 6
           },
+          "game_win_pct": 0.5143,
           "rank": 5
         },
         {
@@ -160,6 +180,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 35,
+          "game_losses": 41,
+          "game_draws": 1,
           "tournaments_display": "7 (8)",
           "lowest_counting": 4,
           "history": {
@@ -172,6 +195,7 @@
             "week-99": 9,
             "week-100": 4
           },
+          "game_win_pct": 0.4545,
           "rank": 6
         },
         {
@@ -185,6 +209,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 3,
+          "game_wins": 33,
+          "game_losses": 26,
+          "game_draws": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -195,6 +222,7 @@
             "week-97": 9,
             "week-100": 9
           },
+          "game_win_pct": 0.5593,
           "rank": 7
         },
         {
@@ -208,6 +236,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 39,
+          "game_losses": 44,
+          "game_draws": 0,
           "tournaments_display": "7 (9)",
           "lowest_counting": 4,
           "history": {
@@ -221,6 +252,7 @@
             "week-99": 6,
             "week-100": 6
           },
+          "game_win_pct": 0.4699,
           "rank": 8
         },
         {
@@ -234,6 +266,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 32,
+          "game_losses": 25,
+          "game_draws": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -244,6 +279,7 @@
             "week-98": 6,
             "week-100": 6
           },
+          "game_win_pct": 0.5614,
           "rank": 9
         },
         {
@@ -257,6 +293,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 36,
+          "game_losses": 53,
+          "game_draws": 0,
           "tournaments_display": "7 (10)",
           "lowest_counting": 3,
           "history": {
@@ -271,6 +310,7 @@
             "week-99": 0,
             "week-100": 4
           },
+          "game_win_pct": 0.4045,
           "rank": 10
         },
         {
@@ -284,6 +324,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 25,
+          "game_losses": 21,
+          "game_draws": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -293,6 +336,7 @@
             "week-97": 12,
             "week-98": 6
           },
+          "game_win_pct": 0.5435,
           "rank": 11
         },
         {
@@ -306,6 +350,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 27,
+          "game_losses": 23,
+          "game_draws": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -315,6 +362,7 @@
             "week-94": 6,
             "week-97": 3
           },
+          "game_win_pct": 0.54,
           "rank": 12
         },
         {
@@ -328,6 +376,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 32,
+          "game_losses": 50,
+          "game_draws": 0,
           "tournaments_display": "7 (9)",
           "lowest_counting": 0,
           "history": {
@@ -341,6 +392,7 @@
             "week-97": 6,
             "week-100": 0
           },
+          "game_win_pct": 0.3902,
           "rank": 13
         },
         {
@@ -354,6 +406,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 20,
+          "game_losses": 7,
+          "game_draws": 1,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -361,6 +416,7 @@
             "week-99": 9,
             "week-100": 7
           },
+          "game_win_pct": 0.7143,
           "rank": 14
         },
         {
@@ -374,6 +430,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 31,
+          "game_losses": 43,
+          "game_draws": 0,
           "tournaments_display": "7 (8)",
           "lowest_counting": 3,
           "history": {
@@ -386,6 +445,7 @@
             "week-99": 4,
             "week-100": 3
           },
+          "game_win_pct": 0.4189,
           "rank": 15
         },
         {
@@ -399,6 +459,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 17,
+          "game_losses": 12,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -406,6 +469,7 @@
             "week-98": 6,
             "week-99": 6
           },
+          "game_win_pct": 0.5862,
           "rank": 16
         },
         {
@@ -419,6 +483,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 16,
+          "game_losses": 12,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -426,6 +493,7 @@
             "week-99": 6,
             "week-100": 4
           },
+          "game_win_pct": 0.5714,
           "rank": 17
         },
         {
@@ -439,12 +507,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 11,
+          "game_losses": 7,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-93": 9,
             "week-94": 6
           },
+          "game_win_pct": 0.6111,
           "rank": 18
         },
         {
@@ -458,12 +530,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 13,
+          "game_losses": 7,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-93": 6,
             "week-100": 9
           },
+          "game_win_pct": 0.65,
           "rank": 19
         },
         {
@@ -477,11 +553,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 7,
+          "game_losses": 4,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-93": 9
           },
+          "game_win_pct": 0.6364,
           "rank": 20
         },
         {
@@ -495,11 +575,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 6,
+          "game_losses": 5,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-97": 9
           },
+          "game_win_pct": 0.5455,
           "rank": 21
         },
         {
@@ -513,11 +597,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-98": 6
           },
+          "game_win_pct": 0.4,
           "rank": 22
         },
         {
@@ -531,11 +619,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 2,
+          "game_losses": 5,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-92": 3
           },
+          "game_win_pct": 0.2857,
           "rank": 23
         },
         {
@@ -549,11 +641,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 7,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-95": 3
           },
+          "game_win_pct": 0.3636,
           "rank": 24
         },
         {
@@ -567,11 +663,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 7,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-95": 3
           },
+          "game_win_pct": 0.3636,
           "rank": 25
         },
         {
@@ -585,11 +685,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-98": 3
           },
+          "game_win_pct": 0.4,
           "rank": 26
         },
         {
@@ -603,11 +707,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 2,
+          "game_losses": 7,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-99": 1
           },
+          "game_win_pct": 0.2222,
           "rank": 27
         },
         {
@@ -621,11 +729,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 3,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-90": 0
           },
+          "game_win_pct": 0.3333,
           "rank": 28
         }
       ]
@@ -660,6 +772,9 @@
           "four_ohs": 2,
           "three_ohs": 0,
           "three_ones": 7,
+          "game_wins": 71,
+          "game_losses": 37,
+          "game_draws": 0,
           "tournaments_display": "8 (11)",
           "lowest_counting": 9,
           "history": {
@@ -675,6 +790,7 @@
             "week-81": 9,
             "week-82": 9
           },
+          "game_win_pct": 0.6574,
           "rank": 1
         },
         {
@@ -688,6 +804,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 5,
+          "game_wins": 56,
+          "game_losses": 32,
+          "game_draws": 0,
           "tournaments_display": "8 (9)",
           "lowest_counting": 6,
           "history": {
@@ -701,6 +820,7 @@
             "week-81": 9,
             "week-82": 9
           },
+          "game_win_pct": 0.6364,
           "rank": 2
         },
         {
@@ -714,6 +834,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 51,
+          "game_losses": 38,
+          "game_draws": 0,
           "tournaments_display": "8 (9)",
           "lowest_counting": 3,
           "history": {
@@ -727,6 +850,7 @@
             "week-80": 6,
             "week-81": 12
           },
+          "game_win_pct": 0.573,
           "rank": 3
         },
         {
@@ -740,6 +864,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 4,
+          "game_wins": 52,
+          "game_losses": 43,
+          "game_draws": 0,
           "tournaments_display": "8 (10)",
           "lowest_counting": 6,
           "history": {
@@ -754,6 +881,7 @@
             "week-81": 3,
             "week-82": 9
           },
+          "game_win_pct": 0.5474,
           "rank": 4
         },
         {
@@ -767,6 +895,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 4,
+          "game_wins": 51,
+          "game_losses": 46,
+          "game_draws": 0,
           "tournaments_display": "8 (10)",
           "lowest_counting": 4,
           "history": {
@@ -781,6 +912,7 @@
             "week-81": 9,
             "week-82": 3
           },
+          "game_win_pct": 0.5258,
           "rank": 5
         },
         {
@@ -794,6 +926,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 4,
+          "game_wins": 51,
+          "game_losses": 37,
+          "game_draws": 0,
           "tournaments_display": "8 (9)",
           "lowest_counting": 4,
           "history": {
@@ -807,6 +942,7 @@
             "week-81": 6,
             "week-82": 9
           },
+          "game_win_pct": 0.5795,
           "rank": 6
         },
         {
@@ -820,6 +956,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 44,
+          "game_losses": 34,
+          "game_draws": 0,
           "tournaments_display": "8",
           "lowest_counting": 3,
           "history": {
@@ -832,6 +971,7 @@
             "week-80": 6,
             "week-82": 6
           },
+          "game_win_pct": 0.5641,
           "rank": 7
         },
         {
@@ -845,6 +985,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 34,
+          "game_losses": 26,
+          "game_draws": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -855,6 +998,7 @@
             "week-81": 6,
             "week-82": 6
           },
+          "game_win_pct": 0.5667,
           "rank": 8
         },
         {
@@ -868,6 +1012,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 32,
+          "game_losses": 41,
+          "game_draws": 0,
           "tournaments_display": "8",
           "lowest_counting": 3,
           "history": {
@@ -880,6 +1027,7 @@
             "week-81": 3,
             "week-82": 3
           },
+          "game_win_pct": 0.4384,
           "rank": 9
         },
         {
@@ -893,6 +1041,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 32,
+          "game_losses": 30,
+          "game_draws": 0,
           "tournaments_display": "8",
           "lowest_counting": 0,
           "history": {
@@ -905,6 +1056,7 @@
             "week-81": 9,
             "week-82": 6
           },
+          "game_win_pct": 0.5161,
           "rank": 10
         },
         {
@@ -918,6 +1070,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 26,
+          "game_losses": 28,
+          "game_draws": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -928,6 +1083,7 @@
             "week-81": 3,
             "week-82": 6
           },
+          "game_win_pct": 0.4815,
           "rank": 11
         },
         {
@@ -941,6 +1097,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 22,
+          "game_losses": 9,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -948,6 +1107,7 @@
             "week-72": 9,
             "week-73": 9
           },
+          "game_win_pct": 0.7097,
           "rank": 12
         },
         {
@@ -961,6 +1121,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 22,
+          "game_losses": 17,
+          "game_draws": 0,
           "tournaments_display": "4",
           "lowest_counting": 0,
           "history": {
@@ -969,6 +1132,7 @@
             "week-76": 6,
             "week-78": 9
           },
+          "game_win_pct": 0.5641,
           "rank": 13
         },
         {
@@ -982,6 +1146,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 19,
+          "game_losses": 23,
+          "game_draws": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -991,6 +1158,7 @@
             "week-79": 6,
             "week-82": 0
           },
+          "game_win_pct": 0.4524,
           "rank": 14
         },
         {
@@ -1004,6 +1172,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 24,
+          "game_losses": 35,
+          "game_draws": 1,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -1014,6 +1185,7 @@
             "week-81": 3,
             "week-82": 12
           },
+          "game_win_pct": 0.4,
           "rank": 15
         },
         {
@@ -1027,6 +1199,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 19,
+          "game_losses": 25,
+          "game_draws": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -1036,6 +1211,7 @@
             "week-77": 3,
             "week-79": 6
           },
+          "game_win_pct": 0.4318,
           "rank": 16
         },
         {
@@ -1049,6 +1225,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 20,
+          "game_losses": 36,
+          "game_draws": 1,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -1059,6 +1238,7 @@
             "week-80": 3,
             "week-82": 3
           },
+          "game_win_pct": 0.3509,
           "rank": 17
         },
         {
@@ -1072,6 +1252,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 15,
+          "game_losses": 30,
+          "game_draws": 1,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -1081,6 +1264,7 @@
             "week-78": 6,
             "week-79": 0
           },
+          "game_win_pct": 0.3261,
           "rank": 18
         },
         {
@@ -1094,6 +1278,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 15,
+          "game_losses": 16,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -1101,6 +1288,7 @@
             "week-80": 3,
             "week-82": 3
           },
+          "game_win_pct": 0.4839,
           "rank": 19
         },
         {
@@ -1114,6 +1302,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 13,
+          "game_losses": 13,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -1121,6 +1312,7 @@
             "week-75": 3,
             "week-79": 6
           },
+          "game_win_pct": 0.5,
           "rank": 20
         },
         {
@@ -1134,12 +1326,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 8,
+          "game_losses": 11,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-73": 9,
             "week-79": 3
           },
+          "game_win_pct": 0.4211,
           "rank": 21
         },
         {
@@ -1153,6 +1349,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 9,
+          "game_losses": 14,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -1160,6 +1359,7 @@
             "week-80": 6,
             "week-81": 0
           },
+          "game_win_pct": 0.3913,
           "rank": 22
         },
         {
@@ -1173,12 +1373,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 10,
+          "game_losses": 10,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-73": 6,
             "week-79": 6
           },
+          "game_win_pct": 0.5,
           "rank": 23
         },
         {
@@ -1192,11 +1396,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 7,
+          "game_losses": 3,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-72": 9
           },
+          "game_win_pct": 0.7,
           "rank": 24
         },
         {
@@ -1210,11 +1418,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 6,
+          "game_losses": 4,
+          "game_draws": 1,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-78": 9
           },
+          "game_win_pct": 0.5455,
           "rank": 25
         },
         {
@@ -1228,11 +1440,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 7,
+          "game_losses": 2,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-79": 9
           },
+          "game_win_pct": 0.7778,
           "rank": 26
         },
         {
@@ -1246,11 +1462,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-74": 6
           },
+          "game_win_pct": 0.4,
           "rank": 27
         },
         {
@@ -1264,11 +1484,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 5,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-81": 6
           },
+          "game_win_pct": 0.4444,
           "rank": 28
         },
         {
@@ -1282,11 +1506,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-71": 3
           },
+          "game_win_pct": 0.4,
           "rank": 29
         },
         {
@@ -1300,11 +1528,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 2,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-71": 3
           },
+          "game_win_pct": 0.25,
           "rank": 30
         },
         {
@@ -1318,11 +1550,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 3,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-73": 3
           },
+          "game_win_pct": 0.3333,
           "rank": 31
         },
         {
@@ -1336,11 +1572,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 3,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-79": 3
           },
+          "game_win_pct": 0.3333,
           "rank": 32
         },
         {
@@ -1354,11 +1594,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 3,
+          "game_losses": 7,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-75": 1
           },
+          "game_win_pct": 0.3,
           "rank": 33
         },
         {
@@ -1372,11 +1616,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 2,
+          "game_losses": 8,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-73": 0
           },
+          "game_win_pct": 0.2,
           "rank": 34
         },
         {
@@ -1390,11 +1638,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 1,
+          "game_losses": 8,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-76": 0
           },
+          "game_win_pct": 0.1111,
           "rank": 35
         }
       ]
@@ -1432,6 +1684,9 @@
           "four_ohs": 2,
           "three_ohs": 0,
           "three_ones": 5,
+          "game_wins": 72,
+          "game_losses": 41,
+          "game_draws": 1,
           "tournaments_display": "10 (12)",
           "lowest_counting": 6,
           "history": {
@@ -1448,6 +1703,7 @@
             "week-62": 9,
             "week-63": 9
           },
+          "game_win_pct": 0.6316,
           "rank": 1
         },
         {
@@ -1461,6 +1717,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 6,
+          "game_wins": 64,
+          "game_losses": 49,
+          "game_draws": 2,
           "tournaments_display": "10 (13)",
           "lowest_counting": 3,
           "history": {
@@ -1478,6 +1737,7 @@
             "week-61": 9,
             "week-63": 9
           },
+          "game_win_pct": 0.5565,
           "rank": 2
         },
         {
@@ -1491,6 +1751,9 @@
           "four_ohs": 2,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 80,
+          "game_losses": 66,
+          "game_draws": 0,
           "tournaments_display": "10 (15)",
           "lowest_counting": 6,
           "history": {
@@ -1510,6 +1773,7 @@
             "week-62": 12,
             "week-63": 6
           },
+          "game_win_pct": 0.5479,
           "rank": 3
         },
         {
@@ -1523,6 +1787,9 @@
           "four_ohs": 0,
           "three_ohs": 1,
           "three_ones": 3,
+          "game_wins": 66,
+          "game_losses": 43,
+          "game_draws": 2,
           "tournaments_display": "10 (12)",
           "lowest_counting": 6,
           "history": {
@@ -1539,6 +1806,7 @@
             "week-62": 6,
             "week-63": 6
           },
+          "game_win_pct": 0.5946,
           "rank": 4
         },
         {
@@ -1552,6 +1820,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 4,
+          "game_wins": 70,
+          "game_losses": 61,
+          "game_draws": 2,
           "tournaments_display": "10 (14)",
           "lowest_counting": 3,
           "history": {
@@ -1570,6 +1841,7 @@
             "week-61": 6,
             "week-63": 9
           },
+          "game_win_pct": 0.5263,
           "rank": 5
         },
         {
@@ -1583,6 +1855,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 3,
+          "game_wins": 53,
+          "game_losses": 45,
+          "game_draws": 0,
           "tournaments_display": "10",
           "lowest_counting": 3,
           "history": {
@@ -1597,6 +1872,7 @@
             "week-60": 3,
             "week-61": 6
           },
+          "game_win_pct": 0.5408,
           "rank": 6
         },
         {
@@ -1610,6 +1886,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 4,
+          "game_wins": 46,
+          "game_losses": 44,
+          "game_draws": 3,
           "tournaments_display": "10",
           "lowest_counting": 0,
           "history": {
@@ -1624,6 +1903,7 @@
             "week-62": 9,
             "week-63": 9
           },
+          "game_win_pct": 0.4946,
           "rank": 7
         },
         {
@@ -1637,6 +1917,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 5,
+          "game_wins": 44,
+          "game_losses": 36,
+          "game_draws": 0,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -1650,6 +1933,7 @@
             "week-62": 9,
             "week-63": 9
           },
+          "game_win_pct": 0.55,
           "rank": 8
         },
         {
@@ -1663,6 +1947,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 35,
+          "game_losses": 35,
+          "game_draws": 0,
           "tournaments_display": "8",
           "lowest_counting": 0,
           "history": {
@@ -1675,6 +1962,7 @@
             "week-61": 9,
             "week-63": 3
           },
+          "game_win_pct": 0.5,
           "rank": 9
         },
         {
@@ -1688,6 +1976,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 31,
+          "game_losses": 26,
+          "game_draws": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -1698,6 +1989,7 @@
             "week-60": 6,
             "week-63": 6
           },
+          "game_win_pct": 0.5439,
           "rank": 10
         },
         {
@@ -1711,6 +2003,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 28,
+          "game_losses": 22,
+          "game_draws": 1,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -1720,6 +2015,7 @@
             "week-59": 9,
             "week-62": 0
           },
+          "game_win_pct": 0.549,
           "rank": 11
         },
         {
@@ -1733,6 +2029,9 @@
           "four_ohs": 0,
           "three_ohs": 1,
           "three_ones": 1,
+          "game_wins": 26,
+          "game_losses": 20,
+          "game_draws": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -1742,6 +2041,7 @@
             "week-61": 3,
             "week-62": 6
           },
+          "game_win_pct": 0.5652,
           "rank": 12
         },
         {
@@ -1755,6 +2055,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 23,
+          "game_losses": 25,
+          "game_draws": 1,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -1764,6 +2067,7 @@
             "week-59": 9,
             "week-61": 9
           },
+          "game_win_pct": 0.4694,
           "rank": 13
         },
         {
@@ -1777,6 +2081,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 20,
+          "game_losses": 29,
+          "game_draws": 1,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -1787,6 +2094,7 @@
             "week-60": 3,
             "week-62": 1
           },
+          "game_win_pct": 0.4,
           "rank": 14
         },
         {
@@ -1800,6 +2108,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 18,
+          "game_losses": 32,
+          "game_draws": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -1810,6 +2121,7 @@
             "week-61": 6,
             "week-63": 0
           },
+          "game_win_pct": 0.36,
           "rank": 15
         },
         {
@@ -1823,6 +2135,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 14,
+          "game_losses": 16,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -1830,6 +2145,7 @@
             "week-59": 6,
             "week-63": 6
           },
+          "game_win_pct": 0.4667,
           "rank": 16
         },
         {
@@ -1843,6 +2159,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 12,
+          "game_losses": 14,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -1850,6 +2169,7 @@
             "week-52": 9,
             "week-53": 3
           },
+          "game_win_pct": 0.4615,
           "rank": 17
         },
         {
@@ -1863,12 +2183,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 11,
+          "game_losses": 9,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-50": 9,
             "week-57": 6
           },
+          "game_win_pct": 0.55,
           "rank": 18
         },
         {
@@ -1882,6 +2206,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 12,
+          "game_losses": 21,
+          "game_draws": 0,
           "tournaments_display": "4",
           "lowest_counting": 0,
           "history": {
@@ -1890,6 +2217,7 @@
             "week-55": 3,
             "week-56": 3
           },
+          "game_win_pct": 0.3636,
           "rank": 19
         },
         {
@@ -1903,11 +2231,15 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 8,
+          "game_losses": 2,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-50": 12
           },
+          "game_win_pct": 0.8,
           "rank": 20
         },
         {
@@ -1921,12 +2253,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 9,
+          "game_losses": 9,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-55": 9,
             "week-56": 3
           },
+          "game_win_pct": 0.5,
           "rank": 21
         },
         {
@@ -1940,6 +2276,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 11,
+          "game_losses": 23,
+          "game_draws": 0,
           "tournaments_display": "4",
           "lowest_counting": 0,
           "history": {
@@ -1948,6 +2287,7 @@
             "week-59": 3,
             "week-63": 3
           },
+          "game_win_pct": 0.3235,
           "rank": 22
         },
         {
@@ -1961,12 +2301,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 9,
+          "game_losses": 9,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-50": 6,
             "week-51": 3
           },
+          "game_win_pct": 0.5,
           "rank": 23
         },
         {
@@ -1980,11 +2324,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 6,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-54": 6
           },
+          "game_win_pct": 0.5,
           "rank": 24
         },
         {
@@ -1998,11 +2346,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 6,
+          "game_losses": 4,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-56": 6
           },
+          "game_win_pct": 0.6,
           "rank": 25
         },
         {
@@ -2016,11 +2368,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 5,
+          "game_losses": 5,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-57": 6
           },
+          "game_win_pct": 0.5,
           "rank": 26
         },
         {
@@ -2034,11 +2390,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 5,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-59": 6
           },
+          "game_win_pct": 0.4545,
           "rank": 27
         },
         {
@@ -2052,11 +2412,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 5,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-61": 6
           },
+          "game_win_pct": 0.4545,
           "rank": 28
         },
         {
@@ -2070,11 +2434,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 7,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-59": 3
           },
+          "game_win_pct": 0.3636,
           "rank": 29
         },
         {
@@ -2088,11 +2456,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 2,
+          "game_losses": 4,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-63": 3
           },
+          "game_win_pct": 0.3333,
           "rank": 30
         },
         {
@@ -2106,11 +2478,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-63": 3
           },
+          "game_win_pct": 0.4,
           "rank": 31
         },
         {
@@ -2124,11 +2500,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 2,
+          "game_losses": 7,
+          "game_draws": 1,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-62": 1
           },
+          "game_win_pct": 0.2,
           "rank": 32
         },
         {
@@ -2142,11 +2522,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 2,
+          "game_losses": 8,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-59": 0
           },
+          "game_win_pct": 0.2,
           "rank": 33
         },
         {
@@ -2160,11 +2544,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 1,
+          "game_losses": 8,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-61": 0
           },
+          "game_win_pct": 0.1111,
           "rank": 34
         }
       ]
@@ -2202,6 +2590,9 @@
           "four_ohs": 1,
           "three_ohs": 3,
           "three_ones": 7,
+          "game_wins": 91,
+          "game_losses": 46,
+          "game_draws": 0,
           "tournaments_display": "10 (15)",
           "lowest_counting": 9,
           "history": {
@@ -2221,6 +2612,7 @@
             "week-44": 9,
             "week-45": 6
           },
+          "game_win_pct": 0.6642,
           "rank": 1
         },
         {
@@ -2234,6 +2626,9 @@
           "four_ohs": 3,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 59,
+          "game_losses": 37,
+          "game_draws": 0,
           "tournaments_display": "10 (11)",
           "lowest_counting": 6,
           "history": {
@@ -2249,6 +2644,7 @@
             "week-42": 6,
             "week-44": 12
           },
+          "game_win_pct": 0.6146,
           "rank": 2
         },
         {
@@ -2262,6 +2658,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 3,
+          "game_wins": 56,
+          "game_losses": 52,
+          "game_draws": 0,
           "tournaments_display": "10 (11)",
           "lowest_counting": 3,
           "history": {
@@ -2277,6 +2676,7 @@
             "week-44": 3,
             "week-45": 9
           },
+          "game_win_pct": 0.5185,
           "rank": 3
         },
         {
@@ -2290,6 +2690,9 @@
           "four_ohs": 2,
           "three_ohs": 0,
           "three_ones": 3,
+          "game_wins": 43,
+          "game_losses": 23,
+          "game_draws": 0,
           "tournaments_display": "8",
           "lowest_counting": 0,
           "history": {
@@ -2302,6 +2705,7 @@
             "week-44": 9,
             "week-45": 6
           },
+          "game_win_pct": 0.6515,
           "rank": 4
         },
         {
@@ -2315,6 +2719,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 51,
+          "game_losses": 59,
+          "game_draws": 0,
           "tournaments_display": "10 (12)",
           "lowest_counting": 3,
           "history": {
@@ -2331,6 +2738,7 @@
             "week-44": 6,
             "week-45": 6
           },
+          "game_win_pct": 0.4636,
           "rank": 5
         },
         {
@@ -2344,6 +2752,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 3,
+          "game_wins": 48,
+          "game_losses": 48,
+          "game_draws": 0,
           "tournaments_display": "10 (13)",
           "lowest_counting": 3,
           "history": {
@@ -2361,6 +2772,7 @@
             "week-44": 0,
             "week-45": 3
           },
+          "game_win_pct": 0.5,
           "rank": 6
         },
         {
@@ -2374,6 +2786,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 3,
+          "game_wins": 45,
+          "game_losses": 41,
+          "game_draws": 0,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -2387,6 +2802,7 @@
             "week-43": 3,
             "week-45": 9
           },
+          "game_win_pct": 0.5233,
           "rank": 7
         },
         {
@@ -2400,6 +2816,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 43,
+          "game_losses": 44,
+          "game_draws": 0,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -2413,6 +2832,7 @@
             "week-41": 6,
             "week-43": 6
           },
+          "game_win_pct": 0.4943,
           "rank": 8
         },
         {
@@ -2426,6 +2846,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 40,
+          "game_losses": 45,
+          "game_draws": 1,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -2439,6 +2862,7 @@
             "week-44": 6,
             "week-45": 9
           },
+          "game_win_pct": 0.4651,
           "rank": 9
         },
         {
@@ -2452,6 +2876,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 37,
+          "game_losses": 36,
+          "game_draws": 1,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -2465,6 +2892,7 @@
             "week-43": 0,
             "week-45": 4
           },
+          "game_win_pct": 0.5,
           "rank": 10
         },
         {
@@ -2478,6 +2906,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 30,
+          "game_losses": 24,
+          "game_draws": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -2488,6 +2919,7 @@
             "week-40": 9,
             "week-41": 3
           },
+          "game_win_pct": 0.5556,
           "rank": 11
         },
         {
@@ -2501,6 +2933,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 29,
+          "game_losses": 18,
+          "game_draws": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -2510,6 +2945,7 @@
             "week-43": 9,
             "week-45": 9
           },
+          "game_win_pct": 0.617,
           "rank": 12
         },
         {
@@ -2523,6 +2959,9 @@
           "four_ohs": 0,
           "three_ohs": 1,
           "three_ones": 1,
+          "game_wins": 27,
+          "game_losses": 22,
+          "game_draws": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -2532,6 +2971,7 @@
             "week-44": 9,
             "week-45": 4
           },
+          "game_win_pct": 0.551,
           "rank": 13
         },
         {
@@ -2545,6 +2985,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 28,
+          "game_losses": 38,
+          "game_draws": 0,
           "tournaments_display": "7",
           "lowest_counting": 0,
           "history": {
@@ -2556,6 +2999,7 @@
             "week-44": 9,
             "week-45": 3
           },
+          "game_win_pct": 0.4242,
           "rank": 14
         },
         {
@@ -2569,6 +3013,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 25,
+          "game_losses": 23,
+          "game_draws": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -2578,6 +3025,7 @@
             "week-41": 4,
             "week-43": 6
           },
+          "game_win_pct": 0.5208,
           "rank": 15
         },
         {
@@ -2591,6 +3039,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 19,
+          "game_losses": 12,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -2598,6 +3049,7 @@
             "week-36": 12,
             "week-41": 9
           },
+          "game_win_pct": 0.6129,
           "rank": 16
         },
         {
@@ -2611,6 +3063,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 25,
+          "game_losses": 35,
+          "game_draws": 0,
           "tournaments_display": "8",
           "lowest_counting": 0,
           "history": {
@@ -2623,6 +3078,7 @@
             "week-44": 0,
             "week-45": 6
           },
+          "game_win_pct": 0.4167,
           "rank": 17
         },
         {
@@ -2636,6 +3092,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 25,
+          "game_losses": 35,
+          "game_draws": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -2646,6 +3105,7 @@
             "week-44": 0,
             "week-45": 6
           },
+          "game_win_pct": 0.4167,
           "rank": 18
         },
         {
@@ -2659,6 +3119,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 17,
+          "game_losses": 15,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -2666,6 +3129,7 @@
             "week-41": 9,
             "week-44": 3
           },
+          "game_win_pct": 0.5312,
           "rank": 19
         },
         {
@@ -2679,6 +3143,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 20,
+          "game_losses": 35,
+          "game_draws": 0,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -2689,6 +3156,7 @@
             "week-41": 1,
             "week-42": 3
           },
+          "game_win_pct": 0.3636,
           "rank": 20
         },
         {
@@ -2702,6 +3170,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 15,
+          "game_losses": 16,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -2709,6 +3180,7 @@
             "week-41": 7,
             "week-43": 9
           },
+          "game_win_pct": 0.4839,
           "rank": 21
         },
         {
@@ -2722,6 +3194,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 14,
+          "game_losses": 16,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -2729,6 +3204,7 @@
             "week-41": 6,
             "week-44": 6
           },
+          "game_win_pct": 0.4667,
           "rank": 22
         },
         {
@@ -2742,12 +3218,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 11,
+          "game_losses": 8,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-34": 9,
             "week-44": 6
           },
+          "game_win_pct": 0.5789,
           "rank": 23
         },
         {
@@ -2761,11 +3241,15 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 8,
+          "game_losses": 2,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-35": 12
           },
+          "game_win_pct": 0.8,
           "rank": 24
         },
         {
@@ -2779,11 +3263,15 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 8,
+          "game_losses": 3,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-45": 12
           },
+          "game_win_pct": 0.7273,
           "rank": 25
         },
         {
@@ -2797,6 +3285,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 10,
+          "game_losses": 14,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -2804,6 +3295,7 @@
             "week-40": 0,
             "week-41": 3
           },
+          "game_win_pct": 0.4167,
           "rank": 26
         },
         {
@@ -2817,12 +3309,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 10,
+          "game_losses": 9,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-31": 6,
             "week-41": 6
           },
+          "game_win_pct": 0.5263,
           "rank": 27
         },
         {
@@ -2836,11 +3332,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 7,
+          "game_losses": 2,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-34": 9
           },
+          "game_win_pct": 0.7778,
           "rank": 28
         },
         {
@@ -2854,12 +3354,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 5,
+          "game_losses": 12,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-31": 3,
             "week-33": 3
           },
+          "game_win_pct": 0.2941,
           "rank": 29
         },
         {
@@ -2873,12 +3377,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 8,
+          "game_losses": 13,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-40": 3,
             "week-41": 3
           },
+          "game_win_pct": 0.381,
           "rank": 30
         },
         {
@@ -2892,12 +3400,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 7,
+          "game_losses": 13,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-41": 3,
             "week-45": 3
           },
+          "game_win_pct": 0.35,
           "rank": 31
         },
         {
@@ -2911,11 +3423,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 6,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-41": 6
           },
+          "game_win_pct": 0.5,
           "rank": 32
         },
         {
@@ -2929,11 +3445,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-41": 4
           },
+          "game_win_pct": 0.4,
           "rank": 33
         },
         {
@@ -2947,11 +3467,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 2,
+          "game_losses": 3,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-31": 3
           },
+          "game_win_pct": 0.4,
           "rank": 34
         },
         {
@@ -2965,11 +3489,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 5,
+          "game_losses": 7,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-38": 3
           },
+          "game_win_pct": 0.4167,
           "rank": 35
         },
         {
@@ -2983,11 +3511,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-39": 3
           },
+          "game_win_pct": 0.4,
           "rank": 36
         },
         {
@@ -3001,11 +3533,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 2,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-40": 3
           },
+          "game_win_pct": 0.25,
           "rank": 37
         },
         {
@@ -3019,11 +3555,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 2,
+          "game_losses": 8,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-45": 0
           },
+          "game_win_pct": 0.2,
           "rank": 38
         }
       ]
@@ -3063,6 +3603,9 @@
           "four_ohs": 3,
           "three_ohs": 0,
           "three_ones": 6,
+          "game_wins": 91,
+          "game_losses": 56,
+          "game_draws": 1,
           "tournaments_display": "12 (15)",
           "lowest_counting": 6,
           "history": {
@@ -3082,6 +3625,7 @@
             "week-23": 12,
             "week-25": 3
           },
+          "game_win_pct": 0.6149,
           "rank": 1
         },
         {
@@ -3095,6 +3639,9 @@
           "four_ohs": 2,
           "three_ohs": 1,
           "three_ones": 3,
+          "game_wins": 88,
+          "game_losses": 65,
+          "game_draws": 1,
           "tournaments_display": "12 (16)",
           "lowest_counting": 6,
           "history": {
@@ -3115,6 +3662,7 @@
             "week-24": 6,
             "week-25": 12
           },
+          "game_win_pct": 0.5714,
           "rank": 2
         },
         {
@@ -3128,6 +3676,9 @@
           "four_ohs": 0,
           "three_ohs": 1,
           "three_ones": 5,
+          "game_wins": 85,
+          "game_losses": 65,
+          "game_draws": 3,
           "tournaments_display": "12 (16)",
           "lowest_counting": 6,
           "history": {
@@ -3148,6 +3699,7 @@
             "week-24": 6,
             "week-25": 6
           },
+          "game_win_pct": 0.5556,
           "rank": 3
         },
         {
@@ -3161,6 +3713,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 4,
+          "game_wins": 72,
+          "game_losses": 61,
+          "game_draws": 0,
           "tournaments_display": "12 (14)",
           "lowest_counting": 3,
           "history": {
@@ -3179,6 +3734,7 @@
             "week-24": 6,
             "week-25": 6
           },
+          "game_win_pct": 0.5414,
           "rank": 4
         },
         {
@@ -3192,6 +3748,9 @@
           "four_ohs": 1,
           "three_ohs": 1,
           "three_ones": 3,
+          "game_wins": 62,
+          "game_losses": 49,
+          "game_draws": 0,
           "tournaments_display": "11",
           "lowest_counting": 0,
           "history": {
@@ -3207,6 +3766,7 @@
             "week-24": 12,
             "week-25": 3
           },
+          "game_win_pct": 0.5586,
           "rank": 5
         },
         {
@@ -3220,6 +3780,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 5,
+          "game_wins": 56,
+          "game_losses": 54,
+          "game_draws": 0,
           "tournaments_display": "11",
           "lowest_counting": 0,
           "history": {
@@ -3235,6 +3798,7 @@
             "week-24": 3,
             "week-25": 9
           },
+          "game_win_pct": 0.5091,
           "rank": 6
         },
         {
@@ -3248,6 +3812,9 @@
           "four_ohs": 2,
           "three_ohs": 0,
           "three_ones": 3,
+          "game_wins": 47,
+          "game_losses": 33,
+          "game_draws": 0,
           "tournaments_display": "8",
           "lowest_counting": 0,
           "history": {
@@ -3260,6 +3827,7 @@
             "week-21": 9,
             "week-23": 3
           },
+          "game_win_pct": 0.5875,
           "rank": 7
         },
         {
@@ -3273,6 +3841,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 3,
+          "game_wins": 50,
+          "game_losses": 61,
+          "game_draws": 1,
           "tournaments_display": "12 (14)",
           "lowest_counting": 3,
           "history": {
@@ -3291,6 +3862,7 @@
             "week-24": 9,
             "week-25": 0
           },
+          "game_win_pct": 0.4464,
           "rank": 8
         },
         {
@@ -3304,6 +3876,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 52,
+          "game_losses": 61,
+          "game_draws": 3,
           "tournaments_display": "12",
           "lowest_counting": 0,
           "history": {
@@ -3320,6 +3895,7 @@
             "week-24": 6,
             "week-25": 6
           },
+          "game_win_pct": 0.4483,
           "rank": 9
         },
         {
@@ -3333,6 +3909,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 42,
+          "game_losses": 38,
+          "game_draws": 0,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -3346,6 +3925,7 @@
             "week-24": 6,
             "week-25": 9
           },
+          "game_win_pct": 0.525,
           "rank": 10
         },
         {
@@ -3359,6 +3939,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 39,
+          "game_losses": 42,
+          "game_draws": 1,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -3372,6 +3955,7 @@
             "week-21": 6,
             "week-22": 6
           },
+          "game_win_pct": 0.4756,
           "rank": 11
         },
         {
@@ -3385,6 +3969,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 38,
+          "game_losses": 46,
+          "game_draws": 2,
           "tournaments_display": "9",
           "lowest_counting": 0,
           "history": {
@@ -3398,6 +3985,7 @@
             "week-23": 9,
             "week-25": 6
           },
+          "game_win_pct": 0.4419,
           "rank": 12
         },
         {
@@ -3411,6 +3999,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 29,
+          "game_losses": 25,
+          "game_draws": 0,
           "tournaments_display": "7",
           "lowest_counting": 0,
           "history": {
@@ -3422,6 +4013,7 @@
             "week-16": 3,
             "week-25": 0
           },
+          "game_win_pct": 0.537,
           "rank": 13
         },
         {
@@ -3435,6 +4027,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 27,
+          "game_losses": 30,
+          "game_draws": 1,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -3445,6 +4040,7 @@
             "week-19": 6,
             "week-25": 3
           },
+          "game_win_pct": 0.4655,
           "rank": 14
         },
         {
@@ -3458,6 +4054,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 18,
+          "game_losses": 23,
+          "game_draws": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -3467,6 +4066,7 @@
             "week-14": 0,
             "week-21": 6
           },
+          "game_win_pct": 0.439,
           "rank": 15
         },
         {
@@ -3480,12 +4080,16 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 13,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-10": 12,
             "week-12": 6
           },
+          "game_win_pct": 0.6842,
           "rank": 16
         },
         {
@@ -3499,6 +4103,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 13,
+          "game_losses": 16,
+          "game_draws": 1,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -3506,6 +4113,7 @@
             "week-22": 1,
             "week-24": 6
           },
+          "game_win_pct": 0.4333,
           "rank": 17
         },
         {
@@ -3519,11 +4127,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 6,
+          "game_losses": 5,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-14": 9
           },
+          "game_win_pct": 0.5455,
           "rank": 18
         },
         {
@@ -3537,11 +4149,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 7,
+          "game_losses": 3,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-25": 9
           },
+          "game_win_pct": 0.7,
           "rank": 19
         },
         {
@@ -3555,6 +4171,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 9,
+          "game_losses": 13,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -3562,6 +4181,7 @@
             "week-13": 6,
             "week-23": 3
           },
+          "game_win_pct": 0.4091,
           "rank": 20
         },
         {
@@ -3575,12 +4195,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 8,
+          "game_losses": 11,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-10": 3,
             "week-11": 6
           },
+          "game_win_pct": 0.4211,
           "rank": 21
         },
         {
@@ -3594,12 +4218,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 7,
+          "game_losses": 13,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-12": 3,
             "week-14": 3
           },
+          "game_win_pct": 0.35,
           "rank": 22
         },
         {
@@ -3613,11 +4241,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 6,
+          "game_losses": 4,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-10": 6
           },
+          "game_win_pct": 0.6,
           "rank": 23
         },
         {
@@ -3631,11 +4263,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 6,
+          "game_losses": 5,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-18": 6
           },
+          "game_win_pct": 0.5455,
           "rank": 24
         },
         {
@@ -3649,11 +4285,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 6,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-18": 6
           },
+          "game_win_pct": 0.5,
           "rank": 25
         },
         {
@@ -3667,11 +4307,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 6,
+          "game_losses": 4,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-21": 6
           },
+          "game_win_pct": 0.6,
           "rank": 26
         },
         {
@@ -3685,11 +4329,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-25": 6
           },
+          "game_win_pct": 0.4,
           "rank": 27
         },
         {
@@ -3703,12 +4351,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 10,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-13": 0,
             "week-20": 3
           },
+          "game_win_pct": 0.2857,
           "rank": 28
         },
         {
@@ -3722,11 +4374,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 3,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-11": 3
           },
+          "game_win_pct": 0.3333,
           "rank": 29
         },
         {
@@ -3740,11 +4396,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 1,
+          "game_losses": 8,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-21": 0
           },
+          "game_win_pct": 0.1111,
           "rank": 30
         }
       ]
@@ -3874,6 +4534,9 @@
           "four_ohs": 16,
           "three_ohs": 9,
           "three_ones": 30,
+          "game_wins": 558,
+          "game_losses": 326,
+          "game_draws": 1,
           "tournaments_display": "94",
           "lowest_counting": 3,
           "history": {
@@ -3972,6 +4635,7 @@
             "week-107": 6,
             "week-108": 12
           },
+          "game_win_pct": 0.6305,
           "rank": 1
         },
         {
@@ -3985,6 +4649,9 @@
           "four_ohs": 8,
           "three_ohs": 1,
           "three_ones": 22,
+          "game_wins": 365,
+          "game_losses": 262,
+          "game_draws": 4,
           "tournaments_display": "66",
           "lowest_counting": 1,
           "history": {
@@ -4055,6 +4722,7 @@
             "week-107": 6,
             "week-108": 7
           },
+          "game_win_pct": 0.5784,
           "rank": 2
         },
         {
@@ -4068,6 +4736,9 @@
           "four_ohs": 2,
           "three_ohs": 3,
           "three_ones": 24,
+          "game_wins": 366,
+          "game_losses": 287,
+          "game_draws": 3,
           "tournaments_display": "69",
           "lowest_counting": 0,
           "history": {
@@ -4141,6 +4812,7 @@
             "week-100": 9,
             "week-103": 3
           },
+          "game_win_pct": 0.5579,
           "rank": 3
         },
         {
@@ -4154,6 +4826,9 @@
           "four_ohs": 1,
           "three_ohs": 2,
           "three_ones": 26,
+          "game_wins": 362,
+          "game_losses": 321,
+          "game_draws": 3,
           "tournaments_display": "83",
           "lowest_counting": 0,
           "history": {
@@ -4241,6 +4916,7 @@
             "week-107": 9,
             "week-108": 6
           },
+          "game_win_pct": 0.5277,
           "rank": 4
         },
         {
@@ -4254,6 +4930,9 @@
           "four_ohs": 5,
           "three_ohs": 0,
           "three_ones": 16,
+          "game_wins": 332,
+          "game_losses": 319,
+          "game_draws": 3,
           "tournaments_display": "70",
           "lowest_counting": 0,
           "history": {
@@ -4328,6 +5007,7 @@
             "week-107": 0,
             "week-108": 7
           },
+          "game_win_pct": 0.5076,
           "rank": 5
         },
         {
@@ -4341,6 +5021,9 @@
           "four_ohs": 2,
           "three_ohs": 0,
           "three_ones": 17,
+          "game_wins": 239,
+          "game_losses": 183,
+          "game_draws": 0,
           "tournaments_display": "44",
           "lowest_counting": 0,
           "history": {
@@ -4389,6 +5072,7 @@
             "week-85": 6,
             "week-86": 0
           },
+          "game_win_pct": 0.5664,
           "rank": 6
         },
         {
@@ -4402,6 +5086,9 @@
           "four_ohs": 2,
           "three_ohs": 1,
           "three_ones": 10,
+          "game_wins": 244,
+          "game_losses": 234,
+          "game_draws": 6,
           "tournaments_display": "52",
           "lowest_counting": 0,
           "history": {
@@ -4458,6 +5145,7 @@
             "week-106": 6,
             "week-107": 12
           },
+          "game_win_pct": 0.5041,
           "rank": 7
         },
         {
@@ -4471,6 +5159,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 6,
+          "game_wins": 235,
+          "game_losses": 256,
+          "game_draws": 5,
           "tournaments_display": "52",
           "lowest_counting": 0,
           "history": {
@@ -4527,6 +5218,7 @@
             "week-83": 9,
             "week-92": 3
           },
+          "game_win_pct": 0.4738,
           "rank": 8
         },
         {
@@ -4540,6 +5232,9 @@
           "four_ohs": 4,
           "three_ohs": 1,
           "three_ones": 8,
+          "game_wins": 186,
+          "game_losses": 163,
+          "game_draws": 0,
           "tournaments_display": "37",
           "lowest_counting": 3,
           "history": {
@@ -4581,6 +5276,7 @@
             "week-101": 9,
             "week-104": 3
           },
+          "game_win_pct": 0.533,
           "rank": 9
         },
         {
@@ -4594,6 +5290,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 8,
+          "game_wins": 199,
+          "game_losses": 235,
+          "game_draws": 5,
           "tournaments_display": "47",
           "lowest_counting": 0,
           "history": {
@@ -4645,6 +5344,7 @@
             "week-82": 3,
             "week-87": 3
           },
+          "game_win_pct": 0.4533,
           "rank": 10
         },
         {
@@ -4658,6 +5358,9 @@
           "four_ohs": 6,
           "three_ohs": 0,
           "three_ones": 10,
+          "game_wins": 168,
+          "game_losses": 113,
+          "game_draws": 1,
           "tournaments_display": "33",
           "lowest_counting": 0,
           "history": {
@@ -4695,6 +5398,7 @@
             "week-72": 9,
             "week-73": 9
           },
+          "game_win_pct": 0.5957,
           "rank": 11
         },
         {
@@ -4708,6 +5412,9 @@
           "four_ohs": 2,
           "three_ohs": 1,
           "three_ones": 11,
+          "game_wins": 183,
+          "game_losses": 165,
+          "game_draws": 0,
           "tournaments_display": "35",
           "lowest_counting": 0,
           "history": {
@@ -4747,6 +5454,7 @@
             "week-56": 3,
             "week-74": 6
           },
+          "game_win_pct": 0.5259,
           "rank": 12
         },
         {
@@ -4760,6 +5468,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 7,
+          "game_wins": 179,
+          "game_losses": 186,
+          "game_draws": 1,
           "tournaments_display": "42",
           "lowest_counting": 0,
           "history": {
@@ -4806,6 +5517,7 @@
             "week-102": 3,
             "week-105": 10
           },
+          "game_win_pct": 0.4891,
           "rank": 13
         },
         {
@@ -4819,6 +5531,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 178,
+          "game_losses": 238,
+          "game_draws": 3,
           "tournaments_display": "45",
           "lowest_counting": 0,
           "history": {
@@ -4868,6 +5583,7 @@
             "week-100": 3,
             "week-107": 7
           },
+          "game_win_pct": 0.4248,
           "rank": 14
         },
         {
@@ -4881,6 +5597,9 @@
           "four_ohs": 2,
           "three_ohs": 0,
           "three_ones": 7,
+          "game_wins": 155,
+          "game_losses": 163,
+          "game_draws": 0,
           "tournaments_display": "35",
           "lowest_counting": 0,
           "history": {
@@ -4920,6 +5639,7 @@
             "week-103": 6,
             "week-107": 6
           },
+          "game_win_pct": 0.4874,
           "rank": 15
         },
         {
@@ -4933,6 +5653,9 @@
           "four_ohs": 3,
           "three_ohs": 2,
           "three_ones": 8,
+          "game_wins": 140,
+          "game_losses": 103,
+          "game_draws": 0,
           "tournaments_display": "26",
           "lowest_counting": 3,
           "history": {
@@ -4963,6 +5686,7 @@
             "week-105": 3,
             "week-108": 3
           },
+          "game_win_pct": 0.5761,
           "rank": 16
         },
         {
@@ -4976,6 +5700,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 5,
+          "game_wins": 152,
+          "game_losses": 160,
+          "game_draws": 2,
           "tournaments_display": "34",
           "lowest_counting": 0,
           "history": {
@@ -5014,6 +5741,7 @@
             "week-107": 4,
             "week-108": 3
           },
+          "game_win_pct": 0.4841,
           "rank": 17
         },
         {
@@ -5027,6 +5755,9 @@
           "four_ohs": 2,
           "three_ohs": 0,
           "three_ones": 6,
+          "game_wins": 142,
+          "game_losses": 113,
+          "game_draws": 1,
           "tournaments_display": "26",
           "lowest_counting": 1,
           "history": {
@@ -5057,6 +5788,7 @@
             "week-107": 6,
             "week-108": 6
           },
+          "game_win_pct": 0.5547,
           "rank": 18
         },
         {
@@ -5070,6 +5802,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 8,
+          "game_wins": 112,
+          "game_losses": 99,
+          "game_draws": 0,
           "tournaments_display": "22",
           "lowest_counting": 0,
           "history": {
@@ -5096,6 +5831,7 @@
             "week-105": 9,
             "week-106": 3
           },
+          "game_win_pct": 0.5308,
           "rank": 19
         },
         {
@@ -5109,6 +5845,9 @@
           "four_ohs": 2,
           "three_ohs": 0,
           "three_ones": 4,
+          "game_wins": 108,
+          "game_losses": 91,
+          "game_draws": 1,
           "tournaments_display": "23",
           "lowest_counting": 0,
           "history": {
@@ -5136,6 +5875,7 @@
             "week-70": 12,
             "week-79": 9
           },
+          "game_win_pct": 0.54,
           "rank": 20
         },
         {
@@ -5149,6 +5889,9 @@
           "four_ohs": 0,
           "three_ohs": 1,
           "three_ones": 5,
+          "game_wins": 92,
+          "game_losses": 63,
+          "game_draws": 3,
           "tournaments_display": "17",
           "lowest_counting": 1,
           "history": {
@@ -5170,6 +5913,7 @@
             "week-78": 9,
             "week-93": 9
           },
+          "game_win_pct": 0.5823,
           "rank": 21
         },
         {
@@ -5183,6 +5927,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 3,
+          "game_wins": 87,
+          "game_losses": 102,
+          "game_draws": 2,
           "tournaments_display": "20",
           "lowest_counting": 3,
           "history": {
@@ -5207,6 +5954,7 @@
             "week-57": 6,
             "week-66": 3
           },
+          "game_win_pct": 0.4555,
           "rank": 22
         },
         {
@@ -5220,6 +5968,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 3,
+          "game_wins": 87,
+          "game_losses": 117,
+          "game_draws": 0,
           "tournaments_display": "24",
           "lowest_counting": 0,
           "history": {
@@ -5248,6 +5999,7 @@
             "week-93": 9,
             "week-94": 6
           },
+          "game_win_pct": 0.4265,
           "rank": 23
         },
         {
@@ -5261,6 +6013,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 4,
+          "game_wins": 69,
+          "game_losses": 61,
+          "game_draws": 2,
           "tournaments_display": "13",
           "lowest_counting": 0,
           "history": {
@@ -5278,6 +6033,7 @@
             "week-100": 9,
             "week-105": 7
           },
+          "game_win_pct": 0.5227,
           "rank": 24
         },
         {
@@ -5291,6 +6047,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 61,
+          "game_losses": 92,
+          "game_draws": 1,
           "tournaments_display": "17",
           "lowest_counting": 0,
           "history": {
@@ -5312,6 +6071,7 @@
             "week-106": 3,
             "week-108": 6
           },
+          "game_win_pct": 0.3961,
           "rank": 25
         },
         {
@@ -5325,6 +6085,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 50,
+          "game_losses": 58,
+          "game_draws": 0,
           "tournaments_display": "11",
           "lowest_counting": 0,
           "history": {
@@ -5340,6 +6103,7 @@
             "week-97": 3,
             "week-105": 9
           },
+          "game_win_pct": 0.463,
           "rank": 26
         },
         {
@@ -5353,6 +6117,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 50,
+          "game_losses": 36,
+          "game_draws": 0,
           "tournaments_display": "9",
           "lowest_counting": 3,
           "history": {
@@ -5366,6 +6133,7 @@
             "week-104": 6,
             "week-105": 3
           },
+          "game_win_pct": 0.5814,
           "rank": 27
         },
         {
@@ -5379,6 +6147,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 3,
+          "game_wins": 37,
+          "game_losses": 22,
+          "game_draws": 0,
           "tournaments_display": "6",
           "lowest_counting": 3,
           "history": {
@@ -5389,6 +6160,7 @@
             "week-87": 12,
             "week-101": 9
           },
+          "game_win_pct": 0.6271,
           "rank": 28
         },
         {
@@ -5402,6 +6174,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 45,
+          "game_losses": 48,
+          "game_draws": 0,
           "tournaments_display": "9",
           "lowest_counting": 3,
           "history": {
@@ -5415,6 +6190,7 @@
             "week-59": 6,
             "week-88": 3
           },
+          "game_win_pct": 0.4839,
           "rank": 29
         },
         {
@@ -5428,6 +6204,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 39,
+          "game_losses": 45,
+          "game_draws": 0,
           "tournaments_display": "10",
           "lowest_counting": 3,
           "history": {
@@ -5442,6 +6221,7 @@
             "week-100": 9,
             "week-101": 3
           },
+          "game_win_pct": 0.4643,
           "rank": 30
         },
         {
@@ -5455,6 +6235,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 33,
+          "game_losses": 46,
+          "game_draws": 1,
           "tournaments_display": "8",
           "lowest_counting": 0,
           "history": {
@@ -5467,6 +6250,7 @@
             "week-83": 6,
             "week-95": 3
           },
+          "game_win_pct": 0.4125,
           "rank": 31
         },
         {
@@ -5480,6 +6264,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 2,
+          "game_wins": 24,
+          "game_losses": 17,
+          "game_draws": 0,
           "tournaments_display": "4",
           "lowest_counting": 3,
           "history": {
@@ -5488,6 +6275,7 @@
             "week-28": 9,
             "week-38": 3
           },
+          "game_win_pct": 0.5854,
           "rank": 32
         },
         {
@@ -5501,6 +6289,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 22,
+          "game_losses": 17,
+          "game_draws": 0,
           "tournaments_display": "4",
           "lowest_counting": 6,
           "history": {
@@ -5509,6 +6300,7 @@
             "week-99": 6,
             "week-101": 6
           },
+          "game_win_pct": 0.5641,
           "rank": 33
         },
         {
@@ -5522,6 +6314,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 22,
+          "game_losses": 27,
+          "game_draws": 0,
           "tournaments_display": "6",
           "lowest_counting": 3,
           "history": {
@@ -5532,6 +6327,7 @@
             "week-84": 3,
             "week-85": 6
           },
+          "game_win_pct": 0.449,
           "rank": 34
         },
         {
@@ -5545,6 +6341,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 22,
+          "game_losses": 22,
+          "game_draws": 0,
           "tournaments_display": "5",
           "lowest_counting": 3,
           "history": {
@@ -5554,6 +6353,7 @@
             "week-59": 3,
             "week-102": 3
           },
+          "game_win_pct": 0.5,
           "rank": 35
         },
         {
@@ -5567,6 +6367,9 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 16,
+          "game_losses": 13,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 3,
           "history": {
@@ -5574,6 +6377,7 @@
             "week-47": 6,
             "week-50": 12
           },
+          "game_win_pct": 0.5517,
           "rank": 36
         },
         {
@@ -5587,6 +6391,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 16,
+          "game_losses": 27,
+          "game_draws": 0,
           "tournaments_display": "5",
           "lowest_counting": 3,
           "history": {
@@ -5596,6 +6403,7 @@
             "week-69": 6,
             "week-70": 6
           },
+          "game_win_pct": 0.3721,
           "rank": 37
         },
         {
@@ -5609,6 +6417,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 16,
+          "game_losses": 12,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 4,
           "history": {
@@ -5616,6 +6427,7 @@
             "week-99": 6,
             "week-100": 4
           },
+          "game_win_pct": 0.5714,
           "rank": 38
         },
         {
@@ -5629,12 +6441,16 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 13,
+          "game_losses": 7,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 6,
           "history": {
             "week-45": 12,
             "week-48": 6
           },
+          "game_win_pct": 0.65,
           "rank": 39
         },
         {
@@ -5648,6 +6464,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 15,
+          "game_losses": 19,
+          "game_draws": 1,
           "tournaments_display": "4",
           "lowest_counting": 3,
           "history": {
@@ -5656,6 +6475,7 @@
             "week-103": 3,
             "week-104": 3
           },
+          "game_win_pct": 0.4286,
           "rank": 40
         },
         {
@@ -5669,12 +6489,16 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 11,
+          "game_losses": 9,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 3,
           "history": {
             "week-5": 12,
             "week-11": 3
           },
+          "game_win_pct": 0.55,
           "rank": 41
         },
         {
@@ -5688,6 +6512,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 13,
+          "game_losses": 18,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -5695,6 +6522,7 @@
             "week-8": 6,
             "week-14": 9
           },
+          "game_win_pct": 0.4194,
           "rank": 42
         },
         {
@@ -5708,12 +6536,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 12,
+          "game_losses": 7,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 6,
           "history": {
             "week-26": 6,
             "week-28": 9
           },
+          "game_win_pct": 0.6316,
           "rank": 43
         },
         {
@@ -5727,11 +6559,15 @@
           "four_ohs": 1,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 8,
+          "game_losses": 2,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 12,
           "history": {
             "week-35": 12
           },
+          "game_win_pct": 0.8,
           "rank": 44
         },
         {
@@ -5745,12 +6581,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 8,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 3,
           "history": {
             "week-7": 9,
             "week-31": 3
           },
+          "game_win_pct": 0.5714,
           "rank": 45
         },
         {
@@ -5764,6 +6604,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 12,
+          "game_losses": 16,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 3,
           "history": {
@@ -5771,6 +6614,7 @@
             "week-104": 3,
             "week-107": 3
           },
+          "game_win_pct": 0.4286,
           "rank": 46
         },
         {
@@ -5784,12 +6628,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 10,
+          "game_losses": 10,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 6,
           "history": {
             "week-25": 6,
             "week-26": 6
           },
+          "game_win_pct": 0.5,
           "rank": 47
         },
         {
@@ -5803,12 +6651,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 9,
+          "game_losses": 8,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 6,
           "history": {
             "week-87": 6,
             "week-104": 6
           },
+          "game_win_pct": 0.5294,
           "rank": 48
         },
         {
@@ -5822,6 +6674,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 10,
+          "game_losses": 18,
+          "game_draws": 1,
           "tournaments_display": "3",
           "lowest_counting": 3,
           "history": {
@@ -5829,6 +6684,7 @@
             "week-73": 3,
             "week-95": 3
           },
+          "game_win_pct": 0.3448,
           "rank": 49
         },
         {
@@ -5842,11 +6698,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 7,
+          "game_losses": 4,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 9,
           "history": {
             "week-4": 9
           },
+          "game_win_pct": 0.6364,
           "rank": 50
         },
         {
@@ -5860,11 +6720,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 6,
+          "game_losses": 4,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 9,
           "history": {
             "week-4": 9
           },
+          "game_win_pct": 0.6,
           "rank": 51
         },
         {
@@ -5878,11 +6742,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 1,
+          "game_wins": 7,
+          "game_losses": 5,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 9,
           "history": {
             "week-88": 9
           },
+          "game_win_pct": 0.5833,
           "rank": 52
         },
         {
@@ -5896,6 +6764,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 15,
+          "game_losses": 26,
+          "game_draws": 0,
           "tournaments_display": "5",
           "lowest_counting": 0,
           "history": {
@@ -5905,6 +6776,7 @@
             "week-7": 3,
             "week-8": 0
           },
+          "game_win_pct": 0.3659,
           "rank": 53
         },
         {
@@ -5918,6 +6790,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 9,
+          "game_losses": 21,
+          "game_draws": 0,
           "tournaments_display": "4",
           "lowest_counting": 0,
           "history": {
@@ -5926,6 +6801,7 @@
             "week-13": 0,
             "week-20": 3
           },
+          "game_win_pct": 0.3,
           "rank": 54
         },
         {
@@ -5939,6 +6815,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 12,
+          "game_losses": 25,
+          "game_draws": 0,
           "tournaments_display": "4",
           "lowest_counting": 0,
           "history": {
@@ -5947,6 +6826,7 @@
             "week-73": 0,
             "week-84": 6
           },
+          "game_win_pct": 0.3243,
           "rank": 55
         },
         {
@@ -5960,6 +6840,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 9,
+          "game_losses": 20,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 3,
           "history": {
@@ -5967,6 +6850,7 @@
             "week-14": 3,
             "week-30": 3
           },
+          "game_win_pct": 0.3103,
           "rank": 56
         },
         {
@@ -5980,12 +6864,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 8,
+          "game_losses": 13,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 3,
           "history": {
             "week-3": 6,
             "week-4": 3
           },
+          "game_win_pct": 0.381,
           "rank": 57
         },
         {
@@ -5999,12 +6887,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 9,
+          "game_losses": 13,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 3,
           "history": {
             "week-47": 3,
             "week-54": 6
           },
+          "game_win_pct": 0.4091,
           "rank": 58
         },
         {
@@ -6018,6 +6910,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 14,
+          "game_losses": 36,
+          "game_draws": 1,
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
@@ -6028,6 +6923,7 @@
             "week-83": 3,
             "week-106": 0
           },
+          "game_win_pct": 0.2745,
           "rank": 59
         },
         {
@@ -6041,12 +6937,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 6,
+          "game_losses": 11,
+          "game_draws": 1,
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
             "week-102": 7,
             "week-103": 0
           },
+          "game_win_pct": 0.3333,
           "rank": 60
         },
         {
@@ -6060,11 +6960,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 6,
+          "game_losses": 5,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 7,
           "history": {
             "week-26": 7
           },
+          "game_win_pct": 0.5455,
           "rank": 61
         },
         {
@@ -6078,6 +6982,9 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 10,
+          "game_losses": 18,
+          "game_draws": 0,
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
@@ -6085,6 +6992,7 @@
             "week-87": 3,
             "week-90": 0
           },
+          "game_win_pct": 0.3571,
           "rank": 62
         },
         {
@@ -6098,12 +7006,16 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 5,
+          "game_losses": 11,
+          "game_draws": 0,
           "tournaments_display": "2",
           "lowest_counting": 3,
           "history": {
             "week-84": 3,
             "week-101": 3
           },
+          "game_win_pct": 0.3125,
           "rank": 63
         },
         {
@@ -6117,11 +7029,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 5,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 6,
           "history": {
             "week-7": 6
           },
+          "game_win_pct": 0.4444,
           "rank": 64
         },
         {
@@ -6135,11 +7051,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 6,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 6,
           "history": {
             "week-18": 6
           },
+          "game_win_pct": 0.5,
           "rank": 65
         },
         {
@@ -6153,11 +7073,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 5,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 6,
           "history": {
             "week-26": 6
           },
+          "game_win_pct": 0.4545,
           "rank": 66
         },
         {
@@ -6171,11 +7095,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 5,
+          "game_losses": 3,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 6,
           "history": {
             "week-27": 6
           },
+          "game_win_pct": 0.625,
           "rank": 67
         },
         {
@@ -6189,11 +7117,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 5,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 6,
           "history": {
             "week-61": 6
           },
+          "game_win_pct": 0.4545,
           "rank": 68
         },
         {
@@ -6207,11 +7139,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 5,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 6,
           "history": {
             "week-88": 6
           },
+          "game_win_pct": 0.4444,
           "rank": 69
         },
         {
@@ -6225,11 +7161,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 6,
           "history": {
             "week-98": 6
           },
+          "game_win_pct": 0.4,
           "rank": 70
         },
         {
@@ -6243,11 +7183,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 5,
+          "game_losses": 4,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 6,
           "history": {
             "week-108": 6
           },
+          "game_win_pct": 0.5556,
           "rank": 71
         },
         {
@@ -6261,11 +7205,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 5,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
             "week-26": 3
           },
+          "game_win_pct": 0.4444,
           "rank": 72
         },
         {
@@ -6279,11 +7227,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
             "week-39": 3
           },
+          "game_win_pct": 0.4,
           "rank": 73
         },
         {
@@ -6297,11 +7249,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 4,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
             "week-67": 3
           },
+          "game_win_pct": 0.5,
           "rank": 74
         },
         {
@@ -6315,11 +7271,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 3,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
             "week-70": 3
           },
+          "game_win_pct": 0.3333,
           "rank": 75
         },
         {
@@ -6333,11 +7293,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
             "week-71": 3
           },
+          "game_win_pct": 0.4,
           "rank": 76
         },
         {
@@ -6351,11 +7315,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 3,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
             "week-79": 3
           },
+          "game_win_pct": 0.3333,
           "rank": 77
         },
         {
@@ -6369,11 +7337,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
             "week-98": 3
           },
+          "game_win_pct": 0.4,
           "rank": 78
         },
         {
@@ -6387,11 +7359,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 6,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
             "week-101": 3
           },
+          "game_win_pct": 0.4,
           "rank": 79
         },
         {
@@ -6405,11 +7381,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 4,
+          "game_losses": 4,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
             "week-106": 3
           },
+          "game_win_pct": 0.5,
           "rank": 80
         },
         {
@@ -6423,11 +7403,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 2,
+          "game_losses": 7,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 1,
           "history": {
             "week-99": 1
           },
+          "game_win_pct": 0.2222,
           "rank": 81
         },
         {
@@ -6441,11 +7425,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 1,
+          "game_losses": 8,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-21": 0
           },
+          "game_win_pct": 0.1111,
           "rank": 82
         },
         {
@@ -6459,11 +7447,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 2,
+          "game_losses": 8,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-45": 0
           },
+          "game_win_pct": 0.2,
           "rank": 83
         },
         {
@@ -6477,11 +7469,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 2,
+          "game_losses": 8,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-59": 0
           },
+          "game_win_pct": 0.2,
           "rank": 84
         },
         {
@@ -6495,11 +7491,15 @@
           "four_ohs": 0,
           "three_ohs": 0,
           "three_ones": 0,
+          "game_wins": 1,
+          "game_losses": 8,
+          "game_draws": 0,
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
             "week-76": 0
           },
+          "game_win_pct": 0.1111,
           "rank": 85
         }
       ]

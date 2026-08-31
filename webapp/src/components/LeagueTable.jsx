@@ -57,6 +57,13 @@ export default function LeagueTable({ standings, showLowest }) {
                 </th>
                 <th
                   scope="col"
+                  className="px-3 py-3 text-center text-xs normal-case tracking-wider text-slate-500 whitespace-nowrap"
+                  title="Game Win %"
+                >
+                  GW%
+                </th>
+                <th
+                  scope="col"
                   className="px-6 py-3 text-center text-xs uppercase tracking-wider text-slate-500 w-36 whitespace-nowrap rounded-tr-lg"
                 >
                   Lowest Score
@@ -110,6 +117,9 @@ export default function LeagueTable({ standings, showLowest }) {
                   </td>
                   <td className="px-3 py-4 text-center text-slate-300 font-mono text-xs whitespace-nowrap">
                     {player.three_ones || 0}
+                  </td>
+                  <td className="px-3 py-4 text-center text-slate-300 font-mono text-xs whitespace-nowrap">
+                    {((player.game_win_pct || 0) * 100).toFixed(1)}%
                   </td>
                   <td className="px-3 py-4 text-center text-slate-300 font-mono text-xs whitespace-nowrap">
                     {player.lowest_counting}
