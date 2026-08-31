@@ -42,11 +42,14 @@ def clean_name(name_str):
 def get_soup(url):
     try:
         response = scraper.get(url)
+        # AetherHub serves UTF-8 but omits the charset header, so force it to avoid Latin-1 mojibake.
+        response.encoding = "utf-8"
         if "Just a moment" in response.text:
             print("  !! Cloudflare Challenge Detected. Waiting 5s...")
             time.sleep(5)
-            response = scraper.get(url) 
-        
+            response = scraper.get(url)
+            response.encoding = "utf-8"
+
         if response.status_code == 200:
             return BeautifulSoup(response.text, 'html.parser')
     except Exception as e:
@@ -253,6 +256,7 @@ def get_user_tournaments(user_url):
     try:
         response = scraper.get(user_url)
         if response.status_code != 200: return []
+        response.encoding = "utf-8"
         soup = BeautifulSoup(response.text, 'html.parser')
         links = soup.find_all('a', href=re.compile(r'/Tourney/RoundTourney/\d+'))
         found_ids = []
