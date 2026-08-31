@@ -47497,7 +47497,7 @@
         {
           "rank": 14,
           "name": "Ferdinand Marnburg",
-          "deck": "Blue Tron",
+          "deck": "UR Tempo",
           "points": 0,
           "record": "0-4-0",
           "wins": 0,
@@ -47508,7 +47508,7 @@
           "ogw": 0.49722222222222223,
           "mw": 0.33,
           "payout": 0,
-          "deck_true": "Blue Tron"
+          "deck_true": "UR Tempo"
         }
       ],
       "rounds": [
