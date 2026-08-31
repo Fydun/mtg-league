@@ -6636,6 +6636,33 @@
           "rank": 33
         },
         {
+          "name": "\u00d8yvind L\u00f8yland",
+          "points": 25,
+          "wins": 8,
+          "losses": 13,
+          "draws": 1,
+          "matches": 22,
+          "tournaments_played": 6,
+          "four_ohs": 0,
+          "three_ohs": 0,
+          "three_ones": 0,
+          "game_wins": 24,
+          "game_losses": 33,
+          "game_draws": 1,
+          "tournaments_display": "6",
+          "lowest_counting": 0,
+          "history": {
+            "week-101": 6,
+            "week-102": 7,
+            "week-103": 0,
+            "week-104": 3,
+            "week-107": 3,
+            "week-109": 6
+          },
+          "game_win_pct": 0.4138,
+          "rank": 34
+        },
+        {
           "name": "Serina Koch",
           "points": 24,
           "wins": 8,
@@ -6660,7 +6687,7 @@
             "week-85": 6
           },
           "game_win_pct": 0.449,
-          "rank": 34
+          "rank": 35
         },
         {
           "name": "Daniel Norum",
@@ -6686,7 +6713,7 @@
             "week-102": 3
           },
           "game_win_pct": 0.5,
-          "rank": 35
+          "rank": 36
         },
         {
           "name": "Erik Sathe",
@@ -6710,7 +6737,7 @@
             "week-50": 12
           },
           "game_win_pct": 0.5517,
-          "rank": 36
+          "rank": 37
         },
         {
           "name": "Ian Fox",
@@ -6736,7 +6763,7 @@
             "week-70": 6
           },
           "game_win_pct": 0.3721,
-          "rank": 37
+          "rank": 38
         },
         {
           "name": "Kjetil Aukrust",
@@ -6760,7 +6787,7 @@
             "week-100": 4
           },
           "game_win_pct": 0.5714,
-          "rank": 38
+          "rank": 39
         },
         {
           "name": "Andr\u00e9 Mosh\u00f8len",
@@ -6783,31 +6810,6 @@
             "week-48": 6
           },
           "game_win_pct": 0.65,
-          "rank": 39
-        },
-        {
-          "name": "\u00d8yvind L\u00f8yland",
-          "points": 18,
-          "wins": 6,
-          "losses": 9,
-          "draws": 0,
-          "matches": 15,
-          "tournaments_played": 4,
-          "four_ohs": 0,
-          "three_ohs": 0,
-          "three_ones": 0,
-          "game_wins": 18,
-          "game_losses": 22,
-          "game_draws": 0,
-          "tournaments_display": "4",
-          "lowest_counting": 3,
-          "history": {
-            "week-101": 6,
-            "week-104": 3,
-            "week-107": 3,
-            "week-109": 6
-          },
-          "game_win_pct": 0.45,
           "rank": 40
         },
         {
@@ -7260,29 +7262,6 @@
           "rank": 59
         },
         {
-          "name": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
-          "points": 7,
-          "wins": 2,
-          "losses": 4,
-          "draws": 1,
-          "matches": 7,
-          "tournaments_played": 2,
-          "four_ohs": 0,
-          "three_ohs": 0,
-          "three_ones": 0,
-          "game_wins": 6,
-          "game_losses": 11,
-          "game_draws": 1,
-          "tournaments_display": "2",
-          "lowest_counting": 0,
-          "history": {
-            "week-102": 7,
-            "week-103": 0
-          },
-          "game_win_pct": 0.3333,
-          "rank": 60
-        },
-        {
           "name": "Mathias Aspen",
           "points": 7,
           "wins": 2,
@@ -7302,7 +7281,7 @@
             "week-26": 7
           },
           "game_win_pct": 0.5455,
-          "rank": 61
+          "rank": 60
         },
         {
           "name": "Aleksander Vangs\u00f8y",
@@ -7326,7 +7305,7 @@
             "week-90": 0
           },
           "game_win_pct": 0.3571,
-          "rank": 62
+          "rank": 61
         },
         {
           "name": "Knut Wassmo",
@@ -7349,7 +7328,7 @@
             "week-101": 3
           },
           "game_win_pct": 0.3125,
-          "rank": 63
+          "rank": 62
         },
         {
           "name": "Benedikte Zwart",
@@ -7371,7 +7350,7 @@
             "week-7": 6
           },
           "game_win_pct": 0.4444,
-          "rank": 64
+          "rank": 63
         },
         {
           "name": "Axel",
@@ -7393,7 +7372,7 @@
             "week-18": 6
           },
           "game_win_pct": 0.5,
-          "rank": 65
+          "rank": 64
         },
         {
           "name": "Robin S\u00f8rlien",
@@ -7415,7 +7394,7 @@
             "week-26": 6
           },
           "game_win_pct": 0.4545,
-          "rank": 66
+          "rank": 65
         },
         {
           "name": "Tor \u00c5rskog",
@@ -7437,7 +7416,7 @@
             "week-27": 6
           },
           "game_win_pct": 0.625,
-          "rank": 67
+          "rank": 66
         },
         {
           "name": "Siemen Sandbakken",
@@ -7459,7 +7438,7 @@
             "week-61": 6
           },
           "game_win_pct": 0.4545,
-          "rank": 68
+          "rank": 67
         },
         {
           "name": "Alexander Vangs\u00f8y",
@@ -7481,7 +7460,7 @@
             "week-88": 6
           },
           "game_win_pct": 0.4444,
-          "rank": 69
+          "rank": 68
         },
         {
           "name": "Jon Grahn",
@@ -7503,7 +7482,7 @@
             "week-98": 6
           },
           "game_win_pct": 0.4,
-          "rank": 70
+          "rank": 69
         },
         {
           "name": "\u00d8ystein Sj\u00f8tveit",
@@ -7525,7 +7504,7 @@
             "week-108": 6
           },
           "game_win_pct": 0.5556,
-          "rank": 71
+          "rank": 70
         },
         {
           "name": "Matias Kaarstein",
@@ -7547,7 +7526,7 @@
             "week-26": 3
           },
           "game_win_pct": 0.4444,
-          "rank": 72
+          "rank": 71
         },
         {
           "name": "Trym Bergman",
@@ -7569,7 +7548,7 @@
             "week-39": 3
           },
           "game_win_pct": 0.4,
-          "rank": 73
+          "rank": 72
         },
         {
           "name": "Joakim S\u00f8rg\u00e5rd",
@@ -7591,7 +7570,7 @@
             "week-67": 3
           },
           "game_win_pct": 0.5,
-          "rank": 74
+          "rank": 73
         },
         {
           "name": "Roland Mork",
@@ -7613,7 +7592,7 @@
             "week-70": 3
           },
           "game_win_pct": 0.3333,
-          "rank": 75
+          "rank": 74
         },
         {
           "name": "Fredrik Eiding",
@@ -7635,7 +7614,7 @@
             "week-71": 3
           },
           "game_win_pct": 0.4,
-          "rank": 76
+          "rank": 75
         },
         {
           "name": "Dorian Fricsay",
@@ -7657,7 +7636,7 @@
             "week-79": 3
           },
           "game_win_pct": 0.3333,
-          "rank": 77
+          "rank": 76
         },
         {
           "name": "Balder Axhage",
@@ -7679,7 +7658,7 @@
             "week-98": 3
           },
           "game_win_pct": 0.4,
-          "rank": 78
+          "rank": 77
         },
         {
           "name": "Torgrim Aune",
@@ -7701,7 +7680,7 @@
             "week-101": 3
           },
           "game_win_pct": 0.4,
-          "rank": 79
+          "rank": 78
         },
         {
           "name": "Bernhard Bornstein",
@@ -7723,7 +7702,7 @@
             "week-106": 3
           },
           "game_win_pct": 0.5,
-          "rank": 80
+          "rank": 79
         },
         {
           "name": "Jesper Gamborg-Nilsen",
@@ -7745,7 +7724,7 @@
             "week-99": 1
           },
           "game_win_pct": 0.2222,
-          "rank": 81
+          "rank": 80
         },
         {
           "name": "Kristin Skivik",
@@ -7767,7 +7746,7 @@
             "week-21": 0
           },
           "game_win_pct": 0.1111,
-          "rank": 82
+          "rank": 81
         },
         {
           "name": "Fredrik N\u00e6sse",
@@ -7789,7 +7768,7 @@
             "week-45": 0
           },
           "game_win_pct": 0.2,
-          "rank": 83
+          "rank": 82
         },
         {
           "name": "H\u00e5kon Gulbrandsen",
@@ -7811,7 +7790,7 @@
             "week-59": 0
           },
           "game_win_pct": 0.2,
-          "rank": 84
+          "rank": 83
         },
         {
           "name": "Kurtis Brown",
@@ -7833,7 +7812,7 @@
             "week-76": 0
           },
           "game_win_pct": 0.1111,
-          "rank": 85
+          "rank": 84
         }
       ]
     }
@@ -45318,7 +45297,7 @@
         },
         {
           "rank": 4,
-          "name": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
+          "name": "\u00d8yvind L\u00f8yland",
           "deck": "Cloudpost",
           "points": 7,
           "record": "2-1-1",
@@ -45440,7 +45419,7 @@
             },
             {
               "p1": "Dante Forssberg",
-              "p2": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
+              "p2": "\u00d8yvind L\u00f8yland",
               "p1_wins": 1,
               "p2_wins": 2,
               "draws": 0
@@ -45465,7 +45444,7 @@
               "draws": 0
             },
             {
-              "p1": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
+              "p1": "\u00d8yvind L\u00f8yland",
               "p2": "Espen Hodne",
               "p1_wins": 1,
               "p2_wins": 1,
@@ -45499,7 +45478,7 @@
           "matches": [
             {
               "p1": "Tormod Lang",
-              "p2": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
+              "p2": "\u00d8yvind L\u00f8yland",
               "p1_wins": 2,
               "p2_wins": 0,
               "draws": 0
@@ -45559,7 +45538,7 @@
               "draws": 0
             },
             {
-              "p1": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
+              "p1": "\u00d8yvind L\u00f8yland",
               "p2": "Martin Lindboe",
               "p1_wins": 2,
               "p2_wins": 1,
@@ -45700,7 +45679,7 @@
         },
         {
           "rank": 8,
-          "name": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
+          "name": "\u00d8yvind L\u00f8yland",
           "deck": "Cloudpost",
           "points": 0,
           "record": "0-3-0",
@@ -45720,7 +45699,7 @@
           "round": 1,
           "matches": [
             {
-              "p1": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
+              "p1": "\u00d8yvind L\u00f8yland",
               "p2": "Tormod Lang",
               "p1_wins": 0,
               "p2_wins": 2,
@@ -45767,7 +45746,7 @@
               "draws": 0
             },
             {
-              "p1": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
+              "p1": "\u00d8yvind L\u00f8yland",
               "p2": "Anders Christie",
               "p1_wins": 0,
               "p2_wins": 2,
@@ -45807,7 +45786,7 @@
               "draws": 0
             },
             {
-              "p1": "\u00c3\u02dcyvind L\u00c3\u00b8yland",
+              "p1": "\u00d8yvind L\u00f8yland",
               "p2": "Kenneth Pedersen",
               "p1_wins": 1,
               "p2_wins": 2,
