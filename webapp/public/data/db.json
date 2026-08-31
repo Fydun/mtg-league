@@ -8998,7 +8998,7 @@
         {
           "rank": 8,
           "name": "Haiko Zwart",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 3,
           "record": "1-2-0",
           "wins": 1,
@@ -9009,7 +9009,7 @@
           "ogw": 0.5176767676767676,
           "mw": 0.3333333333333333,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         },
         {
           "rank": 9,
@@ -9473,7 +9473,7 @@
         {
           "rank": 17,
           "name": "Haiko Zwart",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 0,
           "record": "0-2-0",
           "wins": 0,
@@ -9484,7 +9484,7 @@
           "ogw": 0.4097222222222222,
           "mw": 0.3333333333333333,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         }
       ],
       "rounds": [
@@ -9918,7 +9918,7 @@
         {
           "rank": 11,
           "name": "Haiko Zwart",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 3,
           "record": "1-3-0",
           "wins": 1,
@@ -9929,7 +9929,7 @@
           "ogw": 0.5484848484848485,
           "mw": 0.3333333333333333,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         },
         {
           "rank": 12,
@@ -10426,7 +10426,7 @@
         {
           "rank": 16,
           "name": "Haiko Zwart",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 3,
           "record": "1-3-0",
           "wins": 1,
@@ -10437,7 +10437,7 @@
           "ogw": 0.5083333333333333,
           "mw": 0.3333333333333333,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         },
         {
           "rank": 17,
@@ -10972,7 +10972,7 @@
         {
           "rank": 14,
           "name": "Haiko Zwart",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 0,
           "record": "0-2-0",
           "wins": 0,
@@ -10983,7 +10983,7 @@
           "ogw": 0.5909090909090908,
           "mw": 0.3333333333333333,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         }
       ],
       "rounds": [
@@ -13285,7 +13285,7 @@
         {
           "rank": 5,
           "name": "Parco Au",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 7,
           "record": "2-1-1",
           "wins": 2,
@@ -13296,12 +13296,12 @@
           "ogw": 0.5012626262626262,
           "mw": 0.5833333333333334,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         },
         {
           "rank": 6,
           "name": "Tormod Lang",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 7,
           "record": "2-1-1",
           "wins": 2,
@@ -13312,7 +13312,7 @@
           "ogw": 0.48358585858585856,
           "mw": 0.5833333333333334,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         },
         {
           "rank": 7,
@@ -14291,7 +14291,7 @@
         {
           "rank": 8,
           "name": "Parco Au",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 1,
           "record": "0-2-1",
           "wins": 0,
@@ -14302,7 +14302,7 @@
           "ogw": 0.5238095238095238,
           "mw": 0.3333333333333333,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         }
       ],
       "rounds": [
@@ -15785,7 +15785,7 @@
         {
           "rank": 12,
           "name": "Parco Au",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 0,
           "record": "0-4-0",
           "wins": 0,
@@ -15796,7 +15796,7 @@
           "ogw": 0.5590909090909091,
           "mw": 0.3333333333333333,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         }
       ],
       "rounds": [
@@ -16039,7 +16039,7 @@
         {
           "rank": 3,
           "name": "Anders S\u00f8berg",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 6,
           "record": "2-1-0",
           "wins": 2,
@@ -16050,7 +16050,7 @@
           "ogw": 0.5343915343915343,
           "mw": 0.6666666666666666,
           "payout": 126,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         },
         {
           "rank": 4,
@@ -16284,7 +16284,7 @@
         {
           "rank": 4,
           "name": "Anders S\u00f8berg",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 6,
           "record": "2-2-0",
           "wins": 2,
@@ -16295,7 +16295,7 @@
           "ogw": 0.5255681818181818,
           "mw": 0.5,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         },
         {
           "rank": 5,
@@ -29790,7 +29790,7 @@
         {
           "rank": 6,
           "name": "J\u00f8rgen S\u00f8rli",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 9,
           "record": "3-1-0",
           "wins": 3,
@@ -29801,7 +29801,7 @@
           "ogw": 0.41944444444444445,
           "mw": 0.75,
           "payout": 255,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         },
         {
           "rank": 7,
@@ -31122,7 +31122,7 @@
         {
           "rank": 9,
           "name": "J\u00f8rgen S\u00f8rli",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 0,
           "record": "0-2-0",
           "wins": 0,
@@ -31133,7 +31133,7 @@
           "ogw": 0.6666666666666666,
           "mw": 0.3333333333333333,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         }
       ],
       "rounds": [
@@ -33692,7 +33692,7 @@
         {
           "rank": 12,
           "name": "Parco Au",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 3,
           "record": "1-3-0",
           "wins": 1,
@@ -33703,7 +33703,7 @@
           "ogw": 0.5757575757575757,
           "mw": 0.3333333333333333,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         },
         {
           "rank": 13,
@@ -39198,7 +39198,7 @@
         {
           "rank": 5,
           "name": "Anders Christie",
-          "deck": "BW Cats",
+          "deck": "Energy",
           "points": 3,
           "record": "1-2-0",
           "wins": 1,
@@ -39326,7 +39326,7 @@
         {
           "rank": 2,
           "name": "Anders Christie",
-          "deck": "Mardu Cats",
+          "deck": "Energy",
           "points": 9,
           "record": "3-1-0",
           "wins": 3,
@@ -39627,7 +39627,7 @@
         {
           "rank": 2,
           "name": "Anders Christie",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 9,
           "record": "3-1-0",
           "wins": 3,
@@ -39638,7 +39638,7 @@
           "ogw": 0.5847222222222223,
           "mw": 0.75,
           "payout": 183,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         },
         {
           "rank": 3,
@@ -39691,7 +39691,7 @@
         {
           "rank": 6,
           "name": "Kenneth Pedersen",
-          "deck": "Mardu Cats",
+          "deck": "Energy",
           "points": 3,
           "record": "1-3-0",
           "wins": 1,
@@ -39967,7 +39967,7 @@
         {
           "rank": 4,
           "name": "Kenneth Pedersen",
-          "deck": "Mardu Cats",
+          "deck": "Energy",
           "points": 9,
           "record": "3-1-0",
           "wins": 3,
@@ -40402,7 +40402,7 @@
         {
           "rank": 4,
           "name": "Kenneth Pedersen",
-          "deck": "Mardu Cats",
+          "deck": "Energy",
           "points": 6,
           "record": "2-2-0",
           "wins": 2,
@@ -40786,7 +40786,7 @@
         {
           "rank": 3,
           "name": "Kenneth Pedersen",
-          "deck": "Mardu Cats",
+          "deck": "Energy",
           "points": 6,
           "record": "2-1-0",
           "wins": 2,
@@ -41499,7 +41499,7 @@
         {
           "rank": 8,
           "name": "Kenneth Pedersen",
-          "deck": "Mardu Cats",
+          "deck": "Energy",
           "points": 3,
           "record": "1-3-0",
           "wins": 1,
@@ -45009,7 +45009,7 @@
         {
           "rank": 12,
           "name": "Gunnar Sivertsen",
-          "deck": "Mardu Cats",
+          "deck": "Energy",
           "points": 3,
           "record": "1-3-0",
           "wins": 1,
@@ -45685,7 +45685,7 @@
         {
           "rank": 7,
           "name": "Anders Christie",
-          "deck": "RW Cats",
+          "deck": "Energy",
           "points": 3,
           "record": "1-2-0",
           "wins": 1,
@@ -46715,7 +46715,7 @@
         {
           "rank": 5,
           "name": "Gunnar Sivertsen",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 6,
           "record": "2-2-0",
           "wins": 2,
@@ -46726,7 +46726,7 @@
           "ogw": 0.5202020202020202,
           "mw": 0.5,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         },
         {
           "rank": 6,
@@ -47310,7 +47310,7 @@
         {
           "rank": 1,
           "name": "Anders Christie",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 12,
           "record": "4-0-0",
           "wins": 4,
@@ -47321,7 +47321,7 @@
           "ogw": 0.5063131313131313,
           "mw": 1.0,
           "payout": 572,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         },
         {
           "rank": 2,
@@ -47342,7 +47342,7 @@
         {
           "rank": 3,
           "name": "Peter Br\u00e5ss",
-          "deck": "RW Cats",
+          "deck": "Energy",
           "points": 9,
           "record": "3-1-0",
           "wins": 3,
@@ -47502,7 +47502,7 @@
         {
           "rank": 13,
           "name": "Kenneth Pedersen",
-          "deck": "4+ Color Beans",
+          "deck": "Leyline Beans",
           "points": 3,
           "record": "1-3-0",
           "wins": 1,
@@ -47513,7 +47513,7 @@
           "ogw": 0.5148148148148147,
           "mw": 0.33,
           "payout": 0,
-          "deck_true": "4+ Color Beans"
+          "deck_true": "Leyline Beans"
         },
         {
           "rank": 14,
