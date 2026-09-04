@@ -141,7 +141,7 @@ Reads all `week-*.json` files from `webapp/public/data/raw/`, aggregates them in
 
 ### Prerequisites
 
-Requires `pandas` (use system Python if your venv doesn't have it).
+None — standard library only.
 
 ### Usage
 
