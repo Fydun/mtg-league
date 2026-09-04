@@ -303,20 +303,18 @@ def calculate_standings(all_matches):
 
 def get_user_tournaments(user_url):
     print(f"Scanning user profile: {user_url}...")
-    try:
-        response = scraper.get(user_url)
-        if response.status_code != 200: return []
-        response.encoding = "utf-8"
-        soup = BeautifulSoup(response.text, 'html.parser')
-        links = soup.find_all('a', href=re.compile(r'/Tourney/RoundTourney/\d+'))
-        found_ids = []
-        for link in links:
-            match = re.search(r"RoundTourney/(\d+)", link['href'])
-            if match:
-                t_id = match.group(1)
-                if t_id not in found_ids: found_ids.append(t_id)
-        return found_ids
-    except: return []
+    soup = get_soup(user_url)
+    if soup is None:
+        return None
+
+    links = soup.find_all('a', href=re.compile(r'/Tourney/RoundTourney/\d+'))
+    found_ids = []
+    for link in links:
+        match = re.search(r"RoundTourney/(\d+)", link['href'])
+        if match:
+            t_id = match.group(1)
+            if t_id not in found_ids: found_ids.append(t_id)
+    return found_ids
 
 def get_next_week_number():
     next_week = 1
@@ -369,8 +367,12 @@ def main():
         if "aetherhub.com" not in target:
             user_url = f"https://aetherhub.com/User/{target}"
         recent_ids = get_user_tournaments(user_url)
+        if recent_ids is None:
+            print("Could not load that profile page (blocked or offline).")
+            print("Workaround: open the tournament in a browser and pass its URL or ID directly.")
+            sys.exit(1)
         if not recent_ids:
-            print("No tournaments found.")
+            print("No tournaments found on that profile.")
             sys.exit(1)
         t_id = recent_ids[0]
         print(f"Auto-selecting newest tournament ID: {t_id}")
