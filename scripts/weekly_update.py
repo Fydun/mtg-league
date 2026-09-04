@@ -124,6 +124,25 @@ def scan_week_numbers():
     return current
 
 
+def snapshot_week_files():
+    return {
+        f: os.path.getmtime(f)
+        for f in glob.glob(os.path.join(RAW_DIR, "week-*.json"))
+    }
+
+
+def newly_written_week(before):
+    """Return the week number of the file the scrape just wrote, or None."""
+    touched = []
+    for f in glob.glob(os.path.join(RAW_DIR, "week-*.json")):
+        if before.get(f) == os.path.getmtime(f):
+            continue
+        m = re.search(r"week-(\d+)\.json$", f)
+        if m:
+            touched.append(int(m.group(1)))
+    return max(touched) if touched else None
+
+
 # ── Main ───────────────────────────────────────────────────────────────────
 
 def main():
@@ -192,14 +211,26 @@ def main():
     blank()
     pf("muted", f"  Scraping latest tournament from '{to_name}' (week {next_week})...\n")
 
+    before = snapshot_week_files()
+
     ok = run(
         [PYTHON, os.path.join(SCRIPT_DIR, "aetherhub.py"), aetherhub_target],
         cwd=PROJECT_ROOT,
     )
     require(ok, "Scrape")
 
-    # re-detect in case week number shifted (e.g. file already existed)
-    scraped_week = scan_week_numbers()
+    # The scrape must have written a week file — otherwise we'd silently
+    # re-process (and overwrite) last week's results.
+    scraped_week = newly_written_week(before)
+    if scraped_week is None:
+        blank()
+        pf("err", "  ✗  No tournament data was written — the scrape did not succeed.")
+        pf("muted", "     Common cause: Cloudflare blocked the request.")
+        pf("muted", "     Try again, or run on a different network/device.")
+        blank()
+        pf("err", "  Update aborted. Nothing was changed.")
+        blank()
+        sys.exit(1)
 
     # 2c — Calculate prize pool from scraped data
     week_file = os.path.join(RAW_DIR, f"week-{scraped_week}.json")

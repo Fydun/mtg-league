@@ -31,6 +31,29 @@ scraper = cloudscraper.create_scraper(
     }
 )
 
+# Optional fallback: curl_cffi impersonates a real browser TLS fingerprint,
+# which gets through Cloudflare on platforms where cloudscraper fails (e.g. Termux).
+try:
+    from curl_cffi import requests as curl_requests
+    _curl_session = curl_requests.Session(impersonate="chrome")
+except Exception:
+    _curl_session = None
+
+CHALLENGE_MARKERS = (
+    "just a moment",
+    "enable javascript and cookies to continue",
+    "verifying you are human",
+    "attention required! | cloudflare",
+    "cf-browser-verification",
+    "challenge-platform",
+)
+
+
+def is_challenge(text):
+    lowered = text[:4000].lower()
+    return any(marker in lowered for marker in CHALLENGE_MARKERS)
+
+
 def clean_filename(name):
     return "".join([c for c in name if c.isalpha() or c.isdigit() or c in " ._-"]).strip()
 
@@ -39,22 +62,48 @@ def clean_name(name_str):
     name_str = re.sub(r"\s*\(.*?\)", "", name_str)
     return name_str.strip()
 
-def get_soup(url):
-    try:
-        response = scraper.get(url)
-        # AetherHub serves UTF-8 but omits the charset header, so force it to avoid Latin-1 mojibake.
-        response.encoding = "utf-8"
-        if "Just a moment" in response.text:
-            print("  !! Cloudflare Challenge Detected. Waiting 5s...")
-            time.sleep(5)
+def fetch(url, attempts=4):
+    """Fetch *url*, retrying past Cloudflare challenges. Returns HTML or None."""
+    delay = 5
+    for attempt in range(1, attempts + 1):
+        try:
             response = scraper.get(url)
+            # AetherHub serves UTF-8 but omits the charset header, so force it to avoid Latin-1 mojibake.
             response.encoding = "utf-8"
+            if response.status_code == 200 and not is_challenge(response.text):
+                return response.text
+            reason = "Cloudflare challenge" if is_challenge(response.text) else f"HTTP {response.status_code}"
+        except Exception as e:
+            reason = f"request error: {e}"
 
-        if response.status_code == 200:
-            return BeautifulSoup(response.text, 'html.parser')
-    except Exception as e:
-        print(f"  !! Request Error: {e}")
+        if attempt < attempts:
+            print(f"  !! {reason}. Retry {attempt}/{attempts - 1} in {delay}s...")
+            time.sleep(delay)
+            delay *= 2
+        else:
+            print(f"  !! {reason}.")
+
+    if _curl_session is not None:
+        print("  -> Falling back to curl_cffi (browser impersonation)...")
+        try:
+            response = _curl_session.get(url, timeout=30)
+            text = response.content.decode("utf-8", errors="replace")
+            if response.status_code == 200 and not is_challenge(text):
+                return text
+            print(f"  !! curl_cffi also blocked (HTTP {response.status_code}).")
+        except Exception as e:
+            print(f"  !! curl_cffi error: {e}")
+    else:
+        print("  -> Tip: 'pip install curl_cffi' enables a stronger Cloudflare bypass.")
+
     return None
+
+
+def get_soup(url):
+    html = fetch(url)
+    if html is None:
+        return None
+    return BeautifulSoup(html, 'html.parser')
 
 def parse_date(soup):
     try:
@@ -80,9 +129,10 @@ def adjust_date_to_thursday(dt):
     return new_date
 
 def scrape_round(tourney_id, round_num):
+    """Returns a list of matches, or None if the page could not be fetched."""
     url = f"https://aetherhub.com/Tourney/RoundTourney/{tourney_id}?p={round_num}"
     soup = get_soup(url)
-    if not soup: return []
+    if not soup: return None
 
     active_page = soup.find('li', class_='page-item active')
     if active_page:
@@ -321,13 +371,13 @@ def main():
         recent_ids = get_user_tournaments(user_url)
         if not recent_ids:
             print("No tournaments found.")
-            return
+            sys.exit(1)
         t_id = recent_ids[0]
         print(f"Auto-selecting newest tournament ID: {t_id}")
 
     if not t_id:
         print("Invalid ID.")
-        return
+        sys.exit(1)
 
     # Week
     week_str = args.week
@@ -343,20 +393,27 @@ def main():
     # Scrape Date
     url = f"https://aetherhub.com/Tourney/RoundTourney/{t_id}"
     soup = get_soup(url)
-    
+
     final_date_str = datetime.now().strftime("%Y-%m-%d")
     if soup:
         parsed_date = parse_date(soup)
         adjusted_date = adjust_date_to_thursday(parsed_date)
         final_date_str = adjusted_date.strftime("%Y-%m-%d")
         print(f"  Parsed Date: {parsed_date.strftime('%Y-%m-%d')} -> Adjusted: {final_date_str}")
-    
+    else:
+        print("\n  !! Could not load the tournament page (blocked or offline). Aborting.")
+        sys.exit(1)
+
     all_matches = {}
     total_rounds = 0
-    
+
     for r in range(1, 10): 
         print(f"  Reading Round {r}...", end="")
         matches = scrape_round(t_id, r)
+        if matches is None:
+            print(" request blocked.")
+            print("\n  !! Could not read round data (blocked or offline). Aborting.")
+            sys.exit(1)
         if not matches:
             print(" No matches found. Finished.")
             break
@@ -367,7 +424,7 @@ def main():
         
     if not all_matches:
         print("No data collected.")
-        return
+        sys.exit(1)
 
     # Process
     standings = calculate_standings(all_matches)

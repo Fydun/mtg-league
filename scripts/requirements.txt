@@ -3,3 +3,4 @@ beautifulsoup4
 pandas
 rapidfuzz
 prompt_toolkit
+curl_cffi
