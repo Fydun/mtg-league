@@ -254,7 +254,7 @@ def main():
 
     # Apply prize pool and payouts
     week_num = week_data["week_number"]
-    entry_fee = 110 if week_num >= 104 else 105
+    entry_fee = 110 if week_num >= 103 else 105
     pool_players = max(0, player_count - to_val)
     prize_pool = entry_fee * pool_players
 

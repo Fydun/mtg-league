@@ -5,8 +5,8 @@
       "name": "Autumn League 2026",
       "max_counted": 7,
       "tournaments": [
-        "week-110",
-        "week-109"
+        "week-109",
+        "week-108"
       ],
       "standings": [
         {
@@ -26,8 +26,8 @@
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
-            "week-109": 6,
-            "week-110": 12
+            "week-108": 6,
+            "week-109": 12
           },
           "game_win_pct": 0.6316,
           "rank": 1
@@ -49,8 +49,8 @@
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
-            "week-109": 12,
-            "week-110": 6
+            "week-108": 12,
+            "week-109": 6
           },
           "game_win_pct": 0.5909,
           "rank": 2
@@ -72,8 +72,8 @@
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
-            "week-109": 9,
-            "week-110": 6
+            "week-108": 9,
+            "week-109": 6
           },
           "game_win_pct": 0.6316,
           "rank": 3
@@ -95,8 +95,8 @@
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
-            "week-109": 9,
-            "week-110": 6
+            "week-108": 9,
+            "week-109": 6
           },
           "game_win_pct": 0.5909,
           "rank": 4
@@ -118,8 +118,8 @@
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
-            "week-109": 6,
-            "week-110": 9
+            "week-108": 6,
+            "week-109": 9
           },
           "game_win_pct": 0.5909,
           "rank": 5
@@ -141,8 +141,8 @@
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
-            "week-109": 4,
-            "week-110": 9
+            "week-108": 4,
+            "week-109": 9
           },
           "game_win_pct": 0.5,
           "rank": 6
@@ -164,8 +164,8 @@
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
-            "week-109": 9,
-            "week-110": 3
+            "week-108": 9,
+            "week-109": 3
           },
           "game_win_pct": 0.4762,
           "rank": 7
@@ -187,8 +187,8 @@
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
-            "week-109": 6,
-            "week-110": 6
+            "week-108": 6,
+            "week-109": 6
           },
           "game_win_pct": 0.45,
           "rank": 8
@@ -210,7 +210,7 @@
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
-            "week-110": 9
+            "week-109": 9
           },
           "game_win_pct": 0.6,
           "rank": 9
@@ -232,8 +232,8 @@
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
-            "week-109": 3,
-            "week-110": 4
+            "week-108": 3,
+            "week-109": 4
           },
           "game_win_pct": 0.3333,
           "rank": 10
@@ -255,7 +255,7 @@
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
-            "week-109": 6
+            "week-108": 6
           },
           "game_win_pct": 0.5,
           "rank": 11
@@ -277,7 +277,7 @@
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
-            "week-109": 6
+            "week-108": 6
           },
           "game_win_pct": 0.5,
           "rank": 12
@@ -299,7 +299,7 @@
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
-            "week-110": 4
+            "week-109": 4
           },
           "game_win_pct": 0.4545,
           "rank": 13
@@ -321,7 +321,7 @@
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
-            "week-109": 4
+            "week-108": 4
           },
           "game_win_pct": 0.4167,
           "rank": 14
@@ -343,7 +343,7 @@
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
-            "week-109": 3
+            "week-108": 3
           },
           "game_win_pct": 0.4444,
           "rank": 15
@@ -365,7 +365,7 @@
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
-            "week-110": 3
+            "week-109": 3
           },
           "game_win_pct": 0.4286,
           "rank": 16
@@ -387,8 +387,8 @@
           "tournaments_display": "2",
           "lowest_counting": 0,
           "history": {
-            "week-109": 0,
-            "week-110": 3
+            "week-108": 0,
+            "week-109": 3
           },
           "game_win_pct": 0.3,
           "rank": 17
@@ -400,10 +400,10 @@
       "name": "Spring League 2026",
       "max_counted": 7,
       "tournaments": [
-        "week-100",
         "week-99",
         "week-98",
         "week-97",
+        "week-96",
         "week-95",
         "week-94",
         "week-93",
@@ -436,10 +436,10 @@
             "week-93": 9,
             "week-94": 12,
             "week-95": 6,
-            "week-97": 3,
-            "week-98": 9,
-            "week-99": 12,
-            "week-100": 9
+            "week-96": 3,
+            "week-97": 9,
+            "week-98": 12,
+            "week-99": 9
           },
           "game_win_pct": 0.6277,
           "rank": 1
@@ -466,10 +466,10 @@
             "week-92": 6,
             "week-93": 6,
             "week-95": 12,
-            "week-97": 6,
-            "week-98": 9,
-            "week-99": 6,
-            "week-100": 12
+            "week-96": 6,
+            "week-97": 9,
+            "week-98": 6,
+            "week-99": 12
           },
           "game_win_pct": 0.6364,
           "rank": 2
@@ -498,9 +498,9 @@
             "week-93": 12,
             "week-94": 9,
             "week-95": 3,
-            "week-98": 9,
-            "week-99": 6,
-            "week-100": 9
+            "week-97": 9,
+            "week-98": 6,
+            "week-99": 9
           },
           "game_win_pct": 0.5979,
           "rank": 3
@@ -527,9 +527,9 @@
             "week-93": 6,
             "week-94": 6,
             "week-95": 9,
-            "week-98": 3,
-            "week-99": 6,
-            "week-100": 0
+            "week-97": 3,
+            "week-98": 6,
+            "week-99": 0
           },
           "game_win_pct": 0.5,
           "rank": 4
@@ -557,9 +557,9 @@
             "week-93": 4,
             "week-94": 9,
             "week-95": 0,
-            "week-97": 6,
-            "week-98": 0,
-            "week-100": 6
+            "week-96": 6,
+            "week-97": 0,
+            "week-99": 6
           },
           "game_win_pct": 0.5143,
           "rank": 5
@@ -586,9 +586,9 @@
             "week-93": 6,
             "week-94": 6,
             "week-95": 6,
-            "week-97": 6,
-            "week-99": 9,
-            "week-100": 4
+            "week-96": 6,
+            "week-98": 9,
+            "week-99": 4
           },
           "game_win_pct": 0.4545,
           "rank": 6
@@ -614,8 +614,8 @@
             "week-91": 3,
             "week-92": 6,
             "week-95": 9,
-            "week-97": 9,
-            "week-100": 9
+            "week-96": 9,
+            "week-99": 9
           },
           "game_win_pct": 0.5593,
           "rank": 7
@@ -643,9 +643,9 @@
             "week-92": 6,
             "week-93": 4,
             "week-94": 6,
+            "week-97": 6,
             "week-98": 6,
-            "week-99": 6,
-            "week-100": 6
+            "week-99": 6
           },
           "game_win_pct": 0.4699,
           "rank": 8
@@ -671,8 +671,8 @@
             "week-91": 3,
             "week-93": 6,
             "week-94": 6,
-            "week-98": 6,
-            "week-100": 6
+            "week-97": 6,
+            "week-99": 6
           },
           "game_win_pct": 0.5614,
           "rank": 9
@@ -700,10 +700,10 @@
             "week-93": 3,
             "week-94": 6,
             "week-95": 9,
+            "week-96": 3,
             "week-97": 3,
-            "week-98": 3,
-            "week-99": 0,
-            "week-100": 4
+            "week-98": 0,
+            "week-99": 4
           },
           "game_win_pct": 0.4045,
           "rank": 10
@@ -728,8 +728,8 @@
             "week-89": 9,
             "week-93": 3,
             "week-94": 3,
-            "week-97": 12,
-            "week-98": 6
+            "week-96": 12,
+            "week-97": 6
           },
           "game_win_pct": 0.5435,
           "rank": 11
@@ -755,7 +755,7 @@
             "week-91": 6,
             "week-92": 12,
             "week-94": 6,
-            "week-97": 3
+            "week-96": 3
           },
           "game_win_pct": 0.54,
           "rank": 12
@@ -784,8 +784,8 @@
             "week-93": 0,
             "week-94": 6,
             "week-95": 0,
-            "week-97": 6,
-            "week-100": 0
+            "week-96": 6,
+            "week-99": 0
           },
           "game_win_pct": 0.3902,
           "rank": 13
@@ -807,9 +807,9 @@
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
-            "week-98": 12,
-            "week-99": 9,
-            "week-100": 7
+            "week-97": 12,
+            "week-98": 9,
+            "week-99": 7
           },
           "game_win_pct": 0.7143,
           "rank": 14
@@ -836,9 +836,9 @@
             "week-92": 3,
             "week-94": 3,
             "week-95": 6,
-            "week-98": 6,
-            "week-99": 4,
-            "week-100": 3
+            "week-97": 6,
+            "week-98": 4,
+            "week-99": 3
           },
           "game_win_pct": 0.4189,
           "rank": 15
@@ -861,8 +861,8 @@
           "lowest_counting": 0,
           "history": {
             "week-95": 9,
-            "week-98": 6,
-            "week-99": 6
+            "week-97": 6,
+            "week-98": 6
           },
           "game_win_pct": 0.5862,
           "rank": 16
@@ -884,9 +884,9 @@
           "tournaments_display": "3",
           "lowest_counting": 0,
           "history": {
-            "week-97": 9,
-            "week-99": 6,
-            "week-100": 4
+            "week-96": 9,
+            "week-98": 6,
+            "week-99": 4
           },
           "game_win_pct": 0.5714,
           "rank": 17
@@ -932,7 +932,7 @@
           "lowest_counting": 0,
           "history": {
             "week-93": 6,
-            "week-100": 9
+            "week-99": 9
           },
           "game_win_pct": 0.65,
           "rank": 19
@@ -976,7 +976,7 @@
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
-            "week-97": 9
+            "week-96": 9
           },
           "game_win_pct": 0.5455,
           "rank": 21
@@ -998,7 +998,7 @@
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
-            "week-98": 6
+            "week-97": 6
           },
           "game_win_pct": 0.4,
           "rank": 22
@@ -1086,7 +1086,7 @@
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
-            "week-98": 3
+            "week-97": 3
           },
           "game_win_pct": 0.4,
           "rank": 26
@@ -1108,7 +1108,7 @@
           "tournaments_display": "1",
           "lowest_counting": 0,
           "history": {
-            "week-99": 1
+            "week-98": 1
           },
           "game_win_pct": 0.2222,
           "rank": 27
@@ -4809,7 +4809,6 @@
       "name": "All-Time Records",
       "max_counted": null,
       "tournaments": [
-        "week-110",
         "week-109",
         "week-108",
         "week-107",
@@ -4823,6 +4822,7 @@
         "week-99",
         "week-98",
         "week-97",
+        "week-96",
         "week-95",
         "week-94",
         "week-93",
@@ -5019,20 +5019,20 @@
             "week-92": 6,
             "week-93": 6,
             "week-95": 12,
-            "week-97": 6,
-            "week-98": 9,
-            "week-99": 6,
-            "week-100": 12,
+            "week-96": 6,
+            "week-97": 9,
+            "week-98": 6,
+            "week-99": 12,
+            "week-100": 9,
             "week-101": 9,
-            "week-102": 9,
-            "week-103": 6,
+            "week-102": 6,
+            "week-103": 9,
             "week-104": 9,
             "week-105": 9,
-            "week-106": 9,
-            "week-107": 6,
-            "week-108": 12,
-            "week-109": 9,
-            "week-110": 6
+            "week-106": 6,
+            "week-107": 12,
+            "week-108": 9,
+            "week-109": 6
           },
           "game_win_pct": 0.6305,
           "rank": 1
@@ -5117,11 +5117,11 @@
             "week-81": 9,
             "week-82": 9,
             "week-83": 6,
-            "week-97": 9,
-            "week-107": 6,
-            "week-108": 7,
-            "week-109": 6,
-            "week-110": 9
+            "week-96": 9,
+            "week-106": 6,
+            "week-107": 7,
+            "week-108": 6,
+            "week-109": 9
           },
           "game_win_pct": 0.5789,
           "rank": 2
@@ -5208,12 +5208,12 @@
             "week-93": 12,
             "week-94": 9,
             "week-95": 3,
-            "week-98": 9,
-            "week-99": 6,
-            "week-100": 9,
-            "week-103": 3,
-            "week-109": 12,
-            "week-110": 6
+            "week-97": 9,
+            "week-98": 6,
+            "week-99": 9,
+            "week-102": 3,
+            "week-108": 12,
+            "week-109": 6
           },
           "game_win_pct": 0.559,
           "rank": 3
@@ -5312,13 +5312,13 @@
             "week-93": 4,
             "week-94": 9,
             "week-95": 0,
-            "week-97": 6,
-            "week-98": 0,
-            "week-100": 6,
-            "week-106": 6,
-            "week-107": 9,
-            "week-108": 6,
-            "week-109": 3
+            "week-96": 6,
+            "week-97": 0,
+            "week-99": 6,
+            "week-105": 6,
+            "week-106": 9,
+            "week-107": 6,
+            "week-108": 3
           },
           "game_win_pct": 0.5266,
           "rank": 4
@@ -5400,18 +5400,18 @@
             "week-93": 0,
             "week-94": 6,
             "week-95": 0,
-            "week-97": 6,
-            "week-100": 0,
+            "week-96": 6,
+            "week-99": 0,
+            "week-100": 9,
             "week-101": 9,
-            "week-102": 9,
-            "week-103": 3,
-            "week-104": 0,
-            "week-105": 3,
-            "week-106": 6,
-            "week-107": 0,
-            "week-108": 7,
-            "week-109": 3,
-            "week-110": 4
+            "week-102": 3,
+            "week-103": 0,
+            "week-104": 3,
+            "week-105": 6,
+            "week-106": 0,
+            "week-107": 7,
+            "week-108": 3,
+            "week-109": 4
           },
           "game_win_pct": 0.503,
           "rank": 5
@@ -5478,15 +5478,15 @@
             "week-93": 6,
             "week-94": 6,
             "week-95": 6,
-            "week-97": 6,
-            "week-99": 9,
-            "week-100": 4,
+            "week-96": 6,
+            "week-98": 9,
+            "week-99": 4,
+            "week-100": 6,
             "week-101": 6,
-            "week-102": 6,
-            "week-106": 6,
-            "week-107": 12,
-            "week-109": 4,
-            "week-110": 9
+            "week-105": 6,
+            "week-106": 12,
+            "week-108": 4,
+            "week-109": 9
           },
           "game_win_pct": 0.504,
           "rank": 6
@@ -5679,10 +5679,10 @@
             "week-89": 9,
             "week-93": 3,
             "week-94": 3,
-            "week-97": 12,
-            "week-98": 6,
-            "week-101": 9,
-            "week-104": 3
+            "week-96": 12,
+            "week-97": 6,
+            "week-100": 9,
+            "week-103": 3
           },
           "game_win_pct": 0.533,
           "rank": 9
@@ -5920,11 +5920,11 @@
             "week-91": 3,
             "week-93": 6,
             "week-94": 6,
-            "week-98": 6,
-            "week-100": 6,
-            "week-102": 3,
-            "week-105": 10,
-            "week-110": 3
+            "week-97": 6,
+            "week-99": 6,
+            "week-101": 3,
+            "week-104": 10,
+            "week-109": 3
           },
           "game_win_pct": 0.4879,
           "rank": 13
@@ -5962,18 +5962,18 @@
             "week-93": 9,
             "week-94": 12,
             "week-95": 6,
-            "week-97": 3,
-            "week-98": 9,
-            "week-99": 12,
+            "week-96": 3,
+            "week-97": 9,
+            "week-98": 12,
+            "week-99": 9,
             "week-100": 9,
             "week-101": 9,
             "week-102": 9,
-            "week-103": 9,
-            "week-104": 6,
-            "week-105": 3,
-            "week-108": 3,
-            "week-109": 6,
-            "week-110": 12
+            "week-103": 6,
+            "week-104": 3,
+            "week-107": 3,
+            "week-108": 6,
+            "week-109": 12
           },
           "game_win_pct": 0.5802,
           "rank": 14
@@ -6023,15 +6023,15 @@
             "week-93": 3,
             "week-94": 6,
             "week-95": 9,
+            "week-96": 3,
             "week-97": 3,
-            "week-98": 3,
-            "week-99": 0,
-            "week-100": 4,
-            "week-101": 3,
-            "week-103": 6,
-            "week-107": 6,
-            "week-109": 9,
-            "week-110": 3
+            "week-98": 0,
+            "week-99": 4,
+            "week-100": 3,
+            "week-102": 6,
+            "week-106": 6,
+            "week-108": 9,
+            "week-109": 3
           },
           "game_win_pct": 0.4867,
           "rank": 15
@@ -6094,10 +6094,10 @@
             "week-92": 3,
             "week-94": 3,
             "week-95": 6,
-            "week-98": 6,
-            "week-99": 4,
-            "week-100": 3,
-            "week-107": 7
+            "week-97": 6,
+            "week-98": 4,
+            "week-99": 3,
+            "week-106": 7
           },
           "game_win_pct": 0.4248,
           "rank": 16
@@ -6145,16 +6145,16 @@
             "week-92": 6,
             "week-93": 4,
             "week-94": 6,
+            "week-97": 6,
             "week-98": 6,
             "week-99": 6,
-            "week-100": 6,
+            "week-101": 6,
             "week-102": 6,
-            "week-103": 6,
-            "week-105": 3,
-            "week-107": 4,
-            "week-108": 3,
-            "week-109": 6,
-            "week-110": 6
+            "week-104": 3,
+            "week-106": 4,
+            "week-107": 3,
+            "week-108": 6,
+            "week-109": 6
           },
           "game_win_pct": 0.482,
           "rank": 17
@@ -6197,13 +6197,13 @@
             "week-79": 5,
             "week-80": 6,
             "week-82": 6,
-            "week-98": 12,
-            "week-99": 9,
-            "week-100": 7,
+            "week-97": 12,
+            "week-98": 9,
+            "week-99": 7,
+            "week-106": 6,
             "week-107": 6,
-            "week-108": 6,
-            "week-109": 0,
-            "week-110": 3
+            "week-108": 0,
+            "week-109": 3
           },
           "game_win_pct": 0.5362,
           "rank": 18
@@ -6242,12 +6242,12 @@
             "week-93": 6,
             "week-94": 6,
             "week-95": 9,
-            "week-98": 3,
-            "week-99": 6,
-            "week-100": 0,
-            "week-105": 9,
-            "week-106": 3,
-            "week-109": 6
+            "week-97": 3,
+            "week-98": 6,
+            "week-99": 0,
+            "week-104": 9,
+            "week-105": 3,
+            "week-108": 6
           },
           "game_win_pct": 0.5294,
           "rank": 19
@@ -6447,10 +6447,10 @@
             "week-91": 3,
             "week-92": 6,
             "week-95": 9,
-            "week-97": 9,
-            "week-100": 9,
-            "week-105": 7,
-            "week-110": 9
+            "week-96": 9,
+            "week-99": 9,
+            "week-104": 7,
+            "week-109": 9
           },
           "game_win_pct": 0.5282,
           "rank": 24
@@ -6479,10 +6479,10 @@
             "week-75": 9,
             "week-76": 6,
             "week-78": 9,
-            "week-104": 6,
-            "week-105": 3,
-            "week-109": 9,
-            "week-110": 6
+            "week-103": 6,
+            "week-104": 3,
+            "week-108": 9,
+            "week-109": 6
           },
           "game_win_pct": 0.5833,
           "rank": 25
@@ -6519,9 +6519,9 @@
             "week-77": 6,
             "week-78": 6,
             "week-79": 0,
-            "week-106": 3,
-            "week-108": 6,
-            "week-109": 4
+            "week-105": 3,
+            "week-107": 6,
+            "week-108": 4
           },
           "game_win_pct": 0.3976,
           "rank": 26
@@ -6552,9 +6552,9 @@
             "week-91": 6,
             "week-92": 12,
             "week-94": 6,
-            "week-97": 3,
-            "week-105": 9,
-            "week-110": 4
+            "week-96": 3,
+            "week-104": 9,
+            "week-109": 4
           },
           "game_win_pct": 0.4622,
           "rank": 27
@@ -6581,7 +6581,7 @@
             "week-63": 3,
             "week-72": 9,
             "week-87": 12,
-            "week-101": 9
+            "week-100": 9
           },
           "game_win_pct": 0.6271,
           "rank": 28
@@ -6641,8 +6641,8 @@
             "week-64": 6,
             "week-81": 6,
             "week-93": 6,
-            "week-100": 9,
-            "week-101": 3
+            "week-99": 9,
+            "week-100": 3
           },
           "game_win_pct": 0.4643,
           "rank": 30
@@ -6719,9 +6719,9 @@
           "lowest_counting": 6,
           "history": {
             "week-95": 9,
+            "week-97": 6,
             "week-98": 6,
-            "week-99": 6,
-            "week-101": 6
+            "week-100": 6
           },
           "game_win_pct": 0.5641,
           "rank": 33
@@ -6743,12 +6743,12 @@
           "tournaments_display": "6",
           "lowest_counting": 0,
           "history": {
-            "week-101": 6,
-            "week-102": 7,
-            "week-103": 0,
-            "week-104": 3,
-            "week-107": 3,
-            "week-109": 6
+            "week-100": 6,
+            "week-101": 7,
+            "week-102": 0,
+            "week-103": 3,
+            "week-106": 3,
+            "week-108": 6
           },
           "game_win_pct": 0.4138,
           "rank": 34
@@ -6801,7 +6801,7 @@
             "week-31": 6,
             "week-41": 6,
             "week-59": 3,
-            "week-102": 3
+            "week-101": 3
           },
           "game_win_pct": 0.5,
           "rank": 36
@@ -6873,9 +6873,9 @@
           "tournaments_display": "3",
           "lowest_counting": 4,
           "history": {
-            "week-97": 9,
-            "week-99": 6,
-            "week-100": 4
+            "week-96": 9,
+            "week-98": 6,
+            "week-99": 4
           },
           "game_win_pct": 0.5714,
           "rank": 39
@@ -6920,10 +6920,10 @@
           "tournaments_display": "4",
           "lowest_counting": 3,
           "history": {
-            "week-101": 6,
-            "week-102": 4,
-            "week-103": 3,
-            "week-104": 3
+            "week-100": 6,
+            "week-101": 4,
+            "week-102": 3,
+            "week-103": 3
           },
           "game_win_pct": 0.4286,
           "rank": 41
@@ -7084,7 +7084,7 @@
           "lowest_counting": 6,
           "history": {
             "week-87": 6,
-            "week-104": 6
+            "week-103": 6
           },
           "game_win_pct": 0.5294,
           "rank": 48
@@ -7347,7 +7347,7 @@
             "week-67": 3,
             "week-75": 1,
             "week-83": 3,
-            "week-106": 0
+            "week-105": 0
           },
           "game_win_pct": 0.2745,
           "rank": 59
@@ -7416,7 +7416,7 @@
           "lowest_counting": 3,
           "history": {
             "week-84": 3,
-            "week-101": 3
+            "week-100": 3
           },
           "game_win_pct": 0.3125,
           "rank": 62
@@ -7570,7 +7570,7 @@
           "tournaments_display": "1",
           "lowest_counting": 6,
           "history": {
-            "week-98": 6
+            "week-97": 6
           },
           "game_win_pct": 0.4,
           "rank": 69
@@ -7592,7 +7592,7 @@
           "tournaments_display": "1",
           "lowest_counting": 6,
           "history": {
-            "week-108": 6
+            "week-107": 6
           },
           "game_win_pct": 0.5556,
           "rank": 70
@@ -7746,7 +7746,7 @@
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
-            "week-98": 3
+            "week-97": 3
           },
           "game_win_pct": 0.4,
           "rank": 77
@@ -7768,7 +7768,7 @@
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
-            "week-101": 3
+            "week-100": 3
           },
           "game_win_pct": 0.4,
           "rank": 78
@@ -7790,7 +7790,7 @@
           "tournaments_display": "1",
           "lowest_counting": 3,
           "history": {
-            "week-106": 3
+            "week-105": 3
           },
           "game_win_pct": 0.5,
           "rank": 79
@@ -7812,7 +7812,7 @@
           "tournaments_display": "1",
           "lowest_counting": 1,
           "history": {
-            "week-99": 1
+            "week-98": 1
           },
           "game_win_pct": 0.2222,
           "rank": 80
@@ -43146,11 +43146,11 @@
       ],
       "league_id": "spring-2026"
     },
-    "week-97": {
-      "id": "week-97",
-      "name": "Week 97",
+    "week-96": {
+      "id": "week-96",
+      "name": "Week 96",
       "date": "2026-04-09",
-      "week_number": 97,
+      "week_number": 96,
       "metadata": {
         "aetherhub_id": "98742",
         "players": 11,
@@ -43531,11 +43531,11 @@
       ],
       "league_id": "spring-2026"
     },
-    "week-98": {
-      "id": "week-98",
-      "name": "Week 98",
+    "week-97": {
+      "id": "week-97",
+      "name": "Week 97",
       "date": "2026-04-16",
-      "week_number": 98,
+      "week_number": 97,
       "metadata": {
         "aetherhub_id": "98874",
         "players": 14,
@@ -43992,11 +43992,11 @@
       ],
       "league_id": "spring-2026"
     },
-    "week-99": {
-      "id": "week-99",
-      "name": "Week 99",
+    "week-98": {
+      "id": "week-98",
+      "name": "Week 98",
       "date": "2026-04-23",
-      "week_number": 99,
+      "week_number": 98,
       "metadata": {
         "aetherhub_id": "99021",
         "players": 12,
@@ -44393,11 +44393,11 @@
       ],
       "league_id": "spring-2026"
     },
-    "week-100": {
-      "id": "week-100",
-      "name": "Week 100",
+    "week-99": {
+      "id": "week-99",
+      "name": "Week 99",
       "date": "2026-04-30",
-      "week_number": 100,
+      "week_number": 99,
       "metadata": {
         "aetherhub_id": "99189",
         "players": 15,
@@ -44884,11 +44884,11 @@
       ],
       "league_id": "spring-2026"
     },
-    "week-101": {
-      "id": "week-101",
-      "name": "Week 101",
+    "week-100": {
+      "id": "week-100",
+      "name": "Week 100",
       "date": "2026-05-07",
-      "week_number": 101,
+      "week_number": 100,
       "metadata": {
         "aetherhub_id": "99326",
         "players": 13,
@@ -45322,11 +45322,11 @@
       ],
       "league_id": "off-season"
     },
-    "week-102": {
-      "id": "week-102",
-      "name": "Week 102",
+    "week-101": {
+      "id": "week-101",
+      "name": "Week 101",
       "date": "2026-05-28",
-      "week_number": 102,
+      "week_number": 101,
       "metadata": {
         "aetherhub_id": "99749",
         "players": 9,
@@ -45640,11 +45640,11 @@
       ],
       "league_id": "off-season"
     },
-    "week-103": {
-      "id": "week-103",
-      "name": "Week 103",
+    "week-102": {
+      "id": "week-102",
+      "name": "Week 102",
       "date": "2026-06-04",
-      "week_number": 103,
+      "week_number": 102,
       "metadata": {
         "aetherhub_id": "99892",
         "players": 8,
@@ -45888,11 +45888,11 @@
       ],
       "league_id": "off-season"
     },
-    "week-104": {
-      "id": "week-104",
-      "name": "Week 104",
+    "week-103": {
+      "id": "week-103",
+      "name": "Week 103",
       "date": "2026-06-11",
-      "week_number": 104,
+      "week_number": 103,
       "metadata": {
         "aetherhub_id": "100034",
         "players": 8,
@@ -46136,11 +46136,11 @@
       ],
       "league_id": "off-season"
     },
-    "week-105": {
-      "id": "week-105",
-      "name": "Week 105",
+    "week-104": {
+      "id": "week-104",
+      "name": "Week 104",
       "date": "2026-06-25",
-      "week_number": 105,
+      "week_number": 104,
       "metadata": {
         "aetherhub_id": "100301",
         "players": 9,
@@ -46454,11 +46454,11 @@
       ],
       "league_id": "off-season"
     },
-    "week-106": {
-      "id": "week-106",
-      "name": "Week 106",
+    "week-105": {
+      "id": "week-105",
+      "name": "Week 105",
       "date": "2026-07-23",
-      "week_number": 106,
+      "week_number": 105,
       "metadata": {
         "aetherhub_id": "100773",
         "players": 8,
@@ -46702,11 +46702,11 @@
       ],
       "league_id": "off-season"
     },
-    "week-107": {
-      "id": "week-107",
-      "name": "Week 107",
+    "week-106": {
+      "id": "week-106",
+      "name": "Week 106",
       "date": "2026-07-30",
-      "week_number": 107,
+      "week_number": 106,
       "metadata": {
         "aetherhub_id": "100892",
         "players": 10,
@@ -47043,11 +47043,11 @@
       ],
       "league_id": "off-season"
     },
-    "week-108": {
-      "id": "week-108",
-      "name": "Week 108",
+    "week-107": {
+      "id": "week-107",
+      "name": "Week 107",
       "date": "2026-08-13",
-      "week_number": 108,
+      "week_number": 107,
       "metadata": {
         "aetherhub_id": "101100",
         "players": 9,
@@ -47361,11 +47361,11 @@
       ],
       "league_id": "off-season"
     },
-    "week-109": {
-      "id": "week-109",
-      "name": "Week 109",
+    "week-108": {
+      "id": "week-108",
+      "name": "Week 108",
       "date": "2026-08-27",
-      "week_number": 109,
+      "week_number": 108,
       "metadata": {
         "aetherhub_id": "101320",
         "players": 14,
@@ -47822,11 +47822,11 @@
       ],
       "league_id": "autumn-2026"
     },
-    "week-110": {
-      "id": "week-110",
-      "name": "Week 110",
+    "week-109": {
+      "id": "week-109",
+      "name": "Week 109",
       "date": "2026-09-03",
-      "week_number": 110,
+      "week_number": 109,
       "metadata": {
         "aetherhub_id": "101430",
         "players": 13,

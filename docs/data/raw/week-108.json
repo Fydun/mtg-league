@@ -1,13 +1,13 @@
 {
   "id": "week-108",
   "name": "Week 108",
-  "date": "2026-08-13",
+  "date": "2026-08-27",
   "week_number": 108,
   "metadata": {
-    "aetherhub_id": "101100",
-    "players": 9,
+    "aetherhub_id": "101320",
+    "players": 14,
     "rounds": 4,
-    "prize_pool": 880,
+    "prize_pool": 1430,
     "top_cut": 0,
     "to_playing": 1,
     "event_cut": 0,
@@ -16,137 +16,212 @@
   "standings": [
     {
       "rank": 1,
-      "name": "Tormod Lang",
-      "deck": "Cephalid Breakfast",
+      "name": "Anders Christie",
+      "deck": "Leyline Beans",
       "points": 12,
       "record": "4-0-0",
       "wins": 4,
       "losses": 0,
       "draws": 0,
-      "omw": 0.4583333333333333,
-      "gw": 0.8888888888888888,
-      "ogw": 0.46825396825396826,
+      "omw": 0.47916666666666663,
+      "gw": 0.7272727272727273,
+      "ogw": 0.5063131313131313,
       "mw": 1.0,
-      "payout": 880
+      "payout": 572
     },
     {
       "rank": 2,
-      "name": "Kenneth Pedersen",
-      "deck": "UB Midrange",
-      "points": 7,
-      "record": "2-1-1",
-      "wins": 2,
+      "name": "Gunnar Sivertsen",
+      "deck": "8 Mulch",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
       "losses": 1,
-      "draws": 1,
-      "omw": 0.5277777777777778,
-      "gw": 0.5925925925925926,
-      "ogw": 0.47407407407407404,
-      "mw": 0.5833333333333334,
-      "payout": 0
+      "draws": 0,
+      "omw": 0.6875,
+      "gw": 0.6363636363636364,
+      "ogw": 0.577020202020202,
+      "mw": 0.75,
+      "payout": 286
     },
     {
       "rank": 3,
-      "name": "Anders Søberg",
-      "deck": "Sewer-Cam Combo",
-      "points": 7,
-      "record": "2-1-1",
-      "wins": 2,
+      "name": "Peter Br\u00e5ss",
+      "deck": "RW Cats",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
       "losses": 1,
-      "draws": 1,
-      "omw": 0.4791666666666667,
-      "gw": 0.5333333333333333,
-      "ogw": 0.5441798941798942,
-      "mw": 0.5833333333333334,
-      "payout": 0
+      "draws": 0,
+      "omw": 0.625,
+      "gw": 0.6363636363636364,
+      "ogw": 0.5702020202020202,
+      "mw": 0.75,
+      "payout": 286
     },
     {
       "rank": 4,
-      "name": "Tonny Albrigtsen",
-      "deck": "Cradle Control",
-      "points": 6,
-      "record": "2-2-0",
-      "wins": 2,
-      "losses": 2,
+      "name": "Tormod Lang",
+      "deck": "Cephalid Breakfast",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
       "draws": 0,
-      "omw": 0.6944444444444445,
-      "gw": 0.4444444444444444,
-      "ogw": 0.6938271604938272,
-      "mw": 0.5,
-      "payout": 0
+      "omw": 0.5208333333333333,
+      "gw": 0.7,
+      "ogw": 0.49242424242424243,
+      "mw": 0.75,
+      "payout": 286
     },
     {
       "rank": 5,
-      "name": "Øystein Sjøtveit",
-      "deck": "Eldrazi",
+      "name": "\u00d8yvind L\u00f8yland",
+      "deck": "Lands",
       "points": 6,
       "record": "2-2-0",
       "wins": 2,
       "losses": 2,
       "draws": 0,
-      "omw": 0.6388888888888888,
-      "gw": 0.5555555555555556,
-      "ogw": 0.599074074074074,
+      "omw": 0.5825,
+      "gw": 0.5,
+      "ogw": 0.5256818181818181,
       "mw": 0.5,
       "payout": 0
     },
     {
       "rank": 6,
-      "name": "Petter Haukaas",
-      "deck": "Dredge",
+      "name": "Mikael Gyhagen",
+      "deck": "RB Reanimator",
       "points": 6,
       "record": "2-2-0",
       "wins": 2,
       "losses": 2,
       "draws": 0,
-      "omw": 0.5625,
-      "gw": 0.4444444444444444,
-      "ogw": 0.5712632275132274,
+      "omw": 0.5408333333333334,
+      "gw": 0.5,
+      "ogw": 0.500429292929293,
       "mw": 0.5,
       "payout": 0
     },
     {
       "rank": 7,
-      "name": "Ferdinand Marnburg",
-      "deck": "UR Tempo",
+      "name": "Dante Forssberg",
+      "deck": "Pox",
       "points": 6,
       "record": "2-2-0",
       "wins": 2,
       "losses": 2,
       "draws": 0,
-      "omw": 0.47222222222222227,
-      "gw": 0.6,
-      "ogw": 0.45092592592592595,
+      "omw": 0.5408333333333334,
+      "gw": 0.4444444444444444,
+      "ogw": 0.5277020202020202,
       "mw": 0.5,
       "payout": 0
     },
     {
       "rank": 8,
-      "name": "Dante Forssberg",
-      "deck": "Pox",
-      "points": 3,
-      "record": "1-2-0",
-      "wins": 1,
+      "name": "Eirik Larsen",
+      "deck": "Dreadnought",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
       "losses": 2,
       "draws": 0,
-      "omw": 0.6944444444444445,
-      "gw": 0.42857142857142855,
-      "ogw": 0.6222222222222222,
-      "mw": 0.3333333333333333,
+      "omw": 0.5408333333333333,
+      "gw": 0.4444444444444444,
+      "ogw": 0.5277020202020202,
+      "mw": 0.5,
       "payout": 0
     },
     {
       "rank": 9,
-      "name": "Eirik Larsen",
-      "deck": "Dreadnought",
+      "name": "Anders S\u00f8berg",
+      "deck": "Grixis Control",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.33166666666666667,
+      "gw": 0.6,
+      "ogw": 0.38722222222222225,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 10,
+      "name": "Petter Haukaas",
+      "deck": "Dredge",
+      "points": 4,
+      "record": "1-2-1",
+      "wins": 1,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.5833333333333333,
+      "gw": 0.4444444444444444,
+      "ogw": 0.567929292929293,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 11,
+      "name": "Viktor Hegerberg",
+      "deck": "UB Tempo",
+      "points": 4,
+      "record": "1-2-1",
+      "wins": 1,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.47833333333333333,
+      "gw": 0.4444444444444444,
+      "ogw": 0.4797222222222222,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 12,
+      "name": "Tonny Albrigtsen",
+      "deck": "Cradle Control",
       "points": 3,
       "record": "1-2-0",
       "wins": 1,
       "losses": 2,
       "draws": 0,
-      "omw": 0.5,
-      "gw": 0.375,
-      "ogw": 0.5333333333333333,
+      "omw": 0.6666666666666666,
+      "gw": 0.4444444444444444,
+      "ogw": 0.5905723905723905,
       "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 13,
+      "name": "Kenneth Pedersen",
+      "deck": "Leyline Beans",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.5,
+      "gw": 0.33,
+      "ogw": 0.5148148148148147,
+      "mw": 0.33,
+      "payout": 0
+    },
+    {
+      "rank": 14,
+      "name": "Ferdinand Marnburg",
+      "deck": "UR Tempo",
+      "points": 0,
+      "record": "0-4-0",
+      "wins": 0,
+      "losses": 4,
+      "draws": 0,
+      "omw": 0.4583333333333333,
+      "gw": 0.33,
+      "ogw": 0.49722222222222223,
+      "mw": 0.33,
       "payout": 0
     }
   ],
@@ -155,36 +230,50 @@
       "round": 1,
       "matches": [
         {
-          "p1": "Petter Haukaas",
-          "p2": "Dante Forssberg",
-          "p1_wins": 0,
+          "p1": "Tormod Lang",
+          "p2": "Peter Br\u00e5ss",
+          "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
         },
         {
-          "p1": "Tonny Albrigtsen",
-          "p2": "Tormod Lang",
-          "p1_wins": 0,
-          "p2_wins": 2,
-          "draws": 0
-        },
-        {
-          "p1": "Eirik Larsen",
-          "p2": "Ferdinand Marnburg",
+          "p1": "Anders Christie",
+          "p2": "Mikael Gyhagen",
           "p1_wins": 2,
-          "p2_wins": 1,
+          "p2_wins": 0,
           "draws": 0
         },
         {
-          "p1": "Anders Søberg",
-          "p2": "Kenneth Pedersen",
+          "p1": "Petter Haukaas",
+          "p2": "Viktor Hegerberg",
           "p1_wins": 1,
           "p2_wins": 1,
           "draws": 1
         },
         {
-          "p1": "Øystein Sjøtveit",
-          "p2": "BYE",
+          "p1": "Anders S\u00f8berg",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "\u00d8yvind L\u00f8yland",
+          "p2": "Gunnar Sivertsen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Dante Forssberg",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Eirik Larsen",
+          "p2": "Ferdinand Marnburg",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
@@ -195,38 +284,52 @@
       "round": 2,
       "matches": [
         {
-          "p1": "Øystein Sjøtveit",
-          "p2": "Eirik Larsen",
-          "p1_wins": 2,
-          "p2_wins": 0,
-          "draws": 0
-        },
-        {
-          "p1": "Tormod Lang",
-          "p2": "Dante Forssberg",
-          "p1_wins": 2,
-          "p2_wins": 0,
-          "draws": 0
-        },
-        {
-          "p1": "Kenneth Pedersen",
-          "p2": "Petter Haukaas",
+          "p1": "Eirik Larsen",
+          "p2": "Peter Br\u00e5ss",
           "p1_wins": 0,
           "p2_wins": 2,
           "draws": 0
         },
         {
-          "p1": "Anders Søberg",
+          "p1": "Dante Forssberg",
+          "p2": "Gunnar Sivertsen",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Viktor Hegerberg",
+          "p2": "Tormod Lang",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Petter Haukaas",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Mikael Gyhagen",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "\u00d8yvind L\u00f8yland",
           "p2": "Ferdinand Marnburg",
-          "p1_wins": 0,
-          "p2_wins": 2,
-          "draws": 0
-        },
-        {
-          "p1": "Tonny Albrigtsen",
-          "p2": "BYE",
           "p1_wins": 2,
-          "p2_wins": 0,
+          "p2_wins": 1,
           "draws": 0
         }
       ]
@@ -235,38 +338,52 @@
       "round": 3,
       "matches": [
         {
-          "p1": "Øystein Sjøtveit",
-          "p2": "Tormod Lang",
+          "p1": "Peter Br\u00e5ss",
+          "p2": "Gunnar Sivertsen",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
         },
         {
-          "p1": "Ferdinand Marnburg",
-          "p2": "Tonny Albrigtsen",
-          "p1_wins": 1,
-          "p2_wins": 2,
-          "draws": 0
-        },
-        {
-          "p1": "Eirik Larsen",
+          "p1": "Anders Christie",
           "p2": "Petter Haukaas",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Mikael Gyhagen",
+          "p2": "\u00d8yvind L\u00f8yland",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
         },
         {
           "p1": "Dante Forssberg",
-          "p2": "Anders Søberg",
+          "p2": "Tormod Lang",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Eirik Larsen",
           "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
         },
         {
-          "p1": "Kenneth Pedersen",
-          "p2": "BYE",
+          "p1": "Viktor Hegerberg",
+          "p2": "Ferdinand Marnburg",
           "p1_wins": 2,
-          "p2_wins": 0,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Anders S\u00f8berg",
+          "p1_wins": 0,
+          "p2_wins": 2,
           "draws": 0
         }
       ]
@@ -275,28 +392,49 @@
       "round": 4,
       "matches": [
         {
+          "p1": "Gunnar Sivertsen",
+          "p2": "Anders Christie",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Peter Br\u00e5ss",
+          "p2": "\u00d8yvind L\u00f8yland",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
           "p1": "Tormod Lang",
-          "p2": "Petter Haukaas",
+          "p2": "Eirik Larsen",
           "p1_wins": 2,
           "p2_wins": 0,
           "draws": 0
         },
         {
-          "p1": "Tonny Albrigtsen",
-          "p2": "Kenneth Pedersen",
-          "p1_wins": 0,
+          "p1": "Petter Haukaas",
+          "p2": "Mikael Gyhagen",
+          "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
         },
         {
-          "p1": "Øystein Sjøtveit",
-          "p2": "Anders Søberg",
-          "p1_wins": 0,
+          "p1": "Viktor Hegerberg",
+          "p2": "Dante Forssberg",
+          "p1_wins": 1,
           "p2_wins": 2,
           "draws": 0
         },
         {
-          "p1": "Ferdinand Marnburg",
+          "p1": "Anders S\u00f8berg",
+          "p2": "Ferdinand Marnburg",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
           "p2": "BYE",
           "p1_wins": 2,
           "p2_wins": 0,
