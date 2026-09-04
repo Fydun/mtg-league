@@ -78,6 +78,19 @@ python aetherhub.py 12345 92                       # scrape as week 92
 python aetherhub.py 12345 92 -to 2                 # 2 non-paying TOs
 ```
 
+### Cloudflare
+
+Requests go through `cloudscraper` first, falling back to `curl_cffi` (browser TLS
+impersonation) when Cloudflare blocks it. After the first successful fallback the
+scraper sticks with `curl_cffi` for the rest of the run.
+
+On platforms where `cloudscraper` is *always* blocked (notably Termux/Android), skip
+its doomed retries entirely:
+
+```bash
+export MTG_FORCE_CURL=1     # add to ~/.bashrc on Termux to make it permanent
+```
+
 ### Output
 
 Writes `webapp/public/data/raw/week-N.json` containing standings, round-by-round match data, metadata, and prize pool.

@@ -39,6 +39,17 @@ try:
 except Exception:
     _curl_session = None
 
+# Set once cloudscraper proves blocked, so later requests skip it entirely.
+_prefer_curl = False
+
+# On platforms where cloudscraper is always blocked (e.g. Termux), MTG_FORCE_CURL=1
+# skips it from the very first request instead of burning ~35s of retries.
+if os.environ.get("MTG_FORCE_CURL", "").strip().lower() in ("1", "true", "yes"):
+    if _curl_session is not None:
+        _prefer_curl = True
+    else:
+        print("  !! MTG_FORCE_CURL is set but curl_cffi is not installed — using cloudscraper.")
+
 CHALLENGE_MARKERS = (
     "just a moment",
     "enable javascript and cookies to continue",
@@ -62,8 +73,22 @@ def clean_name(name_str):
     name_str = re.sub(r"\s*\(.*?\)", "", name_str)
     return name_str.strip()
 
-def fetch(url, attempts=4):
-    """Fetch *url*, retrying past Cloudflare challenges. Returns HTML or None."""
+def fetch_curl(url):
+    if _curl_session is None:
+        return None
+    try:
+        response = _curl_session.get(url, timeout=30)
+        text = response.content.decode("utf-8", errors="replace")
+        if response.status_code == 200 and not is_challenge(text):
+            return text
+        reason = "Cloudflare challenge" if is_challenge(text) else f"HTTP {response.status_code}"
+        print(f"  !! curl_cffi blocked ({reason}).")
+    except Exception as e:
+        print(f"  !! curl_cffi error: {e}")
+    return None
+
+
+def fetch_cloudscraper(url, attempts):
     delay = 5
     for attempt in range(1, attempts + 1):
         try:
@@ -82,21 +107,35 @@ def fetch(url, attempts=4):
             delay *= 2
         else:
             print(f"  !! {reason}.")
-
-    if _curl_session is not None:
-        print("  -> Falling back to curl_cffi (browser impersonation)...")
-        try:
-            response = _curl_session.get(url, timeout=30)
-            text = response.content.decode("utf-8", errors="replace")
-            if response.status_code == 200 and not is_challenge(text):
-                return text
-            print(f"  !! curl_cffi also blocked (HTTP {response.status_code}).")
-        except Exception as e:
-            print(f"  !! curl_cffi error: {e}")
-    else:
-        print("  -> Tip: 'pip install curl_cffi' enables a stronger Cloudflare bypass.")
-
     return None
+
+
+def fetch(url, attempts=4):
+    """Fetch *url*, retrying past Cloudflare challenges. Returns HTML or None."""
+    global _prefer_curl
+
+    if _prefer_curl:
+        html = fetch_curl(url)
+        if html is not None:
+            return html
+        print("  -> curl_cffi stopped working; falling back to cloudscraper...")
+        _prefer_curl = False
+
+    html = fetch_cloudscraper(url, attempts)
+    if html is not None:
+        return html
+
+    if _curl_session is None:
+        print("  -> Tip: 'pip install curl_cffi' enables a stronger Cloudflare bypass.")
+        return None
+
+    print("  -> Falling back to curl_cffi (browser impersonation)...")
+    html = fetch_curl(url)
+    if html is not None:
+        # cloudscraper is clearly blocked on this machine; skip it from now on.
+        _prefer_curl = True
+        print("  -> curl_cffi works here — using it for the rest of this run.")
+    return html
 
 
 def get_soup(url):
