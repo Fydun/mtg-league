@@ -1,0 +1,330 @@
+{
+  "id": "week-112",
+  "name": "Week 112",
+  "date": "2026-09-24",
+  "week_number": 112,
+  "metadata": {
+    "aetherhub_id": "101783",
+    "players": 10,
+    "rounds": 4,
+    "prize_pool": 990,
+    "top_cut": 0,
+    "to_playing": 1,
+    "event_cut": 0,
+    "cutoff_points": 9
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Stian Fuglaas",
+      "deck": "Show and Tell",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5825,
+      "gw": 0.7777777777777778,
+      "ogw": 0.521969696969697,
+      "mw": 0.75,
+      "payout": 247
+    },
+    {
+      "rank": 2,
+      "name": "Stein Elgethun",
+      "deck": "Lands",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5208333333333333,
+      "gw": 0.7,
+      "ogw": 0.5164141414141414,
+      "mw": 0.75,
+      "payout": 247
+    },
+    {
+      "rank": 3,
+      "name": "Peter Bråss",
+      "deck": "RW Cats",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.47833333333333333,
+      "gw": 0.6,
+      "ogw": 0.48317340067340064,
+      "mw": 0.75,
+      "payout": 247
+    },
+    {
+      "rank": 4,
+      "name": "Anders Christie",
+      "deck": "Death and Taxes",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.37333333333333335,
+      "gw": 0.7,
+      "ogw": 0.3720622895622896,
+      "mw": 0.75,
+      "payout": 247
+    },
+    {
+      "rank": 5,
+      "name": "Dante Forssberg",
+      "deck": "Pox",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.75,
+      "gw": 0.45454545454545453,
+      "ogw": 0.6944444444444444,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 6,
+      "name": "Mikael Gyhagen",
+      "deck": "RB Reanimator",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.43583333333333335,
+      "gw": 0.5,
+      "ogw": 0.42416666666666664,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 7,
+      "name": "Ferdinand Marnburg",
+      "deck": "Blue Tron",
+      "points": 4,
+      "record": "1-2-1",
+      "wins": 1,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.5408333333333333,
+      "gw": 0.37037037037037035,
+      "ogw": 0.4908333333333333,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 8,
+      "name": "Kenneth Pedersen",
+      "deck": "Leyline Beans",
+      "points": 4,
+      "record": "1-2-1",
+      "wins": 1,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.47833333333333333,
+      "gw": 0.3333333333333333,
+      "ogw": 0.4759259259259259,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 9,
+      "name": "Eirik Larsen",
+      "deck": "Dreadnought",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.5833333333333334,
+      "gw": 0.3333333333333333,
+      "ogw": 0.5777777777777778,
+      "mw": 0.33,
+      "payout": 0
+    },
+    {
+      "rank": 10,
+      "name": "Øyvind Løyland",
+      "deck": "Lands",
+      "points": 0,
+      "record": "0-4-0",
+      "wins": 0,
+      "losses": 4,
+      "draws": 0,
+      "omw": 0.5833333333333333,
+      "gw": 0.33,
+      "ogw": 0.5425925925925925,
+      "mw": 0.33,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Eirik Larsen",
+          "p2": "Anders Christie",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Stein Elgethun",
+          "p2": "Dante Forssberg",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Mikael Gyhagen",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Øyvind Løyland",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Peter Bråss",
+          "p2": "Stian Fuglaas",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 1,
+          "p2_wins": 1,
+          "draws": 1
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "Dante Forssberg",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Eirik Larsen",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Peter Bråss",
+          "p2": "Øyvind Løyland",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Stein Elgethun",
+          "p2": "Mikael Gyhagen",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Dante Forssberg",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Stein Elgethun",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Peter Bråss",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "Øyvind Løyland",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Eirik Larsen",
+          "p2": "Mikael Gyhagen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "matches": [
+        {
+          "p1": "Stian Fuglaas",
+          "p2": "Stein Elgethun",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Dante Forssberg",
+          "p2": "Peter Bråss",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Christie",
+          "p2": "Ferdinand Marnburg",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Eirik Larsen",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Mikael Gyhagen",
+          "p2": "Øyvind Løyland",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}
