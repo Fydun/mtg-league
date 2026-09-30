@@ -232,6 +232,39 @@ def main():
         blank()
         sys.exit(1)
 
+    # 2b½ — Correct any mis-recorded match results
+    blank()
+    pf("muted", "  AetherHub occasionally records a match result incorrectly.")
+    if ask_yn("Do you need to correct any match results?", default="n"):
+        while True:
+            blank()
+            pf("muted", "  Describe the correction (leave a name blank to stop).")
+            pa = ask_input("First player (name fragment)", default="")
+            if not pa:
+                break
+            pb = ask_input("Second player (name fragment)", default="")
+            if not pb:
+                break
+            rnd = ask_input("Round number", default="")
+            score = ask_input(f"Correct score as {pa}-{pb} (e.g. 2-0)", default="")
+            if not score:
+                pf("warn", "  No score entered — skipping this correction.")
+                continue
+            cmd = [
+                PYTHON, os.path.join(SCRIPT_DIR, "fix_match.py"),
+                pa, pb, score, "--week", str(scraped_week),
+            ]
+            if rnd:
+                cmd += ["--round", rnd]
+            blank()
+            if run(cmd, cwd=PROJECT_ROOT):
+                pf("ok", "  ✓  Match corrected and standings recomputed.")
+            else:
+                pf("warn", "  Correction failed — check the names/round and try again.")
+            blank()
+            if not ask_yn("Correct another match?", default="n"):
+                break
+
     # 2c — Calculate prize pool from scraped data
     week_file = os.path.join(RAW_DIR, f"week-{scraped_week}.json")
     with open(week_file, "r", encoding="utf-8") as f:
