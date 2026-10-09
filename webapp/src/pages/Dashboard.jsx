@@ -271,6 +271,7 @@ export default function Dashboard() {
                   <LeagueTable
                     standings={filteredLeague.standings}
                     showLowest={showLowest}
+                    leagueName={filteredLeague.name}
                   />
                 </div>
               ) : viewMode === "matrix" ? (

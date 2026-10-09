@@ -1,7 +1,9 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 
-export default function LeagueTable({ standings, showLowest }) {
+export default function LeagueTable({ standings, showLowest, leagueName }) {
+  const autumnYear = Number(leagueName?.match(/^Autumn League (\d{4})$/)?.[1]);
+  const highlightTopEight = autumnYear >= 2025;
+
   if (!standings || standings.length === 0) {
     return (
       <div className="text-slate-400 text-center py-10">
@@ -98,7 +100,18 @@ export default function LeagueTable({ standings, showLowest }) {
                   to={`/player/${encodeURIComponent(player.name)}`}
                   className="hover:text-blue-400 hover:underline transition-colors"
                 >
-                  {player.name}
+                  <span
+                    style={
+                      highlightTopEight && player.rank <= 8
+                        ? {
+                            textShadow:
+                              "0 0 6px rgba(250, 204, 21, 0.9), 0 0 12px rgba(250, 204, 21, 0.5)",
+                          }
+                        : undefined
+                    }
+                  >
+                    {player.name}
+                  </span>
                 </Link>
               </td>
               <td className="px-6 py-4 text-right font-bold text-blue-400">
