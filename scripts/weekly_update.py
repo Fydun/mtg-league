@@ -265,7 +265,38 @@ def main():
             if not ask_yn("Correct another match?", default="n"):
                 break
 
-    # 2c — Calculate prize pool from scraped data
+    # 2c — Correct a player who was not marked as dropped
+    blank()
+    pf("muted", "  You can also remove a player from a round onward if they")
+    pf("muted", "  should have dropped. No replacement pairings or byes are inferred.")
+    if ask_yn("Do you need to correct a player's drop status?", default="n"):
+        while True:
+            player = ask_input("Player name (or unique fragment)", default="")
+            if not player:
+                break
+            from_round = ask_input("First round they should have been dropped", default="")
+            if not from_round:
+                pf("warn", "  No round entered — skipping this correction.")
+            else:
+                cmd = [
+                    PYTHON, os.path.join(SCRIPT_DIR, "drop_player.py"),
+                    player, "--from-round", from_round,
+                    "--week", str(scraped_week), "--dry-run",
+                ]
+                if run(cmd, cwd=PROJECT_ROOT):
+                    if ask_yn("Apply this drop correction?", default="n"):
+                        cmd.remove("--dry-run")
+                        if run(cmd, cwd=PROJECT_ROOT):
+                            pf("ok", "  ✓  Drop corrected and standings recomputed.")
+                        else:
+                            pf("warn", "  Drop correction failed — check the name/round.")
+                else:
+                    pf("warn", "  Drop correction preview failed — check the name/round.")
+            blank()
+            if not ask_yn("Correct another player's drop status?", default="n"):
+                break
+
+    # 2d — Calculate prize pool from scraped data
     week_file = os.path.join(RAW_DIR, f"week-{scraped_week}.json")
     with open(week_file, "r", encoding="utf-8") as f:
         week_data = json.load(f)

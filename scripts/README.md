@@ -18,6 +18,12 @@ Or run the steps individually:
 3. convert_data.py → Rebuild db.json from all raw files
 ```
 
+The weekly script also supports correcting match results and a player's drop
+round after scraping. A drop correction removes that player's matches from the
+chosen round onward and recalculates standings. It does not infer replacement
+pairings or reassign byes; other players in removed matches receive no result
+for those rounds.
+
 ---
 
 ## weekly_update.py
@@ -94,6 +100,23 @@ export MTG_FORCE_CURL=1     # add to ~/.bashrc on Termux to make it permanent
 ### Output
 
 Writes `webapp/public/data/raw/week-N.json` containing standings, round-by-round match data, metadata, and prize pool.
+
+---
+
+## drop_player.py
+
+Removes a player's matches starting from the specified round and recalculates
+standings. This is for correcting a player who should have dropped but remained
+registered in AetherHub.
+
+```bash
+python drop_player.py "Player Name" --from-round 3 --week 115 --dry-run
+```
+
+`--week` defaults to the latest week. Use `--dry-run` to preview before saving.
+The script removes the player's whole match record from each affected round;
+any opponent in a removed match has no result recorded for that round.
+Replacement pairings and byes are not inferred.
 
 ---
 
