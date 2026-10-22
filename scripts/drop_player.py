@@ -120,7 +120,7 @@ def main():
     data["metadata"]["players"] = len(new_standings)
 
     print("\n  Recomputed standings (top of table):")
-    for standing in new_standings[:6]:
+    for standing in new_standings:
         print(f"    {standing['rank']:>2}. {standing['name']:<24} "
               f"{standing['record']:>7}  {standing['points']} pts")
 
