@@ -1,7 +1,6 @@
 true,common
 2 Titans (4c Pile),
 3+ colour Loam,
-Leyline Beans,
 8 Mulch,Lands
 8-Cast,
 All in Red,
@@ -66,6 +65,7 @@ Karn Echoes,
 KarnForge,
 Lands,
 Lantern Painter,
+Leyline Beans,
 Mardu Cats,Energy
 Maverick,
 Merfolk,
@@ -80,6 +80,7 @@ Nazu Wizards,
 Nic Fit,
 Ninjas,
 Omni Aluren,Show and Tell
+Omnitell,Show and Tell
 Oops! All Spells,
 Pox,
 RB Madness,
@@ -98,9 +99,8 @@ Scamwise,
 Sewer-Cam Combo,
 Show and Depths,
 Show and Tell,
-Omnitell,Show and Tell
-Sneak and Show,Show and Tell
 Slivers,
+Sneak and Show,Show and Tell
 Stasis,
 Stiflenought,Dreadnought
 Stoneblade,
@@ -112,6 +112,7 @@ Tin-Fins,
 Tron,
 Turbo Goblins,
 Turbo Smog,
+UB Hogaak,
 UB Midrange,
 UB Painter,
 UB Reanimator,
