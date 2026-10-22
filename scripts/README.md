@@ -174,6 +174,22 @@ python convert_data.py
 
 No arguments — it processes all raw files automatically.
 
+### Publishing deck mapping changes
+
+`Decklist.csv` mappings are applied when the database is generated, not by the
+website at runtime. After editing a mapping or renaming decks in raw files, run
+these commands from the repository root:
+
+```powershell
+python scripts\convert_data.py
+cd webapp
+npm run build
+```
+
+Commit and push the updated source data, `webapp/public/data/db.json`, and
+`docs/` output. GitHub Pages publishes `docs/`; it does not run the converter.
+A blank `common` value keeps the deck's own name instead of grouping it.
+
 ### What it does
 
 1. Reads every `week-*.json` in the raw data folder

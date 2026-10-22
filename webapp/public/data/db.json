@@ -41512,7 +41512,7 @@
         {
           "rank": 6,
           "name": "Kenneth Pedersen",
-          "deck": "Show and Tell",
+          "deck": "AlurenTell",
           "points": 6,
           "record": "2-2-0",
           "wins": 2,
@@ -44467,7 +44467,7 @@
         {
           "rank": 7,
           "name": "Christopher Brokstad",
-          "deck": "Show and Tell",
+          "deck": "AlurenTell",
           "points": 6,
           "record": "2-2-0",
           "wins": 2,
@@ -44996,7 +44996,7 @@
         {
           "rank": 15,
           "name": "Kenneth Pedersen",
-          "deck": "Show and Tell",
+          "deck": "AlurenTell",
           "points": 0,
           "record": "0-2-0",
           "wins": 0,
@@ -50300,7 +50300,7 @@
         {
           "rank": 6,
           "name": "Kenneth Pedersen",
-          "deck": "Moonshadow",
+          "deck": "UB Hogaak",
           "points": 6,
           "record": "2-2-0",
           "wins": 2,
@@ -50311,7 +50311,7 @@
           "ogw": 0.5722222222222222,
           "mw": 0.5,
           "payout": 0,
-          "deck_true": "Moonshadow"
+          "deck_true": "UB Hogaak"
         },
         {
           "rank": 7,
@@ -50637,7 +50637,7 @@
         {
           "rank": 2,
           "name": "Kenneth Pedersen",
-          "deck": "Moonshadow",
+          "deck": "UB Hogaak",
           "points": 12,
           "record": "4-0-0",
           "wins": 4,
@@ -50648,7 +50648,7 @@
           "ogw": 0.5088383838383839,
           "mw": 1.0,
           "payout": 471,
-          "deck_true": "Moonshadow"
+          "deck_true": "UB Hogaak"
         },
         {
           "rank": 3,
@@ -51236,7 +51236,7 @@
         {
           "rank": 5,
           "name": "Tormod Lang",
-          "deck": "Show and Tell",
+          "deck": "AlurenTell",
           "points": 9,
           "record": "3-1-0",
           "wins": 3,
