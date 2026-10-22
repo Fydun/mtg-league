@@ -41523,7 +41523,7 @@
           "ogw": 0.6583333333333333,
           "mw": 0.5,
           "payout": 0,
-          "deck_true": "Omni Aluren"
+          "deck_true": "AlurenTell"
         },
         {
           "rank": 7,
@@ -44478,7 +44478,7 @@
           "ogw": 0.4724747474747475,
           "mw": 0.5,
           "payout": 0,
-          "deck_true": "Omni Aluren"
+          "deck_true": "AlurenTell"
         },
         {
           "rank": 8,
@@ -45007,7 +45007,7 @@
           "ogw": 0.5277777777777778,
           "mw": 0.33,
           "payout": 0,
-          "deck_true": "Omni Aluren"
+          "deck_true": "AlurenTell"
         }
       ],
       "rounds": [
@@ -51247,7 +51247,7 @@
           "ogw": 0.4021969696969697,
           "mw": 0.75,
           "payout": 220,
-          "deck_true": "Omni Aluren"
+          "deck_true": "AlurenTell"
         },
         {
           "rank": 6,
