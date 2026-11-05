@@ -1,0 +1,330 @@
+{
+  "id": "week-118",
+  "name": "Week 118",
+  "date": "2026-11-05",
+  "week_number": 118,
+  "metadata": {
+    "aetherhub_id": "102496",
+    "players": 10,
+    "rounds": 4,
+    "prize_pool": 990,
+    "top_cut": 0,
+    "to_playing": 1,
+    "event_cut": 0,
+    "cutoff_points": 9
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "name": "Tonny Albrigtsen",
+      "deck": "Cradle Control",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5833333333333333,
+      "gw": 0.6,
+      "ogw": 0.5969696969696969,
+      "mw": 0.75,
+      "payout": 330
+    },
+    {
+      "rank": 2,
+      "name": "Tormod Lang",
+      "deck": "AlurenTell",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.5208333333333333,
+      "gw": 0.6363636363636364,
+      "ogw": 0.5234848484848486,
+      "mw": 0.75,
+      "payout": 330
+    },
+    {
+      "rank": 3,
+      "name": "Kenneth Pedersen",
+      "deck": "UB Hogaak",
+      "points": 9,
+      "record": "3-1-0",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "omw": 0.47750000000000004,
+      "gw": 0.6666666666666666,
+      "ogw": 0.4658333333333333,
+      "mw": 0.75,
+      "payout": 330
+    },
+    {
+      "rank": 4,
+      "name": "Dante Forssberg",
+      "deck": "Pox",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.6875,
+      "gw": 0.6,
+      "ogw": 0.5868686868686868,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 5,
+      "name": "Anders Søberg",
+      "deck": "Doomsday",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.47916666666666663,
+      "gw": 0.5,
+      "ogw": 0.4898989898989899,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 6,
+      "name": "Stein Elgethun",
+      "deck": "Lands",
+      "points": 6,
+      "record": "2-2-0",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "omw": 0.41500000000000004,
+      "gw": 0.4444444444444444,
+      "ogw": 0.4408333333333333,
+      "mw": 0.5,
+      "payout": 0
+    },
+    {
+      "rank": 7,
+      "name": "Mikael Gyhagen",
+      "deck": "AlurenTell",
+      "points": 4,
+      "record": "1-2-1",
+      "wins": 1,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.47833333333333333,
+      "gw": 0.48484848484848486,
+      "ogw": 0.4568181818181818,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 8,
+      "name": "Ferdinand Marnburg",
+      "deck": "Blue Tron",
+      "points": 4,
+      "record": "1-2-1",
+      "wins": 1,
+      "losses": 2,
+      "draws": 1,
+      "omw": 0.47833333333333333,
+      "gw": 0.3939393939393939,
+      "ogw": 0.4878030303030303,
+      "mw": 0.3333333333333333,
+      "payout": 0
+    },
+    {
+      "rank": 9,
+      "name": "Gunnar Sivertsen",
+      "deck": "3+ colour Loam",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.47833333333333333,
+      "gw": 0.3333333333333333,
+      "ogw": 0.48148989898989897,
+      "mw": 0.33,
+      "payout": 0
+    },
+    {
+      "rank": 10,
+      "name": "Øyvind Løyland",
+      "deck": "Lands",
+      "points": 3,
+      "record": "1-3-0",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "omw": 0.47833333333333333,
+      "gw": 0.33,
+      "ogw": 0.45959595959595956,
+      "mw": 0.33,
+      "payout": 0
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "p1": "Stein Elgethun",
+          "p2": "Dante Forssberg",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Øyvind Løyland",
+          "p2": "Kenneth Pedersen",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Tormod Lang",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Mikael Gyhagen",
+          "p2": "Gunnar Sivertsen",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Anders Søberg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "p1": "Tonny Albrigtsen",
+          "p2": "Dante Forssberg",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Mikael Gyhagen",
+          "p1_wins": 1,
+          "p2_wins": 1,
+          "draws": 1
+        },
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Gunnar Sivertsen",
+          "p1_wins": 2,
+          "p2_wins": 0,
+          "draws": 0
+        },
+        {
+          "p1": "Øyvind Løyland",
+          "p2": "Stein Elgethun",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Anders Søberg",
+          "p2": "Tormod Lang",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Dante Forssberg",
+          "p1_wins": 2,
+          "p2_wins": 1,
+          "draws": 0
+        },
+        {
+          "p1": "Mikael Gyhagen",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Tormod Lang",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Stein Elgethun",
+          "p2": "Anders Søberg",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Øyvind Løyland",
+          "p2": "Gunnar Sivertsen",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "matches": [
+        {
+          "p1": "Kenneth Pedersen",
+          "p2": "Tonny Albrigtsen",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Dante Forssberg",
+          "p2": "Tormod Lang",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Mikael Gyhagen",
+          "p2": "Anders Søberg",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Gunnar Sivertsen",
+          "p2": "Stein Elgethun",
+          "p1_wins": 1,
+          "p2_wins": 2,
+          "draws": 0
+        },
+        {
+          "p1": "Ferdinand Marnburg",
+          "p2": "Øyvind Løyland",
+          "p1_wins": 0,
+          "p2_wins": 2,
+          "draws": 0
+        }
+      ]
+    }
+  ]
+}
